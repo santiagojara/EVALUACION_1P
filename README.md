@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Ojeda Castillo Jonathan Fabrico  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -33,12 +33,50 @@
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
+  Ingrese a github y presione click en fork desde el directorio inicial de santiagojara/EVALUACION_1P_2525 
   - ¿Cómo se realizó el clone del fork?
+    Se desplego el terminal de git 
+    Se ingreso el comando git clone seguido del la url del repositorio de mi cuenta 'ajkarots':
+    git clone https://github.com/ajkarots/EVALUACION_1P_2525.git
+
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    En el terminal git se debe ingresar el comando $ git remote -v lo cual nos muestra:
+    origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (fetch)
+    origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (push)
+    Mediente esa direccion se puede observar claramente que el repositorio pertenece a la cuenta ajkarots
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone
+Qué es: Es un comando de Git que se utiliza para copiar un repositorio existente a tu máquina local.
+
+Qué hace: Descarga todo el historial de commits, ramas, y archivos del repositorio remoto.
+
+Uso típico: git clone https://github.com/usuario/repositorio.git
+
+Ejemplo: Si ves un proyecto en GitHub y quieres trabajar en él localmente, lo clonas.
+
+fork
+Qué es: Es una acción en GitHub (no un comando Git) que te permite crear una copia de un repositorio en tu propia cuenta de GitHub.
+
+Qué hace: Copia el repositorio original (con todo su historial) a tu cuenta personal, permitiéndote modificarlo libremente.
+
+Uso típico: Se usa cuando quieres contribuir a un proyecto pero no tienes acceso directo para escribir en el repositorio original.
+
+Ejemplo: Haces fork del repositorio de otro usuario y luego puedes clonarlo con git clone.
+
+git pull
+
+Qué es: Es un comando de Git que se utiliza para actualizar tu repositorio local con los últimos cambios del repositorio remoto.
+
+Qué hace: Combina dos acciones: git fetch (descargar cambios) y git merge (integrarlos en tu rama actual).
+
+Uso típico: git pull origin main
+
+Ejemplo: Si otros colaboradores han hecho cambios en GitHub, tú haces git pull para traer esos cambios a tu copia local.
+
+Git clone es un comando para copiar el repositorio localmente, mientras que fork lo copia desde un repositorio a otro manteniendo el origen de la ruta del repositorio,
+haciendo alusion a quien fue el creador; git pull "trae" desde el repositorio los datos que se encuentran en la nube.
 
 ---
 
@@ -59,7 +97,20 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Commit con gitignore y las reglas
+
+![alt text](image-1.png)
+
+-Archivo git ignore creado
+![alt text](image-2.png)
+
+Funcion del archivo .gitignore
+
+El archivo gitignore no detectara para commits los archivos con extension
+.log ni las carpetas temp/
+
+
+
 
 ---
 
