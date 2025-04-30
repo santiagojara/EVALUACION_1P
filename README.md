@@ -38,7 +38,22 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  - ¿Cómo se realizó el fork?
+    1. Fuiste a la página del repositorio original en GitHub.
+    2. Hice clic en el botón Fork (en la esquina superior derecha).
+    3. Seleccioe mi cuenta personal para crear el fork.
+    4. Espere que GitHub clonara el repositorio a tu cuenta
+    -¿Cómo se realizó el clone del fork?
+    1. Desde mi repositorio forkeado (ahora bajo mi usuario), hice clic en el botón verde Code y copie la URL 
+    2. En tu terminal ejecute: (https://github.com/Josue04-n/EVALUACION_1P_2525.git)
+    -¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    Use el comando: git remote -v
+    El resultado mostró algo como: 
+    2. origin  git@github.com:Josue04-n/MCS.git (fetch)
+    1. origin  git@github.com:Josue04-n/MCS.git (push)
+
+
+
 
 ---
 
