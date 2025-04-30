@@ -3,8 +3,9 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:**
+Oscar Riofrio
+**Fecha:** 30-04-2025
 
 ---
 
@@ -38,9 +39,20 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+### Respuesta parte teorica
+-git clone clona un repositorio remoto para tenerlo en local
+-fork lo que hace es clonar un repositorio de github y crear uno igual hacia el github personal 
+-git pull trae los ultimos cambios realizados de un repositorio remoto a uno local
 
----
+### Respuesta parte practica
+1. Se uso la herramienta de fork creando una copia del repositorio de github pudiendo asignarle un nuevo nombre.
+![alt text](image.png)
+2. Ya en el repositorio clonado se puede identificar que se esta en el repositorio propio por la foto ya que va a ser la nuestra.
+![alt text](image-1.png)
+3. Ya sea mediante ssh o http se usa git clone /link del repositorio/ para clonar en una carpeta localmente el repositorio desde github. 
+![alt text](image-2.png)
+
+
 
 ## Pregunta 2 (1 punto)
 
