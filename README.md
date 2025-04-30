@@ -1,10 +1,12 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de Ingeniería en Software  
+# Universidad [Nombre de la Universidad]
+
+## Facultad de [Nombre de la Facultad]
+
+### Carrera de Ingeniería en Software
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Steven Paredes  
+**Fecha:** 30/04/2025
 
 ---
 
@@ -23,9 +25,16 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
+- `git clone`
+- `fork`
 - `git pull`
+
+Respuesta:
+**`git clone`** es un comando que se utiliza para copiar un repositorio remoto completo a la máquina local, incluyendo todo su historial de versiones.
+
+**`fork`** es una funcionalidad ofrecida por GitHub que permite crear una copia independiente de un repositorio en la cuenta del usuario, con el fin de realizar cambios sin afectar el repositorio original.
+
+**`git pull`** es un comando que permite obtener y fusionar los cambios más recientes desde un repositorio remoto al repositorio local.
 
 ### Parte práctica:
 
@@ -54,7 +63,8 @@
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
-**Importante:**  
+**Importante:**
+
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
