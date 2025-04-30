@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Sebastian Santana  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -32,14 +32,19 @@
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
-  - ¿Cómo se realizó el fork?
-  - ¿Cómo se realizó el clone del fork?
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - ¿Cómo se realizó el fork?  
+  Se hizo clic en el botón "Fork" en la esquina superior derecha de la página del repositorio original en GitHub.
+  - ¿Cómo se realizó el clone del fork?  
+Se copió la URL del fork y se ejecutó <git clone "URL"> en la terminal.
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?  
+Verificando la URL remota con <git remote -v>, que debe estar a mi fork.
 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+* git clone: Comando de Git que copia un repositorio remoto a tu máquina local.  
+* fork: Acción en GitHub que crea una copia personal de un repositorio en tu cuenta.  
+* git pull: Comando de Git que descarga los cambios del repositorio remoto y los fusiona con tu rama local.
 ---
 
 ## Pregunta 2 (1 punto)
