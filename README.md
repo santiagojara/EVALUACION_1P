@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato  
+## Facultad de Ingenieria en Sistemas Electronica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Kevin Peñafiel  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -37,9 +37,16 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+-git clone:  Es un comando de Git que se usa para copiar un repositorio remoto completo.
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-fork: Es una acción en GitHub  que te permite crear una copia de un repositorio en tu cuenta personal de GitHub.
 
+-git pull : Es un comando de Git que descarga y fusiona los cambios del repositorio remoto en tu copia local.
+
+  - ¿Cómo se realizó el fork?
+En la parte superio derecha del proyecto se encontra un Apartado de FORK en el cul se dar click y seguidamente se presionara create a new fork se seleccionar la cuenta personal en la que se trabajara y git creara automaticamente el fork.
+
+    
 ---
 
 ## Pregunta 2 (1 punto)
