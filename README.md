@@ -27,6 +27,12 @@
 - `fork`  
 - `git pull`
 
+1. git clone: Clona un repositorio completo desde GitHub u otra fuente remota a la maquina local en la cual se usará.
+2. fork: Crea una copia de un repositorio en la cuenta de GitHub. Es útil para contribuir a proyectos sin acceso directo al original.
+3. git pull: Actualiza la copia local con los últimos cambios desde el repositorio remoto.
+
+
+
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
@@ -38,7 +44,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
 
 ---
 
