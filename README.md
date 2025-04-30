@@ -37,9 +37,19 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+- git clone= Nos permite clonar cluaquier repositorio ya sea mendiante hhtps y ssh
+sintaxis= git clone <url del proyecto>
+- fork= Crea una copia del repositorio en tu cuenta de GitHub, manteniéndola enlazada al repositorio original.
+- git pull= Actualiza tu repositorio local trayendo los cambios más recientes del repositorio remoto y fusionándolos con tu rama actual.
+- Respuesta practica 
+- 1.- Como primer paso nos ubicamos en fork y le damos un clik
+- 2.- se nos desplegara un ventana en la cual debemos pulsar el boton verde que nos aprace ahi
+- 3.- Luego de esto el repositorio se no clonara en nuestra cuenta de git hub 
+- 4.- Una ves que estamos en nuestra cuenta no ubicamos en code y le damos a https o ssh
+![alt text](image.png) 
+luego copiamos el urle que no da
+- 5.- luego vamos a git bas y ponemos git clone y el url que copiamos y se nos clonara el repositorio remoto a local 
+![alt text](image-1.png) 
 ---
 
 ## Pregunta 2 (1 punto)
@@ -58,6 +68,25 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+- Creamos el archivo .gitignore.
+
+![alt text](image-2.png)
+- creamos los archivos .log y la carpeta temp
+
+![alt text](image-3.png)
+
+- Verificamos que los archivos aun no se esten ignorando con git status
+
+![alt text](image-4.png)
+
+- luego ingresamos al archivo de git ignore y escribimos los nombre de los archivos a ignorar 
+
+![alt text](image-5.png)
+
+-verificamos si los archivos se estan ignorando correctamente con un git estaus 
+
+![alt text](image-6.png)
+
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
