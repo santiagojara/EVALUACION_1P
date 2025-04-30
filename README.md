@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Técnica de Ambato
+## Facultad de Ingeniería en Sstemas, Electónica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alexis López 
+**Fecha:** 30/04/2025
 
 ---
 
