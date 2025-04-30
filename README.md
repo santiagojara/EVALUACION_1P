@@ -23,22 +23,21 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
-- `git pull`
+- `git clone`  Crea una copia del repositoria a mi maquina local 
+- `fork`   Crea una copia personal del repositoria a mi cuenta de GitHub
+- `git pull` Actualiza el repositorio local con los ultimos cambios del repositorio remoto.
 
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
-  - ¿Cómo se realizó el fork?
-  - ¿Cómo se realizó el clone del fork?
+  - ¿Cómo se realizó el fork? 
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
-**📝 Respuesta:**
+**📝 Respuesta:**   
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Primero de esta en el ropositorio requerido, se hace click en el boton de fork y de se dirigio al a mi GitHub personal y ahi se cambio de nombre y se creo el fork. Se verifico con git remote -v para que en que estoy trabajando
 
 ---
 
