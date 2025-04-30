@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Jorge Sailema  
+**Fecha:** 30/04/2025  
 
 ---
 
