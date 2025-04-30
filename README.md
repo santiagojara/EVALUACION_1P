@@ -71,7 +71,16 @@ Se uso el comando git remote -v muestra donde se apunta a mi fork.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` permite definir qué archivos o carpetas deben ser ignorados por Git, es decir, que no deben ser incluidos en el control de versiones.
+
+En este caso, se configuró para que ignore:
+- Todos los archivos con extensión `.log`
+- La carpeta `temp/` y todo su contenido
+
+**Evidencia**:
+![Evidencia creacion del archivo gitignore](img/1.png)
+![Evidencia de que no se refleja como cambio los nuevos archivos creados que su formato esta dentro de el gitignore](img/2.png)
+
 
 ---
 
