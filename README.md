@@ -83,6 +83,8 @@ el .gitignore hace que los archivos o carpetas especificadas dentro de el no sea
 - Evidencia
 los archivos no aparecen con git status
 ![alt text](image-1.png)
+segundo commit
+![alt text](image-2.png)
 
 ---
 
