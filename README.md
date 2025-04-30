@@ -39,6 +39,18 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-git clone copia un repositorio remoto a tu computadora, fork crea una copia del repositorio en tu cuenta de GitHub desde la web, y git pull actualiza tu copia local con los últimos cambios del remoto.
+-Para realizar el fork, ingresé al repositorio original en GitHub:
+https://github.com/santiagojara/EVALUACION_1P_2525.
+Luego, hice clic en el botón "Fork" ubicado en la parte superior derecha de la página. Seleccioné mi cuenta personal de GitHub como destino. Esto creó una copia del repositorio en mi propia cuenta.
+-Una vez que el fork se creó en mi cuenta personal de GitHub, accedí a la URL del repositorio forkeado
+Luego, en la terminal de mi equipo, ejecuté el siguiente comando para clonar el fork:
+git clone https://github.com/SteevenToala/EVALUACION_1P_2525.git
+-Ingresé a la carpeta del repositorio clonado y ejecuté el siguiente comando:
+git remote -v
+La salida mostró que el repositorio remoto (origin) apuntaba a mi cuenta personal de GitHub, por ejemplo:
+origin  https://github.com/SteevenToala/EVALUACION_1P_2525.git (fetch)
+origin  https://github.com/SteevenToala/EVALUACION_1P_2525.git (push)
 
 ---
 
