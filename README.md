@@ -3,9 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Eduardo Sebastian Cortez Abril 
+**Fecha:** 30/04/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -38,7 +37,20 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: Es un comando que se usa para copiar un repositorio de GitHub (o de otro servidor remoto) al equipo local. Incluye todo el historial del repositorio.
+
+fork: Es una acción en GitHub (desde la interfaz web) que permite copiar un repositorio a tu propia cuenta, creando una nueva instancia del mismo. Muy útil para colaborar sin modificar directamente el original.
+
+git pull: Es un comando que descarga y fusiona los cambios del repositorio remoto en la rama actual del repositorio local.
+
+Fork: Ingresé al repositorio original en GitHub y presioné el botón Fork en la esquina superior derecha. Se creó una copia del repositorio en mi cuenta.
+
+Clone: Al ingresar en el fork creado en mi cuenta se copia el link del repositorio y en el
+git bash se lo usa en este caso git clone https://github.com/ESebastianC/EVALUACION_1P_2525_CortezSebastian.git
+
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Se uso el comando git remote -v muestra donde se apunta a mi fork.
+
 
 ---
 
