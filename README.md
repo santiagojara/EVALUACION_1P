@@ -38,7 +38,30 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: Copiar un repositorio remoto a local.
+
+fork: Copiar un repositorio a tu cuenta de GitHub.
+
+git pull: Traer y combinar los cambios del repositorio remoto al local.
+
+-¿Cómo se realizó el fork?
+
+En el repositorio del ingeniero se busca el icono del fork y se selecciona la cuenta para copiar el repositorio a tu cuenta.
+![alt text](image.png)
+
+-¿Cómo se realizó el clone del fork?
+
+Copiar el link para clonar el repositorio
+![alt text](image-1.png)
+En git bash en la carpeta creada para clonar el repositorio se utiliza el comando git clone.
+![alt text](image-2.png)
+
+-¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+Mediante un git remote -v que me muestra a donde estoy trabajando.
+![alt text](image-3.png)
+
+
 
 ---
 
