@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Romero Alarcon Adrian Estefano 
+**Fecha:** 30-04-2025 
 
 ---
 
@@ -38,7 +38,13 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Git clone es un comando de Git que se usa para copiar un repositorio completo desde GitHub a tu computadora local. fork, en cambio, es una acción que se realiza desde la interfaz web de GitHub y crea una copia del repositorio en tu propia cuenta, permitiéndote trabajar en él sin afectar el original. Por otro lado, git pull es un comando que se usa para actualizar tu repositorio local trayendo los últimos cambios del repositorio remoto y fusionándolos automáticamente con tu trabajo.
+
+*Respuesta a las preguntas*
+El fork se realizo en el boton dentro de la interfaz de github en el repositorio del docente.
+El clone de este fork se realizo abriendo la terminal de Git Bash y usando el comando git clone juntamente con el link de repositorio al que se hizo el fork.
+Se verfico si se esta en el repositorio fork a travez del comando git remote -v para verficar el origin.
+![Captura Fork](img/Captura1.png)
 
 ---
 
