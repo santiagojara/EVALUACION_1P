@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
+**Nombre del Estudiante:** Manuel Ramírez  
 **Fecha:** ___________________  
 
 ---
@@ -38,7 +38,20 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Diferencias entre git clone, fork y git pull.
+
+ - git clone: Clona un repositorio remoto al área de trabajo local. 
+ - fork: Crea una copia de un repositorio a la cuenta de uno mismo en GitHub.
+ - git pull: Permite traer los cambios (si existen) de un repositorio remoto y realiza un merge automáticamente.
+
+Respuestas a preguntas:
+
+ - Se realizó el fork buscando el repositorio deseado en GitHub y haciendo click en la opción de fork.
+ - Para clonar el repositorio se colocó el comando "git clone https://github.com/InkyWinkR/EVALUACION_1P_2525.git", el link pertenece a mi cuenta en la que está el fork.
+ - Se verificó que se estaba trabajando sobre el fork al utilizar el comando "git remote -v" el cual permite mostrar los repositorios remotos, ahí se encontraba el link al fork.
+ - En la siguiente imagen se ve el repositorio en mi cuenta (fork realizado).
+
+![Logo](imagenes/pregunta1.png)
 
 ---
 
