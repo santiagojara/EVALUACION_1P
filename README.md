@@ -74,7 +74,11 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore permite excluir archivos y carpetas del control de versiones de Git. Esto es útil para no rastrear archivos temporales, logs, configuraciones personales o archivos generados automáticamente.
+
+Se definieron las siguientes reglas:
+*.log      → excluye todos los archivos .log
+temp/      → excluye la carpeta temp y su contenido
 
 ---
 
