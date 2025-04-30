@@ -45,7 +45,13 @@
 
   - ¿Cómo se realizó el fork?
 En la parte superio derecha del proyecto se encontra un Apartado de FORK en el cul se dar click y seguidamente se presionara create a new fork se seleccionar la cuenta personal en la que se trabajara y git creara automaticamente el fork.
+¿Cómo se realizó el clone del fork?
+Entramos a nuestro gitBash y clonamos el repositorio usando el siguiente comando gitclone url_repositorio
+![alt text](imagenes/pregunta1.png)
 
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+se ejecuta el comando git remote -v para verificar sobre que fork se esta trabajando.
+![alt text](image.png)
     
 ---
 
@@ -66,7 +72,12 @@ En la parte superio derecha del proyecto se encontra un Apartado de FORK en el c
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**creacion carpeta gitignore**
+![alt text](<imagenes/creacion ignore.png>)
+**configuracion carpeta**
+ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x para guardar escrbimos una Y y entre y se configuro el archivo
+![alt text](imagenes/configuracionignore.png)
+
 
 ---
 
@@ -194,3 +205,6 @@ En la parte superio derecha del proyecto se encontra un Apartado de FORK en el c
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+
+
+[def]: C:\Users\Usuario\EVALUACION_1P_2525\imagenes
