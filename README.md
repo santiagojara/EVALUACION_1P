@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alan Mateo Puruncajas Cuenca  
+**Fecha:** 30 de abril de 2025  
 
 ---
 
@@ -33,13 +33,21 @@
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
+  Se selecciono el boton de fork y se configuró nombre de mi copia del repositorio de evaluacion
+  ![alt text](image-1.png)
   - ¿Cómo se realizó el clone del fork?
+  se uso el comando git clone https://github.com/Alan-Cuenca/EVALUACION_1P_2525_ALAN_PURUNCAJAS.git
+  ![alt text](image-2.png)
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Porque en cuando clono el repositorio lo hice desde mi repositorio personal
+  
 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+-La diferencia principal entre las 3 son las siguientes, git clone copia repositorios remotos de git hub a mi espacio de trabajo local
+-fork por otro lado es una funcion de git hub que sirve para copiar repositorios de otros usuarios a mi cuenta para que se puedan usar localmente
+-y por ultimo git pull trae los cambios efectuados en el repositorio remoto a mi espacio de trabajo local
 ---
 
 ## Pregunta 2 (1 punto)
