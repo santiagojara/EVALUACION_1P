@@ -71,7 +71,9 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
-
+1. Se creó el archivo .gitignore.
+![alt text](image-4.png)
+2. Se agregaron las exclusiones planteadas
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
