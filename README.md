@@ -32,14 +32,17 @@
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
-  - ¿Cómo se realizó el fork?
-  - ¿Cómo se realizó el clone del fork?
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - ¿Cómo se realizó el fork? en la parte superior derecha se presiona en fork. 
+  - ¿Cómo se realizó el clone del fork? en Git Bash se realiza el git clone con la url del fork https://github.com/zamukay/EVALUACION_1P_2525.git.  
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original? El resultado mostró las URLs asociadas al repositorio remoto (origin). Al verificar que la URL corresponde al fork del estudiante (https://github.com/zamukay/EVALUACION_1P_2525.git), se confirmó que se está trabajando sobre el fork y no sobre el repositorio original.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: copia de un repositorio remoto a la maquina local.
+git fork: copia un repositorio en la cuenta de GitHub.
+git pull: traer y fusionar los cambios desde el repositorio remoto al local.
 ---
 
 ## Pregunta 2 (1 punto)
