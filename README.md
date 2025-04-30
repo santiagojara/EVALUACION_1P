@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [TECNICA DE AMBATO]  
+## Facultad de [INGENIERIA EN SISTEMAS ELECTRONICA E INDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Cristian Ango 
+**Fecha:** 30 de Abril del 2025  
 
 ---
 
@@ -40,6 +40,33 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+Diferencia en tre los comandos "git clone" , "fork", git pull
+
+Git clone:  Git clone lo que hace es hacer una copia de algun proyecto a nuestro repositorio local.
+Git fork:  Git froke crea una copia de un repositorio remoto a nuestra area de trabajo 
+Git pull: El comando git pull ejecuta en primer lugar git fetch , que descarga el contenido del repositorio remoto especificado. Después, se ejecuta git merge para fusionar las referencias y los encabezados del contenido remoto en una nueva confirmación de fusión local.
+
+Respuestas a preguntas 
+
+  - ¿Cómo se realizó el fork?
+
+![alt text](image-3.png)
+
+    Se realizo el fork  buscando el repositorio en GitHub  y haciendo click en la opcion fork. y se acepta el fork
+  - ¿Cómo se realizó el clone del fork?
+
+  Luego de aceptar el fork lo que se hizo fue que clonar desde nuestro repositorio con el comando git clone.
+
+![alt text](image-1.png)
+
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+ Se verifica que esta en nuestra area de trabajo al usar el comando "git remote-v"
+
+![alt text](image-2.png)
+IMAGEN QUE CONFIRMA EL FORK 
+![alt text](image.png)
 ---
 
 ## Pregunta 2 (1 punto)
