@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Josue Fiallos  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -38,7 +38,23 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+El git clone sirve para clonar repositorios, ya sean de nuestra propiedad o de otra persona a nuestro pc local
+El fork sirve para colaborar con proyectos que no es de nosotros, he implementar nnevas funcionalidades que le llegaran al propietario del repositorio
+El git pull nos sirve para traer todos los cambios del repositorio remoto al local, sea porque se trabaja en grupo y hay nuevos cambios.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Para realizar el fork, tenemos que ir al nombre del usuario en este caso es del https://github.com/santiagojara?tab=repositories y realizar un fork
+donde se copia en nuestro repositorio y podemos ir trabajando desde ahi:
+
+![alt text](image.png)
+
+Una vez estando en mi cuenta realizanos un "git clone" desde mi repositorio y de ahi trabajamos los cambios
+
+![alt text](image-1.png)
+
+Pudimos verificar que estamos trabajando desde mi repositorio que hice el fork con el comando "git remote -v" , con este comando verificamos que esta desde mi repositorio 
+
+![alt text](image-2.png)
 
 ---
 
