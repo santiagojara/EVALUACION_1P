@@ -42,8 +42,13 @@
 
 Git clone copia todo el repositorio remoto al local, fork es una accion de GitHub que permite proponer cambios a un proyecto de que no se es colaborador, git pull actualiza el repositorio local con los últimos cambios del repositorio remoto.
 
-Para realizar el fork nos fuimos al repositorio remoto y usamos la función para realizarlo. El clone del fork nos fuimos a una carpeta que creamos y abrimos bash, ahí escribimos lo siguiente: "git clone https://github.com/JoseM151/EVALUACION_1P_2525.git", para verificar que estamos trabajando en el fork en el mismo GitHub nos dice que el repositorio en el que estamos trabajando esta forkeado desde el repositorio original.
----
+Para realizar el fork nos fuimos al repositorio remoto y usamos la función para realizarlo. ![alt text](image.png)
+El clone del fork nos fuimos a una carpeta que creamos y abrimos bash, ahí escribimos lo siguiente: "git clone https://github.com/JoseM151/EVALUACION_1P_2525.git". 
+![alt text](image-1.png)
+
+Para verificar que estamos trabajando en el fork en el mismo GitHub nos dice que el repositorio en el que estamos trabajando esta forkeado desde el repositorio original.
+
+![alt text](image-2.png)
 
 ## Pregunta 2 (1 punto)
 
