@@ -72,7 +72,11 @@ origin  https://github.com/SteevenToala/EVALUACION_1P_2525.git (push)
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+Se creo el archivo .gitignore y se puso lo que se va a ignorar al ejecutar el comando git add .
+temp/
+*.log
+esta carpeta y archivo no se van a agregar al area de preparacion.
+![alt text](image.png)
 ---
 
 ## Pregunta 3 (2 puntos)
