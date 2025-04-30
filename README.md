@@ -73,8 +73,17 @@
 **📝 Respuesta:**
 1. Se creó el archivo .gitignore.
 ![alt text](image-4.png)
-2. Se agregaron las exclusiones planteadas
+2. Se agregaron las exclusiones planteadas.
+![alt text](image-5.png)
+
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore sirve para poder excluir archivos a voluntad de nosotros del seguimiento de Git. En este caso se va a hacer que no se sigan archivos temporales ni logs. Pero se puede ocupar para ocultar archivos no relacionados al proyecto, claves de apis o archivos delicados.
+
+1. Para probar su funcionamiento se crearon los archivos 'log.log', 'prueba.log' y 'temp/prueba.txt'.
+![alt text](image-6.png)
+2. Con 'git status' se prueba si los archivo estan en seguimiento y con 'ls' se ve si existen. Y como podemos ver existen pero git no los sigue.
+![alt text](image-7.png)
+
 
 ---
 
