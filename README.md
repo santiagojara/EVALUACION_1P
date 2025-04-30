@@ -40,6 +40,21 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+git clone: Este copia el repositorio remoto a un repositorio local.
+fork: Este duplica un repositorio de otra persona a nuestra cuenta .
+git pull: Este trae los cambios de nuestro repositorio remoto a nuestro repositorio local.
+
+¿Como se realizo el fork?
+El fork se realizo entrando a la cuenta especificiada y accediendo al repositorio donde se encuentra la prueba, existe un boton denominado fork y se clickeo y se realizo el duplicado a nuestra cuenta.
+![alt text](image.png)
+¿Como se realizo el clone del fork?
+Este se realizo entrando a al repositorio duplicado y seleccionamos el apartado que dice code y copiamos el link y abrimos una carpeta creada de manera local y abrimos la herramienta git y colocamos el siguiente comando git clone.
+![alt text](image-1.png)
+![alt text](image-2.png)
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Este se verifico mediante los links que este nuestro usuario y el repositorio que vamos a clonar.
+![alt text](image-3.png)
+Como se observa la imagen se encuentra mi usuario.
 ---
 
 ## Pregunta 2 (1 punto)
@@ -60,6 +75,11 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+La funcion del .gitignore es para ignorar archivos que pueden resultar innecesarios en un commit, y para verificar que funciona procedemos a crear dichos archivos.
+![alt text](image-4.png)
+![alt text](image-7.png)
+se realizo un git status para ver la funcionalidad del .gitignore lo cual no nos esta tomando los archivos 
+![alt text](image-6.png)
 
 ---
 
