@@ -3,9 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Cristian Jurado 
+**Fecha:** 30/04/2025  
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -37,8 +36,18 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+-  git clone: copia un repositorio completo de GitHub a tu computadora para trabajar localmente.
+- `fork: crea una copia de un repositorio en tu propia cuenta de GitHub, útil para proponer cambios sin afectar el original.
+- `git pull: actualiza tu copia local trayendo los últimos cambios del repositorio remoto (por ejemplo, de GitHub).
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+¿Cómo se realizó el fork?
+Se fue al repositorio original en GitHub y se hizo clic en el botón "Fork", lo que creó una copia del repositorio en tu propia cuenta.
+
+¿Cómo se realizó el clone del fork?
+Se ingresó al fork en tu cuenta de GitHub, se copió la URL desde el botón "Code" y luego, en la terminal, se usó el comando git clone URL.
+
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Se comprobó que la URL del repositorio remoto (git remote -v) apuntaba a tu cuenta de GitHub, no a la del dueño original.
 
 ---
 
