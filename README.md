@@ -79,9 +79,10 @@ Y al momento de poner git status no hay rastro del archivo ni de la carpeta crea
 
 ![alt text](image-5.png)
 
+Se puso el tag al commit numero 2
 
+![alt text](image-6.png)
 
----
 
 ## Pregunta 3 (2 puntos)
 
