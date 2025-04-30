@@ -41,13 +41,13 @@
 - `git pull: actualiza tu copia local trayendo los últimos cambios del repositorio remoto (por ejemplo, de GitHub).
 
 ¿Cómo se realizó el fork?
-Se fue al repositorio original en GitHub y se hizo clic en el botón "Fork", lo que creó una copia del repositorio en tu propia cuenta.
+Se fue al repositorio original en GitHub del Ingeniero y se hizo clic en el botón "Fork", lo que creó una copia del repositorio en mi cuenta: https://github.com/Crysjurado21/EVALUACION_1P_2525.git
 
 ¿Cómo se realizó el clone del fork?
-Se ingresó al fork en tu cuenta de GitHub, se copió la URL desde el botón "Code" y luego, en la terminal, se usó el comando git clone URL.
+Se ingresó al git bash, buscamos un direccion donde queremos guardar localmente y se usó el comando git clone "https://github.com/Crysjurado21/EVALUACION_1P_2525.git", con esto ya tengo clonado el repositorio en local.
 
 ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
-Se comprobó que la URL del repositorio remoto (git remote -v) apuntaba a tu cuenta de GitHub, no a la del dueño original.
+Se comprobó que la URL del repositorio remoto (git remote -v) apuntaba a mi cuenta tal momo se muestra en el pdf que se envio por el aula virual, no a la del Ingeniero
 
 ---
 
