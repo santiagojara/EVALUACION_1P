@@ -31,8 +31,6 @@
 2. fork: Crea una copia de un repositorio en la cuenta de GitHub. Es útil para contribuir a proyectos sin acceso directo al original.
 3. git pull: Actualiza la copia local con los últimos cambios desde el repositorio remoto.
 
-
-
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
@@ -44,7 +42,25 @@
 
 **📝 Respuesta:**
 
+- ¿Cómo se realizó el fork?
+1. Ingresar al repositorio original en GitHub y di clic en el botón "Fork" en la parte superior derecha.
+2. Seleccionar la cuenta personal para crear el fork.
 
+![alt text](image.png)
+
+- ¿Cómo se realizó el clone del fork?
+
+1. Copiar la URL del repositorio forkeado en mi cuenta.
+2. Clonar en la terminal.
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+1. Usando el comando git remote -v
+
+![alt text](image-3.png)
 
 ---
 
