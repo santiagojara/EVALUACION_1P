@@ -4,7 +4,7 @@
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Mateo Rubio 
-**Fecha:** 
+**Fecha:** 30/04/2025 
 
 ---
 
