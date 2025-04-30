@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad técnica de Ambato
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Johan Gabriel Rodríguez Núñez
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -38,8 +38,21 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
+1. Git clone: Es la manera en la que se copia un repositorio publico de GitHub a un repositorio local, este comando copia todos los historiales de los commits del proyecto clonado.
+2. fork: Permite copiar de un repositorio publico de GitHub a tu cuenta personal de GitHub permitiendo así trabajar en el como si tu fueras el propietario. Y tambien permite que si quieres envies la copia de tu repositorio al dueño.
+3. Git pull: Sirve para traer los cambios de un repositorio remoto a la copia que tu tienes en local.
+4. ¿Cómo se realizó el fork?: \
+    El fork que se realizo primero se tuvo que ir al perfil del docente y darle a la parte del fork
+    ![alt text](image.png)
+    Y asignar el nombre con el que irá a su proyecto
+    ![alt text](image-1.png)
+    Ahora ya estará en la nube de GitHub.
+5. ¿Cómo se realizó el clone del fork? \
+    Se accedió al repositorio y se utilizó el link seguido del comando 'git clone https://github.com/kiramman-mp3/EVALUACION_1P_2525.git'
+    ![alt text](image-2.png)
+6. ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original? \
+    Se utilizó el comando 'git remote -v' para ver cual es el link del repositorio y como sale 'kiramman-mp3' se que es el mio.
+    ![alt text](image-3.png)
 ---
 
 ## Pregunta 2 (1 punto)
