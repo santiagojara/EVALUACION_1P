@@ -33,13 +33,22 @@
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
+  Entre al repositorio en github de EVALUACION_1P_2525, en la parte superior derechar aplaste el boton fork posteriormente cree el repositorio dentro de mi cuenta de github.
   - ¿Cómo se realizó el clone del fork?
+  Con el comando git clone y la url donde se ubica el repositorio.
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
-
+Con el comando git remote -v me muestra la url de mi fork.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- git clone:
+Se utiliza para crear una copia local de un repositorio remoto. Este comando descarga todo el historial del repositorio, incluyendo las ramas, commits y archivos, en tu equipo local.
 
+- fork:
+Es una copia personal de un repositorio que pertenece a otro usuario. Permite realizar cambios de manera independiente sin afectar el repositorio original. 
+
+- git pull:
+Se usa para actualizar el repositorio local con los últimos cambios de un repositorio remoto. Es una combinación de dos comandos: git fetch (que descarga los cambios) y git merge (que fusiona esos cambios en la rama activa).
 ---
 
 ## Pregunta 2 (1 punto)
