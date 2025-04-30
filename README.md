@@ -38,9 +38,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Diferencias entre comandos: 
+-git clone: Es un comando de Git que se ejecuta en la terminal de nuestra computadora local.
+Su propósito es descargar una copia completa de un repositorio existente ubicada en un repositorio remoto.
 
----
+-git fork: Es una operación que se realiza en la interfaz web de una plataforma de alojamiento de repositorios (como GitHub, GitLab, Bitbucket). No es un comando de Git que se ejecuta en la terminal.
+
+-git pull: Es un comando de Git que se ejecuta en la terminal de nuestro repositorio local existente.
+Su propósito es actualizar la rama local actual con los últimos cambios de su rama correspondiente en un repositorio remoto.
+
+Cómo se realizó el fork?
+Accedí al repositorio original en GitHub mediante el navegador web y utilicé la función "Fork" disponible en la interfaz. Esto creó una copia del repositorio bajo mi cuenta de GitHub.
+
+¿Cómo se realizó el clone del fork?
+Desde la página de mi fork en GitHub, copié la URL de clonación (HTTPS). Luego, en mi terminal local, navegué al directorio deseado y ejecuté el comando git clone utilizando la URL de mi fork.
+
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Dentro del repositorio clonado en mi máquina local, ejecuté el comando git remote -v. La salida confirmó que el origen (origin) estaba configurado para apuntar a la URL de mi repositorio fork en GitHub, verificando así que la copia local estaba vinculada a mi versión personal del repositorio.
+
+
 
 ## Pregunta 2 (1 punto)
 
