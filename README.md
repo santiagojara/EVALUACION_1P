@@ -38,7 +38,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: Comando que se utiliza para descargar (clonar) un repositorio remoto a la máquina local, incluyendo su historial de versiones.
+
+fork: Acción que se realiza desde GitHub para crear una copia de un repositorio en tu propia cuenta, manteniendo un vínculo con el original.
+
+git pull: Comando que permite obtener y fusionar los últimos cambios desde un repositorio remoto a la rama actual del repositorio local.
+
+¿Como se realizo?
+ 
+Ingresé al repositorio original en GitHub y utilicé el botón Fork . Elegí mi cuenta personal y se generó automáticamente una copia del repositorio en mi perfil.
+¿Cómo se realizó el clone del fork?
+
+git clone https://github.com/miusuario/nombre-del-fork.git
+![alt text](image.png)
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Ejecuté:
+cd nombre-del-fork
+git remote -v
+Verifiqué que la URL apuntaba a mi repositorio personal. Opcionalmente, agregué el repositorio original como upstream para poder sincronizarlo en el futuro.
+![alt text](image-1.png)
 
 ---
 
