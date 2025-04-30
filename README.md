@@ -1,5 +1,5 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [UNIVERSIDAD TECNICA DE AMBATO]  
+## Facultad de [FACULTAD DE INGENIERIA EN SISTEMAS, ELECTRNONICA E INDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
@@ -71,9 +71,12 @@ Oscar Riofrio
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+### primer commit respuesta pregunta 2
+![alt text](image-3.png)
+### segundo commit respuesta pregunta 2
+![alt text](image-4.png)
 
----
+
 
 ## Pregunta 3 (2 puntos)
 
