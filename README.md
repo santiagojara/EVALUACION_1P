@@ -102,6 +102,17 @@
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+1. Se crearon ejemplos de prueba 
+2. Se ejecutó git status y se verificó que ni `prueba.log` ni el contenido de `temp` aparecían como archivos sin seguimiento (untracked), confirmando que Git los está ignorando.
+
+**Explicación:**
+  
+  El archivo .gitignore le indica a Git qué archivos o directorios deben ser excluidos del seguimiento. Esto es útil para evitar subir archivos temporales, logs, configuraciones locales u otros que no deben estar en el repositorio.
+
+**Pruebas:**
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 ---
 
 ## Pregunta 3 (2 puntos)
