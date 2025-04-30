@@ -24,7 +24,9 @@
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
 - `git clone`  
+
 - `fork`  
+
 - `git pull`
 
 ### Parte práctica:
@@ -33,13 +35,29 @@
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
+
   - ¿Cómo se realizó el clone del fork?
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?\
 
 **📝 Respuesta:**
+- `git clone`  
+   clona el repositorio de la url que se ingresa
+- `fork`  
+   se clona un repositorio de otra persona en mi repositorio de github
+- `git pull`
+   se traen los cambios actuale de github del origen o origin actual
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  - ¿Cómo se realizó el fork?
+    en la parte del codigo del repositorio se presiona fork, esto abre una ventana para crear la copia del proyecto en mi repositorio
+  ![alt text](<Screenshot 2025-04-30 182537.png>)
 
+  - ¿Cómo se realizó el clone del fork?
+  se ingresa a git Bash y se ingresa el sigiente comando: $ git clone https://github.com/materubag/EVALUACION_1P_2525_Fork.git
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  porque la url es diferente a la del repositorio original, tiene mi nombre y fork al final.
+  ![alt text](<Screenshot 2025-04-30 182639.png>)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -58,8 +76,13 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+- primer commit
+![alt text](image.png)
+- Funcionalidad de .gitignore
+el .gitignore hace que los archivos o carpetas especificadas dentro de el no sean rastreadas por git
+- Evidencia
+los archivos no aparecen con git status
+![alt text](image-1.png)
 
 ---
 
