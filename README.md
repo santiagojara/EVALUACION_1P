@@ -67,7 +67,19 @@ Para verificar que estamos trabajando en el fork en el mismo GitHub nos dice que
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. ![alt text](image-3.png)
+
+2. El archivo .gitignore especifica qué archivos o carpetas deben ser ignoradas por el Git.
+
+Como se puede ver se creo un archivo llamado prueba.log
+
+![alt text](image-4.png)
+
+Y al momento de poner git status no hay rastro del archivo ni de la carpeta creados
+
+![alt text](image-5.png)
+
+
 
 ---
 
