@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Audi Alexander Tasinchano Tite  
+**Fecha:** 04-30-2025  
 
 ---
 
@@ -39,7 +39,48 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+📝 **Respuesta: Pregunta 1**
 
+### Explicación de conceptos:
+
+- **git clone**: Es un comando de Git que se utiliza para copiar (clonar) un repositorio remoto completo en tu máquina local, incluyendo su historial de versiones.
+
+- **fork**: Es una funcionalidad de GitHub que permite crear una copia de un repositorio en tu propia cuenta. Esto es útil cuando deseas proponer cambios sin afectar el repositorio original.
+
+- **git pull**: Este comando se utiliza para traer los últimos cambios desde un repositorio remoto a tu rama local y fusionarlos automáticamente.
+
+---
+
+### Parte práctica:
+
+**¿Cómo se realizó el fork?**
+
+1. Ingresé al repositorio original: `EVALUACION_1P_2525`.
+2. Hice clic en el botón **Fork** (arriba a la derecha).
+3. Seleccioné mi cuenta personal para crear la copia del repositorio.
+
+**¿Cómo se realizó el clone del fork?**
+
+1. Desde la página del fork en mi cuenta, hice clic en el botón **Code** y copié la URL HTTPS.
+2. En mi equipo local, ejecuté el comando:
+
+   ```
+   git clone https://github.com/Alexande6055/EVALUACION_1P_2525.git
+    ```
+3. Ingresé al directorio clonado:
+
+  ```
+   cd EVALUACION_1P_2525
+  ```
+**¿Cómo verifiqué que estaba trabajando sobre el fork y no sobre el original?**
+1. Ejecuté:
+  ```
+  git remote -v
+  ```
+2. Confirmé que la URL del origin apunta a mi cuenta y no al repositorio de santiagojara.
+
+
+![alt text](image.png)
 ---
 
 ## Pregunta 2 (1 punto)
