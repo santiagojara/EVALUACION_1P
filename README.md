@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Brayan Pilla
+**Fecha:** 30/04/2025
 
 ---
 
@@ -37,6 +37,22 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+
+- Diferencias
+  - **Git clone** es un comando git que permite crear una copia de un repositorio remoto a uno local situado en tu computador, mientras que **fork** no es un comando, es una opcion que nos da GitHub para crear una copia de un repositorio al cual tenemos acceso hacia nuestra cuenta GitHub, por ultimo, el **git pull** se usa para traer los ultimos cambios de tu repositorio remoto a tu copia local y unirlos, por lo que se necesita primeramente tener una copia local.
+- ¿Cómo se realizó el fork?
+  - Para la realización del fork unicamente necesitabamos el acceso al repositorio de origen, con ese acceso, mediante el boton situado en la parte superior con el texto **fork**, al darle click copiamos el repositorio a nuestra cuenta GitHub al cual al momento de realizar el fork se añadio la siguiente descripción "Prueba Primer Parcial".
+
+    ![Realización del fork](img\fork.png)
+
+- ¿Cómo se realizó el clone del fork?
+  - Ya teniendo el repositorio en nuestra cuenta, entramos en nuestro git bash y nos situamos donde queramos realizar la copia, una vez esto, mediante el comando **git clone https://github.com/BSPA02/EVALUACION_1P_2525** realizamos una copia local en la cual trabajaremos.
+
+    ![Realización del clone](img\clone.png)
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - Mediante el comando **git remote -v** podemos observar que se esta trabajando en el fork que realizamos en nuestra cuenta GitHub, ya que de no ser asi, la ruta mostrada deberia ser **https://github.com/santiagojara/EVALUACION_1P_2525** que es la que pertenece al repositorio original.
+    ![Comprobacion del repositorio en el que estamos trabajando](img\comprobacion.png)
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
