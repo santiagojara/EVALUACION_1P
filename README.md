@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Anthony Semblantes  
+**Nombre del Estudiante:** Anthony Semblantes. 
 **Fecha:** 30/04/2025
 
 ---
@@ -97,7 +97,7 @@ git pull: traer y fusionar los cambios desde el repositorio remoto al local.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+![Pregunta 1](Pre3.png)
 ---
 
 ## Pregunta 4 (2 puntos)
