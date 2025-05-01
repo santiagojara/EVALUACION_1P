@@ -1,5 +1,5 @@
-# Universidad [Tecnica de Amabto]  
-## Facultad de [Ingenieria en Sistemas Electronica e Industrial]  
+# Universidad [Técnica de Ambato]  
+## Facultad de [Ingeniería en Sistemas Electrónica e Industrial]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
