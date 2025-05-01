@@ -108,8 +108,22 @@ temp/      → excluye la carpeta temp y su contenido
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Comandos usados:
+git flow init
+git flow feature start ingresar-encabezado
+# Editar README.md
+git add README.md
+git commit -m "Mensaje"
+git flow feature finish ingresar-encabezado
 
+Proceso explicado:
+1. Inicialicé Git Flow para establecer la estructura de ramas recomendada.
+2. Cree la rama feature/ingresar-encabezado para trabajar en el encabezado del archivo README.md.
+3. Completé el encabezado con mis datos personales.
+4. Terminé la feature, lo que fusionó automáticamente los cambios en la rama develop.
+
+Reflexión:
+Git Flow proporciona una estructura clara de trabajo, especialmente útil en proyectos colaborativos. Facilita la organización del desarrollo, pruebas y despliegue mediante ramas separadas. Reduce errores y mejora la colaboración, ya que cada nueva funcionalidad se desarrolla de forma aislada antes de integrarse.
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -141,7 +155,18 @@ temp/      → excluye la carpeta temp y su contenido
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un Issue en GitHub?
+Un issue es una forma de reportar errores, sugerencias o tareas pendientes dentro de un repositorio. Puede usarse para planificar trabajo, dar seguimiento a problemas y colaborar con otros usuarios.
+
+¿Qué es un Pull Request (PR)?
+Es una solicitud para fusionar cambios de una rama (normalmente de una copia o fork) hacia otra rama (por lo general, la rama principal o de desarrollo). Sirve para revisar, comentar y aprobar cambios antes de integrarlos.
+
+Diferencia y relación entre ambos:
+El issue identifica qué se necesita hacer.
+El pull request propone una solución concreta.
+Puedes vincular un PR con un issue usando palabras clave como Closes #1 para que el issue se cierre automáticamente cuando el PR se fusione.
+
+
 
 ---
 
