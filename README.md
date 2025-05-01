@@ -114,6 +114,15 @@ Para inicializar git flow y utilizamos el siguiente comando : git flow init
 ![alt text](image-8.png)
 Para crear la rama en git flow utilizamos, primero utilizamos el comando de git checkout develop para verificar si estabamso situados en develop, segundo utilizamso el segundo comando para crear la nueva rama git flow feature start feature/ingresar-encabezado.
 ![alt text](image-9.png)
+Una vez modificamos el encabezado añadiendo nuestros datos procedemos hacer un commit con los comandos git add . , git commit -m ""
+![alt text](image-10.png)
+cerramos la rama con el sigueinte comando git flow feature finish feature/ingresar-encabezado.
+![alt text](image-11.png)
+al momento de cerrar la rama automaticamente realiza un merge hacia develop.
+VENTAJAS DE APLICAR GIT FLOW  
+-Organizacion de mejor manera en el grupo
+-Optimizacion al momento de hacer los merge
+-Se puede trabajar sin interferencias
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -146,6 +155,16 @@ Para crear la rama en git flow utilizamos, primero utilizamos el comando de git 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿que es issue?
+Este sirve para notificar acerca de un cambio realizado o un pull request
+pull request: es una solitud para fucionar cambios desde hacia una rama a otra.
+La issue sirve para reportar, planear o discutir tareas	y el pull request sirve para proponer la integración de cambios
+Aqui se creo el issue 
+![alt text](image-12.png)
+
+despues se realiza un commit y se sube al repositorio remoto con el comando 
+sale la solicitud de pull request y seleccionamos que requiere una revision 
+y se realiza el envio del pull request y se espera la respuesta.
 
 ---
 
