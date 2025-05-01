@@ -117,7 +117,27 @@ Al utilizar git status se puede ver que se ignoran los archivos especificados
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+git flow init: Configura las ramas base (main, develop) y el flujo de trabajo para organizar el desarrollo.
+
+git flow feature start: Se crea una rama de desarrollo para una nueva funcionalidad específica.
+
+git commit: Se documenta el progreso y los cambios realizados en cada etapa.
+
+git flow feature finish: Se fusiona la rama de trabajo al flujo principal de desarrollo (develop).
+
+git tag: colocar la etiqueta de pregunta 3
+
+
+![alt text](image-6.png)
+Git Flow proporciona una estructura clara para el desarrollo colaborativo. Sus principales beneficios son:
+
+-Organización de tareas mediante ramas específicas (feature, release, hotfix).
+
+-Separación entre desarrollo y producción, reduciendo errores al liberar nuevas versiones.
+
+-Facilita la colaboración, ya que cada desarrollador trabaja en ramas independientes sin afectar la rama principal.
+
+-Control del ciclo de vida del software, útil para proyectos grandes o de larga duración.
 
 ---
 
