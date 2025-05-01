@@ -108,7 +108,35 @@ El archivo `.gitignore` se utiliza para indicarle a Git qué archivos o carpetas
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+**📝 Respuesta:**
 
+### Comandos utilizados:
+
+```bash
+git flow init
+git flow feature start ingresar-encabezado
+# (edición del README)
+git add README.md
+git commit -m "Completar encabezado con mis datos"
+git flow feature finish ingresar-encabezado
+git push origin develop
+
+Proceso:
+Inicialicé Git Flow con git flow init, aceptando las ramas por defecto (main y develop).
+
+Inicié una rama de tipo feature con git flow feature start ingresar-encabezado.
+
+En esta rama edité el encabezado del archivo README.md, agregando mi nombre, materia y fecha.
+
+Realicé un commit con los cambios.
+
+Finalicé la rama feature con git flow feature finish ingresar-encabezado, lo que hizo merge automático hacia develop.
+
+Volvi a la rama main para subir el commit con los cambios que está leyendo ahora mismo
+
+Las ventajas de usar git flow son las de la organización clara y organizada a la hora de desarrollar
+distintas partes independientemente.
+  [Evidencia de fork realizado](imagenes/cap 3.png)
 
 
 ---
