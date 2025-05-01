@@ -45,7 +45,7 @@
 **git pull:**  actualiza tu repositorio local trayendo los cambios desde el repositorio remoto y fusionándolos (Workspace + merge) en tu rama local actual.
 
   - ¿Cómo se realizó el fork?
-1. se inicio seccion en Githup
+1. se inicio seccion en Github
 2. Se Navego al repositorio destino
 3. Se hizo clic en Fork 
 
@@ -53,14 +53,14 @@
 
   - ¿Cómo se realizó el clone del fork?
 
-Se realizo desde el Git Bash, primero se creo la carpta donde se va a ubicar el fork y luego se uso el siguiente comando ``` git clone https://github.com/saimol-h1/EVALUACION_1P_2525 ```. Luego se ingreso ala carpeta creada.
+Se realizo desde el Git Bash, primero se creo la carpeta donde se va a ubicar el fork y luego se uso el siguiente comando ``` git clone https://github.com/saimol-h1/EVALUACION_1P_2525 ```. Luego se ingreso ala carpeta creada.
 
-![Verdicacion del fork](img/captura2.png)
+![Verficacion del fork](img/captura2.png)
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 Para saber que estamos trabajando sobre un fork se realiza el siguiente comando ```git remote -v```
 
-![Verdicacion del fork](img/captura3.png)
+![Verficacion del fork](img/captura3.png)
 
 
 ---
