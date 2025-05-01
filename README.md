@@ -1,10 +1,10 @@
-## Universidad Tecnica de Ambato  
-## Facultad de Ingenieria en Software Electronica e Industrial  
+# Universidad [Nombre de la Universidad]  
+## Facultad de [Nombre de la Facultad]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Jaim Marinio 
-**Fecha:** 30-4-2025
+**Nombre del Estudiante:** ___________________________  
+**Fecha:** ___________________  
 
 ---
 
@@ -138,9 +138,8 @@ El archivo `.gitignore` permite definir archivos o carpetas que Git no debe rast
 ![](Evidencias/Evidencia1.png)
 7. Commit 2
 ![](Evidencias/gitcommit2_2.png)
-
-
-
+8. git tag
+![](Evidencias/gittag2.png)
 
 
 
@@ -206,8 +205,49 @@ El archivo `.gitignore` permite definir archivos o carpetas que Git no debe rast
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+# Proyecto de Ejemplo
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Este es un proyecto de ejemplo para mostrar cómo trabajar con *issues* y *pull requests* en GitHub.
+
+## ¿Qué es un *issue* en GitHub?
+
+Un **issue** (o problema) es una herramienta de GitHub utilizada para reportar errores, proponer nuevas funcionalidades, hacer preguntas o planificar tareas dentro de un repositorio. Los *issues* ayudan a mantener un seguimiento organizado del trabajo pendiente y se pueden etiquetar, asignar a miembros del equipo, vincular a *pull requests*, y comentar para colaborar.
+
+**Ejemplo**: Un desarrollador nota que una función no devuelve el resultado correcto y abre un *issue* titulado: "Error en función de cálculo de impuestos".
+
+## ¿Qué es un *pull request* (PR) y cuál es su finalidad?
+
+Un **pull request** es una solicitud para revisar y fusionar los cambios hechos en una rama (generalmente una rama de desarrollo) hacia otra (usualmente la rama principal, como `main` o `master`). Permite que otros miembros del equipo revisen el código, hagan comentarios y sugieran mejoras antes de integrarlo al proyecto.
+
+### Finalidad:
+- Facilitar la revisión de código (*code review*).
+- Evitar errores en el código principal.
+- Promover una colaboración más organizada y segura.
+
+## Diferencia entre *issue* y *pull request* y su relación en un entorno colaborativo
+
+| Aspecto              | **Issue**                                   | **Pull Request**                              |
+|----------------------|----------------------------------------------|------------------------------------------------|
+| **Propósito**         | Reportar o discutir problemas/tareas         | Solicitar la revisión y fusión de código       |
+| **Contenido**         | Texto descriptivo, comentarios, etiquetas    | Cambios de código propuestos                  |
+| **Acción esperada**   | Que alguien lo resuelva                      | Que el equipo revise y acepte los cambios      |
+| **¿Modifica código?** | No directamente                              | Sí, si se acepta y se fusiona                 |
+
+### Relación:
+En un entorno colaborativo, los *issues* ayudan a identificar el trabajo que debe hacerse, mientras que los *pull requests* son la manera en la que ese trabajo se implementa. Muchas veces, un *pull request* hace referencia a un *issue* específico (por ejemplo, "Este PR soluciona el issue #45").
+
+---
+
+## Contribución
+
+Si deseas contribuir al proyecto, por favor sigue estos pasos:
+
+1. Abre un *issue* para discutir la tarea que deseas realizar.
+2. Crea una rama y realiza tus cambios.
+3. Abre un *pull request* para que los colaboradores puedan revisar y fusionar tus cambios.
+
+¡Gracias por tu colaboración!
+
 
 ---
 
