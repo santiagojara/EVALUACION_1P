@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Romero Alarcon Adrian Estefano 
-**Fecha:** 30-04-2025 
+**Nombre del Estudiante:** 
+**Fecha:**  
 
 ---
 
@@ -65,7 +65,15 @@ Se verfico si se esta en el repositorio fork a travez del comando git remote -v 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Se creo el archivo gitignore y se inserto dentro del mismo las lineas para que sepa que archivos o carpetas tiene que ignorar, terminado eso se hizo el primer commit de esta pregunta.
+El archivo `.gitignore` permite excluir archivos que no queremos rastrear con Git.  
+Las reglas utilizadas fueron:
+`.log`. y `temp/`.
+Esto hace que:
+- Todos los archivos `.log` (como `error.log`) sean ignorados.
+- Toda la carpeta `temp/` y su contenido no sean rastreados.
+A continuacion se adjunta la imagen donde se puede observar los archivos creados pero siendo ignorados por git.
+![Captura Fork](img/Captura2.png)
 
 ---
 
