@@ -229,9 +229,27 @@ GitHub nos dice que necesita que se revise
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+### Procedimiento realizado
 
----
+1. Se creó la rama `ramaA` desde `main` y se agregó el archivo `archivoA.txt` con el contenido: `Contenido A`.
+2. Luego se creó la rama `ramaB` desde `main`, con el mismo archivo `archivoA.txt`, pero con el contenido: `Contenido B`.
+3. Al intentar hacer `merge ramaB` sobre `ramaA`, se generó un conflicto en `archivoA.txt`.
+4. Se resolvió el conflicto combinando ambos contenidos y se realizó un nuevo commit con el contenido final:
+5. Posteriormente, se fusionó la rama `ramaA` hacia `develop`.
+6. Se creó un **pull request** desde `ramaA` hacia `develop`, configurado con revisión obligatoria.
+7. GitHub mostró el mensaje:  
+`"Review required – At least one approving review is required before merging."`
+8. Una vez aprobado y fusionado el PR, se eliminaron ambas ramas (`ramaA` y `ramaB`) tanto local como remotamente.
+
+
+### Enlace al Pull Request
+
+https://github.com/JoseM151/EVALUACION_1P_2525/pull/1#issue-3032877241
+
+### ¿Qué es un conflicto en Git y por qué ocurrió?
+
+Un **conflicto en Git** ocurre cuando dos ramas modifican el mismo archivo en la misma línea o sección y Git no puede decidir automáticamente qué versión conservar.  
+En este caso, `ramaA` y `ramaB` modificaron el mismo archivo (`archivoA.txt`) con contenidos diferentes. Al intentar fusionarlas, Git detectó que no podía unir los cambios sin intervención manual, generando el conflicto que fue resuelto combinando ambos contenidos.
 
 ## Pregunta 6 (2 puntos)
 
