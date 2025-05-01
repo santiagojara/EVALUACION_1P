@@ -162,10 +162,12 @@ La issue sirve para reportar, planear o discutir tareas	y el pull request sirve 
 Aqui se creo el issue 
 ![alt text](image-12.png)
 
-despues se realiza un commit y se sube al repositorio remoto con el comando 
+despues se realiza un commit y se sube al repositorio remoto con el comando de push  
 sale la solicitud de pull request y seleccionamos que requiere una revision 
 y se realiza el envio del pull request y se espera la respuesta.
-
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
 ---
 
 ## Pregunta 5 (2 puntos)
