@@ -115,7 +115,12 @@ Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Encabezado del Estudiante
+
+**Nombre:** Gabriel Llerena  
+**Carrera:** Ingeniería en Software  
+**Materia:** Manejo y Configuración de Software  
+**Paralelo:** "A"
 
 ---
 
