@@ -151,7 +151,39 @@ Flujo controlado de versiones: Git Flow ayuda a gestionar el ciclo de vida de ca
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+PARTE TEORICA
+1.¿Qué es un issue en GitHub?
 
+Un issue en GitHub es una herramienta para registrar, discutir y realizar un seguimiento de tareas, errores o solicitudes de mejora dentro de un proyecto. Los issues se pueden usar para reportar bugs, proponer nuevas características o discutir cualquier aspecto del proyecto. Cada issue tiene un título, una descripción y puede incluir comentarios, etiquetas, asignaciones, y una fecha de vencimiento. Los issues permiten gestionar de manera organizada los trabajos pendientes o problemas dentro de un repositorio.
+
+2.¿Qué es un pull request y cuál es su finalidad?
+
+Un pull request (PR) es una solicitud para que los cambios realizados en una rama sean revisados e integrados en otra rama, típicamente en la rama main o develop. Su finalidad es permitir que el código que se ha desarrollado en una rama separada sea evaluado por otros colaboradores antes de fusionarse con la rama principal del proyecto. Los pull requests facilitan la colaboración, la revisión del código y la detección de errores, mejorando la calidad del código y asegurando que las integraciones sean controladas.
+
+3.Diferencia entre un issue y un pull request:
+
+Issue: Es una tarea o un problema que necesita ser abordado. Los issues son utilizados principalmente para seguir el progreso de tareas específicas, ya sean correcciones de errores, nuevas funcionalidades o discusiones generales.
+
+Pull request: Es un mecanismo que se utiliza para integrar cambios en el código entre ramas diferentes. El pull request está vinculado a la revisión de código y su fusión en una rama principal.
+
+En un entorno de trabajo colaborativo, los issues se crean para identificar trabajos o problemas, y luego se vinculan con pull requests que resuelven esos problemas o implementan las tareas solicitadas. El flujo típico es que se crea un issue, se desarrolla una solución en una rama separada, se crea un pull request para revisarlo y, una vez aprobado, el pull request se fusiona y el issue se cierra.
+
+PARTE PRACTICA
+Resumen del procedimiento realizado:
+Creación del issue: Se creó un issue titulado "Respuesta a la Pregunta 4" en GitHub para documentar la explicación teórica sobre issues y pull requests. Este issue tiene como objetivo proporcionar contexto sobre la pregunta planteada.
+
+Realización de cambios en el archivo README.md: Se realizaron las modificaciones necesarias en el archivo README.md para responder la pregunta 4, proporcionando la explicación teórica y práctica de los conceptos solicitados.
+
+Commit y subida a la rama develop: Los cambios realizados en el archivo README.md fueron comprometidos y subidos a la rama develop con el siguiente comando:
+
+git add README.md
+git commit -m "Se agregó la respuesta a la Pregunta 4"
+git push origin develop
+Creación del pull request: Se creó un pull request desde la rama develop hacia la misma rama develop en GitHub. Esto permitió una revisión y fusión de los cambios documentales realizados.
+
+Vinculación del pull request con el issue: En el cuerpo del pull request, se incluyó una referencia al issue creado, utilizando ClosesS #4 para vincularlo. Esto asegura que cuando el pull request sea fusionado, el issue se cerrará automáticamente.
+
+Revisión antes del merge: Al revisar el pull request en GitHub, se observó que se requería una revisión previa antes de fusionar los cambios. El mensaje en GitHub indicaba que el pull request debía ser aprobado antes de su fusión. Este requisito de revisión es una configuración de protección de ramas en el repositorio.
 ---
 
 ## Pregunta 5 (2 puntos)
