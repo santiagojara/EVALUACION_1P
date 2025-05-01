@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato  
+## Facultad de Ingenieria en Sistemas Electronica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Audi Alexander Tasinchano Tite  
-**Fecha:** 04-30-2025  
+**Nombre del Estudiante:** Alexander Tasinchano Tite  
+**Fecha:** 04/30/2025  
 
 ---
 
