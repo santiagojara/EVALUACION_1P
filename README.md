@@ -105,6 +105,8 @@ No aparecen los archivos .log y tampoco la carpeta temp.
 
 ![alt text](image-7.png)
 
+El archivo gitignore lo que hace es ignorar los archivos con extensión .log y la carpeta temp.
+
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
