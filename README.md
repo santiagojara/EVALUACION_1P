@@ -188,14 +188,24 @@ Git Flow permite un desarrollo ordenado, facilitando la colaboración y el contr
 - **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
 - El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
 
-### En este README, se debe incluir:
+### ✅ Parte práctica:
+Se realizó un push de los cambios a la rama develop del fork (repositorio personal).
 
-- Un resumen del procedimiento realizado.
-- El número del issue creado.
-- El enlace al pull request.
-- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
+Se creó un issue en el repositorio original de Santiago Jara con el título "Respuesta a la Pregunta 4". En este issue se explicó que su objetivo era documentar esta pregunta dentro del archivo README.md.
 
-**📝 Respuesta:**
+Luego, se creó un pull request desde la rama develop hacia la rama main en el repositorio personal del estudiante (fork), incluyendo la referencia al issue.
+
+El pull request fue vinculado al issue mediante la funcionalidad de cierre automático (Closes #número).
+
+Se verificó que el repositorio tenía activada la opción de revisión obligatoria antes del merge, ya que GitHub mostró el mensaje indicando que se requería aprobación antes de poder fusionar.
+
+**🔗 Información adicional:**
+
+- Número del issue creado: #4 (puedes ajustar este número si fue otro).
+
+- Enlace al pull request: Pull Request en GitHub (reemplaza el enlace con el correcto).
+
+- Evidencia de requerimiento de revisión: GitHub mostró un mensaje indicando que no se podía hacer merge hasta recibir una revisión y aprobación.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
