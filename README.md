@@ -1,10 +1,10 @@
-# Universidad [TECNICA DE AMBATO]  
-## Facultad de [INGENIERIA EN SISTEMAS ELECTRONICA E INDUSTRIAL]  
-### Carrera de Ingeniería en Software  
+# Universidad [TÉCNICA DE AMBATO]  
+## Facultad de [INGENIERIA EN SISTEMAS,ELECTRONICA E INDUSTRIAL (FISEI)]  
+### Carrera de Ingeniería en SoftwarE  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Cristian Ango 
-**Fecha:** 30 de Abril del 2025  
+**Nombre del Estudiante:** Cristian Alonso Ango Andrango  
+**Fecha:** 30 de Abril del 2025 
 
 ---
 
