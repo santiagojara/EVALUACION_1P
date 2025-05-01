@@ -126,6 +126,8 @@ Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
 - El baloncesto
 - Me gusta mucho programar en Java
 - Me encanta dibujar en el estilo blanco y negro
+### Sueños y Expectativas
+Salir de viaje conocer varias partes del mundo, graduarme de la carrera de Ingeniería en Software, tener un buen sueldo y una casa propia.
 
 ---
 
