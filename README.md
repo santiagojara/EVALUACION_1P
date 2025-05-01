@@ -212,9 +212,13 @@ Se trabajó en la rama `develop`, se creó un issue titulado y se realizó esta 
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
-
+cambio rama main y pull
+![alt text](imagenes/pregunta5.1.png)
+creacion de rama
+**creacion ramas y archivos**
+![alt text](imagenes/pregunta5.2.png)
+**merge entre ramasA+B"**
+![alt text](imagenes/pregunta5.3.png)
 ---
 
 ## Pregunta 6 (2 puntos)
