@@ -114,8 +114,26 @@ Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+## Pasos para iniciar el uso de `Git Flow`
+`git flow init`
+`git flow <nombre de la rama> start <nombre_de_la_nueva_rama>`
+`git add <. o los nombres de los archivos para agregar>`
+`git commit -m <nombre_del_commit>`
+`git tag Pregunta_3`
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Encabezado del Estudiante
+### Información Personal
+**Nombre:** Gabriel Llerena  
+**Carrera:** Ingeniería en Software  
+**Materia:** Manejo y Configuración de Software  
+**Paralelo:** "A"
+### Gustos y Pasiones
+- Me gusta mucho los juegos RPG
+- El baloncesto
+- Me gusta mucho programar en Java
+- Me encanta dibujar en el estilo blanco y negro
+### Sueños y Expectativas
+Salir de viaje conocer varias partes del mundo, graduarme de la carrera de Ingeniería en Software, tener un buen sueldo y una casa propia.
 
 ---
 
@@ -148,7 +166,15 @@ Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un **issue** en GitHub?
+Un _issue_ es una herramienta de GitHub que permite **registrar tareas, errores, sugerencias o solicitudes de mejora** dentro de un repositorio. Es una forma de llevar el control del trabajo pendiente o por realizar, y permite que los colaboradores comenten, asignen responsables y establezcan etiquetas.
+¿Qué es un **pull request** y cuál es su finalidad?
+Un _pull request_ (PR) es una solicitud para **fusionar los cambios hechos en una rama** con otra (por lo general hacia `main` o `develop`). Su finalidad es:
+- Revisar el código antes de integrarlo.
+- Permitir que otros miembros del equipo aprueben, comenten o soliciten cambios.
+- Registrar el contexto del cambio.
+¿Cuál es la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo?
+El `issue` plantea un problema o tarea mientras que el `pull request` es una solicitud de fusión de codigo
 
 ---
 
