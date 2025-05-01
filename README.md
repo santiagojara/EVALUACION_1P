@@ -38,7 +38,55 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+### PARTE TEORICA 
+Diferenias entre los siguientes comandos:
+
+**git clone**
+¿Qué es?
+Es un comando de Git que se usa para copiar un repositorio remoto (por ejemplo, desde GitHub) a tu equipo local.
+
+¿Qué hace?
+Descarga todos los archivos, historial de versiones y la configuración del repositorio remoto.
+
+**fork**
+¿Qué es?
+Es una acción en GitHub, no un comando de Git.
+
+¿Qué hace?
+Crea una copia del repositorio en tu cuenta de GitHub, permitiéndote hacer cambios sin afectar el original.
+
+**git pull**
+¿Qué es?
+Es un comando de Git que se usa para actualizar tu repositorio local con los últimos cambios desde el remoto.
+
+¿Qué hace?
+Combina dos acciones: git fetch (descargar los cambios) + git merge (fusionarlos con tu rama actual).
+
+### PARTE PRACTICA
+  - ¿Cómo se realizó el fork?
+    1. Se ingresó al repositorio original en GitHub.
+
+    2. En la esquina superior derecha del repositorio, se hizo clic en el botón "Fork".
+
+    3. Se seleccionó la cuenta personal donde se quería crear la copia (fork) del repositorio.
+
+    4. GitHub creó una copia exacta del repositorio original en la cuenta personal.
+
+  - ¿Cómo se realizó el clone del fork?
+      1. Se accedió al repositorio forkeado (copia en la cuenta personal).
+
+      2. Se hizo clic en el botón verde "Code" y se copió la URL (HTTPS o SSH).
+
+      3. En la terminal del equipo local, se ejecutó el comando:
+      git clone
+      ![Evidencia del clone](Evidencias/Gitclone.png)
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y  no sobre el repositorio original?
+    1. Se ejecutó el siguiente comando dentro del directorio del repositorio clonado:
+    2. Se observó la salida, que debería mostrar algo como:
+    ![Evidencia del remote](Evidencias/Gitremote-v.png)
+    Esto indica que el repositorio remoto apunta al fork del usuario, no al original.
+
 
 ---
 
