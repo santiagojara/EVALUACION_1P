@@ -126,7 +126,22 @@ Sexto: git tag "Pregunta3"
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+issue: es un sistema de requerimiento pra seguir problemas, mejoras o tareas de un repositorio.
+pull request: es una solicitud para fusionar cambios d una rama a otra.
+Diferencia: issue identifica problemas, no hace cambios en el codigo.
+pull request: propone soluciones, incluye cambios concretos y cierra el ciclo de desarrollo.
+Relación: Se crea un issue para documentar en una rama. soluciona en una rama, se referencia el issue en un PR.
+# Crear y trabajar en la rama develop
+git checkout develop
+
+# Hacer cambios y commit
+git add README.md
+git commit -m "Respuesta Pregunta 4"
+git push origin develop
+
+# Verificar estado
+git status
+git log --oneline
 
 ---
 
