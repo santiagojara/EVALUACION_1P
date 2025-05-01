@@ -1,10 +1,10 @@
-# Universidad [Universidad Técnica de Ambato]  
-## Facultad de [FISEI]  
+# Universidad []  
+## Facultad de []  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Jorge Sailema  
-**Fecha:** 30/04/2025  
+**Nombre del Estudiante:**  
+**Fecha:**  
 
 ---
 
@@ -82,7 +82,12 @@ Mediante un git remote -v que me muestra a donde estoy trabajando.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Se crea un archivo .gitignore con las especificaciones dadas
+![alt text](image-4.png)
+El proposito del .gitignore es especificar qué archivos o directorios deben ser ignorados por Git.
+
+Al utilizar git status se puede ver que se ignoran los archivos especificados
+![alt text](image-5.png)
 
 ---
 
