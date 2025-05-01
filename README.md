@@ -97,7 +97,8 @@ git pull: traer y fusionar los cambios desde el repositorio remoto al local.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-![Pregunta 1](Pre3.png)
+![Pregunta 3](Pre3.png)
+![Pregunta 3](Preg3.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -130,7 +131,37 @@ git pull: traer y fusionar los cambios desde el repositorio remoto al local.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Issue: Es una tarea, error o sugerencia registrada en un proyecto de GitHub. Sirve para organizar el trabajo.
 
+Pull Request: Es una solicitud para fusionar cambios de una rama a otra. Se usa para revisar y aprobar el código antes de integrarlo.
+
+Diferencia:
+
+El issue describe qué se debe hacer.
+
+El pull request muestra cómo se resolvió.
+
+Se relacionan porque un pull request puede cerrar un issue al resolverlo.
+
+RESUMEN
+Se trabajó sobre la rama develop.
+
+Se creó un issue en GitHub titulado "Respuesta a la Pregunta 4", cuyo objetivo fue documentar esta pregunta en el archivo README.md.
+
+Se editaron los contenidos del README.md para incluir esta respuesta.
+
+Se realizó un commit vinculando el issue mediante la sintaxis Closes #4.
+
+Se subieron los cambios a la rama develop del repositorio remoto.
+
+Se creó un pull request desde develop hacia develop.
+
+GitHub detectó la vinculación y cerrará el issue automáticamente cuando el PR sea aceptado y fusionado.
+
+El repositorio está configurado para requerir revisión antes del merge, lo cual fue confirmado por el siguiente mensaje mostrado por GitHub:
+
+"Merging is blocked"
+"1 review required by reviewers with write access."
 ---
 
 ## Pregunta 5 (2 puntos)
