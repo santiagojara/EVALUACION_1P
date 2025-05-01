@@ -180,8 +180,8 @@ git add README.md
 git commit -m "Se agregó la respuesta a la Pregunta 4"
 git push origin develop
 Creación del pull request: Se creó un pull request desde la rama develop hacia la misma rama develop en GitHub. Esto permitió una revisión y fusión de los cambios documentales realizados.
-
-Vinculación del pull request con el issue: En el cuerpo del pull request, se incluyó una referencia al issue creado, utilizando ClosesS #4 para vincularlo. Esto asegura que cuando el pull request sea fusionado, el issue se cerrará automáticamente.
+https://github.com/santiagojara/EVALUACION_1P_2525/pull/8
+Vinculación del pull request con el issue: En el cuerpo del pull request, se incluyó una referencia al issue creado, utilizando ClosesS #8 para vincularlo. Esto asegura que cuando el pull request sea fusionado, el issue se cerrará automáticamente.
 
 Revisión antes del merge: Al revisar el pull request en GitHub, se observó que se requería una revisión previa antes de fusionar los cambios. El mensaje en GitHub indicaba que el pull request debía ser aprobado antes de su fusión. Este requisito de revisión es una configuración de protección de ramas en el repositorio.
 ---
