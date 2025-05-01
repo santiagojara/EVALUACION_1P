@@ -122,6 +122,18 @@
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+Los comandos utlizados para esta pregunta fueron:
+1) git flow feature start cambiar-encabezado
+2) git status
+3) git add .
+4) git commit -m "Se agrego los datos personales del estudiante en el encabezado del archivo readme"
+5) git status 
+3) git add .
+4) git commit -m "Se agrego los datos generales de la universidad tales como el nombre, la facultad"
+5) git flow feature finish cambiar-encabezado
+
+
+![Imagen .gitignore](/Imagenes/Pregunta3.jpg)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -154,6 +166,18 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+ 🔹¿Qué es un issue en GitHub?
+Un issue en GitHub es una herramienta que permite registrar tareas, reportar errores, hacer preguntas o proponer mejoras dentro de un repositorio. Los issues facilitan la organización y seguimiento del trabajo en equipo, ya que pueden incluir etiquetas, comentarios, asignaciones y referencias a ramas o commits. Son fundamentales para planificar y comunicar el desarrollo de un proyecto de forma colaborativa.
+
+🔹 ¿Qué es un pull request y cuál es su finalidad?
+Un pull request (PR) es una solicitud que se hace para que los cambios realizados en una rama (ya sea en el mismo repositorio o en un fork) sean revisados y fusionados en otra rama principal, como main o develop. Su finalidad es permitir la revisión del código antes de integrarlo al proyecto oficial, facilitando la colaboración, la detección de errores y el control de calidad dentro del equipo de desarrollo.
+
+🔹 ¿Cuál es la diferencia entre issue y pull request y cómo se relacionan?
+La principal diferencia entre un issue y un pull request es que el issue sirve para plantear un problema o tarea, mientras que el pull request propone una solución concreta con código. Se relacionan en un entorno colaborativo porque un pull request puede estar vinculado a un issue específico, y al ser aceptado, puede cerrar automáticamente ese issue, manteniendo el flujo de trabajo claro y ordenado.
+
+
+
+
 
 ---
 
