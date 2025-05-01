@@ -69,13 +69,21 @@ fork en el repocitorio original
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
+
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
 
+Primero cree el archivo .gitignore limitando los tipos de archivo que ignorara echo "*.log" >> .gitignore echo "temp/" >> .gitignore
+se uso git add .gitignore
+y se hiso commit con el   comando 
+$ git commit -m "reglas de exclusión definidas."
+![im1](imagenes/ignore1.jpg)
+![im1](imagenes/ignore2.jpg)
 
 ## Pregunta 3 (2 puntos)
+
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
 
