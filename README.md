@@ -199,6 +199,35 @@ Git Flow permite un desarrollo ordenado, facilitando la colaboración y el contr
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+**Parte teórica:**
+- ¿Qué es un issue en GitHub?
+
+  Un issue en GitHub es una herramienta utilizada para realizar un seguimiento de tareas, errores o solicitudes dentro de un repositorio. Los issues permiten que los colaboradores registren y discutan problemas o mejoras en el proyecto, proporcionen detalles y comentarios adicionales, y se organicen según etiquetas, asignados y proyectos. Un issue puede tener asignados responsables y una fecha límite, y es común asociarlo a un pull request cuando se resuelve.
+
+- ¿Qué es un pull request y cuál es su finalidad?
+
+  Un pull request (PR) en GitHub es una solicitud para fusionar cambios de una rama a otra, generalmente desde una rama de desarrollo a la rama principal (main o develop). Su finalidad es permitir que los colaboradores revisen el código antes de integrarlo al proyecto principal. Los PRs ayudan a asegurar que se mantenga la calidad del código, se gestionen los conflictos y se revisen los cambios antes de ser aceptados en la rama principal.
+
+- Diferencia entre un issue y un pull request:
+
+**Issue:**
+  Es un registro de una tarea, problema o discusión relacionada con el proyecto.
+
+**Pull Request:**
+  Es una solicitud de integración de cambios de una rama a otra, permitiendo que otros revisen el código antes de su fusión.
+**Parte práctica:**
+  Pasos a seguir para crear el issue y pull request:
+
+- Crear un issue titulado "Respuesta a la Pregunta 4":
+
+- Ve a la pestaña de Issues en el repositorio de GitHub.
+
+- Crea un nuevo issue titulado "Respuesta a la Pregunta 4", donde expliques que su objetivo es documentar esta pregunta.
+
+- Realizar los cambios necesarios en el archivo README.md:
+
+- Añadir las respuestas de la parte teórica en el archivo README.md.
+
 ---
 
 ## Pregunta 5 (2 puntos)
