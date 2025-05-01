@@ -125,6 +125,8 @@ En este caso, configuré .gitignore para ignorar todos los archivos con extensi�
 ### 🔹 Evidencia del .gitignore en bash:
 ![Git remote -v](imagenes/CapturaCommitgitignore.png)
 
+### 🔹 Captura del segundo commit conjuntamente con su etiqueta de Pregunta2:
+![Git remote -v](imagenes/CapturaSegundoCommityEtiqueta.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
