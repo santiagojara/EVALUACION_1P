@@ -275,4 +275,42 @@ En este caso, `ramaA` y `ramaB` modificaron el mismo archivo (`archivoA.txt`) co
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+### Proceso realizado
+
+1. Se trabajó en la rama `develop` del fork del repositorio.
+2. Se eliminaron los archivos `archivoA.txt` y `archivoB.txt` creados en ejercicios anteriores.
+3. Se hizo merge de `develop` hacia `main` en el repositorio **local** para unificar cambios.
+4. Posteriormente, se subió la rama `main` local al branch `develop` del **fork remoto** con:
+git push origin main:develop
+
+5. Luego se creó un **pull request cruzado** desde la rama `develop` del fork hacia la rama `main` del repositorio original, incluyendo el enlace al repositorio propio.
+
+
+### ¿Qué es el versionamiento semántico?
+
+El **versionamiento semántico** (o **SemVer**) es un sistema de control de versiones que usa una estructura `MAJOR.MINOR.PATCH`, donde:
+
+- **MAJOR**: Se incrementa cuando se hacen **cambios incompatibles** con versiones anteriores.
+- **MINOR**: Se incrementa cuando se agregan funcionalidades nuevas que **no rompen compatibilidad**.
+- **PATCH**: Se incrementa cuando se corrigen **errores menores** o bugs sin agregar nuevas funcionalidades.
+
+#### Ejemplo real:
+
+- Versión `1.0.0`: Primera versión estable.
+- Versión `1.1.0`: Se añade una nueva función, sin romper lo anterior.
+- Versión `1.1.1`: Se corrige un bug menor.
+
+---
+
+### Enlace al Pull Request cruzado
+
+https://github.com/santiagojara/EVALUACION_1P_2525/pull/44#issue-3032890601
+
+---
+
+### Reflexión
+
+El versionamiento semántico es fundamental para comunicar claramente el impacto de los cambios en un proyecto, especialmente cuando existen múltiples dependencias. Permite que los usuarios y desarrolladores sepan si una actualización afectará su integración.  
+Por otro lado, el uso de **forks y pull requests** facilita el trabajo colaborativo sin comprometer la estabilidad del repositorio original. Los forks permiten que cada contribuyente trabaje en su entorno aislado, y los pull requests controlan qué cambios se integran, con posibilidad de revisión previa, discusión y control de calidad.
+
+
