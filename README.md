@@ -150,7 +150,14 @@ Ventajas de aplicar Git Flow
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+*Que es un Issue*
+Un issue en GitHub es una herramienta para reportar errores, proponer mejoras o registrar tareas dentro de un proyecto. Sirve para organizar el trabajo y mantener comunicación entre los colaboradores.
+
+*Que es un pull request*
+Un pull request es una solicitud para revisar y fusionar los cambios hechos en una rama hacia otra, generalmente la rama principal del proyecto. Permite que otros revisen el código antes de integrarlo oficialmente.
+
+*Cual es la diferencia*
+La principal diferencia es que el issue describe un problema o tarea, mientras que el pull request contiene la solución propuesta en forma de código. Ambos se relacionan porque normalmente un pull request responde a un issue, ayudando a dar seguimiento y control a los cambios en un proyecto colaborativo.
 
 ---
 
