@@ -1,5 +1,5 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Técnica de Ambato]  
+## Facultad de [FISEI]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
@@ -50,7 +50,7 @@ Nos dirigimos a la pagina de nuestro fork, en git Bash nos dirijimos a nuestra c
 
 -¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 Se ejecuto el comando remote -v y nos muestra dos repositorios remotos configurados.
-<img src="EVALUACION_1p_2525/Imagenes/git remote.png">
+<img src="EVALUACION_1P_2525/Imagenes/git remote.png">
 ---
 
 ## Pregunta 2 (1 punto)
@@ -72,11 +72,9 @@ Se ejecuto el comando remote -v y nos muestra dos repositorios remotos configura
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 ## Función
-
 El archivo `.gitignore` especifica archivos y carpetas que Git debe ignorar intencionalmente. Los archivos listados en `.gitignore` no serán rastreados por Git, lo que significa que no se añadirán al área de preparación ni se incluirán en los commits, a menos que ya estuvieran siendo rastreados antes de añadir la regla. Es útil para excluir archivos generados automáticamente, logs, dependencias, archivos de configuración local, etc.
 
 ## Reglas Configuradas
-
 En este repositorio, el archivo `.gitignore` se ha configurado con las siguientes reglas:
 
 ```gitignore
@@ -87,6 +85,7 @@ En este repositorio, el archivo `.gitignore` se ha configurado con las siguiente
 temp/
 
 ---
+<img src="EVALUACION_1p_2525/Imagenes/git tag.png">
 
 ## Pregunta 3 (2 puntos)
 
