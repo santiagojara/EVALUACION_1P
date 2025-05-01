@@ -1,5 +1,5 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [TECNICA DE AMBATO]  
+## Facultad de [FACULTADDE INGENIERIA EN SISTEMAS, ELECTRONICA E IDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
@@ -100,7 +100,7 @@ las capturas realizadas adjuntadas en el pdf.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
 
 ---
 
