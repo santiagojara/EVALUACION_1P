@@ -3,7 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Kevin Peñafiel  
+**Nombre del Estudiante:** Kevin Alexander Peñafiel  SanMartin
+
 **Fecha:** 30/04/2025  
 
 ---
