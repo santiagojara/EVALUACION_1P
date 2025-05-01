@@ -89,7 +89,7 @@ El archico gitigore tiene las reglas de log y temp/ que ignora los archivos .log
 **📝 Respuesta:**
 
 Primero: git flow init, se elige main y develop
-Segundo: 
+Segundo: git flow feature start ingresar-encabezado
 
 ---
 
