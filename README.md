@@ -67,9 +67,11 @@ Para verificar que estamos trabajando en el fork en el mismo GitHub nos dice que
 
 **📝 Respuesta:**
 
-1. ![alt text](image-3.png)
+### Primer Commit
+ ![alt text](image-3.png)
 
-2. El archivo .gitignore especifica qué archivos o carpetas deben ser ignoradas por el Git.
+### Segundo Commit
+ El archivo .gitignore especifica qué archivos o carpetas deben ser ignoradas por el Git.
 
 Como se puede ver se creo un archivo llamado prueba.log
 
@@ -110,7 +112,33 @@ Se puso el tag al commit numero 2
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos Exactos Usados
+
+git flow init
+
+git flow feature start ingresar-encabezado
+
+git add README.md
+
+git commit -m "Se agregó el nombre completo al encabezado y la fecha"
+
+git commit -m "Se agregó la universidad y la facultad en el encabezado"
+
+git flow feature finish ingresar-encabezado
+
+git tag -a Pregunta3 -m "Commit final de la funcionalidad ingresar-encabezado"
+
+### Descripción del Proceso Seguido
+
+Se inicializó Git Flow con las ramas por defecto main y develop, lo cual permite un desarrollo estructurado y limpio.
+Luego se creó una rama de tipo feature/ingresar-encabezado, donde se editó el archivo README.md para incluir los datos personales del estudiante.
+Durante el desarrollo, se realizaron varios commits reflejando cambios progresivos. Finalmente, se cerró la feature con git flow feature finish, lo cual integró los cambios a la rama develop.
+
+### Reflexión sobre Git Flow
+
+Git Flow proporciona una estructura clara y organizada para el trabajo colaborativo y el desarrollo de funcionalidades.
+Al separar el desarrollo (develop) del código estable (main) y manejar features, releases y hotfixes como ramas especializadas, se evita la contaminación del código en producción.
+Este enfoque mejora la trazabilidad de los cambios, facilita el control de versiones y permite mantener flujos de trabajo limpios incluso en equipos grandes o proyectos a largo plazo.
 
 ---
 
@@ -143,7 +171,14 @@ Se puso el tag al commit numero 2
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Qué es un Issue?
+Un issue es una herramienta de seguimiento que permite registrar tareas, mejoras, errores o solicitudes relacionadas con un proyecto. En un equipo, se usa para coordinar qué debe hacerse, discutir problemas y asignar responsabilidades. Cada issue puede tener comentarios, etiquetas, responsables y una relación directa con commits o pull requests.
+
+### Qué es un Pull Request?
+Un pull request (PR) es una solicitud para fusionar los cambios realizados en una rama con otra, generalmente desde una rama feature o develop hacia main o develop. Permite que otros revisen el código antes de que se integre al repositorio, facilitando control de calidad, colaboración y revisión de código entre equipos.
+
+### Diferencias
+ La principal diferencia radica en que el issue se usa para planificar y discutir qué se debe hacer, mientras que el pull request muestra cómo se hizo y permite revisar el código antes de integrarlo. Ambos se relacionan directamente en entornos colaborativos: un issue puede originar un pull request, y este último puede cerrarlo automáticamente al completarse, asegurando trazabilidad y organización en el flujo de trabajo.
 
 ---
 
