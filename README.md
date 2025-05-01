@@ -136,6 +136,9 @@ El archivo `.gitignore` permite definir archivos o carpetas que Git no debe rast
 - Ignorar una carpeta llamada `temp/`.
 6. Evidencia
 ![](Evidencias/Evidencia1.png)
+7. Commit 2
+![](Evidencias/gitcommit2_2.png)
+
 
 
 
