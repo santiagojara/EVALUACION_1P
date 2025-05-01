@@ -113,7 +113,10 @@ se muestra el tag
 
 Se inicia el git flow en el repositorio 
 ![alt text](image-6.png)
-
+Se realiza los cambios pedidos con sus respectivos cambios al igual un merge para que el main este igual 
+![alt text](image-7.png)
+realizamos todos los cambios y el merge 
+![alt text](image-8.png)
 
 
 ---
