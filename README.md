@@ -167,7 +167,16 @@ Es útil por la estructura clara (separación main/develop/feature/release/hotfi
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Qué es un Issue:
+Un Issue en GitHub es una herramienta de seguimiento utilizada para gestionar tareas, errores (bugs), mejoras, o cualquier otro tipo de trabajo relacionado con el proyecto. Los issues permiten organizar y priorizar lo que se debe hacer, y se pueden usar para discutir soluciones, asignar tareas a los colaboradores y realizar un seguimiento del progreso. Esencialmente, un issue ayuda a mantener el control sobre los aspectos del proyecto que necesitan atención.
+
+Qué es un Pull Request:
+Un Pull Request (PR) es una solicitud que realiza un colaborador para fusionar cambios desde una rama hacia otra dentro de un repositorio. Los PRs facilitan la revisión del código y permiten que los miembros del equipo discutan sobre los cambios propuestos antes de aceptarlos. A través de un pull request, otros miembros del equipo pueden revisar, sugerir mejoras y aprobar el código antes de que sea integrado en la rama principal del proyecto, como main o develop.
+
+Diferencia y Relación:
+Diferencia: Un Issue define qué se necesita hacer, como corregir un error, agregar una nueva funcionalidad o mejorar una parte del código. Un Pull Request, en cambio, describe cómo se va a implementar esa tarea o solución (el código necesario para completar la tarea del Issue).
+
+Relación: Los Pull Requests a menudo se vinculan a un Issue específico para indicar qué problema o tarea están resolviendo. Esta vinculación permite un seguimiento claro y transparente de qué cambios están destinados a resolver problemas o completar tareas específicas. Por ejemplo, un PR puede cerrarse automáticamente cuando el Issue relacionado se resuelve mediante la fusión del código propuesto.
 
 ---
 
