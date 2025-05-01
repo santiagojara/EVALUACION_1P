@@ -274,6 +274,29 @@ Se verificó que el repositorio tenía activada la opción de revisión obligato
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
+En esta sección se documenta el proceso completo de resolución de conflictos y la creación de un Pull Request:
+
+1. **Push a la rama `develop`**  
+   Se realizaron cambios y posteriormente se empujaron al repositorio remoto en la rama `develop`.
+
+2. **Creación de un Issue en el repositorio original**  
+   Se accedió al repositorio de Santiago Jara en GitHub, donde se creó un nuevo *issue* para documentar el trabajo realizado y formalizar el proceso de solicitud de revisión.
+
+3. **Creación de un Pull Request desde `develop` hacia `main`**  
+   Desde la interfaz visual de GitHub, se generó un Pull Request desde la rama `develop` hacia la rama `main` dentro del fork personal. En este Pull Request se añadió a Santiago Jara como *revisor* del mismo.
+
+4. **Resolución de conflicto en `archivoA.txt`**  
+   Durante la integración de las ramas `ramaA` y `ramaB` hacia `develop`, se presentó un conflicto en el archivo `archivoA.txt`. El conflicto fue resuelto manualmente combinando el contenido de ambas ramas, preservando lo relevante de cada una.
+
+5. **Finalización del merge**  
+   Una vez resuelto el conflicto, se realizó el merge de `ramaA` en `develop`, dejando la rama `develop` actualizada y funcional.
+
+6. **Comentario adicional**  
+   Este ejercicio demuestra el manejo adecuado de ramas, la resolución de conflictos en Git y el uso correcto del flujo colaborativo mediante issues y Pull Requests.
+
+
+   
+
 ---
 
 ## Pregunta 6 (2 puntos)
