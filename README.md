@@ -99,8 +99,42 @@ las capturas realizadas adjuntadas en el pdf.
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+# 1. Inicializar Git y Git Flow
+git flow init
 
+# (Responder a las preguntas de Git Flow, eligiendo 'main' y 'develop' como ramas por defecto)
 
+# 2. Crear y moverse a una nueva rama feature
+git flow feature start ingresar-encabezado
+
+# 3. Editar el archivo README.md para completar el encabezado con los datos personales
+
+# 4. Realizar commits durante el desarrollo
+git add README.md
+git commit -m ""
+# (Se pueden hacer más commits si se hacen más cambios)
+git commit -m ""
+# 5. Finalizar la feature
+git flow feature finish ingresar-encabezado
+
+# 6. Agregar el tag al commit final
+git tag "Pregunta 3"
+
+Descripción del proceso
+Se inicializó el repositorio con Git y se configuró Git Flow, que establece una estructura organizada de ramas.
+
+Se creó una rama de tipo feature llamada ingresar-encabezado, destinada a trabajar solo en el encabezado del archivo.
+
+En esa rama, se completaron los datos personales del estudiante en el README.md.
+
+Se realizaron varios commits durante el desarrollo, registrando el progreso paso a paso.
+
+Una vez finalizada la tarea, se cerró la feature usando git flow feature finish, lo que integró los cambios a la rama develop.
+
+Se agregó el tag "Pregunta 3" al commit final, cumpliendo el requerimiento.
+
+REFLEXION: 
+Usar Git Flow trae claridad y orden al desarrollo, especialmente en equipos o proyectos grandes. Permite trabajar en distintas funcionalidades de forma aislada, mantener un flujo estable en producción (main) y separar el desarrollo activo (develop). Además, facilita la colaboración y evita conflictos al integrar múltiples contribuciones.
 
 ---
 
