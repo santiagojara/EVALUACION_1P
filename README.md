@@ -101,8 +101,41 @@ Se usa para actualizar el repositorio local con los últimos cambios de un repos
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Inicializar Git Flow:
+
+- Ejecutar el siguiente comando :
+
+
+git flow init
+- Acepte las configuraciones para las ramas main y develop.
+
+- Crear la rama de funcionalidad:
+- Crear la rama feature/ingresar-encabezado:
+
+- Use este comando para crear la nueva rama de funcionalidad:
+
+git flow feature start ingresar-encabezado
+- Edite README.md:
+
+- Abre el archivo README.md y completa con tus datos personales en el encabezado.
+
+Commit durante el desarrollo:
+Realizar un commit:
+
+Una vez realizados los cambios en README.md añadir.
+git add README.md
+git commit -m "Añadidos los datos personales en el encabezado"
+- Finalizar la rama feature:
+
+git flow feature finish ingresar-encabezado
+Si se requiere hacer push de los cambios:
+
+git push origin develop
+![](imagenes/ramas.png)
+![](imagenes/comprobacion.png)
+
+
 
 ---
 
@@ -136,7 +169,15 @@ Se usa para actualizar el repositorio local con los últimos cambios de un repos
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Parte teórica:
+Qué es un issue:
+Un issue en GitHub es un elemento para realizar un seguimiento de tareas, errores o mejoras en un proyecto.
 
+Qué es un pull request:
+Un pull request es una solicitud para integrar los cambios realizados en una rama a otra. Es utilizado para revisión antes de fusionar los cambios.
+
+Diferencia entre ambos:
+Un issue describe un problema o tarea a realizar, mientras que un pull request es la solicitud de integración de cambios.
 ---
 
 ## Pregunta 5 (2 puntos)
