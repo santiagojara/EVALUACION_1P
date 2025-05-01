@@ -96,6 +96,15 @@ Verificando la URL remota con <git remote -v>, que debe estar a mi fork.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+Comandos usados:
+* git flow init
+* git flow feature start ingresar-encabezado
+* se edito el README.md
+* git commit -am "El commit hecho"
+* git flow feature finish ingresar-encabezado 
+
+Git Flow se uso para la organizacion y la creacion del branch feature, demostrado en el siguiente commit
+![flow](img/2.PNG)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -104,9 +113,14 @@ Verificando la URL remota con <git remote -v>, que debe estar a mi fork.
 
 ### Parte teórica:
 
-- Explicar qué es un **issue** en GitHub.
-- Explicar qué es un **pull request** y cuál es su finalidad.
-- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+- Explicar qué es un **issue** en GitHub.  
+Un `issue` en GitHub es un rastreador de tareas o problemas.
+
+- Explicar qué es un **pull request** y cuál es su finalidad.  
+Un `pull request` propone cambios para ser fusionados, permitiendo revisión.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.  
+Los issues identifican problemas/metas, mientras los PRs son propuestas de solución. Se relacionan cuando un PR cierra un issue.
 
 ### Parte práctica:
 
