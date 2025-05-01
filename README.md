@@ -178,6 +178,22 @@ Git Flow ofrece una estructura organizada para el desarrollo de software, ideal 
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+Un issue en GitHub es una herramienta para realizar un seguimiento de tareas, errores o solicitudes de mejora en un proyecto. Permite a los colaboradores comunicar problemas o sugerir cambios.
+Un pull request es una solicitud para fusionar los cambios realizados en una rama de un repositorio con otra rama, generalmente de un repositorio principal. Su finalidad es permitir la revisión y discusión antes de integrar los cambios.
+
+Diferencia 
+Issue: Es un seguimiento de tareas o problemas. Sirve para identificar lo que debe hacerse o corregirse en el proyecto.
+
+Pull request: Es una solicitud para integrar cambios al código, y se crea generalmente como resultado de resolver un issue.
+
+Para colaborar en un proyecto utilizando GitHub, seguimos estos pasos:
+
+1. Crear **issues** para tareas, errores o características a implementar.
+2. Trabajar en ramas para desarrollar funcionalidades.
+3. Crear **pull requests** para revisar y fusionar los cambios.
+4. Hacer **revisiones de código** para garantizar calidad y evitar errores.
+
+Estos pasos facilitan la colaboración en proyectos de equipo.
 ---
 
 ## Pregunta 5 (2 puntos)
