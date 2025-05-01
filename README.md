@@ -165,8 +165,25 @@ cierro la feature con git flow feature finish ingresar-encabezado
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+- Preguntas
+-Que es una issue?
+es una tarea que se puede asignar a un colaborador de un repositorio de github
+-Que es un pull requiest?
+es una peticion de revision de un merge entre 2 ramas
+-Diferencias
+el issue no modifica nada del repositorio, mientras que el PR hace un merge
+- Resumen del procedimiento realizado.
+se creo la issue en github
+se respondio a las preguntas
+se hizo un commit
+se hizo un push al repositorio remoto
+se hizo una PR de developa develop
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- El número del issue creado.
+el #4
+- El enlace al pull request.
+aun falta hacer un push
+- Explicación 
 
 ---
 
