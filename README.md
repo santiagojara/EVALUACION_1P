@@ -192,7 +192,19 @@ El uso de ramas dedicadas (`feature`, `release`, `hotfix`) facilita la integraci
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**📝 Respuesta:**
+
+### ¿Qué es un issue en GitHub?
+
+Un **issue** es una herramienta que permite registrar tareas, errores, mejoras o preguntas dentro de un repositorio. Actúa como un sistema de seguimiento que facilita la comunicación entre los colaboradores del proyecto.
+
+### ¿Qué es un pull request?
+
+Un **pull request** es una solicitud de incorporación de cambios desde una rama (por ejemplo, `develop`) hacia otra (por ejemplo, `main`). Permite revisar, comentar y validar los cambios antes de fusionarlos en la rama principal del proyecto.
+
+### Diferencia entre ambos y relación en el trabajo colaborativo
+
+Un **issue** describe qué se necesita hacer (la tarea), mientras que el **pull request** muestra **cómo se resolvió** esa tarea. En conjunto, permiten organizar el trabajo en equipo: primero se abre un issue, luego se hace el desarrollo, y finalmente se cierra mediante un pull request que lo resuelve automáticamente.
 
 ---
 
