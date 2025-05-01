@@ -221,7 +221,8 @@ se debe agregar una regla para evitar merge directo a main
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 ---
 
