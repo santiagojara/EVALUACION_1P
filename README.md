@@ -78,7 +78,8 @@ se ejecuta el comando git remote -v para verificar sobre que fork se esta trabaj
 ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x para guardar escrbimos una Y y entre y se configuro el archivo
 ![alt text](imagenes/configuracionignore.png)
 
-
+**primer commit**
+![alt text](<imagenes/primer commit.png>)
 ---
 
 ## Pregunta 3 (2 puntos)
