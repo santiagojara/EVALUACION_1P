@@ -265,7 +265,7 @@ git push origin develop
 Creación del Pull Request:
 
 Se creó un pull request desde ramaA hacia develop en GitHub.
-Enlace al pull request: https://github.com/santiagojara/EVALUACION_1P_2525/pull/
+Enlace al pull request: 
 
 Verificación de revisión requerida:
 
