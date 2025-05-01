@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Julio Jacho  
+**Fecha:** 30/04/2025
 
 ---
 
@@ -98,7 +98,11 @@ luego copiamos el urle que no da
 
 - Realizamos el commit
 
+![alt text](image-10.png)
 
+- verificamos con git log los commits
+
+![alt text](image-11.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
@@ -129,6 +133,27 @@ luego copiamos el urle que no da
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+
+- inicializamos el git flow 
+
+![alt text](image-12.png)
+
+- Le damos a comenzar la rama de feature con start
+
+![alt text](image-14.png)
+
+- Añado los datos de el estudiante 
+
+![alt text](image-13.png)
+
+- Realizamos el commit 
+
+![alt text](image-15.png)
+
+- Le realizamos la finalizacion del feature
+
+
+- VENTAJAS DEL GIT FLOW 
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
