@@ -1,10 +1,10 @@
 # Universidad Tecnica de Ambato 
-## Facultad de Ingenieria en Sistemas, electronica e Industrial  
+## Facultad de Ingenieria en Sistemas electronica e Industrial.  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Carlos Ramos
-**Fecha:** 30/04/2025 
+**Nombre del Estudiante:** Carlos Giovanni Ramos Jacome
+**Fecha:** 30 de Marzo del 2025 
 
 ---
 
