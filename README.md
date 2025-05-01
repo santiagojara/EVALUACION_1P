@@ -110,6 +110,8 @@ se muestra el tag
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+Se debe realizar el flujo de trabajo de git flow con los comandos especificos para que funciones concreta.
+Es mejor usar el git flow porque nos ayuda automatizar los pasos, y no eliminar la rama feature nosotros mismos
 
 Se inicia el git flow en el repositorio 
 ![alt text](image-6.png)
@@ -117,7 +119,10 @@ Se realiza los cambios pedidos con sus respectivos cambios al igual un merge par
 ![alt text](image-7.png)
 realizamos todos los cambios y el merge 
 ![alt text](image-8.png)
-
+y de agregaga la resolucion de todo los cambios 
+![alt text](image-9.png)
+como esta el tag
+![alt text](image-10.png)
 
 ---
 
