@@ -127,7 +127,14 @@ Función del archivo .gitignore: Especifica archivos o carpetas que Git debe ign
 - Se hicieron commits intermedios.
 - Al finalizar, Git Flow fusionó la feature en develop y eliminó la rama de forma automática.
 
+![alt text](image-6.png)
+![alt text](image-7.png)
 
+2. Ventajas de Git Flow:
+
+- Organización clara del flujo de trabajo.
+- Facilita el trabajo colaborativo en funcionalidades aisladas.
+- Evita errores al tener ramas específicas para desarrollo, features, releases, etc.
 
 ---
 
@@ -160,7 +167,24 @@ Función del archivo .gitignore: Especifica archivos o carpetas que Git debe ign
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+1. Proceso:
+
+- Ir al repositorio en GitHub (fork).
+- Hacer clic en la pestaña “Issues”.
+- Clic en “New issue”.
+- Insertar el título.
+- Insertar la descripcion.
+- Crear el nuevo Issue
+
+![alt text](image-8.png)
+
+2. Numero de Issue: #9
+
+- Issue: Es una tarea, sugerencia o reporte de error creado en GitHub. Sirve como un sistema de seguimiento.
+- Pull Request (PR): Solicitud para fusionar cambios de una rama a otra. Se revisa antes de ser aceptado.
+- Diferencia: El issue es para planear y documentar, el PR es para aplicar el cambio. Ambos se pueden vincular.
+
+
 
 ---
 
