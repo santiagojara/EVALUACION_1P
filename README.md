@@ -69,9 +69,13 @@ Se usa cuando quieres empezar a trabajar en un proyecto existente.
 git clone https://github.com/usuario/repo.git
 * 3. git pull
  Sincroniza tu repositorio local con los últimos cambios del remoto.
-
-Combina git fetch (descarga cambios) + git merge (los aplica).
+ Combina git fetch (descarga cambios) + git merge (los aplica).
 Se usa para actualizar tu código antes de seguir trabajando.
+
+
+ ![alt text](image-2.png)
+
+
 
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
