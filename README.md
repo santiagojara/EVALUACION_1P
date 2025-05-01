@@ -1,5 +1,5 @@
 # Universidad [Universidad Técnica de Ambato]  
-## Facultad de [FISEI]  
+## Facultad de [Ingenierías Industrial, Software y Electrónica]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración del Software  
