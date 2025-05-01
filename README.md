@@ -117,7 +117,10 @@ IMAGEN QUE CONFIRMA EL FORK
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Primero se inicia el git flow  con el comando "git flow init", luego de eso en develop vamos a usar el comando para iniciar la rama "ingresar-encabezado" y de ahi tendremos que realizar los cambios que nos pide el literal 3 , despues con el comando "git flow finish ingresar-encabezado"
+Evidencias: 
 
+![alt text](image-7.png)
 ---
 
 ## Pregunta 4 (2 puntos)
