@@ -147,7 +147,7 @@ Correccion de ignore.gitignore de temp/ a /temp  y demostracion de que no aparec
 - Iniciacion de gitflow en el proeco y los comandos para crear la rama `feature`
 ![alt text](image-6.png)
 ![alt text](image-7.png)
-
+![alt text](image-8.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -180,7 +180,7 @@ Correccion de ignore.gitignore de temp/ a /temp  y demostracion de que no aparec
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
+![alt text](image-9.png)
 ---
 
 ## Pregunta 5 (2 puntos)
