@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Nixon Paul Hurtado  
+**Fecha:** 30 Abril 2025 
 
 ---
 
@@ -50,7 +50,6 @@ Damos click en Code y copiamos la URL
 ![image](https://github.com/user-attachments/assets/efe80d80-0f4c-4cf0-b114-318c55591312)
 Vamos al git y colocamos el comando git clone y el enlace copiado
 ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
-
 ---
 
 ## Pregunta 2 (1 punto)
@@ -77,8 +76,9 @@ Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` co
 ![image](https://github.com/user-attachments/assets/fac7dabc-687a-4f93-be67-f15cdbdf3329)
 Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 Se utiliza para excluir de git archivos segun su extension
-
-
+![image](https://github.com/user-attachments/assets/424100df-dcf6-424d-b7f5-280a4bbd8cdb)
+![image](https://github.com/user-attachments/assets/cfc7ae07-f6d0-4867-8210-7a2531b8d394)
+Se ignoranlos archivos con las extensiones
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -108,6 +108,11 @@ Se utiliza para excluir de git archivos segun su extension
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+![image](https://github.com/user-attachments/assets/4e6ba4ba-4b95-4922-b298-a98720873144)
+Crear una rama de tipo `feature` con el nombre `ingresar-encabezado`.
+![image](https://github.com/user-attachments/assets/ed24bbc4-9eec-4058-ba9a-eefd78b8e416)
+En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
 
 ---
 
