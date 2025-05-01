@@ -106,6 +106,7 @@
 
 **📝 Respuesta:**
 
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
