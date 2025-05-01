@@ -229,16 +229,23 @@ un issue Un reporte de problema, mejora o tareamientras que un Pull Request es 	
 Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
 
 - Trabajar en la rama `develop`, ya existente desde la configuración de Git Flow.
+![alt text](image-15.png)
 
 - Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
 ![alt text](image-12.png)
 
 - Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
+![alt text](image-13.png)
 
 - Crear un **pull request** desde `develop` hacia `develop` en GitHub.
+![alt text](image-14.png)
 
 - **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
+
+![alt text](image-17.png)
+
 - El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
+![alt text](image-16.png)
 
 ---
 
@@ -274,7 +281,17 @@ Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+- Crear dos ramas llamadas `ramaA` y `ramaB`, ambas a partir de la rama `main`.
+- En `ramaA`, crear un archivo llamado `archivoA.txt` con el contenido:  
+  `Contenido A`
+- En `ramaB`, crear un archivo con el mismo nombre (`archivoA.txt`), pero con el contenido:  
+  `Contenido B`
+- Intentar fusionar `ramaB` sobre `ramaA`, lo cual debe generar un conflicto.
+- Resolver el conflicto combinando ambos contenidos (por ejemplo: `Contenido combinado A+B`).
+- Realizar el merge de `ramaA` hacia `develop`.
+- Crear un **pull request** desde `ramaA` hacia `develop`.
+- El pull request debe estar **configurado para requerir revisión y ser aprobado por el docente**.
+- Una vez completado el merge, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
 
 ---
 
