@@ -2,4 +2,4 @@
 *.log
 
 # Ignorar carpeta temp
-temp/
+/temp

@@ -98,6 +98,20 @@ Se usa para actualizar tu código antes de seguir trabajando.
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+* El archivo git ignore.gitignore se creo con touch y se modifico con nano para agregar lo siguiente: 
+
+*.log = para ignorar los archivos
+
+/temp = para ignorar la carpeta temp 
+ posteriormente se realizó el commit 
+ ![alt text](image-3.png)
+
+ ![alt text](image-4.png)
+
+Correccion de ignore.gitignore de temp/ a /temp  y demostracion de que no aparece la carpeta temp con ls
+![alt text](image-5.png)
+
+
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
