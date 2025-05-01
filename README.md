@@ -38,6 +38,10 @@
   Con el comando git clone y la url donde se ubica el repositorio.
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 Con el comando git remote -v me muestra la url de mi fork.
+![](imagenes/image1.png)
+![](imagenes/image.png)
+
+
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
