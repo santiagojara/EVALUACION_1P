@@ -107,9 +107,21 @@ Dentro del repositorio clonado en mi máquina local, ejecuté el comando git rem
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Los comandos usados para realizar la pregunta 3 es:
+-git flow init
+  inicializa las ramas
+-git flow feature start ingresar-encabezado
+  que crea la rama y la inicializa
+-git flow feature finish ingresar-encabezado
+  Finalmente tenemos que finalizar el feature
+-Como adicional agregamos commits y el tag
 
----
+-Las ventajas de git flow son:
+Estructura organizada y predecible: Define roles claros para las ramas (desarrollo, producción, features, etc.), facilitando que el equipo entienda el flujo.
+Facilita el trabajo en paralelo: Permite que varios desarrolladores trabajen en diferentes funcionalidades sin interferir entre sí hasta la integración.
+Manejo claro de versiones y correcciones: Proporciona un proceso definido para preparar lanzamientos y aplicar parches urgentes a la versión en producción.
+Aísla el trabajo nuevo: Las ramas de feature mantienen el código en desarrollo separado de las líneas estables (develop, main).
+Ideal para proyectos de larga duración: Su estructura ayuda a mantener la disciplina y el orden a lo largo del tiempo en proyectos complejos.
 
 ## Pregunta 4 (2 puntos)
 
