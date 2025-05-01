@@ -146,6 +146,15 @@ luego copiamos el urle que no da
 
 ![alt text](image-13.png)
 
+- Realizamos el commit 
+
+![alt text](image-15.png)
+
+- Le realizamos la finalizacion del feature
+
+
+- VENTAJAS DEL GIT FLOW 
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
