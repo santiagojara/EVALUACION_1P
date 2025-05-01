@@ -182,9 +182,10 @@ se hizo una PR de developa develop
 - El número del issue creado.
 el #4
 - El enlace al pull request.
-aun falta hacer un push
+https://github.com/materubag/EVALUACION_1P_2525_Fork/pull/1
 - Explicación 
 
+![alt text](image-3.png)
 ---
 
 ## Pregunta 5 (2 puntos)
