@@ -186,9 +186,12 @@
 - El número del issue creado:
   #33
 - El enlace al pull request:
-  - 
+  - https://github.com/BSPA02/EVALUACION_1P_2525/pull/2
 - Explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request:
-  - 
+  - Se comprobó que el repositorio requería revisión antes de aceptar el pull request cuando GitHub mostró el mensaje: "This pull request must be approved by at least one reviewer before merging"
+    ![](img\prueba.png)
+
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
