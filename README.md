@@ -2,7 +2,7 @@
 ## Facultad de Ingenieria en Sistemas, Electronica e Industrial  
 ### Carrera de Ingeniería en Software  
 
-**Asignatura:** Manejo y Configuración de Software  
+**Asignatura:** MyCS - Manejo y Configuración de Software  
 **Nombre del Estudiante:** Johan Gabriel Rodríguez Núñez
 **Fecha:** 30/04/2025  
 
