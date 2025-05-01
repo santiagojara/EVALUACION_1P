@@ -160,10 +160,18 @@ Usar Git Flow trae claridad y orden al desarrollo, especialmente en equipos o pr
 
 ### En este README, se debe incluir:
 
-- Un resumen del procedimiento realizado.
-- El número del issue creado.
-- El enlace al pull request.
-- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
+Resumen del procedimiento:
+Se trabajó en la rama develop existente, donde se creó un issue titulado "Respuesta a la Pregunta 4" para documentar esta pregunta. Se editaron los contenidos del archivo README.md, se realizó un commit con la frase Closes #4 y se subió a la rama develop. Luego, se creó un pull request desde develop hacia develop, vinculando automáticamente el issue para que se cierre al hacer merge.
+
+Número del issue creado: #4
+
+Enlace al pull request: Ver Pull Request (Reemplazar con el enlace real)
+
+Comprobación del requisito de revisión:
+GitHub mostró el mensaje:
+
+"Review required. At least 1 approving review is required before merging."
+Esto confirmó que el repositorio exige una revisión previa antes de aceptar el pull request.
 
 **📝 Respuesta:**
 
