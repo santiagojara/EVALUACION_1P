@@ -4,7 +4,7 @@
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Alexis Eduaro López Guerrero
-**Fecha:** 30/04/2025
+**Fecha:** 30-04-2025
 
 ---
 
