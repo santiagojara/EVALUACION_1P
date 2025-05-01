@@ -35,15 +35,18 @@
   - ¿Cómo se realizó el fork?
   Ingrese a github y presione click en fork desde el directorio inicial de santiagojara/EVALUACION_1P_2525 
   - ¿Cómo se realizó el clone del fork?
+  ![alt text](image-5.png)
     Se desplego el terminal de git 
     Se ingreso el comando git clone seguido del la url del repositorio de mi cuenta 'ajkarots':
     git clone https://github.com/ajkarots/EVALUACION_1P_2525.git
 
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  ![alt text](image-4.png)
     En el terminal git se debe ingresar el comando $ git remote -v lo cual nos muestra:
     origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (fetch)
     origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (push)
     Mediente esa direccion se puede observar claramente que el repositorio pertenece a la cuenta ajkarots
+
 
 **📝 Respuesta:**
 
@@ -109,6 +112,9 @@ Funcion del archivo .gitignore
 El archivo gitignore no detectara para commits los archivos con extension
 .log ni las carpetas temp/
 
+Tag Pregunta 2
+
+![alt text](image-3.png)
 
 
 
@@ -140,8 +146,20 @@ El archivo gitignore no detectara para commits los archivos con extension
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+![alt text](image-6.png)
 
+- Crear una rama de tipo `feature` con el nombre `ingresar-encabezado`.
+
+![alt text](image-7.png)
+
+- En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
+
+![alt text](image-8.png)
+
+- Realizar al menos un commit durante el desarrollo.
+
+- Finalizar la feature siguiendo el flujo de trabajo establecido por Git Flow.
 ---
 
 ## Pregunta 4 (2 puntos)
