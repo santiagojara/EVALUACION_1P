@@ -159,7 +159,29 @@ Tag Pregunta 2
 
 - Realizar al menos un commit durante el desarrollo.
 
+![alt text](image-11.png)
+
 - Finalizar la feature siguiendo el flujo de trabajo establecido por Git Flow.
+
+![alt text](image-10.png)
+
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre de la feature.
+
+Para inicar 
+git flow feature start ingresar-encabezado
+Para finalizar
+git flow finish start ingresar-encabezado
+
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+
+El usar git flow con feature ayuda a no tener que crear las ramas individualmente y luego 
+cambiarnos entre ellas con checkout, se modifico el archivo readme.md y se cumplieron con los requisitos
+
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
+Usar git flow es una gran ventaja de tiempo frente a hacerlo "manualmente" ya que ganamos mucho tiempo
+y sobre todo dentro de un examen cada segundo cuenta.
+
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -191,7 +213,32 @@ Tag Pregunta 2
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub.
+Es un requisito solicitado desde la paltaforma donde indicamos nuevas funcionalidades posibles.
+- Explicar qué es un **pull request** y cuál es su finalidad.
+
+Un pull request (también abreviado como PR) es una solicitud que haces en plataformas como GitHub,para proponer cambios en el código de un repositorio.
+
+Finalidad:
+  Permitir que otros revisen, comenten y aprueben tus cambios antes de integrarlos al proyecto principal.
+  Facilitar la colaboración, la revisión de código y el control de calidad.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+
+un issue Un reporte de problema, mejora o tareamientras que un Pull Request es 	Una propuesta de cambio de código
+Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
+
+- Trabajar en la rama `develop`, ya existente desde la configuración de Git Flow.
+
+- Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
+![alt text](image-12.png)
+
+- Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
+
+- Crear un **pull request** desde `develop` hacia `develop` en GitHub.
+
+- **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
+- El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
 
 ---
 
