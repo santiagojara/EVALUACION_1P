@@ -4,7 +4,7 @@
 
 **Asignatura:** MyCS - Manejo y Configuración de Software  
 **Nombre del Estudiante:** Johan Rodríguez
-**Fecha:** 30/04/2025  
+**Fecha:** Miercoles, 30 de Abril del 2025 
 
 ---
 
