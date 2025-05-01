@@ -192,7 +192,7 @@ El uso de ramas dedicadas (`feature`, `release`, `hotfix`) facilita la integraci
 
 **📝 Respuesta:**
 
-**📝 Respuesta:**
+### Parte teórica
 
 ### ¿Qué es un issue en GitHub?
 
@@ -205,6 +205,20 @@ Un **pull request** es una solicitud de incorporación de cambios desde una rama
 ### Diferencia entre ambos y relación en el trabajo colaborativo
 
 Un **issue** describe qué se necesita hacer (la tarea), mientras que el **pull request** muestra **cómo se resolvió** esa tarea. En conjunto, permiten organizar el trabajo en equipo: primero se abre un issue, luego se hace el desarrollo, y finalmente se cierra mediante un pull request que lo resuelve automáticamente.
+
+---
+
+---
+
+### Parte práctica:
+
+- **Número del issue creado:** #23
+- **Enlace al pull request:** [Pull Request para Pregunta 4](https://github.com/StevenParedes0w0/EVALUACION_1P_2525/pull/XX)
+- **Verificación de revisión requerida:** Al crear el pull request, GitHub muestra el mensaje “Merging is blocked” indicando que se requiere aprobación previa antes de fusionar. Esto asegura control y revisión del docente antes de aceptar cambios.
+
+---
+
+---
 
 ---
 
