@@ -72,8 +72,14 @@ Respuestas a preguntas:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+ - Se realizarón cambios en el archivo README.md
+  ![Pregunta2](imagenes/pregunta2.png)
+ - Se realizarón cambios en el archivo prueba.log
+  ![Pregunta2-1](imagenes/pregunta2-1.png)
+ - Se realizarón cambios en el archivo temp/prueba.txt
+  ![Pregunta2-1](imagenes/pregunta2-2.png)
+ - Al ejecutar el comando "git status" solo muestra que se han hecho cambios en README.md, por ello, está ignorando los otros archivos.
+ ![Pregunta2-2](imagenes/pregunta2-3.png)
 ---
 
 ## Pregunta 3 (2 puntos)
