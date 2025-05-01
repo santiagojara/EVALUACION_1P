@@ -71,6 +71,15 @@ luego copiamos el urle que no da
 - Creamos el archivo .gitignore.
 
 ![alt text](image-2.png)
+
+- Mandamos a preparacion el archivo gitignore
+
+![alt text](image-7.png)
+
+- Realizamos el primer commit
+
+![alt text](image-8.png)
+
 - creamos los archivos .log y la carpeta temp
 
 ![alt text](image-3.png)
@@ -85,7 +94,10 @@ luego copiamos el urle que no da
 
 -verificamos si los archivos se estan ignorando correctamente con un git estaus 
 
-![alt text](image-6.png)
+!![alt text](image-9.png)
+
+- Realizamos el commit
+
 
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
