@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Alex Reyes ___________________________  
+**Nombre del Estudiante:** Alex Reyes Jonathan Martinez ___________________________  
 **Fecha:30/04/2025** ___________________  
 
 ---
@@ -110,6 +110,26 @@ $ git commit -m "reglas de exclusión definidas."
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+crear el git flow con main y develop
+git flow init -d
+usando el comando 
+$ git flow feature start ingresar-encabezado
+crear el feature desde develop con el nombre ingresar-encabezado
+
+ Crear una nueva rama feature desde develop
+git flow feature start ingresar-encabezado
+
+ Editar README.md y agregar tus datos personales en el encabezado
+ Luego realizar primer commit
+git add README.md
+git commit -m "Agregar datos personales al encabezado del README"
+
+
+ (hace merge a develop y borra la rama feature)
+git flow feature finish ingresar-encabezado
+
+ Agregar el tag solo al commit final
+git tag "Pregunta 3"
 
 ---
 
