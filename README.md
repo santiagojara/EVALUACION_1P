@@ -1,5 +1,5 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Técnica de Ambato]  
+## Facultad de [Facultad de ingenieria industrial, sistemas y electronica]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
