@@ -220,6 +220,70 @@ Revisión antes del merge: Al revisar el pull request en GitHub, se observó que
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
+Procedimiento completo:
+Creación de las ramas:
+git checkout main
+git pull origin main
+git checkout -b ramaA
+git checkout main
+git checkout -b ramaB
+
+Modificación de archivoA.txt en cada rama:
+
+En ramaA:
+echo "Contenido A" > archivoA.txt
+git add archivoA.txt
+git commit -m "Agregar archivoA.txt con Contenido A"
+git push origin ramaA
+
+En ramaB:
+echo "Contenido B" > archivoA.txt
+git add archivoA.txt
+git commit -m "Agregar archivoA.txt con Contenido B"
+git push origin ramaB
+
+Generación del conflicto al intentar fusionar ramaB en ramaA:
+git checkout ramaA
+git merge ramaB
+
+Resolución del conflicto:
+
+El archivo archivoA.txt fue editado para contener:
+Contenido combinado A+B
+
+Luego se continuó con:
+git add archivoA.txt
+git commit -m "Resolver conflicto combinando contenido A y B"
+git push origin ramaA
+
+Fusión de ramaA en develop:
+git checkout develop
+git pull origin develop
+git merge ramaA
+git push origin develop
+
+Creación del Pull Request:
+
+Se creó un pull request desde ramaA hacia develop en GitHub.
+Enlace al pull request: https://github.com/santiagojara/EVALUACION_1P_2525/pull/
+
+Verificación de revisión requerida:
+
+GitHub mostró el mensaje:
+"Review required. At least one approving review is required by reviewers with write access before merging."
+
+Eliminación de ramas tras el merge:
+
+Local:
+git branch -d ramaA
+git branch -d ramaB
+
+Remoto:
+git push origin --delete ramaA
+git push origin --delete ramaB
+
+
+
 ---
 
 ## Pregunta 6 (2 puntos)
