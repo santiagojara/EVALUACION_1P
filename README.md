@@ -107,6 +107,17 @@ esta carpeta y archivo no se van a agregar al area de preparacion.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+-Descripción del proceso seguido:
+1.Inicialización de Git Flow: Inicialicé Git Flow para establecer las ramas main y develop, lo que define una estructura ordenada para el flujo de trabajo de desarrollo y producción.
+2.Creación de la rama feature/ingresar-encabezado: Creé una nueva rama feature para trabajar en la funcionalidad ingresar-encabezado, asegurando que las nuevas características no afectaran la rama principal develop.
+3.Desarrollo y commit: Realicé los cambios en el archivo README.md, agregando los datos personales del estudiante, y luego realicé un commit para guardar el progreso.
+4.Finalización de la rama feature: Tras completar la funcionalidad, utilicé git flow feature finish para fusionar la rama feature con develop, lo que asegura que la nueva funcionalidad se integre de manera controlada.
+
+-Reflexión sobre las ventajas de aplicar Git Flow:
+Organización y control: Git Flow proporciona una estructura clara para organizar el desarrollo, especialmente en proyectos grandes y colaborativos. Las ramas feature, develop, y main aseguran que las nuevas funcionalidades se desarrollen y prueben de forma aislada antes de llegar a producción.
+Facilita la colaboración: Al usar ramas específicas para cada funcionalidad, diferentes miembros del equipo pueden trabajar simultáneamente en diversas tareas sin interferir entre sí. Git Flow también facilita la integración de cambios mediante pull requests.
+Flujo controlado de versiones: Git Flow ayuda a gestionar el ciclo de vida de cada versión del software, desde el desarrollo hasta la producción, permitiendo un flujo controlado de nuevas características y correcciones urgentes.
+
 
 ---
 
