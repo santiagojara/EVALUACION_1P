@@ -108,7 +108,27 @@ Respuestas a preguntas:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+ - Se inicializa git flow:
+
+git flow init
+
+ - Se crea la rama feature/ingresar-encabezado desde develop:
+
+git flow feature start ingresar-encabezado
+
+ - Se realizan los commit:
+
+git add .
+
+git commit -m "Se agrego el nombre completo en el encabezado y la fecha, ademas de responder la pregunta."
+
+ - Se hace merge a develop y se elimina automaticamente la rama.
+
+git flow feature finish ingresar-encabezado
+
+Ventajas de usar git flow.
+
+ - Automatiza el flujo de trabajo, creando, eliminando, haciendo merge, etc; en vez de hacerlo manual.
 
 ---
 
