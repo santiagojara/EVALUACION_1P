@@ -39,6 +39,17 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+¿Cómo se realizó el fork?
+![image](https://github.com/user-attachments/assets/2d352127-b912-4e4d-bb6b-38a2a75c4d79)
+Damos click en fork 
+![image](https://github.com/user-attachments/assets/9c8387cb-40dc-4231-b0aa-903f83591a14)
+Se nos desplega este formulario damos en Create fork y listo.
+¿Cómo se realizó el clone del fork?
+![image](https://github.com/user-attachments/assets/c7e7b99f-272d-4398-851d-9ca6183df3d1)
+Damos click en Code y copiamos la URL
+![image](https://github.com/user-attachments/assets/efe80d80-0f4c-4cf0-b114-318c55591312)
+Vamos al git y colocamos el comando git clone y el enlace copiado
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 ---
 
@@ -60,6 +71,13 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+![image](https://github.com/user-attachments/assets/e6bd4b5f-f9c6-48ea-8556-58cf03075ed4)
+Creacion archivo .gitignore
+Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![image](https://github.com/user-attachments/assets/fac7dabc-687a-4f93-be67-f15cdbdf3329)
+Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+Se utiliza para excluir de git archivos segun su extension
+
 
 ---
 
