@@ -117,7 +117,8 @@ En la siguiente imagen se muestra mediante el comando `git status` que los archi
 
  - Descripción del proceso seguido
  Primero se debe iniciar con el comando git flow init luego se selecciona las ramas main y develop, para luego crear el la rama feature/ingresar-encabezado desde la rama develop, hacer los cambios necesarios en la feature y luego cerrala con el comando  git flow feature finish ingresar-encabezado
-
+ ![alt text](image-5.png)
+![alt text](image-6.png)
  - Ventajas
  Git Flow facilita la organización, mejora la colaboración, y promueve un proceso de lanzamiento predecible y controlado
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
@@ -152,7 +153,17 @@ En la siguiente imagen se muestra mediante el comando `git status` que los archi
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+`ISSUE:` Un issue es una herramienta de seguimiento de tareas en GitHub. Se usa para reportar errores (bugs), sugerir nuevas funcionalidades, discutir mejoras o problemas y asignar tareas a colaboradores.
 
+`PULL REQUEST:`Un pull request es una solicitud para que los cambios hechos en una rama sean revisados y, si están correctos, fusionados con otra rama.
+
+`DIFERENCIA:` Un *issue* describe un problema o tarea, mientras que un *pull request* propone una solución con cambios concretos en el código.
+
+- Un resumen del procedimiento realizado.
+- El número del issue creado.
+#24
+- El enlace al pull request.
+- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
