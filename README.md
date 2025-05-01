@@ -161,8 +161,15 @@ Ventajas de usar git flow.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+ - Un issue es una tarea por realizar.
+ - Un pull request es una petición para enviar cambios a un repositorio y su finalidad es que los cambios se realicen de forma ordenada.
+ - Un pull request puede completar la tarea propuesta en el issue.
 
+ - Se crea un issue en el repositorio original.
+ - Se realiza el commit con la respuesta.
+ - Se realiza el push a mi repositorio.
+ - Issue #37.
+ - Se revisa el pull request.
 ---
 
 ## Pregunta 5 (2 puntos)
