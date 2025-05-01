@@ -187,6 +187,7 @@ https://github.com/materubag/EVALUACION_1P_2525_Fork/pull/1
 se debe agregar una regla para evitar merge directo a main
 ![alt text](image-4.png)
 ![alt text](image-3.png)
+![alt text](image-5.png)
 ---
 
 ## Pregunta 5 (2 puntos)
