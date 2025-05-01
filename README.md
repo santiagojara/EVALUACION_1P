@@ -121,6 +121,8 @@ Se crea una nueva rama para la funcionalidad ingresar-encabezado con 'Git flow s
 Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
 ![alt text](image-10.png)
 
+1. Para mi el GitFlow es muy util ya que de esta manera se facilita el entendimiento del flujo del trabajo, se tiene un control de versiones mas limpio y permite tener una escalibidad mejor a diferencia de trabajar sin este.
+
 ---
 
 ## Pregunta 4 (2 puntos)
