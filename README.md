@@ -331,3 +331,13 @@ git push origin main:develop
 Creé un pull request desde la rama develop del fork hacia la rama main del repositorio original.
 En la descripción del PR incluí el enlace a mi repositorio personal:
 https://github.com/santiagojara/EVALUACION_1P_2525.git
+
+El versionamiento semántico es una convención para asignar números de versión a un proyecto, de forma que refleje claramente los cambios hechos en el software. Su formato es:
+MAJOR.MINOR.PATCH
+
+
+MAJOR: Se incrementa cuando hay cambios incompatibles en la API.
+
+MINOR: Se incrementa cuando se agregan funcionalidades compatibles.
+
+PATCH: Se incrementa cuando se corrigen errores sin cambiar la API.
