@@ -152,9 +152,20 @@ Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
 - El enlace al pull request.
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
+1. Primeramente se debe de crear un Issue en el repositorio del cual se forkeo.
+![alt text](image-12.png)
+![alt text](image-11.png)
+
+2. El numero del issue es el #11
+![alt text](image-13.png)
+
+
+
+
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Primeramente se debe de 
 
 ---
 
