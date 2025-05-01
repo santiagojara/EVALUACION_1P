@@ -35,15 +35,18 @@
   - ¿Cómo se realizó el fork?
   Ingrese a github y presione click en fork desde el directorio inicial de santiagojara/EVALUACION_1P_2525 
   - ¿Cómo se realizó el clone del fork?
+  ![alt text](image-5.png)
     Se desplego el terminal de git 
     Se ingreso el comando git clone seguido del la url del repositorio de mi cuenta 'ajkarots':
     git clone https://github.com/ajkarots/EVALUACION_1P_2525.git
 
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  ![alt text](image-4.png)
     En el terminal git se debe ingresar el comando $ git remote -v lo cual nos muestra:
     origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (fetch)
     origin  https://github.com/ajkarots/EVALUACION_1P_2525.git (push)
     Mediente esa direccion se puede observar claramente que el repositorio pertenece a la cuenta ajkarots
+
 
 **📝 Respuesta:**
 
@@ -109,6 +112,9 @@ Funcion del archivo .gitignore
 El archivo gitignore no detectara para commits los archivos con extension
 .log ni las carpetas temp/
 
+Tag Pregunta 2
+
+![alt text](image-3.png)
 
 
 
@@ -140,7 +146,41 @@ El archivo gitignore no detectara para commits los archivos con extension
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+![alt text](image-6.png)
+
+- Crear una rama de tipo `feature` con el nombre `ingresar-encabezado`.
+
+![alt text](image-7.png)
+
+- En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
+
+![alt text](image-8.png)
+
+- Realizar al menos un commit durante el desarrollo.
+
+![alt text](image-11.png)
+
+- Finalizar la feature siguiendo el flujo de trabajo establecido por Git Flow.
+
+![alt text](image-10.png)
+
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre de la feature.
+
+Para inicar 
+git flow feature start ingresar-encabezado
+Para finalizar
+git flow finish start ingresar-encabezado
+
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+
+El usar git flow con feature ayuda a no tener que crear las ramas individualmente y luego 
+cambiarnos entre ellas con checkout, se modifico el archivo readme.md y se cumplieron con los requisitos
+
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
+Usar git flow es una gran ventaja de tiempo frente a hacerlo "manualmente" ya que ganamos mucho tiempo
+y sobre todo dentro de un examen cada segundo cuenta.
 
 ---
 
@@ -173,7 +213,39 @@ El archivo gitignore no detectara para commits los archivos con extension
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub.
+Es un requisito solicitado desde la paltaforma donde indicamos nuevas funcionalidades posibles.
+- Explicar qué es un **pull request** y cuál es su finalidad.
+
+Un pull request (también abreviado como PR) es una solicitud que haces en plataformas como GitHub,para proponer cambios en el código de un repositorio.
+
+Finalidad:
+  Permitir que otros revisen, comenten y aprueben tus cambios antes de integrarlos al proyecto principal.
+  Facilitar la colaboración, la revisión de código y el control de calidad.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+
+un issue Un reporte de problema, mejora o tareamientras que un Pull Request es 	Una propuesta de cambio de código
+Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
+
+- Trabajar en la rama `develop`, ya existente desde la configuración de Git Flow.
+![alt text](image-15.png)
+
+- Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
+![alt text](image-12.png)
+
+- Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
+![alt text](image-13.png)
+
+- Crear un **pull request** desde `develop` hacia `develop` en GitHub.
+![alt text](image-14.png)
+
+- **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
+
+![alt text](image-17.png)
+
+- El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
+![alt text](image-16.png)
 
 ---
 
@@ -209,7 +281,31 @@ El archivo gitignore no detectara para commits los archivos con extension
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+- Crear dos ramas llamadas `ramaA` y `ramaB`, ambas a partir de la rama `main`.
+![alt text](image-19.png)
+![alt text](image-20.png)
+
+- En `ramaA`, crear un archivo llamado `archivoA.txt` con el contenido:  
+  `Contenido A`
+  ![alt text](image-21.png)
+
+- En `ramaB`, crear un archivo con el mismo nombre (`archivoA.txt`), pero con el contenido:  
+  `Contenido B`
+  ![alt text](image-22.png)
+
+- Resolver el conflicto combinando ambos contenidos (por ejemplo: `Contenido combinado A+B`).
+![alt text](image-18.png)
+
+
+- Realizar el merge de `ramaA` hacia `develop`.
+![alt text](image-23.png)
+
+- Crear un **pull request** desde `ramaA` hacia `develop`.
+![alt text](image-24.png)
+- El pull request debe estar **configurado para requerir revisión y ser aprobado por el docente**.
+![alt text](image-25.png)
+- Una vez completado el merge, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
+![alt text](image-26.png)
 
 ---
 
@@ -237,4 +333,9 @@ El archivo gitignore no detectara para commits los archivos con extension
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+- Trabajar en la rama `develop` del fork del repositorio.
+
+- Eliminar los archivos `archivoA.txt` y `archivoB.txt` creados en preguntas anteriores.
+- Realizar un merge desde `develop` hacia `main` en el repositorio local.
+- Enviar los cambios de la rama `main` local a la rama `develop` del repositorio remoto (fork).
+- Finalmente, crear un **pull request** desde la rama `develop` del fork hacia la rama `main` del repositorio original (del cual se realizó el fork en la Pregunta 1), en la descripción colocar el link de su repositorio de GitHub.
