@@ -1,10 +1,10 @@
-# Universidad técnica de Ambato
-## Facultad de Ingenieria en Sistemas, Electronica e Industrial  
-### Carrera de Ingeniería en Software  
+# Universidad Técnica de Ambato
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial.  
+### Carrera de Ingeniería en Software.  
 
-**Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Johan Gabriel Rodríguez Núñez
-**Fecha:** 30/04/2025  
+**Asignatura:** MyCS - Manejo y Configuración de Software  
+**Nombre del Estudiante:** Johan Rodríguez
+**Fecha:** Miercoles, 30 de Abril del 2025 
 
 ---
 
@@ -114,6 +114,7 @@ El archivo .gitignore sirve para poder excluir archivos a voluntad de nosotros d
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+![alt text](image-8.png)
 
 ---
 
