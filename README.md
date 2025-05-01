@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Josue Guevara  
+**Nombre del Estudiante:** Josue Sebastian Guevara Tierras  
 **Fecha:** 30/4/2025
 
 ---
@@ -144,6 +144,9 @@ Correccion de ignore.gitignore de temp/ a /temp  y demostracion de que no aparec
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Iniciacion de gitflow en el proeco y los comandos para crear la rama `feature`
+![alt text](image-6.png)
+![alt text](image-7.png)
 
 ---
 
