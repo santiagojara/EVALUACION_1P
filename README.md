@@ -29,13 +29,6 @@
 - `fork`
 - `git pull`
 
-Respuesta:
-**`git clone`** es un comando que se utiliza para copiar un repositorio remoto completo a la máquina local, incluyendo todo su historial de versiones.
-
-**`fork`** es una funcionalidad ofrecida por GitHub que permite crear una copia independiente de un repositorio en la cuenta del usuario, con el fin de realizar cambios sin afectar el repositorio original.
-
-**`git pull`** es un comando que permite obtener y fusionar los cambios más recientes desde un repositorio remoto al repositorio local.
-
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
@@ -48,6 +41,32 @@ Respuesta:
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+Respuesta:
+**`git clone`** es un comando que permite copiar un repositorio remoto completo al equipo local, incluyendo todos sus archivos, ramas y el historial completo de versiones. Es el primer paso para trabajar localmente con un proyecto alojado en plataformas como GitHub.
+
+**`fork`** es una funcionalidad propia de GitHub que genera una copia independiente de un repositorio en la cuenta personal del usuario. Esta copia permite experimentar, modificar o proponer cambios sin afectar el repositorio original, facilitando la colaboración en proyectos públicos.
+
+**`git pull`** es un comando que recupera los últimos cambios desde el repositorio remoto y los fusiona con la rama activa del repositorio local. Es fundamental para mantener sincronizados los avances de múltiples colaboradores.
+
+---
+
+**1. ¿Cómo se realizó el fork?**  
+Se accedió al repositorio original del docente y se presionó el botón **Fork** en la parte superior derecha de GitHub. Esto creó una copia del repositorio en mi cuenta personal (`StevenParedes0w0`).
+
+![Fork](img/fork.png)
+
+**2. ¿Cómo se realizó el clone del fork?**  
+Una vez hecho el fork, se copió la URL del nuevo repositorio forkeado y se utilizó el comando:
+git clone https://github.com/StevenParedes0w0/EVALUACION_1P_2525.git
+![Clone](img/clone.png)
+
+**3. ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?**  
+Se utilizó el comando git remote -v, que mostró las URLs asociadas al repositorio remoto. Estas indicaron claramente que se estaba trabajando con el repositorio de StevenParedes0w0 y no con el original, lo cual confirmó que el fork se clonó correctamente.
+
+- 📌 _Verificación del fork con `git remote -v`:_
+
+  ![Remoto](img/remote-v.png)
 
 ---
 
