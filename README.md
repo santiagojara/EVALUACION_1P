@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** MyCS - Manejo y Configuración de Software  
-**Nombre del Estudiante:** Johan Gabriel Rodríguez Núñez
+**Nombre del Estudiante:** Johan Rodríguez
 **Fecha:** 30/04/2025  
 
 ---
@@ -114,6 +114,7 @@ El archivo .gitignore sirve para poder excluir archivos a voluntad de nosotros d
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+![alt text](image-8.png)
 
 ---
 
