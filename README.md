@@ -113,10 +113,13 @@ En la siguiente imagen se muestra mediante el comando `git status` que los archi
 - Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre de la feature.
  git flow init
  git flow feature start ingresar-encabezado
-
+ git flow feature finish ingresar-encabezado
 
  - Descripción del proceso seguido
- Primero se debe iniciar con el comando git flow init luego se selecciona las ramas main y develop, para luego crear el la rama feature/ingresar-encabezado desde la rama develop
+ Primero se debe iniciar con el comando git flow init luego se selecciona las ramas main y develop, para luego crear el la rama feature/ingresar-encabezado desde la rama develop, hacer los cambios necesarios en la feature y luego cerrala con el comando  git flow feature finish ingresar-encabezado
+
+ - Ventajas
+ Git Flow facilita la organización, mejora la colaboración, y promueve un proceso de lanzamiento predecible y controlado
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
