@@ -143,6 +143,29 @@
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+
+
+**Descripción del proceso:**
+- git flow init: 
+  
+  Inicializa Git Flow con las ramas estándar: main (producción), develop (desarrollo), y tipos como feature, release, etc.
+
+- git flow feature start: 
+
+  Crea una rama feature/ingresar-encabezado a partir de develop para trabajar la nueva funcionalidad sin afectar el código base.
+
+- Commits: 
+  
+  Se realizan los cambios y se confirman en la rama feature.
+
+- git flow feature finish: 
+
+  Fusiona la rama feature a develop, elimina la rama feature localmente, y registra el cierre de la funcionalidad.
+
+**Reflexión:**
+
+Git Flow permite un desarrollo ordenado, facilitando la colaboración y el control de versiones en proyectos de larga duración. Cada funcionalidad, mejora o corrección se desarrolla en su propia rama, lo que previene errores en producción y mejora la trazabilidad de los cambios.
+
 ---
 
 ## Pregunta 4 (2 puntos)
