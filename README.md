@@ -112,6 +112,12 @@ git flow feature finish ingresar-encabezado
 
 Primero lo que se hizo es iniciar el git flow, luego se dio enter a todo, luego se creo la rama de tipo feature `ingresar-encabezado` luego en esa rama se modifico el encabezado, se hizo el commit y se finalizo la feature.
 
+Ventajas de aplicar Git Flow
+-Organización clara: Separa las ramas de producción, desarrollo y nuevas funcionalidades.
+
+-Colaboración eficiente: Facilita el trabajo en equipo, ya que cada persona puede desarrollar nuevas funcionalidades sin interferir con la rama principal.
+
+-Control del flujo de cambios: Permite una integración más controlada y progresiva, ideal para proyectos de larga duración.
 
 ---
 
