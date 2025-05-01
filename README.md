@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [UNIVERSIDAD TECNICA DE AMBATO]  
+## Facultad de [FISEI]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Erick Aguilar  
+**Fecha:** 30/4/2025 
 
 ---
 
@@ -38,7 +38,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+**Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
+- `git clone`  
+- `fork`  
+- `git pull`
+Git clone se usa para "copiar" los archivos que tenemos en un repositorio remoto en git hub
+a nuestro repositorio local, a donde nosotros hayamos configurado como repositorio main
+Fork es "copiar" los archivos seleccionados de un repositorio y crear un repositorio remoto nuevo 
+en la cuenta del usuario que hizo el fork
+git pull es un comando que se usa para traer los cambios de una rama remota a una rama local
+
+ ¿Cómo se realizó el fork?
+ El fork se realiza unicamente seleccionando el botón de fork que aparece en el repositorio que deseo clonar
+ y llenando datos como el nombre que deseo darle al fork y su descripcion
+  ¿Cómo se realizó el clone del fork?
+  Con el comando git clone seguido del link de mi repositorio fork 
+  ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Después de clonar el repositorio, ejecuté el comando:git remote -v y mostro mi cuenta como el origin
+
+  [Evidencia de fork realizado](imagenes/cap1.png)
 
 ---
 
