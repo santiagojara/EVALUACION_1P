@@ -131,7 +131,35 @@ Esto se verificó creando un archivo llamado `registro.log` y una carpeta `temp/
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos utilizados:
+
+```bash
+git flow init
+git flow feature start ingresar-encabezado
+git add README.md
+git commit -m "Se modificó el encabezado con los datos del estudiante"
+git flow feature finish ingresar-encabezado
+git tag "Pregunta3"
+git push
+git push --tags
+git push --set-upstream origin develop
+```
+
+# Descripción del proceso
+
+Se inició **Git Flow** utilizando las ramas por defecto `main` y `develop`.  
+A continuación, se creó una rama de tipo `feature` llamada `ingresar-encabezado`, desde la cual se modificó el encabezado del archivo `README.md` añadiendo los datos personales del estudiante.  
+Se realizaron **dos commits** durante el desarrollo.  
+Finalmente, se finalizó la rama `feature` usando el comando:
+
+```bash
+git flow feature finish ingresar-encabezado
+```
+
+# Reflexión
+
+Aplicar **Git Flow** permite mantener un flujo de trabajo organizado, especialmente en equipos donde múltiples personas desarrollan funcionalidades simultáneamente.  
+El uso de ramas dedicadas (`feature`, `release`, `hotfix`) facilita la integración, evita conflictos y mejora la trazabilidad en proyectos de largo plazo.
 
 ---
 
