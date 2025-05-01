@@ -181,6 +181,7 @@ Correccion de ignore.gitignore de temp/ a /temp  y demostracion de que no aparec
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 ![alt text](image-9.png)
+![alt text](image-10.png)
 ---
 
 ## Pregunta 5 (2 puntos)
