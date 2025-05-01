@@ -1,10 +1,10 @@
-# Universidad [TECNICA DE AMBATO]  
-## Facultad de [INGENIERIA EN SISTEMAS ELECTRONICA E INDUSTRIAL]  
-### Carrera de Ingeniería en Software  
+# Universidad [TÉCNICA DE AMBATO]  
+## Facultad de [INGENIERIA EN SISTEMAS,ELECTRONICA E INDUSTRIAL (FISEI)]  
+### Carrera de Ingeniería en SoftwarE  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Cristian Ango 
-**Fecha:** 30 de Abril del 2025  
+**Nombre del Estudiante:** Cristian Alonso Ango Andrango  
+**Fecha:** 30 de Abril del 2025 
 
 ---
 
@@ -117,7 +117,10 @@ IMAGEN QUE CONFIRMA EL FORK
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Primero se inicia el git flow  con el comando "git flow init", luego de eso en develop vamos a usar el comando para iniciar la rama "ingresar-encabezado" y de ahi tendremos que realizar los cambios que nos pide el literal 3 , despues con el comando "git flow finish ingresar-encabezado"
+Evidencias: 
 
+![alt text](image-7.png)
 ---
 
 ## Pregunta 4 (2 puntos)
