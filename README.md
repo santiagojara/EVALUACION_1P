@@ -114,7 +114,26 @@ segundo commit
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Comandos de git flow
+git flow init
+git flow feature start ingresar-encabezado
+git add .
+git commit
+git add .
+git commit
+git add .
+git commit
+git tag -a Pregunta3 -m "Pregunta3"
+git flow feature finish ingresar-encabezado
+- Proceso
+se ingresa git flow init
+presiono enter con los ajustes por defecto
+creo la feature con git flow feature start ingresar-encabezado
+hago un cambio y el primer commit con el nombre
+hago un segundo commit con la fecha
+hago un commit final con la respuesta
+agrego un tag al ultimo commit
+cierro la feature con git flow feature finish ingresar-encabezado
 
 ---
 
