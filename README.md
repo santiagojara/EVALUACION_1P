@@ -1,6 +1,6 @@
-# Universidad [Nombre de la Universidad]
+# Universidad Técnica de Ambato
 
-## Facultad de [Nombre de la Facultad]
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial
 
 ### Carrera de Ingeniería en Software
 
@@ -88,7 +88,20 @@ Se utilizó el comando git remote -v, que mostró las URLs asociadas al reposito
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+📝 Respuesta:
+
+El archivo `.gitignore` permite definir qué archivos o carpetas deben ser ignorados por Git, es decir, no serán rastreados ni enviados al repositorio. Esto es útil para evitar subir archivos innecesarios, generados automáticamente o temporales.
+
+En este caso, se configuró para ignorar:
+
+- Todos los archivos con extensión `.log`
+- Una carpeta llamada `temp/`
+
+Esto se verificó creando un archivo llamado `registro.log` y una carpeta `temp/` con contenido. Al ejecutar `git status`, estos archivos no aparecieron como cambios detectados, lo que demuestra que Git los está ignorando correctamente.
+
+📎 **Evidencia visual:**
+![Archivo .gitignore](img/gitignore.png)
+![Archivos ignorados](img/ignorado.png)
 
 ---
 
