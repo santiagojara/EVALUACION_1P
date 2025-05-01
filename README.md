@@ -158,6 +158,7 @@ Pull Request (PR): Es una propuesta para añadir tus cambios de código (hechos 
 Diferencia y Relación:
 Un Issue es el problema o tarea a resolver (el objetivo). Un Pull Request es la solución propuesta en código que busca ser integrada, y a menudo un PR cierra el Issue que abordaba. Ambos son esenciales para organizar el trabajo, el seguimiento y la colaboración en equipo.
 
+-Se esta creando un issue con el #2
 ## Pregunta 5 (2 puntos)
 
 **Resolver conflictos entre ramas y realizar un Pull Request controlado**
