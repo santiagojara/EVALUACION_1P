@@ -82,7 +82,19 @@ Para saber que estamos trabajando sobre un fork se realiza el siguiente comando 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El .gitignore es para especificar archivos/patrones que Git debe ignorar y no rastrear, como archivos de configuración local, logs, dependencias, etc.
+
+Dentro del .gitignore se coloco lo siguiente
+```
+*.log
+temp/
+```
+Se muestra que se ignora:
+
+![se ve que los archivos son ignorados](img/captura5.png)
+
+Se comprueba lo que se ignora:
+![se ve que solo NoseIgnora.txt](img/captura4.png)
 
 ---
 
