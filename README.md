@@ -81,10 +81,18 @@ El archivo .gitignore sirve para indicar a Git qué archivos o carpetas no deben
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+-1er commit 
+**Configurar un archivo `.gitignore` para que ignore:**
+![alt text](image-2.png)
+- Todos los archivos con extensión `.log`.
+- Una carpeta llamada `temp/`.
+![alt text](image-3.png)
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+-2do commit
+Función del archivo .gitignore:
+El archivo .gitignore sirve para indicar a Git qué archivos o carpetas no deben ser rastreados ni añadidos al repositorio. Esto se utiliza para excluir archivos temporales, de configuración local o binarios generados automáticamente que no deben ser parte del control de versiones.
+![alt text](image-4.png)
 
----
 
 ## Pregunta 3 (2 puntos)
 
