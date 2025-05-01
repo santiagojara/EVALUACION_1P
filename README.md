@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Verónica Jaque
+**Fecha:** 30-04-2025 
 
 ---
 
@@ -88,7 +88,8 @@ El archico gitigore tiene las reglas de log y temp/ que ignora los archivos .log
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Primero: git flow init, se elige main y develop
+Segundo: 
 
 ---
 
