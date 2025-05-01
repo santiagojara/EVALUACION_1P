@@ -58,7 +58,7 @@ Primero de esta en el ropositorio requerido, se hace click en el boton de fork y
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archico gitigore tiene las reglas de log y temp/ que ignora los archivos .log y las carpetas temp/ y todo su comtenido
 
 ---
 
