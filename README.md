@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Sebastian Santana  
+**Nombre del Estudiante:** Sebastian Israel Santana Duran.  
 **Fecha:** 30/04/2025  
 
 ---
