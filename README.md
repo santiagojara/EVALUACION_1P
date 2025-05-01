@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alejandro Andrade  
+**Fecha:** 30/04/2025  
 
 ---
 
@@ -37,7 +37,20 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+- `git clone:` Este comando nos sirve para realizar una clonacion de un repositorio remoto hacia nuestra maquina de forma local. 
+- `fork:` Un fork nos sirve para hacer una copia de un repositorio hacia nuestra cuenta de GitHub.
+- `git pull:` Este comando nos sirve para traes los cambios que se han realizado en un repositorio remota hacia nuestra maquina local.
 
+- ¿Cómo se realizó el fork?
+- Para esto se tiene que estar en el repositorio remoto EVALUACION_1P_2525 del ingeniero Santiago Jara, donde en la parte derecha se visualizara una sección con el nombre de fork, se debe dar click ahí y seleccionar un nombre con el cual se guardara en nuestra cuenta de GitHub, luego hay que desmacar la opcion de solo traer la rama main y dar en continuar y con eso ya tendriamos el una copia de ese repositorio en nuestra cuenta de GitHub.
+  - ¿Cómo se realizó el clone del fork?
+  - Para esto se debe seleccionar el apartado de Code en nuestra cuenta de GitHub, donde esta el repositorio copiado mediante fork y copiar la URL y luego donde se va clonar el repositorio se debe digitar el comando `git clone <url>`.
+![alt text](image-1.png)
+  
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - Hay que tomar en cuneta que se debe estar en nuestra  cuenta de GitHub y que debajo del repositorio diga que es un fork de usuario de GitHub que se haya realizado el fork.
+
+  ![alt text](image.png)
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
@@ -58,7 +71,16 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+**Configuración del .GITIGNORE**
+![alt text](image-2.png)
 
+**primer commit**
+![alt text](image-3.png)
+
+**segundo commit**
+GITIGNORE:Se utiliza para evitar que ciertos archivos, modulos y carpetas sean rastreados por Git, de esta manera manteniendo el repositorio limpio.
+En la siguiente imagen se muestra mediante el comando `git status` que los archivos .log y la carpeta temp/ no esta siendo rastreada.
+![alt text](image-4.png)
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
