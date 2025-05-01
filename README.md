@@ -75,7 +75,9 @@ Dentro del repositorio clonado en mi máquina local, ejecuté el comando git rem
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+-Creamos el gitignore y creamos el commit
+
+2. El gitignore permite ignorar archivos especificados, las evidencias de que los archivos o carpetas no estan siendo rastreadas es porque el git status no los mostro
 
 ---
 
