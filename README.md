@@ -114,7 +114,12 @@ El archivo .gitignore sirve para poder excluir archivos a voluntad de nosotros d
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Se debe de inicializar el git flow con el comando 'Git flow init'.
 ![alt text](image-8.png)
+Se crea una nueva rama para la funcionalidad ingresar-encabezado con 'Git flow start ingresar-encabezado'
+![alt text](image-9.png)
+Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
+![alt text](image-10.png)
 
 ---
 
