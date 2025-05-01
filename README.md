@@ -155,7 +155,18 @@ Inicialicé el flujo de trabajo con git flow init, lo que creó las ramas main y
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un issue en GitHub?
+Un issue es una herramienta para reportar tareas, errores, ideas o mejoras dentro de un repositorio. Permite registrar y asignar trabajo, establecer prioridades y mantener un seguimiento organizado del progreso.
+
+¿Qué es un pull request?
+Un pull request (PR) es una solicitud para fusionar cambios desde una rama a otra (por ejemplo, desde develop a main). Antes de fusionarse, el PR puede ser revisado por otros colaboradores para discutir los cambios, proponer mejoras o aprobarlos.
+
+Diferencias y relación entre ambos:
+Un issue representa un problema o tarea.
+
+Un pull request es la implementación que resuelve uno o más issues.
+
+En equipos colaborativos, se suelen abrir issues para asignar trabajo, y luego vincularlos a PRs que los resuelven.
 
 ---
 
