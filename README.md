@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Dennis  
+**Fecha:** 30/04/2025
 
 ---
 
@@ -37,8 +37,32 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+- `git clone`: Copia un repositorio completo desde un servidor remoto (como GitHub) a tu computadora  
+- `fork`: Es una copia de un repositorio que se crea en tu cuenta de GitHub, no en tu PC.  
+- `git pull`: Descarga y fusiona los últimos cambios del repositorio remoto a tu rama local.
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+  - ¿Cómo se realizó el fork?
+    
+    Primero, abrimos el repositorio que deseamos hacer el fork, que en este caso sería:
+    https://github.com/santiagojara/EVALUACION_1P_2525.git
+
+   Seguidamente, hacemos clic en el botón "Fork" (ubicado en la esquina superior derecha de la página de GitHub).
+   GitHub nos pedirá confirmar en qué cuenta se hará el fork. Podemos asignarle un nuevo nombre al repositorio si lo deseamos, o dejar el mismo nombre.
+
+   Una vez confirmado, GitHub creará una copia del repositorio original en tu cuenta, lista para que puedas modificarla sin afectar el proyecto original.
+   
+
+  - ¿Cómo se realizó el clone del fork?
+   
+   Se realizó el clone del fork mediante el comando git clone https://github.com/DennisQuisaguano/EVALUACION_1P_2525.git. Este comando permite descargar una copia exacta del repositorio fork desde GitHub hacia el equipo local. Al clonar el fork, se obtiene todo el historial del proyecto, incluyendo archivos, ramas y commits, lo que permite trabajar de manera independiente en el desarrollo sin afectar el repositorio original.
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+   Para verificar que se estaba trabajando sobre el fork y no sobre el repositorio original, se utilizó el comando git remote -v. Este comando muestra las URLs asociadas al repositorio local. Al ejecutarlo, se confirmó que la URL del remoto apuntaba al fork personal (por ejemplo, https://github.com/DennisQuisaguano/EVALUACION_1P_2525.git) y no al repositorio original (https://github.com/santiagojara/EVALUACION_1P_2525.git).
+
+   ![Logo del proyecto](/Imagenes/Imagen1.jpg)
 
 ---
 
@@ -60,6 +84,13 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+1.-  Se puso las reglas para el .gitignore
+![Imagen .gitignore](/Imagenes/Imagen2.jpg)
+
+2. El archivo .gititnore nos ayuda a que no tenga seguimitos a las archivos que restriguimos.
+![Imagen .gitignore](/Imagenes/Imagen.gitignore.jpg)
+
 
 ---
 
