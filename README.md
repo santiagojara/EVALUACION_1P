@@ -186,7 +186,15 @@ Se trabajó en la rama develop del repositorio configurado con Git Flow. Primero
 
 ### Número del Issue Creado: #6
 
+### Enlace al Pull request
 
+https://github.com/santiagojara/EVALUACION_1P_2525/pull/12#issue-3032862567
+
+### Explicación de como se comprobó
+
+GitHub nos dice que necesita que se revise
+
+![alt text](image-7.png)
 
 
 ## Pregunta 5 (2 puntos)
