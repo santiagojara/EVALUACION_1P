@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato 
+## Facultad de Ingenieria en Sistemas Electronica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Ismael Cuadrado  
+**Fecha:** 30/04/2025
 
 ---
 
@@ -110,7 +110,10 @@ se realizo un git status para ver la funcionalidad del .gitignore lo cual no nos
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+Para inicializar git flow y utilizamos el siguiente comando : git flow init
+![alt text](image-8.png)
+Para crear la rama en git flow utilizamos, primero utilizamos el comando de git checkout develop para verificar si estabamso situados en develop, segundo utilizamso el segundo comando para crear la nueva rama git flow feature start feature/ingresar-encabezado.
+![alt text](image-9.png)
 ---
 
 ## Pregunta 4 (2 puntos)
