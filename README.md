@@ -152,6 +152,10 @@ Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
 - El enlace al pull request.
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
+
+**📝 Respuesta:**
+
+<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 1. Primeramente se debe de crear un Issue en el repositorio del cual se forkeo.
 ![alt text](image-12.png)
 ![alt text](image-11.png)
@@ -159,13 +163,15 @@ Se finaliza la funcionalidad con 'Git flow finish ingresar-encabezado'
 2. El numero del issue es el #11
 ![alt text](image-13.png)
 
+3. Se debe de crear el pull request de develop a main en mi repositorio.
+![alt text](image-14.png)
 
+4. Se debe de agregar 'Closes #11' para una vez aprobado el pull request se cierre el issue.
+![alt text](image-15.png)
 
-
-**📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-Primeramente se debe de 
+5. Se sabe que el repositiorio al que se quiere hacer pull request necesita revisión gracias a un mensaje de GitHub que indica si necesita revision.
+![alt text](image-17.png)
+![alt text](image-19.png)
 
 ---
 
@@ -199,9 +205,27 @@ Primeramente se debe de
 - El enlace al pull request.
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
 
+
+
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+1. Las ramas se crearon a partir de la interfaz grafica de GitHub:
+![alt text](image-18.png).
+2. Se generó el conflicto debido a que las 2 ramas tienen el mismo archivo.
+![alt text](image-20.png)
+![alt text](image-21.png)
+3. Se necesita solucionar el conflicto.
+![alt text](image-22.png)
+4. El merge a develop se lo debe de hacer una vez se soluciono el conflicto y se haya hecho el merge a RamaA para que se pueda hacer ahora a develop
+5. El docente verifico la revisión.
+![alt text](image-23.png)
+6. Las ramas son eliminadas a traves de la plataforma de GitHub.
+![alt text](image-24.png)
+y se pueden eliminar localmente con el comando 'git branch -d RamaA' 'git branch -d RamaA'
+![alt text](image-25.png)
+
+Un conflicto es cuando los archivos existen incopatibilidades
 
 ---
 
@@ -228,5 +252,3 @@ Primeramente se debe de
 - Una reflexión sobre la importancia del versionamiento semántico y del uso de forks y pull requests en equipos de trabajo.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
