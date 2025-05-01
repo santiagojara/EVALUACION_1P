@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato  
+## Facultad de Sistemas  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alex Reyes ___________________________  
+**Fecha:30/04/2025** ___________________  
 
 ---
 
@@ -26,7 +26,6 @@
 - `git clone`  
 - `fork`  
 - `git pull`
-
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
@@ -39,6 +38,22 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+El git clone Crea una copia local exacta de un repositorio remoto.
+fork Crea una copia del repositorio bajo tu propia cuenta de GitHub.
+git pull Descarga los cambios más recientes del repositorio remoto y los fusiona con tu rama actual.
+
+Para realizar el fork selecione la obcion 
+fork en el repocitorio original
+ ![im1](image/fork.jpg)
+![im2](image/fork2.jpg)
+ se clono usan el comando 
+ git clone 
+ https://github.com/alexJonarey/EVALUACION_1P_2525
+ ![im3](image/clone.jpg)
+ y se verifio que no se trabajaba sobre el original usando el comando
+  git remote -v
+  dandome como resultado
+![im1](imagenes/remote.jpg)
 
 ---
 
@@ -59,9 +74,6 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
----
 
 ## Pregunta 3 (2 puntos)
 
