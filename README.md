@@ -80,6 +80,11 @@ ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x
 
 **primer commit**
 ![alt text](<imagenes/primer commit.png>)
+**segundo commit**
+![alt text](<imagenes/segundo commit.png>)
+
+**tag pregunta 2**
+![alt text](<imagenes/tag pregunta 2.png>)
 ---
 
 ## Pregunta 3 (2 puntos)
