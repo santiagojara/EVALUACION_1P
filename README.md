@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Alexis López 
-**Fecha:** 30/04/2025
+**Nombre del Estudiante:** Alexis Eduaro López Guerrero
+**Fecha:** 30-04-2025
 
 ---
 
@@ -81,7 +81,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. **Configurar un archivo `.gitignore`**
+
+![alt text](image-4.png)
+
+2. Explicación .gitignore
+
+Función del archivo .gitignore: Especifica archivos o carpetas que Git debe ignorar, es decir, no los rastreará ni los incluirá en los commits.
+
+![alt text](image-5.png)
 
 ---
 
@@ -111,7 +119,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+1. Descripción del proceso:
+
+- Se inicializó Git Flow.
+- Se creó una rama feature/ingresar-encabezado.
+- Se completó el encabezado del README.md.
+- Se hicieron commits intermedios.
+- Al finalizar, Git Flow fusionó la feature en develop y eliminó la rama de forma automática.
+
+
 
 ---
 
