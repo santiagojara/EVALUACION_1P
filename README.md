@@ -111,7 +111,10 @@ se muestra el tag
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Se inicia el git flow en el repositorio 
+![alt text](image-6.png)
+
+
 
 ---
 
