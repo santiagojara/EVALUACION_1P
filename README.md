@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Alexis López 
+**Nombre del Estudiante:** Alexis Eduaro López Guerrero
 **Fecha:** 30/04/2025
 
 ---
@@ -81,7 +81,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. **Configurar un archivo `.gitignore`**
+
+![alt text](image-4.png)
+
+2. Explicación .gitignore
+
+Función del archivo .gitignore: Especifica archivos o carpetas que Git debe ignorar, es decir, no los rastreará ni los incluirá en los commits.
+
+![alt text](image-5.png)
 
 ---
 
