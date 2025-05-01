@@ -148,7 +148,25 @@ Añadi los cambios de README a stating con git add README.md y realice el commit
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+¿Qué es un Issue en GitHub?
+Un issue (incidencia, problema, o tarea) en GitHub es una herramienta fundamental para el seguimiento del trabajo dentro de un repositorio.
 
+¿Qué es un Pull Request (PR) y cuál es su finalidad?
+Un Pull Request (PR) o Solicitud de Extracción en GitHub es el mecanismo principal para proponer cambios a un repositorio. 
+
+Diferencia entre Issue y Pull Request y su Relación
+Issue: Describe qué necesita hacerse, mejorarse o arreglarse. Es el "problema" o la "tarea". Se enfoca en el seguimiento y la discusión del trabajo pendiente.
+Pull Request: Propone una solución específica (un conjunto de cambios en el código) para un issue o para añadir una nueva funcionalidad. Es la "propuesta de cambio" lista para revisión e integración.
+
+Relación en Entorno Colaborativo:
+Se relacionan estrechamente:
+Un issue se crea primero para identificar y describir un trabajo a realizar (ej. "Issue #15: Arreglar error de login").
+Un desarrollador toma ese issue, crea una rama (ej. fix/login-bug) y trabaja en la solución.
+Una vez que tiene la solución lista en su rama, crea un Pull Request desde su rama (fix/login-bug) hacia la rama principal de desarrollo (develop).
+Crucialmente, vincula el Pull Request al Issue (ej. escribiendo "Closes #15" en la descripción del PR).
+El equipo revisa el código en el PR.
+Una vez aprobado y fusionado el PR, GitHub puede cerrar automáticamente el Issue vinculado (#15), indicando que el trabajo está completado e integrado.
+Este flujo conecta el problema (Issue) con su solución propuesta y revisada (Pull Request), manteniendo la trazabilidad del trabajo.
 ---
 
 ## Pregunta 5 (2 puntos)
