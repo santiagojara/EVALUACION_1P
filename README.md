@@ -90,6 +90,10 @@ El archico gitigore tiene las reglas de log y temp/ que ignora los archivos .log
 
 Primero: git flow init, se elige main y develop
 Segundo: git flow feature start ingresar-encabezado
+Tercero: git add READEME.md 
+Cuarto: git commit -m
+Quinto: git flow feature finish ingresar-encabezado
+Sexto: git tag "Pregunta3"
 
 ---
 
