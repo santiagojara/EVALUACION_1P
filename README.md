@@ -311,3 +311,23 @@ git push origin --delete ramaB
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+Proceso realizado paso a paso:
+Cambié a la rama develop:
+git checkout develop
+
+Eliminé los archivos archivoA.txt y archivoB.txt:
+rm archivoA.txt archivoB.txt (en Windows: del archivoA.txt y del archivoB.txt)
+git add .
+git commit -m "Eliminar archivos innecesarios creados en preguntas anteriores"
+
+Hice merge desde develop hacia main:
+git checkout main
+git merge develop
+git push origin main
+
+Envié los cambios de la rama main local a la rama develop del fork:
+git push origin main:develop
+
+Creé un pull request desde la rama develop del fork hacia la rama main del repositorio original.
+En la descripción del PR incluí el enlace a mi repositorio personal:
+https://github.com/santiagojara/EVALUACION_1P_2525.git
