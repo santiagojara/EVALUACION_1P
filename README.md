@@ -183,7 +183,7 @@ segundo commit
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+![alt text](image-3.png)
 
 ---
 
