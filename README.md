@@ -103,7 +103,15 @@ A continuacion se adjunta la imagen donde se puede observar los archivos creados
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Los comandos exactos fueron:
+git flow init
+git flow feature start ingresar-encabezado
+git add README.md
+git commit -m "Se ingresaron los datos solicitados en el encabezado del README"
+git flow feature finish ingresar-encabezado
+
+Primero lo que se hizo es iniciar el git flow, luego se dio enter a todo, luego se creo la rama de tipo feature `ingresar-encabezado` luego en esa rama se modifico el encabezado, se hizo el commit y se finalizo la feature.
+
 
 ---
 
