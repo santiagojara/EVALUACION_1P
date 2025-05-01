@@ -168,7 +168,7 @@ Ventajas de usar git flow.
  - Se crea un issue en el repositorio original.
  - Se realiza el commit con la respuesta.
  - Se realiza el push a mi repositorio.
- - Issue #37.
+ - El número de es Issue #37.
  - Se revisa el pull request.
 ---
 
