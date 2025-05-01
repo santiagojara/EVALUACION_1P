@@ -180,7 +180,14 @@ Un pull request (PR) es una solicitud para fusionar los cambios realizados en un
 ### Diferencias
  La principal diferencia radica en que el issue se usa para planificar y discutir qué se debe hacer, mientras que el pull request muestra cómo se hizo y permite revisar el código antes de integrarlo. Ambos se relacionan directamente en entornos colaborativos: un issue puede originar un pull request, y este último puede cerrarlo automáticamente al completarse, asegurando trazabilidad y organización en el flujo de trabajo.
 
----
+### Resumen
+
+Se trabajó en la rama develop del repositorio configurado con Git Flow. Primero, se creó un issue titulado "Respuesta a la Pregunta 4" para documentar esta parte del trabajo. Luego, se editaron los contenidos del archivo README.md para incluir la parte teórica y práctica solicitadas. Los cambios fueron confirmados mediante un commit y se subieron a la rama develop en el repositorio remoto. Posteriormente, se generó un pull request desde develop hacia develop en GitHub, el cual fue vinculado al issue creado mediante la instrucción Closes #X. Finalmente, se verificó que el repositorio requiere una revisión previa antes de aceptar el merge, según la configuración de protección de ramas mostrada por GitHub.
+
+### Número del Issue Creado: #6
+
+
+
 
 ## Pregunta 5 (2 puntos)
 
