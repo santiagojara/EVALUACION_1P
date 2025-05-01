@@ -204,7 +204,10 @@ y se realiza el envio del pull request y se espera la respuesta.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
----
+---![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
 
 ## Pregunta 6 (2 puntos)
 
