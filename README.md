@@ -154,7 +154,13 @@ Evidencias:
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+Un Issue es una nota en un repositorio que trata de llamar la atención sobre un problema. Puede ser un error a corregir, una petición para añadir una nueva opción o característica, una pregunta para aclarar algún tema que no está correctamente aclarado o muchas otras cosas diferentes.
 ---
+Un pull request es una petición que el propietario de un fork de un repositorio hace al propietario del repositorio original para que este último incorpore los commits que están en el fork
+
+https://github.com/santiagojara/EVALUACION_1P_2525/issues/39
+
+
 
 ## Pregunta 5 (2 puntos)
 
