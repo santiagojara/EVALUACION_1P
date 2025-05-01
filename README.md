@@ -298,9 +298,14 @@ Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
 
 
 - Realizar el merge de `ramaA` hacia `develop`.
+![alt text](image-23.png)
+
 - Crear un **pull request** desde `ramaA` hacia `develop`.
+![alt text](image-24.png)
 - El pull request debe estar **configurado para requerir revisión y ser aprobado por el docente**.
+![alt text](image-25.png)
 - Una vez completado el merge, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
+![alt text](image-26.png)
 
 ---
 
@@ -328,4 +333,12 @@ Se relacionan  por que se puede cerrar automaticamente  al ser aceptado
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+- Trabajar en la rama `develop` del fork del repositorio.
+![alt text](image-28.png)
+- Eliminar los archivos `archivoA.txt` y `archivoB.txt` creados en preguntas anteriores.
+![alt text](image-27.png)
+- Realizar un merge desde `develop` hacia `main` en el repositorio local.
+![alt text](image-29.png)
+- Enviar los cambios de la rama `main` local a la rama `develop` del repositorio remoto (fork).
+
+- Finalmente, crear un **pull request** desde la rama `develop` del fork hacia la rama `main` del repositorio original (del cual se realizó el fork en la Pregunta 1), en la descripción colocar el link de su repositorio de GitHub.
