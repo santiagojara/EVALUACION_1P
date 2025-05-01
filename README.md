@@ -86,6 +86,7 @@ ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x
 
 **tag pregunta 2**
 ![alt text](<imagenes/tag pregunta 2.png>)
+
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -118,6 +119,12 @@ ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x
 ![alt text](<imagenes/pregunta 3.1.png>)
 **se verifico el estado de la rama feature creamos el commit**
 ![alt text](<imagenes/pregunta 3.2.png>)
+**finalizar tarea feature**
+se utiliza el comando *git flow feature finish ingresar-encabezado*
+![alt text](<imagenes/pregunta 3.3.png>)
+y para su verificacion se eliminara la rama feacture/ingresar-encabezado
+
+la ventaja de utilizar git flow es que nos permite trabajar de manera agil
 
 ---
 
@@ -149,8 +156,28 @@ ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+**¿Que es un un issus?**es una herramienta de seguimiento que permite:
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Reportar errores (bugs)
+
+Sugerir nuevas funcionalidades
+
+Documentar tareas pendientes o preguntas
+**¿que es un pull request?**
+Un pull request es una solicitud para fusionar cambios de una rama 
+Su finalidad principal es:
+
+Revisar los cambios antes de fusionarlos
+
+Discutir el código con otros colaboradores
+
+Asegurar calidad y control del proyecto
+
+
+Para documentar esta pregunta se siguieron los pasos del flujo de trabajo de Git Flow.  
+Se trabajó en la rama `develop`, se creó un issue titulado y se realizó esta modificación en el `README.md` como parte de su solución.
+
+
 
 ---
 
