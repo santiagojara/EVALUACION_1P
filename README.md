@@ -75,6 +75,17 @@
 
 **📝 Respuesta:**
 
+- El archivo **.gitignore** tiene la funcion de indicarle a nuestro Git que archivos, tipo de archivos o carpetas deben ser ignorados, esto quiere decir que los archivos especificados dentro de nuestro **.gitignore** no seguiran un rastreo, por lo que cualquier cambio realizado en estos no se tomara en cuenta al momento de realizar los commit respectivos.
+
+- Configuración del .gitignore:
+
+  ![Configuración del .gitignore](img\ignore.png)
+
+- Comprobación de que funciona:
+
+   ![Comprobación del .gitignore](img\comprobacion_ignore.png)
+
+
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
