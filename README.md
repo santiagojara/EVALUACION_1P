@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Vayas Trujillo Juan Pablo  
+**Fecha:** 30/04/2025 
 
 ---
 
@@ -38,6 +38,39 @@
 
 **📝 Respuesta:**
 
+git clone: Comando que se usa para clonar un repositorio remoto a la máquina local.
+
+fork: Acción en GitHub que copia un repositorio a una cuenta personal. 
+
+git pull: Comando que actualiza el repositorio local trayendo los últimos cambios del repositorio remoto.
+
+- ¿Cómo se realizó el fork?
+
+Ingresé al repositorio original en GitHub.
+
+Hice clic en el botón Fork en la parte superior derecha.
+
+Seleccioné mi cuenta personal como destino.
+
+GitHub creó una copia del repositorio en mi usuario.
+
+![alt text](image.png)
+
+- ¿Cómo se realizó el clone del fork?
+
+Ingrese al fork que hice del repositorio original.
+
+Cree una carpeta en mi computador e inicie Git Bash
+
+Ocupé el comando git clone y pegué la dirección https.
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+En el GitHub personal aparece dónde estoy trabajando.
+
+![alt text](image-1.png)
+
+
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
@@ -58,6 +91,19 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+
+Cree el archivo .gitignore
+![alt text](image-3.png)
+
+Y puse lo siguiente:
+
+![alt text](image-2.png)
+
+![alt text](image-4.png)
+
+No aparecen los archivos .log y tampoco la carpeta temp.
+
+![alt text](image-7.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
