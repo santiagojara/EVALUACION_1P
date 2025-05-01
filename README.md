@@ -114,7 +114,8 @@ temp/
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+Primeramente inicialice git flow con el comando: git flow init -d, seguido a eso inicie la rama de caracteristica feature con el comando: git flow feature start ingresar-encabezado, despues añadi los cambios de README al staging despues de editarlos con el comando: git add README.md, realice el commit intermedio con el comando: git commit -m "", y finalice la rama feature con: git flow feature finish ingresar-encabezado. 
+Añadi los cambios de README a stating con git add README.md y realice el commit -m "". Por ultimo, hice el tag del ultimo commit con git tag Pregunta-3 HEAD.
 ---
 
 ## Pregunta 4 (2 puntos)
