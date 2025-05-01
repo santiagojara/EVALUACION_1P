@@ -191,9 +191,41 @@ Un Issue es el problema o tarea a resolver (el objetivo). Un Pull Request es la 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+## Pregunta 5: Resolver conflictos entre ramas y realizar un Pull Request controlado
 
----
+### Explicación de Conflictos en Git
+
+Un **conflicto de fusión** en Git ocurre cuando intentas combinar (fusionar) dos ramas que han realizado cambios en la misma parte del mismo archivo, o cuando una rama ha eliminado un archivo que la otra ha modificado. Git es muy bueno fusionando automáticamente la mayoría de los cambios, pero cuando detecta modificaciones contradictorias en las mismas líneas, no puede decidir qué versión es la correcta y necesita que un humano intervenga para resolver la ambigüedad.
+
+En este caso particular, el conflicto ocurrió porque tanto `ramaA` como `ramaB`, creadas a partir de `main`, modificaron el **mismo archivo** (`archivoA.txt`) en las **mismas líneas** (o la línea principal del archivo) pero con **contenido diferente** ("Contenido A" vs "Contenido B"). Al intentar fusionar `ramaB` en `ramaA`, Git detectó estas dos versiones competidoras para la misma sección del archivo y detuvo el proceso de fusión, marcando el conflicto.
+
+### Procedimiento Realizado
+
+Para cumplir con los requisitos de esta pregunta, se llevaron a cabo los siguientes pasos:
+
+1.  **Creación de Ramas:** Se crearon dos nuevas ramas, `ramaA` y `ramaB`, a partir de la rama `main` utilizando `git checkout -b ramaA main` y `git checkout -b ramaB main`.
+2.  **Modificaciones en Ramas:**
+    * Se cambió a `ramaA` (`git checkout ramaA`).
+    * Se creó el archivo `archivoA.txt` con el contenido "Contenido A".
+    * Se hizo commit de este cambio en `ramaA`.
+    * Se cambió a `ramaB` (`git checkout ramaB`).
+    * Se creó (o modificó) el archivo `archivoA.txt` con el contenido "Contenido B".
+    * Se hizo commit de este cambio en `ramaB`.
+3.  **Generación y Resolución del Conflicto:**
+    * Se cambió de vuelta a `ramaA` (`git checkout ramaA`).
+    * Se intentó fusionar `ramaB` en `ramaA` (`git merge ramaB`). Como era esperado, Git reportó un conflicto en `archivoA.txt`.
+    * Para resolver el conflicto, se editó manualmente `archivoA.txt`. El archivo contenía marcadores de conflicto (como `<<<<<<<`, `=======`, `>>>>>>>`). Se eliminaron estos marcadores y se modificó el contenido para que quedara "Contenido combinado A+B".
+    * Se añadió el archivo resuelto al *staging area* (`git add archivoA.txt`).
+    * Se completó el proceso de fusión haciendo un commit de resolución de conflicto (`git commit`).
+4.  **Merge Hacia Develop:** Una vez que la rama `ramaA` contenía el cambio original y la resolución del conflicto fusionado desde `ramaB`, se procedió a integrar estos cambios en la rama `develop`. Se creó un Pull Request en GitHub proponiendo la fusión de la rama `ramaA` en la rama `develop`.
+5.  **Creación y Gestión del Pull Request:**
+    * Se subieron los cambios de `ramaA` al repositorio remoto (`git push origin ramaA`).
+    * Se navegó a la página de GitHub del repositorio y se creó un nuevo Pull Request desde `ramaA` hacia `develop`.
+    * Se verificó que la configuración del repositorio requería una revisión antes de permitir la fusión, ya que el botón de "Merge pull request" aparecía deshabilitado y se mostraba un mensaje indicando la necesidad de la aprobación del docente.
+    * Una vez que el Pull Request fue revisado y aprobado por el docente (según el requisito), se procedió a fusionarlo.
+6.  **Eliminación de Ramas:** Tras la fusión exitosa del Pull Request en `develop`, las ramas temporales `ramaA` y `ramaB` fueron eliminadas tanto localmente (`git branch -d ramaA ramaB`) como remotamente (`git push origin --delete ramaA ramaB`) para mantener el repositorio limpio.
+
+* **Enlace al Pull Request creado:** [ENLACE DEL PULL REQUEST]
 
 ## Pregunta 6 (2 puntos)
 
