@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Universidad Tecnica de Ambato  
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Anthony Semblantes. 
+**Fecha:** 30/04/2025
 
 ---
 
@@ -97,7 +97,7 @@ git pull: traer y fusionar los cambios desde el repositorio remoto al local.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+![Pregunta 1](Pre3.png)
 ---
 
 ## Pregunta 4 (2 puntos)
