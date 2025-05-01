@@ -137,6 +137,46 @@ El archivo gitignore lo que hace es ignorar los archivos con extensión .log y l
 
 **📝 Respuesta:**
 
+Comandos utilizados:
+
+git flow init
+
+git flow feature start ingresar-encabezado
+
+git add README.md
+
+git commit -m "Se está editando el encabezado del readme"
+
+git flow feature finish ingresar-encabezado
+
+git tag Pregunta-3
+
+Descripción del proceso:
+
+Inicialicé Git Flow con ramas main y develop.
+
+Usé git flow feature start para comenzar la rama de funcionalidad.
+
+Edité el encabezado del archivo README.md con mis datos personales.
+
+Realicé un commit con el cambio.
+
+Finalicé la feature para que los cambios se integren en develop.
+
+Apliqué el tag Pregunta-3 y subí los cambios al repositorio remoto.
+
+Ventajas de aplicar Git Flow:
+
+Mantiene un flujo de trabajo organizado y estructurado.
+
+Permite trabajar en paralelo sin interferir con la rama principal (main).
+
+Facilita la colaboración entre múltiples desarrolladores.
+
+Ayuda a llevar un control claro de cuándo una funcionalidad está lista para producción.
+
+Es ideal para proyectos grandes o de larga duración con muchas ramas activas.
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
@@ -169,6 +209,20 @@ El archivo gitignore lo que hace es ignorar los archivos con extensión .log y l
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+
+¿Qué es un Issue en GitHub?
+
+Es una herramienta que permite reportar errores, sugerir mejoras o planificar tareas dentro de un repositorio. Los issues se usan para organizar el trabajo en equipo, asignar tareas, discutir soluciones, y hacer seguimiento del progreso.
+
+¿Qué es un Pull Request?
+
+Un pull request es una solicitud para fusionar cambios hechos en una rama hacia otra, por ejemplo desde develop hacia main. Sirve para revisar, discutir y aprobar los cambios antes de que se integren al proyecto principal.
+
+Diferencia y relación:
+
+Diferencia: El issue es la tarea o problema, el pull request es la solución propuesta.
+
+Relación: Un pull request puede cerrar automáticamente un issue si se lo vincula usando palabras clave como Closes #4.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
