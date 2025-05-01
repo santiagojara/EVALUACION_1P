@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Brayan Pilla
+**Nombre del Estudiante:** Brayan Stiven Pilla Anancolla
 **Fecha:** 30/04/2025
 
 ---
