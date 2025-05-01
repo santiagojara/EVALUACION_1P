@@ -118,8 +118,33 @@ Para vefrificar que se estan ignorando se ejecuta git status y se evidencia lo s
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Pasos ycomandos usados desde la inicializacion:
 
+git flow init
+
+Crear y comenzar la rama feature/ingresar-encabezado:
+git flow feature start ingresar-encabezado
+
+Modificamos el encabezado
+
+Finalizar la funcionalidad de la feature:
+git flow feature finish ingresar-encabezado
+
+Subir cambios a GitHub:
+git push origin develop
+
+Descripcion:
+
+Inicializamos Git Flow con git flow init, creando las ramas main y develop.
+
+Creamos la rama de la feature con git flow feature start ingresar-encabezado y trabajamos en el archivo README.md para completar los datos personales del estudiante.
+
+Finalizamos la rama de la feature con git flow feature finish ingresar-encabezado, fusionando los cambios en develop.
+
+Finalmente, subimos los cambios al repositorio remoto.
+
+Ventajas de gitflow
+Git Flow ofrece una estructura organizada para el desarrollo de software, ideal para proyectos colaborativos o de larga duración. Permite trabajar en funcionalidades de manera independiente sin afectar el trabajo de otros, lo que facilita la colaboración. Además, facilita la creación de versiones estables y la corrección de errores de manera controlada, mejorando la calidad y gestión del código.
 ---
 
 ## Pregunta 4 (2 puntos)
