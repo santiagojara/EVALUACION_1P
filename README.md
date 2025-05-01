@@ -112,7 +112,7 @@ En este caso, se configuró para que ignore:
 
 ### Comandos utilizados en el proceso:
 
-```bash
+
 git flow feature start ingresar-encabezado
 git flow feature finish ingresar-encabezado
 git tag "Pregunta 3" 
@@ -121,7 +121,9 @@ Descripción del proceso:
 Inicialicé el flujo de trabajo con git flow init, lo que creó las ramas main y develop. Luego comencé una nueva feature (ingresar-encabezado) donde añadí mis datos personales al inicio del README. Hice un commit con esos cambios y finalmente finalicé la feature con git flow feature finish, lo que fusionó los cambios en develop.
 
 **Evidencia**:
-![Evidencia creacion del archivo gitignore](img/3.png)
+![Finalizar la feature](img/3.png)
+![Merge](img/4.png)
+![Mensaje final del merge](img/5.png)
 ---
 
 ## Pregunta 4 (2 puntos)
