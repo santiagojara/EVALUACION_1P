@@ -184,7 +184,8 @@ el #4
 - El enlace al pull request.
 https://github.com/materubag/EVALUACION_1P_2525_Fork/pull/1
 - Explicación 
-
+se debe agregar una regla para evitar merge directo a main
+![alt text](image-4.png)
 ![alt text](image-3.png)
 ---
 
