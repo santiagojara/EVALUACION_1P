@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Universidad Técnica de Ambato  
+## Facultad de Ingenieria en Sistemas, Electrónica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Vayas Trujillo Juan Pablo  
-**Fecha:** 30/04/2025 
+**Nombre del Estudiante:** Juan Pablo Vayas Trujillo  
+**Fecha:** 30/Abril/2025 
 
 ---
 
