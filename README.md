@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Josue Guevara  
+**Nombre del Estudiante:** Josue Sebastian Guevara Tierras  
 **Fecha:** 30/4/2025
 
 ---
