@@ -68,7 +68,9 @@ Se comprobó que la URL del repositorio remoto (git remote -v) apuntaba a mi cue
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+En el pdf se ajunta la captura de como se comprobó, para ello se creo un archivo de tipo .gitignre, luego se creo
+archivos para hacer pruebas y en le visual studio no reconoce como un archivo del directorio, eso se puede ver en 
+las capturas realizadas adjuntadas en el pdf.
 
 ---
 
