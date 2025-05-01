@@ -142,8 +142,25 @@ El archivo `.gitignore` se utiliza para indicarle a Git qué archivos o carpetas
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**¿Qué es un issue en GitHub?**  
+  Un *issue* es una herramienta de GitHub que permite reportar errores, sugerencias, tareas pendientes o nuevas funcionalidades. Sirve como una forma de gestionar el trabajo colaborativo y de hacer seguimiento de los avances.
 
+- **¿Qué es un pull request?**  
+  Un *pull request (PR)* es una solicitud para fusionar cambios desde una rama hacia otra (por ejemplo, de `develop` a `main`). Permite que otros revisen y aprueben los cambios antes de integrarlos, asegurando calidad y coordinación.
+
+- **Diferencia y relación entre ambos:**  
+  Un *issue* representa una tarea a realizar o un problema, mientras que un *pull request* es la acción de enviar cambios que posiblemente resuelven ese issue. Están relacionados porque muchas veces un PR cierra o resuelve un issue específico.
+
+
+**Resumen del procedimiento:**
+1. Me aseguré de estar en la rama `develop`.
+2. Creé un issue titulado "Respuesta a la Pregunta 4", indicando que su objetivo era documentar esta pregunta.
+3. Escribí la teoría y el resumen en esta sección del `README.md`.
+4. Hice un commit y lo subí a la rama `develop`.
+5. Creé un pull request de `develop` hacia `develop`, vinculando el issue con la línea `Closes #X`.
+6. Verifiqué que el repositorio exige una revisión antes de hacer merge, ya que GitHub muestra un mensaje que indica que la fusión está bloqueada hasta recibir aprobación.
+
+**Número del issue creado:** #29
 ---
 
 ## Pregunta 5 (2 puntos)
