@@ -2,9 +2,9 @@
 ## Facultad de [FISEI]  
 ### Carrera de Ingeniería en Software  
 
-**Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** José Manzano 
-**Fecha:** 30/04/2025
+**Asignatura:** Manejo y Configuración del Software  
+**Nombre del Estudiante:** José Gabriel Manzano Bahamonde 
+**Fecha:** 30 de Abril del 2025
 
 ---
 
