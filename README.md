@@ -65,7 +65,7 @@ Verificando la URL remota con <git remote -v>, que debe estar a mi fork.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+![log](img/1.PNG)
 ---
 
 ## Pregunta 3 (2 puntos)
