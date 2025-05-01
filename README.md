@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** ___Bryan Lopez________________________  
+**Fecha:** _____30/04/2025______________  
 
 ---
 
@@ -23,9 +23,9 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
-- `git pull`
+- `git clone `: copia un repositorio completo desde un servidor remoto a tu computadora (repositorio local).  
+- `fork` :  crea una copia personal completa de un repositorio ajeno en tu propia cuenta dentro de esa misma plataforma.
+- `git pull`: actualiza tu repositorio local trayendo los cambios desde un repositorio remoto al que está conectado (normalmente llamado origin, que suele ser tu fork o el repositorio original si no has hecho fork).
 
 ### Parte práctica:
 
@@ -39,7 +39,18 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-¿Cómo se realizó el fork?
+El fork se realiza directamente en la plataforma web donde está alojado el repositorio original.
+Navegamos a la página principal del repositorio original que se desea copiar.
+Buscamos y hacemos clic en el botón "Fork". 
+La plataforma creará automáticamente una copia completa del repositorio bajo tu cuenta. Nos redirige a la página de este nuevo repositorio (mi fork). 
 
+-¿Cómo se realizó el clone del fork?
+Nos dirigimos a la pagina de nuestro fork, en git Bash nos dirijimos a nuestra carpeta remota con el comando cd "url de la carpeta en nuestro dispositivo",ejecutamos el comando git clone y la url de nuestro repositorio, en este caso: https://github.com/BryanLopez257/EVALUACION_1P_2525.git
+
+-¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Se ejecuto el comando remote -v y nos muestra dos repositorios remotos configurados.
+<img src="EVALUACION_1p_2525/Imagenes/git remote.png">
 ---
 
 ## Pregunta 2 (1 punto)
@@ -60,6 +71,20 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+## Función
+
+El archivo `.gitignore` especifica archivos y carpetas que Git debe ignorar intencionalmente. Los archivos listados en `.gitignore` no serán rastreados por Git, lo que significa que no se añadirán al área de preparación ni se incluirán en los commits, a menos que ya estuvieran siendo rastreados antes de añadir la regla. Es útil para excluir archivos generados automáticamente, logs, dependencias, archivos de configuración local, etc.
+
+## Reglas Configuradas
+
+En este repositorio, el archivo `.gitignore` se ha configurado con las siguientes reglas:
+
+```gitignore
+# Ignorar todos los archivos con extensión .log
+*.log
+
+# Ignorar la carpeta temp y todo su contenido
+temp/
 
 ---
 
