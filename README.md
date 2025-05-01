@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Cristian Jurado 
-**Fecha:** 30/04/2025  
+**Nombre del Estudiante:** Cristian Ernesto  Jurado Jacome 
+**Fecha:** 30-Abril-2025  
 ---
 
 # Evaluación Práctica de Git y GitHub
