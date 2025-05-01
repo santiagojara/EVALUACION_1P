@@ -116,11 +116,16 @@ Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
 **📝 Respuesta:**
 
 ## Encabezado del Estudiante
-
+### Información Personal
 **Nombre:** Gabriel Llerena  
 **Carrera:** Ingeniería en Software  
 **Materia:** Manejo y Configuración de Software  
 **Paralelo:** "A"
+### Gustos y Pasiones
+- Me gusta mucho los juegos RPG
+- El baloncesto
+- Me gusta mucho programar en Java
+- Me encanta dibujar en el estilo blanco y negro
 
 ---
 
