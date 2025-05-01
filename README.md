@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Josue Fiallos  
+**Nombre del Estudiante:** Jonathan Josue Fiallos Yanza  
 **Fecha:** 30/04/2025  
 
 ---
