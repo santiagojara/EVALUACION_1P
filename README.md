@@ -311,6 +311,89 @@ La diferencia principal es que el issue representa una tarea o necesidad a resol
 
 **📝 Respuesta:**
 
+¿Qué es un conflicto en Git y por qué ocurrió en este caso?
+Un conflicto en Git sucede cuando dos ramas modifican el mismo archivo en las mismas líneas, y Git no puede decidir automáticamente cuál versión mantener. En este caso, ocurrió un conflicto al intentar fusionar ramaB en ramaA porque ambas ramas crearon un archivo con el mismo nombre (archivoA.txt) pero con contenidos distintos.
+
+🛠️ Procedimiento realizado
+1. Crear ramas ramaA y ramaB desde main:
+bash
+Copiar
+Editar
+git checkout main
+git checkout -b ramaA
+git push origin ramaA
+
+git checkout main
+git checkout -b ramaB
+git push origin ramaB
+2. Crear archivos en ambas ramas:
+En ramaA:
+
+bash
+Copiar
+Editar
+echo "Contenido A" > archivoA.txt
+git add archivoA.txt
+git commit -m "feat: agregar archivoA.txt con Contenido A"
+git push origin ramaA
+En ramaB:
+
+bash
+Copiar
+Editar
+echo "Contenido B" > archivoA.txt
+git add archivoA.txt
+git commit -m "feat: agregar archivoA.txt con Contenido B"
+git push origin ramaB
+3. Intentar fusionar ramaB en ramaA (esto genera el conflicto):
+bash
+Copiar
+Editar
+git checkout ramaA
+git merge ramaB
+4. Resolver el conflicto:
+Git muestra conflicto en archivoA.txt.
+
+Edité el archivo y lo dejé así:
+
+css
+Copiar
+Editar
+Contenido combinado A+B
+Luego resolví:
+
+bash
+Copiar
+Editar
+git add archivoA.txt
+git commit -m "fix: resolver conflicto combinando contenido A y B"
+5. Merge de ramaA hacia develop:
+bash
+Copiar
+Editar
+git checkout develop
+git merge ramaA
+git push origin develop
+6. Crear el Pull Request de ramaA a develop:
+El PR se creó en GitHub desde ramaA hacia develop.
+
+En la descripción del PR se agregó Closes #5.
+
+GitHub mostró el mensaje:
+
+“Review required. At least 1 approving review is required...”
+
+7. Eliminar ramas local y remotamente:
+bash
+Copiar
+Editar
+git branch -d ramaA
+git branch -d ramaB
+
+git push origin --delete ramaA
+git push origin --delete ramaB
+
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
 ---
@@ -338,5 +421,69 @@ La diferencia principal es que el issue representa una tarea o necesidad a resol
 - Una reflexión sobre la importancia del versionamiento semántico y del uso de forks y pull requests en equipos de trabajo.
 
 **📝 Respuesta:**
+
+Proceso paso a paso:
+Cambiar a develop:
+
+bash
+Copiar
+Editar
+git checkout develop
+Eliminar archivos archivoA.txt y archivoB.txt:
+
+bash
+Copiar
+Editar
+git rm archivoA.txt
+git rm archivoB.txt
+git commit -m "chore: eliminar archivos temporales usados en preguntas anteriores"
+Merge de develop hacia main (localmente):
+
+bash
+Copiar
+Editar
+git checkout main
+git merge develop
+Enviar cambios de main local hacia develop del repositorio remoto (fork):
+
+bash
+Copiar
+Editar
+git push origin main
+Crear un pull request desde tu fork (develop) hacia el repositorio original (main) en GitHub:
+
+Enlace al PR:
+https://github.com/santiagojara/REPO-NOMBRE/pull/7
+
+En la descripción del PR se agregó el link de mi repositorio personal:
+https://github.com/M4yb33/REPO-NOMBRE
+
+🧠 Explicación del versionamiento semántico
+El versionamiento semántico (SemVer) es un sistema para asignar números de versión que reflejan el tipo de cambios realizados en un proyecto. Se compone de tres partes:
+
+Copiar
+Editar
+MAJOR.MINOR.PATCH
+MAJOR (versión mayor): Cambios incompatibles con versiones anteriores.
+Ejemplo: 2.0.0 → rompe compatibilidad con la 1.x.x.
+
+MINOR (versión menor): Se agregan nuevas funcionalidades sin romper lo existente.
+Ejemplo: 1.3.0 → agrega nuevas funciones, pero sigue siendo compatible con 1.2.0.
+
+PATCH (parche): Corregir errores sin afectar funcionalidades ni compatibilidad.
+Ejemplo: 1.3.1 → corrige un bug menor en 1.3.0.
+
+🧩 Ejemplo real:
+Supón que tienes una app en versión 1.0.0. Si:
+
+Arreglas un error → la nueva versión será 1.0.1
+
+Agregas una nueva función → será 1.1.0
+
+Reescribes todo el sistema y no es compatible → 2.0.0
+
+💡 Reflexión:
+Usar versionamiento semántico ayuda a los equipos a saber si una actualización es segura o si implica cambios mayores.
+Combinar esto con el uso de forks y pull requests permite mantener un desarrollo ordenado y colaborativo. Cada desarrollador trabaja en su entorno y propone cambios que pueden revisarse antes de ser aceptados, evitando errores en producción.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
