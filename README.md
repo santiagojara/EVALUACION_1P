@@ -1,5 +1,5 @@
 # Universidad [UNIVERSIDAD TECNICA DE AMBATO]  
-## Facultad de [FISEI]  
+## Facultad de [Facultad de Ingeniería en Sistemas, Electrónica e Industrial]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
@@ -109,7 +109,7 @@ El archivo `.gitignore` se utiliza para indicarle a Git qué archivos o carpetas
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
 
 ---
 
