@@ -163,9 +163,7 @@ Un pull request (PR) es una solicitud para fusionar cambios desde una rama a otr
 
 Diferencias y relación entre ambos:
 Un issue representa un problema o tarea.
-
 Un pull request es la implementación que resuelve uno o más issues.
-
 En equipos colaborativos, se suelen abrir issues para asignar trabajo, y luego vincularlos a PRs que los resuelven.
 
 ---
