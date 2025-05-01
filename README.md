@@ -24,32 +24,46 @@
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
 - `git clone`
-Crea una copia local de un repositorio remoto.  
 - `fork`  
-Copia de un repositorio en tu cuenta de GitHub para trabajar independientemente.
 - `git pull`
-Descarga y fusiona los cambios realizados del repositorio remoto a mi repositorio local.
 
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
-![Logo](./img1.jpeg)
 
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
-  Fui al repositorio dado por el ingeniero 
-  En la parte superior derecha hay un boton llamado Fork al hacer click sobre el me lleva aun apartado en donde se me indica al reposiotrio destion en este caso seria mi repositorio local y finalmente se crea el fork.
-
   - ¿Cómo se realizó el clone del fork?
-  Desde mi repositorio local, en el boton code se copia el link para clonar mi repositorio, y creo una carpeta para lonar este repositorio, utilizo el comando git clone mas el link de mi repositorio y se clono 
-
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Diferencias entre git clone, fork y pull
+git clone
+Crea una copia local de un repositorio remoto.  
 
+fork
+Copia de un repositorio en tu cuenta de GitHub para trabajar independientemente.
+
+git pull
+Descarga y fusiona los cambios realizados del repositorio remoto a mi repositorio local.
+
+Evidencias del clone 
+![Logo](img1.jpeg)
+
+Como se realizo el fork :
+  Fui al repositorio dado por el ingeniero 
+  En la parte superior derecha hay un boton llamado Fork al hacer click sobre el me lleva aun apartado en donde se me indica al reposiotrio destion en este caso seria mi repositorio local y finalmente se crea el fork.
+
+Como se realizo el clone del frok:
+  Desde mi repositorio local, en el boton code se copia el link para clonar mi repositorio, y creo una carpeta para lonar este repositorio, utilizo el comando git clone mas el link de mi repositorio y se clono.
+
+Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original:
+  Ejecutando el comando git remote -v que me indica que estoy trabajando sobre min repositorio local y no sobre el original.
+  Evidencias:
+  ![Logo](img2.jpeg)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -69,7 +83,12 @@ Descarga y fusiona los cambios realizados del repositorio remoto a mi repositori
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` es utilizado por Git para especificar qué archivos o directorios deben ser ignorados. En este caso, el archivo `.gitignore` está configurado para ignorar:
+- Todos los archivos con extensión `.log`.
+- La carpeta `temp/`.
+
+Para vefrificar que se estan ignorando se ejecuta git status y se evidencia lo siguiente
+  ![Logo](img3.jpeg)
 
 ---
 
