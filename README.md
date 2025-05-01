@@ -152,8 +152,22 @@ luego copiamos el urle que no da
 
 - Le realizamos la finalizacion del feature
 
+![alt text](image-16.png)
 
-- VENTAJAS DEL GIT FLOW 
+- verificacion de los commits
+
+![alt text](image-17.png)
+
+- Añadido el tag al ultimo comit realizado 
+
+![alt text](image-18.png)
+
+
+- VENTAJAS DEL GIT FLOW
+
+NOs ayuda con los nombre de las ramas para asignarce automaticamente y al momento de eliminar la rama de feature se procede con el git flow a realizar un merge de la rama featurea al develop correspindiente y se realiza el comit automatica mente como se ve en la imagen de ariiba
+
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
@@ -188,8 +202,23 @@ luego copiamos el urle que no da
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- que es un issue 
 
+Un issue es una herramienta que permite reportar errores, proponer mejoras o discutir temas dentro de un proyecto. Sirve para la gestión de tareas y comunicación entre los colaboradores de un repositorio.
+
+- que es un pull request
+
+Un pull request (PR) es una solicitud para que los cambios realizados en una rama (por ejemplo, develop) sean revisados y fusionados con otra rama (por ejemplo, main). Su finalidad es permitir la revisión de código, discusión y control de calidad antes de aceptar cambios en el repositorio principal.
+
+- Diferencia y relación entre ambos:
+
+Un issue plantea una necesidad o problema, mientras que un pull request entrega una solución concreta. En un entorno colaborativo, los issues permiten asignar tareas, y los pull requests permiten cumplirlas y relacionarlas directamente con los issues, asegurando trazabilidad y control.
+
+- RESPUESTA DE LA PRACTICA
+- Un resumen del procedimiento realizado.
+- El número del issue creado.
+- El enlace al pull request.
+- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 ---
 
 ## Pregunta 5 (2 puntos)
