@@ -172,7 +172,10 @@ Revisar los cambios antes de fusionarlos
 Discutir el código con otros colaboradores
 
 Asegurar calidad y control del proyecto
-
+**envio de cambios a mireposito remoto develop**
+![alt text](imagenes/pregunta4.1.png)
+**creacion del pull request**
+![alt text](imagenes/pregunta4.2.png)
 
 Para documentar esta pregunta se siguieron los pasos del flujo de trabajo de Git Flow.  
 Se trabajó en la rama `develop`, se creó un issue titulado y se realizó esta modificación en el `README.md` como parte de su solución.
