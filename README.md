@@ -154,7 +154,26 @@ El archivo .gitignore sirve para indicar a Git qué archivos o carpetas no deben
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Parte teórica:
 
+Issue: Es una herramienta de GitHub que permite registrar errores, solicitudes de mejoras o tareas por hacer. Facilita la organización del trabajo.
+
+Pull Request: Es una solicitud para fusionar cambios desde una rama hacia otra. Permite revisiones de código antes de integrar los cambios.
+
+Diferencias: El issue es una unidad de planificación, mientras que el pull request es una unidad de integración. Se relacionan ya que un pull request puede resolver un issue.
+
+Parte práctica:
+
+Se creó un issue titulado “Respuesta a la Pregunta 4”.
+
+Se editaron las respuestas en este archivo desde la rama develop.
+
+Se hizo un commit y push a develop.
+
+Se creó un pull request desde develop hacia develop.
+
+Se vinculó automáticamente el pull request al issue usando Fixes #1 en la descripción
+![alt text](image-6.png)
 ---
 
 ## Pregunta 5 (2 puntos)
