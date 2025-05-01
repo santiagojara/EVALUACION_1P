@@ -85,8 +85,7 @@ Como verificación de que funciona el `.gitignore` se crea dos archivos A.log y 
 ![[Pasted image 20250430185709.png]]
 
 Ahora se puede preparar todo para hacer un `commit` y otorgarle un tag a este:
-
-
+![[Pasted image 20250430190111.png]]
 
 ---
 
