@@ -81,7 +81,8 @@ El .gitignore nos sirve para que que no se suban en los cambios ni a la rama rem
 archivos redundantes.
 ![alt text](image-4.png)
 En la presente imagen se crea un archivo llamado prueba.log y evidentemente no se evincia al hacer un "git status", con eso se comprueba que todos los archivos .log son ignorados 
-
+![alt text](image-5.png) 
+se muestra el tag
 ---
 
 ## Pregunta 3 (2 puntos)
