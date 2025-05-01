@@ -76,8 +76,10 @@ git pull es un comando que se usa para traer los cambios de una rama remota a un
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+Explicación sobre .gitignore
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` se utiliza para indicarle a Git qué archivos o carpetas no deben ser seguidos o versionados. En este caso, se ha configurado el archivo para ignorar todos los archivos con la extensión `.log` y la carpeta `temp/`.
+  [Evidencia de fork realizado](imagenes/cap2.png)
 
 ---
 
