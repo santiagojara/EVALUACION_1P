@@ -87,6 +87,19 @@ Combina dos acciones: git fetch (descargar los cambios) + git merge (fusionarlos
     ![Evidencia del remote](Evidencias/Gitremote-v.png)
     Esto indica que el repositorio remoto apunta al fork del usuario, no al original.
 
+### COMMIT DE LA PREGUNTA UNO
+
+**Git status**
+![Evidencia del remote](Evidencias/Gitstatus1_1.png)
+**Git add .**
+![Evidencia del remote](Evidencias/Gitaddstatus.png)
+![Evidencia del remote](Evidencias/Gitaddstatus2.png)
+**Git Commit**
+![Evidencia del remote](Evidencias/Gitcommit1.png)
+**Tag del primero Commit**
+![Evidencia del remote](Evidencias/Tag1P.png)
+**Git log**
+![Evidencia del remote](Evidencias/gitlog.png)
 
 ---
 
@@ -106,6 +119,27 @@ Combina dos acciones: git fetch (descargar los cambios) + git merge (fusionarlos
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+1. Creacion del archivo .gitignore:
+![](Evidencias/TouchGitignore.png)
+2. Reglas Denifidas
+![](Evidencias/ReglasIgnore.png)
+2. Git status
+![](Evidencias/Gitstatus2_1.png)
+3. Git add
+![](Evidencias/Gitaddstatus3.png)
+4. Primer commit
+![](Evidencias/gitcommit2_1.png)
+5. Exlicacion de la funcion del archivo .gitignore
+El archivo `.gitignore` permite definir archivos o carpetas que Git no debe rastrear. En este caso, se han definido dos reglas:
+
+- Ignorar todos los archivos con extensión `.log`.
+- Ignorar una carpeta llamada `temp/`.
+6. Evidencia
+![](Evidencias/Evidencia1.png)
+
+
+
+
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
