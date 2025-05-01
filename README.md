@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [TECNICA DE AMBATO]  
+## Facultad de [FACULTADDE INGENIERIA EN SISTEMAS, ELECTRONICA E IDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Cristian Jurado 
-**Fecha:** 30/04/2025  
+**Nombre del Estudiante:** Cristian Ernesto  Jurado Jacome 
+**Fecha:** 30-Abril-2025  
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -100,7 +100,7 @@ las capturas realizadas adjuntadas en el pdf.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
 
 ---
 
