@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Tecnica de Amabto]  
+## Facultad de [Ingenieria en Sistemas Electronica e Industrial]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Josue Neptali Llumitasig Pasochoa 
+**Fecha:** 30/04/2025
 
 ---
 
