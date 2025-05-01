@@ -124,7 +124,17 @@ Se comprueba lo que se ignora:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+git flow init 
+git flow feature start ingresar-encabezado
+git add .
+git commit -m "Se agrego los datos del estudinate"
+git flow feature finish ingresar-encabezado
+
+Se inicio el flujo de trabajo con ```git flow init``` y luego de la instalacion se creo la rama feature (aislar desarrollo de nueva funcionalidad), luego de realizar los cambios se realizo el commit (guardar progreso), al final se uso el comando ```git flow feature finish``` finalización de la feature (integrar cambios en develop y limpiar).
+
+Es útil por la estructura clara (separación main/develop/feature/release/hotfix), facilita el trabajo paralelo en equipo, la gestión de versiones y lanzamientos, y mantiene la rama main siempre estable.
+
+![se ve que solo NoseIgnora.txt](img/captura6.png)
 
 ---
 
