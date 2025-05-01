@@ -154,10 +154,14 @@ como esta el tag
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
+ Issue es una herramienta para reportar problemas, sugerir mejoras o discutir ideas dentro de un repositorio
+ Pull Request es una solicitud para fusionar cambios desde una rama a otra
+ Los issues identifican problemas o mejoras, mientras que los pull requests gestionan cambios en el código. 
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
----
+
+
+-
 
 ## Pregunta 5 (2 puntos)
 
