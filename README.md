@@ -5,9 +5,7 @@
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Alan Puruncajas   
 **Fecha:** 30/04/2025 
-**Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Alan Puruncajas   
-**Fecha:** 30/04/2025 
+
 ---
 
 # Evaluación Práctica de Git y GitHub
