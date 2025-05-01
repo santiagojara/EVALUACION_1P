@@ -152,9 +152,11 @@ Ideal para proyectos de larga duración: Su estructura ayuda a mantener la disci
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
----
+Respuesta a la Pregunta 4:
+Issue: Es como una nota o tarea en GitHub para registrar un error, una mejora, una pregunta o cualquier tema a seguir y discutir sobre el proyecto. Es el qué hacer.
+Pull Request (PR): Es una propuesta para añadir tus cambios de código (hechos en una rama) a otra rama (ej: la principal). Su finalidad es revisar, discutir y validar el código antes de fusionarlo, asegurando la calidad. Es el cómo se hizo y la solicitud para integrarlo.
+Diferencia y Relación:
+Un Issue es el problema o tarea a resolver (el objetivo). Un Pull Request es la solución propuesta en código que busca ser integrada, y a menudo un PR cierra el Issue que abordaba. Ambos son esenciales para organizar el trabajo, el seguimiento y la colaboración en equipo.
 
 ## Pregunta 5 (2 puntos)
 
