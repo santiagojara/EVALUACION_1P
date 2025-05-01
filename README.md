@@ -40,6 +40,58 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+Diferencias entre los conceptos:
+- Git clone es un comando que permite copiar un repositorio remoto (como uno alojado en GitHub) directamente al equipo local. Al ejecutar git clone, se descarga todo el contenido del repositorio, incluyendo los archivos, el historial de cambios y las ramas, y se configura automáticamente el repositorio remoto con el nombre origin.
+
+- Fork es una acción que se realiza desde la plataforma de GitHub y permite crear una copia del repositorio original dentro de la cuenta personal del usuario. Esta copia puede ser modificada sin afectar el proyecto original, y es el punto de partida para realizar propuestas de mejora mediante pull requests.
+
+- Git pull es un comando que permite traer (desde el repositorio remoto) y combinar automáticamente los últimos cambios a la rama activa del repositorio local. Se usa para mantener el repositorio local actualizado respecto al remoto.
+
+# Parte práctica:
+## ¿Cómo se realizó el fork?
+Para realizar el fork, se ingresó al repositorio original alojado en la cuenta de GitHub del usuario santiagojara. Una vez dentro del repositorio, hizo clic en el botón “Fork”, ubicado en la parte superior derecha de la interfaz. GitHub mostró una pantalla para confirmar el destino del fork, y se seleccionó su cuenta personal: M4yb33. Automáticamente, GitHub creó una copia exacta del repositorio dentro del perfil personal.
+
+Como resultado, el nuevo repositorio forkeado quedó disponible en la siguiente URL:
+
+https://github.com/M4yb33/nombre-del-repositorio.git
+
+## ¿Cómo se realizó el clone del fork?
+
+Con el fork ya creado en su cuenta, se ingresó al repositorio forkeado (M4yb33/nombre-del-repositorio) y presionó el botón “Code”. Desde ahí, se copió la URL HTTPS proporcionada. Luego, en su equipo local, abrió la terminal (Git Bash) y ejecutó el siguiente comando para clonar el repositorio:
+
+git clone https://github.com/M4yb33/nombre-del-repositorio.git
+
+Este comando descargó todos los archivos y el historial del repositorio forkeado a su máquina local, dentro de una carpeta con el mismo nombre del repositorio.
+
+## ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+Después de clonar el fork, se ingresó en la carpeta del proyecto y ejecutó:
+
+cd nombre-del-repositorio
+
+git remote -v
+
+La salida del comando mostró que el repositorio remoto (origin) apuntaba al usuario M4yb33, y no a santiagojara. Por ejemplo:
+
+origin  https://github.com/M4yb33/nombre-del-repositorio.git (fetch)
+origin  https://github.com/M4yb33/nombre-del-repositorio.git (push)
+
+Esto confirmó que estaba trabajando sobre el fork personal, y no directamente sobre el repositorio original.
+
+
+
+## 📷 Evidencia del Fork y Clonación
+
+### 🔹 Fork realizado a la cuenta M4yb33:
+![Fork en GitHub](imagenes/ImagenFork.png)
+
+### 🔹 Verificación del clonado:
+![Git remote -v](imagenes/ImagenClone.png)
+
+### 🔹 Verificación del clone con el remote:
+![Git remote -v](imagenes/Imagenremote.png)
+
+
 ---
 
 ## Pregunta 2 (1 punto)
@@ -58,6 +110,21 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+
+Para esta actividad, configuré un archivo .gitignore que permite excluir ciertos archivos y carpetas del control de versiones de Git. Esto es muy útil para evitar subir archivos temporales o sensibles que no deben compartirse en el repositorio.
+
+El archivo .gitignore tiene la función de excluir archivos y carpetas específicas del control de versiones de Git. Esto significa que cualquier archivo o directorio listado dentro de .gitignore no será rastreado, añadido, ni enviado al repositorio remoto, incluso si existe en la carpeta del proyecto local.
+
+En este caso, configuré .gitignore para ignorar todos los archivos con extensión .log y cualquier carpeta llamada temp/. Esto es útil para evitar subir archivos de registro generados automáticamente y carpetas temporales que no forman parte del código fuente del proyecto.
+
+
+
+### 🔹 Evidencia del archivo .gitignore 
+![Git remote -v](imagenes/Capturagitignore.png)
+
+### 🔹 Evidencia del .gitignore en bash:
+![Git remote -v](imagenes/CapturaCommitgitignore.png)
+
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
