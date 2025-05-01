@@ -116,6 +116,29 @@
 
 **📝 Respuesta:**
 
+- Comandos utilizados:
+  - git flow init 
+    - Este comando inicializa el repositorio con Git Flow creando la estructura predetermindad de Git Flow.
+
+      ![](img\flowinit.png)
+
+  - git flow feature start ingresar-encabezado
+    - Se crea una nueva rama tipo feature llamada ingresar-encabezado en la cual se realizará la adición del encabezado al README.md
+      ![](img\featurestart.png)
+  - code .
+    - Utilizado para abrir nuestro proyecto en el editor de código.
+  - git add .
+    - Utilizado para preparar los cambios realizados para el siguiente commit.
+  - git commit -m "Se añadio el nombre completo del estudiante en el encabezado"
+    - Comando para realizar el commit de los cambios con el mensaje correspondiente.
+      ![](img\featurecommit.png)
+  - git flow feature finish ingresar-encabezado
+    - Finaliza la rama feature/ingresar-encabezado, hace el merge correspondiente a develop y elimina la rama feature una vez completada la tarea.
+      ![](img\featurefinish.png)
+
+- Reflexión:
+  - Aplicar Git Flow en proyectos colaborativos o de larga duración ofrece una estructura clara para gestionar el desarrollo de software. Facilita la colaboración al separar las ramas de características, desarrollo y producción, lo que minimiza los conflictos y mejora la integración de cambios. Además, permite un control más efectivo de versiones y facilita el manejo de lanzamientos y correcciones urgentes, garantizando un flujo de trabajo organizado y eficiente.
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
