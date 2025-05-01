@@ -1,0 +1,6 @@
+# Ignorar archivos con extensión .log
+*.log
+
+# Ignorar la carpeta 'temp' y su contenido
+temp/
+
