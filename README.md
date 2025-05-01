@@ -114,7 +114,10 @@ ejecutamos el comando  nano .gitignore y dentro ponemos las restrinciones ctrl+x
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**inicio de git flow y creacion de la rama feacture**
+![alt text](<imagenes/pregunta 3.1.png>)
+**se verifico el estado de la rama feature creamos el commit**
+![alt text](<imagenes/pregunta 3.2.png>)
 
 ---
 
