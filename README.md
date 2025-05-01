@@ -1,6 +1,6 @@
-# Universidad técnica de Ambato
-## Facultad de Ingenieria en Sistemas, Electronica e Industrial  
-### Carrera de Ingeniería en Software  
+# Universidad Técnica de Ambato
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial.  
+### Carrera de Ingeniería en Software.  
 
 **Asignatura:** MyCS - Manejo y Configuración de Software  
 **Nombre del Estudiante:** Johan Rodríguez
