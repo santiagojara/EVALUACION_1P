@@ -75,7 +75,12 @@ Pudimos verificar que estamos trabajando desde mi repositorio que hice el fork c
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Se creo la carpeta .gitignore y se excluyo los archivos .log y temp/, y se realizo el primer commit 
+![alt text](image-3.png)
+El .gitignore nos sirve para que que no se suban en los cambios ni a la rama remota todo lo que esta dentro del repositorio, puede ser 
+archivos redundantes.
+![alt text](image-4.png)
+En la presente imagen se crea un archivo llamado prueba.log y evidentemente no se evincia al hacer un "git status", con eso se comprueba que todos los archivos .log son ignorados 
 
 ---
 
