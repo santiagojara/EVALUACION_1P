@@ -105,6 +105,17 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+Comandos:
+
+git flow init
+
+git flow feature start ingresar-encabezado
+git add .
+git commit -m "Se agrego..."
+git flow feature finish ingrear-encabezado
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
@@ -139,7 +150,7 @@
 - Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
 
 **📝 Respuesta:**
-
+Un issue es una forma de reportar problemas o proponer mejoras, mientras que un pull request sirve para proponer cambios al código. Ambos se relacionan porque un pull request puede resolver un issue al implementar su solución.
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
