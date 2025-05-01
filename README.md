@@ -153,7 +153,7 @@ Salir de viaje conocer varias partes del mundo, graduarme de la carrera de Ingen
 - Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
 - Realizar los cambios necesarios en este archivo `README.md` para responder esta pregunta.
 - Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
-- Crear un **pull request** desde `develop` hacia `develop` en GitHub.
+- Crear un **pull request** desde `develop` hacia `main` en GitHub.
 - **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
 - El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
 
