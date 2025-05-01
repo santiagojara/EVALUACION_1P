@@ -176,6 +176,14 @@ Un _pull request_ (PR) es una solicitud para **fusionar los cambios hechos en un
 ¿Cuál es la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo?
 El `issue` plantea un problema o tarea mientras que el `pull request` es una solicitud de fusión de codigo
 
+Enlace del `pull request`: https://github.com/Gabriel-Spartan/EVALUACION_1P_2525/pulls/Gabriel-Spartan/8324u283hrff8uu9jdfiof49u
+
+Se ha hecho el `pull request` de `develop` a `main`
+![[Pasted image 20250430195052.png]]
+
+Creación del `issue`
+![[Pasted image 20250430195143.png]]
+
 ---
 
 ## Pregunta 5 (2 puntos)
