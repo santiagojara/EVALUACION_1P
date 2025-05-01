@@ -282,4 +282,34 @@ Un **issue** describe qué se necesita hacer (la tarea), mientras que el **pull 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+### Versión semántica
+
+El **versionamiento semántico** es un sistema de numeración para identificar versiones de software y entender la naturaleza de los cambios aplicados. Se compone de tres partes:
+
+- **MAJOR**: Se incrementa cuando se hacen cambios incompatibles con versiones anteriores.
+- **MINOR**: Se incrementa cuando se añaden funcionalidades nuevas, pero compatibles.
+- **PATCH**: Se incrementa cuando se corrigen errores sin afectar la compatibilidad.
+
+#### Ejemplo:
+
+Versión `2.4.1` significa:
+
+- Versión mayor 2 (segunda versión principal),
+- Se han añadido 4 nuevas funcionalidades importantes,
+- Se han hecho 1 corrección menor sin romper nada.
+
+### Procedimiento realizado
+
+1. Se eliminaron los archivos `archivoA.txt` y `archivoB.txt` de la rama `develop`.
+2. Se realizó un merge desde `develop` hacia `main` en el repositorio local.
+3. Luego, se subieron los cambios de `main` hacia la rama `develop` del repositorio remoto.
+4. Finalmente, se creó un **pull request desde `develop` (fork)** hacia **`main` (repositorio original del docente)**.
+5. En la descripción del PR se incluyó el enlace al repositorio del estudiante.
+
+### Enlace al Pull Request:
+
+[Ver Pull Request de entrega final](https://github.com/Andriu-Dex/EVALUACION_1P_2525/pull/XX)
+
+### Reflexión final
+
+Aplicar versionamiento semántico permite llevar un control claro y ordenado de la evolución del software. Junto con el uso de forks y pull requests, se asegura una gestión eficiente, colaborativa y segura del código fuente, especialmente en entornos educativos o profesionales con múltiples desarrolladores.
