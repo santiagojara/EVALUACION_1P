@@ -22,7 +22,30 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
+- `git clone`
+
+- `fork`
+
+- `git pull`
+
+### Parte práctica:
+
+- Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
+- Luego, realizar un **clone** del fork en el equipo local.
+- En este README, describir el proceso seguido:
+
+  - ¿Cómo se realizó el fork?
+
+  - ¿Cómo se realizó el clone del fork?
+     
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    
+
+    
+
+**📝 Respuesta:**
+
+<!-- - `git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
 
 - `fork`: Función de GitHub que crea una copia personal de un repositorio en tu propia cuenta de GitHub, permitiendo trabajar independientemente del repositorio original.
 
@@ -52,13 +75,7 @@
       $ git remote -v
       origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (fetch)
       origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (push)
-
-
-    
-
-**📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-->
 
 ---
 
@@ -80,7 +97,16 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+<!-- 
+*Primer Commit Evidencia:-->
+      ![Img ignore](imgs/gitignore.png)
+
+<!--
+El archivo .gitignore especifica archivos y directorios que Git debe ignorar y no rastrear. En este caso, se ignoran todos los archivos con extensión .log.
+Una carpeta llamada temp/.
+Y todos los archivos .md y .txt de la carpeta doc/. 
+En la captura adjunta se ve como solo se reflejan los archivos de prueba que no fueron ignorados, mientras que /temp /doc y sus archivos no se ven reflejados -->
+      ![Evidencia ignore](imgs/eviignore.png)
 
 ---
 
