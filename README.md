@@ -208,6 +208,7 @@ doc/*.txt`
   * git commit -m "Pregunta 4: Respuesta y documentación"
   * git push origin develop
 
+![comandos](img/9.png)
 ---
 
 ## Pregunta 5 (2 puntos)
