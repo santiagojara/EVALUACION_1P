@@ -1,0 +1,9 @@
+# 1) Todos los .log
+*.log
+
+# 2) Carpeta temp/
+temp/
+
+# 3) Todos los .md y .txt DENTRO de doc/
+doc/*.md
+doc/*.txt
