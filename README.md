@@ -48,13 +48,19 @@ git: pull → trae y aplica cambios desde un remoto (fetch + merge).
 
   El fork se realizó una vez abierto el link del repositorio, y de ahi dando clic en el boton fork, luego se puso el nombre del repositorio y una descripción.
 
+  ![Fork del repositorio](imagenes/fork-pregunta1.jpg)
+
 - ¿Cómo se realizó el clone del fork?
 
   Para realizar el clone del fork, se abrio una terminal en el escritorio, y se puso git clone https://github.com/santiagojara/EVALUACION_1P.git, siendo este el link del repositorio a clonar.
 
+  ![Clonadozdel repositorio](imagenes/clonar-pregunta1.jpg)
+
 - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
   
   Se verifico en el momento en el que se acaba de crear el fork, debajo de nombre del repositorio creado dice claramente: forked from santiagojara/EVALUACION_1P y si es que se va de nuevo al boton del fork dice claramente que no se puede hacer un fork de un repositorio del que somos propietarios.
+
+  ![Verificación del fork](imagenes/verificacion-fork-pregunta1.jpg)
 
 ---
 
