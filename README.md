@@ -139,9 +139,21 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 - El número y enlace del issue creado.
 - El número y enlace al pull request.
 
-**📝 Respuesta:**
+### 📝 Respuesta:
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Parte teórica**:  
+- **Issue**: Es un ticket en GitHub utilizado para reportar bugs, solicitar nuevas funcionalidades o asignar tareas. Permite discusión, asignación de responsables y seguimiento del progreso.  
+- **Pull Request (PR)**: Es una solicitud para integrar cambios de una rama a otra, permitiendo revisión de código, comentarios y aprobación antes de fusionar.  
+- **Diferencia y relación**: Un issue identifica un problema o tarea, mientras que un PR propone y facilita la solución. En un entorno colaborativo, un PR puede estar vinculado a un issue (usando "closes #numero") para cerrarlo automáticamente al mergearse, mejorando la trazabilidad.
+
+**Procedimiento práctico**:  
+
+**Enlaces**:  
+- Issue: https://github.com/Elizabeth1925/EVALUACION_1P_TEMP/issues/X  
+- Pull Request: https://github.com/Elizabeth1925/EVALUACION_1P/pull/Y  
+
+![Captura Pregunta 4: Issue y Pull Request](img/pregunta4.png)
+
 
 ---
 
