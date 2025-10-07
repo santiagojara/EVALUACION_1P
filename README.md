@@ -63,10 +63,24 @@ La diferencia clave es que git clone clona todo el repositorio y lo trae a la pa
 - Una carpeta llamada `temp/`.
 - Todos los archivos `.md` y `.txt`de la carpeta `doc/`. (Probar agregando un archivo `prueba.md` y un archivo `prueba.txt` dentro de la carpeta y fuera de la carpeta.)
 
+![Creacion .gitignore](img/creacion-gitignore.png)
+Se creo el archivo .gitignore por medio del comando touch.
+![Archivos Ingnorados](img/archivos-ignorar.png)
+Por medio de nano se implementaron las restricciones propuestas por la pregunta 2.
+
+![Creacion Archivos](img/creacion-archivos-prueba.png)
+Se creacion los archivos de prueba para la prueba del git ignore.
+
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
+![Realizacion del commit](img/commit-gitignore.png)
+
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.
+
 
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
