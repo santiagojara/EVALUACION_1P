@@ -204,6 +204,9 @@ Practica
 **📝 Respuesta:**
 creacion de las ramas
 ![alt text](image-5.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
