@@ -38,7 +38,10 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+La diferencia entre los tres comandos en Git se basa en.:
+- git clone: copia un repositorio remoto (historial completo) a tu equipo y configura el remoto origin.
+- Fork: copia en tu cuenta de GitHub el repositorio de otra persona (crea tu propio remoto). Sirve para proponer cambios sin permisos directos sobre el repo original.
+- git pull: trae commits del remoto y los integra en tu rama actual (equivalente a fetch + merge o fetch + rebase según config).
 
 ---
 
