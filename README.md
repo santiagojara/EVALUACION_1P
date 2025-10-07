@@ -95,6 +95,8 @@
 
 ![2 commit](img/Screenshot%202025-10-07%20154331.png)
 
+![commits](img/Screenshot%202025-10-07%20154852.png)
+
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
@@ -121,9 +123,9 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+-Inicializacion de git flow
 
----
+![git flow](img/)
 
 ## Pregunta 4 (2 puntos)
 
