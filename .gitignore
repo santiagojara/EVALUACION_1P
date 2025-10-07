@@ -1,0 +1,9 @@
+
+*.log
+
+
+temp/
+
+
+doc/*.md
+doc/*.txt
