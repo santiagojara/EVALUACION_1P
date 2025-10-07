@@ -68,7 +68,6 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.\
 ![alt text](image-4.png)
 ![alt text](image-5.png)
-
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
