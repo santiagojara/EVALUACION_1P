@@ -176,8 +176,13 @@ doc/*.txt`
 ### Parte teórica:
 
 - Explicar qué es un **issue** en GitHub.
+  - Un `issue` en GitHub es un rastreador de tareas o problemas.
+
 - Explicar qué es un **pull request** y cuál es su finalidad.
+  - Un `pull request` propone cambios para ser fusionados, permitiendo revisión.
+
 - Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  - Los issues identifican problemas/metas, mientras los PRs son propuestas de solución. Se relacionan cuando un PR cierra un issue.
 
 ### Parte práctica:
 
@@ -196,8 +201,12 @@ doc/*.txt`
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+* Cambiamos de rama a develop
+* Actualicé este README con la respuesta
+* Hice un commit con los cambios
+  * git add README.md
+  * git commit -m "Pregunta 4: Respuesta y documentación"
+  * git push origin develop
 
 ---
 
