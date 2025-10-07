@@ -207,7 +207,9 @@
 -**Issue** #1 https://github.com/Santio13-code/EVALUACION_1P/issues/1#issue-3493074715
 -**Pull Request** #2 https://github.com/Santio13-code/EVALUACION_1P/pull/2#issue-3493083920
 
+-comits
 
+![comits](img/Screenshot%202025-10-07%20163018.png)
 
 ## Pregunta 5 (2 puntos)
 
@@ -238,9 +240,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
----
 
 ## Pregunta 6 (2 puntos)
 
