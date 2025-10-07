@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad UNIVERSIDAD TECNICA DE AMBATO  
+## Facultad de FACULTAD DE INGENIERÍA EN SISTEMAS ELECTRÓNICA E INDUSTRIAL 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Boris Yussef Vinces Cueva
+**Fecha:** 07/10/2025
 
 ---
 
@@ -154,6 +154,10 @@ Creamos la rama hotfix con el nombre de ingresar-encabezado:
 git flow hotfix start ingresar-encabezado
 
 ![alt text](image-15.png)
+
+Agregamos los dataos del encabezado:
+![alt text](image-16.png)
+
 
 
 
