@@ -200,6 +200,11 @@ Inicialmente no se contaba con la funcionalidad de Issues por lo cual se activo 
 
 Posterior a ello se realizo los cambios en el README y se utilizo un commit dentro del repositorio local que fue trasladado al repositorio remoto de github para el posterior pull request
 
+Luego dentro del apartado de pull request verificamos que sea nuestro repositorio y hacemos un pull request desde develop hacia main
+![Evidencia de Git](img/pull1.png)
+
+![Evidencia de Git](img/pull2.png)
+
 - El número y enlace del issue creado.
 
 El numero del Issue #1
