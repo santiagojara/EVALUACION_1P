@@ -39,7 +39,21 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+## Respuestas
+### git clone
+Es un comando que sirve para clonar un repositorio existen a nuestra area de trabajo
+### fork
+Es una herramienta que sirve para copiar un repositorio existente a nuestra cuenta en github
+### git pull
+Es un comando de Git utilizado para actualizar la versión local de un repositorio desde otro remoto. 
 
+### ¿Cómo se realizó el fork?
+Primero entramos al repositorio del Ing, en la parte superior derecha está un botón que dice fork, al aplastarlo y crearlo, se nos duplicará por asi decirlo en nuestra cuenta, la cual tendrá un link diferente al del repostorio del cual se hizo fork.
+### ¿Cómo se realizó el clone del fork?
+Copiamos el link del repositorio nuestro, y al iniciar bash se usa el comando git clone "link del repositorio"
+### ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Con el comando git remote -v podemos constatar eso, en la siguiente imagen se visualiza tanto esto, como todo el proceso seguido.
+![pregunta1](imagenes/pregunta1.png)
 ---
 
 ## Pregunta 2 (1 punto)
