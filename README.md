@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Maria Belen Zapata 
+**Fecha:** 7 de Octubre de 2025 
 
 ---
 
@@ -130,8 +130,17 @@ doc/*.txt
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+- Comandos utilizados para la creacion del hotflix
+git flow init
+git checkout main
+git flow hotfix start ingresar-encabezado -> al ingresar este comando tenemos lo siguiente
+![Evidencia de Git](img/hotfix.png)
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+al finalizar la rama aplicamos 
+git flow hotfix finish ingresar-encabezado
+-> el uso de esto hara merge en main y en develop actualizando todas las ramas
+
+
 
 ---
 
