@@ -215,6 +215,9 @@ El numero del Issue #1
 https://github.com/Mar-Dim/EVALUACION_1P/issues/1
 
 - El número y enlace al pull request.
+Numero del pull Request #2
+https://github.com/Mar-Dim/EVALUACION_1P/pull/2
+
 ---
 
 ## Pregunta 5 (2 puntos)
