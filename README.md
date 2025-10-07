@@ -148,6 +148,11 @@
 
 -Primero se inicializo git flow para posteriormente crear todas las ramas, se crea la nueva rama de hotfix, se anade y se realiza el commit, por ultimo se finaliza la rama hotfix donde se realiza automaticamente el merge.
 
+-Es util aplicar git flow ya que permite ver los cambios y ademas permite al equipo de trabajo trabajar en paralelo sin conflictos gracias a la creacion de diferentes ramas.
+
+-commits
+![comits](img/Screenshot%202025-10-07%20160642.png)
+
 
 
 ## Pregunta 4 (2 puntos)
