@@ -153,6 +153,17 @@ Ventajas de Git Flow: roles claros por rama, releases estables, hotfixes rápido
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
+Procedimiento: issue #1 creado; commit en develop; PR develop → main creado, vinculado y fusionado.
+
+Issue: ticket para reportar tareas/bugs/ideas. Sirve para discutir y planificar.
+
+Pull Request (PR): solicitud para fusionar cambios de una rama a otra tras revisión. Permite code review, checks y conversación.
+
+Diferencia/relación: el issue describe qué y por qué; el PR muestra cómo se implementó. Un PR puede cerrar un issue con palabras clave.
+
+Issue: #1 – https://github.com/andyyyia/EVALUACION_1P/issues
+PR: #<2> – https://github.com/andyyyia/EVALUACION_1P/pull/2
+
 
 ## Pregunta 5 (2 puntos)
 
