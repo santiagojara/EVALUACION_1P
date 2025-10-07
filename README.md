@@ -200,6 +200,41 @@ El número del pull request es #2 y el enlace es el siguiente: https://github.co
 
 **📝 Respuesta:**
 
+### Cómo se crearon las ramas.
+
+Usamos el comando git branch "nombre de la rama"
+
+### Cómo se generó y resolvió el conflicto.
+
+Hicimos una combinacion de ambas desde el editor de texto quedando asi
+"Contenido A
+
+Contenido B
+"
+
+### Cómo se realizó el merge hacia `develop`.
+
+Pues hicimos el commit en la ramaA ya arreglado el problema y despues nos cambiamos a la rama develop e hicimos el comando git merge ramaA
+### Cómo se eliminaron las ramas al finalizar.
+En el github entramos en brach y pusimos eliminar rama.
+con git branch -d "nombre de la rama"
+### El enlace al pull request.
+
+https://github.com/JumboJhon04/EVALUACION/pull/4#issue-3493079558
+### Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
+
+El conflicto surge cuando al hacer merge de una rama a otra, esta tiene dos mismos archivos pero con diferente contenido en los mismos. 
+
+## Capturas
+
+![pregunta5](imagenes/pregunta5.png)
+![pregunta5.1](imagenes/pregunta5.1.png)
+![pregunta5.2](imagenes/pregunta5.2.png)
+![pregunta5.3](imagenes/pregunta5..3.png)
+![pregunta5.4](imagenes/pregunta5.4.png)
+![pregunta5.5](imagenes/pregunta5.5.png)
+
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
 ---
