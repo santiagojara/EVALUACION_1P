@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato  
+## Facultad de Ingenieria en Sistemas Electronica e Industrial 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Javier Aldair Peña Aguilar
+**Fecha:** 7/10/2025
 
 ---
 
@@ -39,6 +39,19 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  git clone: Es un comando que permite copiar un repositorio remoto a la máquina local.
+  fork: Es una copia remota de un repositorio remoto. Normalmente se usa para contribuir a proyectos ajenos sin dañar el original
+  git pull: Permite traes y descargar los cambios más recientes del repositorio remoto en la rama local actual.
+  ![captura del fork](./img/Captura%20de%20pantalla%202025-10-07%20152201.png)
+
+  El proceso pararealizar el fork fue dentro del link proporcionado por el ingeniero hice click en el boton de la parte superior derecha y genere un fork a mi cuenta personal.
+
+  Para realizar el clone del fork dentro del la terminal de git bash ejecute el comando dentro de la carpeta a usar: "git clone https://github.com/javierpea/EVALUACION_1P_JP.git"
+
+  Para verificar que se esta trabajando sobre el fork y no sobre el repositorio original dentro de la carpeta del clone ejecute el comando git remote -v para verificar que la url apunta a mi repositorio
+  
+  ![captura de los urls a donde apunta el clone](./img/revisionRemote.png)
+
 
 ---
 
@@ -61,7 +74,10 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore como tal permite especificar o evitar que archivos o directorios no rastrear (ignorar los cambios realizados en estos archivos), ni incluirlos en los commits, evitando así que información innecesaria, archivos temporales, de configuración local se suban al repositorio.
 
+En este caso se observa que los archivos .md y .txt dentro de la carpeta temp aparecen en color blanco es decir no se estan tomando en cuenta, y los archivos fuera de la carpeta temp aparecen de color verde lo que significa que estan siendo rastreados y tomados en cuenta.
+![verificacion de gitignore](./img/verificacionGitignore.png)
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -91,7 +107,17 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Primero se ejecuta git flow init el cual inicializa el repositorio con la estructura de ramas main y develop
 
+Segundo mediante git flow hotfix start ingresar-encabezado se crea una rama temporal con el nombre ingresar-encabezado.
+
+Por ultimo con git flow hotfix finish se realiza automaticamente la fusion de los cambios en main y develop, eliminacion de la rama temporal y crea un tag de versión
+
+Git Flow organiza el trabajo en ramas específicas según el tipo de tarea (feature, release, hotfix), facilitando la colaboración, control de versiones y mantenimiento de código limpio. Es especialmente útil en equipos grandes y proyectos de larga duración.
+
+![inicializacion con git flow](./img/gitFlowInit.png)
+
+![finalizacion de la hotfix](./img/finRamaHotfix.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -123,7 +149,13 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Un issue en GitHub es herramienta de GitHub para reportar tareas, errores o mejoras. Permite discutir y asignar responsabilidades.
 
+Un pull request (PR) es una  solicitud para fusionar cambios de una rama a otra, generalmente tras una revision y aprobacion de los cambios antes de integrarlos al proyecto.
+
+El issue sirve para plantear y gestionar problemas o tareas; el pull request se utiliza para proponer y revisar soluciones a esos problemas. En un entorno colaborativo, los issues ayudan a organizar el trabajo y los pull requests aseguran que las soluciones sean revisadas y aprobadas antes de ser incorporadas al código principal.
+ 
+![creacion issue](./img//issue.png)
 ---
 
 ## Pregunta 5 (2 puntos)
