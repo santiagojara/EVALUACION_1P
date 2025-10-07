@@ -158,6 +158,12 @@ git flow hotfix start ingresar-encabezado
 Agregamos los dataos del encabezado:
 ![alt text](image-16.png)
 
+Creamos el commit de los cambios:
+
+git commit -m"Cambios encabezado"
+![alt text](image-17.png)
+
+Las ventajas del modelo de git flow se basan en la facilidad de evitar errores colaborativos y tener un mejor registro de los cambios, gracias a este seuimiento de cambios se pueden dedsarrollar uevas características para el software.
 
 
 
