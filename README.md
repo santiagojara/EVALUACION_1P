@@ -127,7 +127,15 @@ Al ejecutar `git status` después de crear los archivos de prueba, se observa:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Paso 1 - Inicialización: La inicialización de Git Flow establece la estructura de ramas necesaria para seguir este flujo de trabajo, definiendo main como rama de producción y develop como rama de desarrollo.
+Paso 2 - Creación del hotfix: Al crear un hotfix, se genera una rama temporal desde main para realizar correcciones urgentes o cambios menores que deben aplicarse directamente a producción.
+Paso 3 - Modificación y commit: Se completa el encabezado del documento con los datos personales del estudiante y se registra el cambio mediante un commit.
+Paso 4 - Finalización: Al finalizar el hotfix, Git Flow automáticamente:
+
+Integra los cambios en main (producción)
+Crea un tag para marcar esta versión
+Integra los cambios en develop para mantener sincronización
+Elimina la rama temporal del hotfix
 
 ---
 
@@ -159,7 +167,46 @@ Al ejecutar `git status` después de crear los archivos de prueba, se observa:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Parte Teórica:**
+
+**¿Qué es un Issue en GitHub?**
+
+Un issue es una herramienta de GitHub que permite rastrear tareas, errores (bugs), mejoras o cualquier tipo de trabajo pendiente en un proyecto. Funciona como un sistema de tickets donde se pueden:
+- Reportar problemas o errores
+- Proponer nuevas funcionalidades
+- Hacer preguntas sobre el proyecto
+- Documentar tareas pendientes
+- Asignar responsables
+- Etiquetar por categorías
+- Comentar y discutir soluciones
+
+**¿Qué es un Pull Request y cuál es su finalidad?**
+
+Un Pull Request (PR) es una solicitud para fusionar cambios de una rama a otra. Su finalidad principal es:
+- Proponer cambios al código del proyecto
+- Permitir la revisión de código antes de integrarlo
+- Facilitar la discusión sobre los cambios propuestos
+- Mantener un historial de qué cambios se hicieron y por qué
+- Ejecutar pruebas automáticas antes del merge
+- Garantizar calidad del código mediante revisión por pares
+
+**Diferencia y relación entre Issues y Pull Requests:**
+
+**Diferencias:**
+- Un **Issue** identifica un problema o tarea (el "qué")
+- Un **Pull Request** propone una solución mediante código (el "cómo")
+- Los Issues no contienen código, los PR sí
+- Los Issues pueden existir sin PR, pero los PR suelen resolver Issues
+
+**Relación en trabajo colaborativo:**
+En un flujo de trabajo típico:
+1. Se crea un **Issue** describiendo un problema o tarea
+2. Un desarrollador trabaja en una rama para resolver ese Issue
+3. Se crea un **Pull Request** con los cambios, referenciando el Issue
+4. El equipo revisa el PR
+5. Una vez aprobado, se hace merge y el Issue se cierra automáticamente
+
+Esta relación permite trazabilidad completa: desde la identificación del problema hasta su solución.
 
 ---
 
