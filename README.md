@@ -111,6 +111,9 @@ commits y tag
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+iniciar git flow 
+![alt text](image-4.png)
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
