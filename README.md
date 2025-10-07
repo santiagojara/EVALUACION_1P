@@ -91,6 +91,18 @@ primero ingrese al repositorio y de ahi utilize le comando git remote -v
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![alt text](image-3.png)
+
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+El archivo .gitignore le indica a Git qué archivos o carpetas no deben ir al repositorio remoto.
+
+Verificacion
+![alt text](image-4.png)
+
+
+
 ---
 
 ## Pregunta 3 (2 puntos)
