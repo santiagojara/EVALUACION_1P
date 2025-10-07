@@ -122,7 +122,16 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un issue en GitHub.
+  Un issue es una forma de rastrear tareas, mejoras, bugs o cualquier tipo de trabajo pendiente en un proyecto. Funciona como un sistema de tickets donde se puede discutir, asignar responsables y dar seguimiento al progreso.
+
+- Explicar qué es un pull request y cuál es su finalidad.
+  Es una solicitud para fusionar cambios de una rama a otra. Permite revisar el código, discutir las modificaciones, ejecutar pruebas automatizadas y aprobar los cambios antes de integrarlos.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  Issues: Identifican que se debe hacer
+  Pull Requests: Implementan como se hace
+  Relación: Un PR puede resolver uno o varios issues. Se vinculan usando palabras clave como "Closes Respuesta a la Pregunta 4 #1" o "Fixes #2"
 
 ---
 
