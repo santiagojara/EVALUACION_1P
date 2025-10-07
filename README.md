@@ -4,7 +4,7 @@
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Josue Guevara  
-**Fecha:** ___________________  
+**Fecha:** 07/10/2025 
 
 ---
 
