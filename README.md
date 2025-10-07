@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Anthony Israel Punina Chisag 
+**Fecha:** 07/10/2025
 
 ---
 
@@ -148,6 +148,106 @@ Como se puede ver los archivos dentro de la carpeta .doc y la carpeta doc no est
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+
+
+## **1. Inicialización de Git Flow**
+
+**Requisitos:** Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+
+**Comando:**
+
+git flow init
+
+
+Durante la inicialización, Git Flow pedirá algunas ramas base:
+
+```
+Which branch should be used for bringing forth production releases? [main]: main
+Which branch should be used for integration of the next release? [develop]: develop
+Feature branches? [feature/]: feature/
+Release branches? [release/]: release/
+Hotfix branches? [hotfix/]: hotfix/
+Support branches? [support/]: support/
+Version tag prefix? []: 
+```
+
+**Propósito:**
+
+* Define la estructura de ramas del proyecto (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*`).
+
+* Establece un estándar para el flujo de trabajo colaborativo.
+
+---
+
+## **2. Crear hotfix `ingresar-encabezado`**
+
+**Comando:**
+
+git flow hotfix start ingresar-encabezado
+
+
+**Propósito:**
+
+* Crea la rama `hotfix/ingresar-encabezado` a partir de `main`.
+* Permite modificar el encabezado del README sin afectar `develop` ni otras ramas.
+
+---
+
+## **3. Desarrollo del hotfix**
+
+Completar con los datos personales del estudiante el encabezado que ya se encuentra al inicio de este archivo `README.md`.
+Realizar al menos un commit durante el desarrollo:
+
+```bash
+git add .
+git commit -m "Pregunta 3 Parte 1"
+```
+
+**Propósito:**
+
+* Guardar los cambios de manera controlada en la rama del hotfix.
+
+Si se realizan otros cambios menores antes del commit final, se pueden hacer commits adicionales
+
+
+---
+
+## **4. Finalizar el hotfix y etiquetar**
+
+**Comando:**
+
+git flow hotfix finish ingresar-encabezado
+git tag -a "Pregunta 3" -m "Hotfix ingresar-encabezado completado"
+git push origin main
+git push origin develop
+git push --tags
+
+
+**Qué hace Git Flow automáticamente:**
+
+1. Hace merge de `hotfix/ingresar-encabezado` en `main`.
+2. Hace merge de `hotfix/ingresar-encabezado` en `develop`.
+3. Crea un tag en `main` (en este caso, `Pregunta 3`).
+4. Elimina la rama de hotfix local y, opcionalmente, remota.
+
+**Propósito:**
+
+* Garantizar que los cambios estén tanto en producción (`main`) como en desarrollo (`develop`).
+* Mantener la historia del proyecto clara y etiquetar el commit final como referencia.
+
+---
+
+## **5. Reflexión sobre Git Flow**
+
+**Ventajas principales:**
+
+1. Mantiene el proyecto organizado con ramas claras (`develop`, `main`, `feature`, `hotfix`).
+2. Facilita la colaboración: varios desarrolladores pueden trabajar simultáneamente sin interferencias.
+3. Permite un control de versiones claro y trazable mediante tags y merges controlados.
+4. Ideal para proyectos de larga duración o con múltiples releases, ya que permite aplicar hotfixes sin interrumpir el desarrollo activo.
+
+---
+
 
   Evidencia del Git Flow Init 
   ![FORK](img/Pregunta3/Init.png)
