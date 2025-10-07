@@ -133,7 +133,7 @@ Sirve para tener un proyecto mas entendible, con menos contratiempos y que se pu
 ## Capturas
 
 ![pregunta3](imagenes/pregunta3.png)
-
+![pregunta3.1](imagenes/pregunta3.1.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
