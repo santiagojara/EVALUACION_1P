@@ -136,10 +136,19 @@ git checkout main
 git flow hotfix start ingresar-encabezado -> al ingresar este comando tenemos lo siguiente
 ![Evidencia de Git](img/hotfix.png)
 
+Realizamos la modificacion solicitada
+![Evidencia de Git](img/Pregunta3.png)
+
 al finalizar la rama aplicamos 
 git flow hotfix finish ingresar-encabezado
--> el uso de esto hara merge en main y en develop actualizando todas las ramas
+-> el uso de esto hara merge en main y en develop actualizando todas las ramas como se demuestra en la imagen
+![Evidencia de Git](img/finalHotfix.png)
 
+Gitflow facilita el trabajo colaborativo ya que permite de forma sencilla iniciar ramas para cada desarrollador, de modo que no se sobre escriba codigo asi como facilita el proceso de fusion ya que todas las nuevas funcionalidades hacen desde el apartado de develop asegurando el codigo de produccion que esta en main y del mismo modo cuando se finaliza una funcionalidad al terminar la rama mediante git flow esta se auto fusiona a su rama de origen de modo que el codigo se actualiza y se reducen los posibles conflictos, dentro de proyectos grandes puede facilitar la organizacion y en proyectos con actualizacion constante permite mantener segura la version final mientras se realizan actualizaciones.
+
+
+## Commits Pregunta 3
+![Evidencia de Git](img/commits3.png)
 
 
 ---
@@ -168,12 +177,48 @@ git flow hotfix finish ingresar-encabezado
 
 - Un resumen del procedimiento realizado.
 - El número y enlace del issue creado.
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+- Explicacion de los Issues
+Un issue en GitHub permite notificar a los desarrolladores de un proyecto sobre las fallas o problemas existentes dentro de su código. En grupos grandes de trabajo, es una forma efectiva de comunicar los cambios o correcciones que deben realizar otros miembros del equipo.
+
+Un pull request es una solicitud formal para agregar el contenido de una rama a otra. Este proceso incluye una revisión de código y, posteriormente, si todo está correcto, se realiza un merge hacia la rama solicitada.
+
+La diferencia principal entre ambos radica en que un issue sirve para reportar un problema o bug dentro del código, mientras que un pull request puede tanto resolver un problema como añadir una nueva funcionalidad, ya que implica un proceso de fusión entre ramas. Como su nombre lo indica, el issue está directamente ligado a un problema dentro del proyecto.
+
+
+- Un resumen del procedimiento realizado.
+
+Inicialmente no se contaba con la funcionalidad de Issues por lo cual se activo esta opcion dentro del apartado de settings del repositorio, luego de eso en el boton issues se creo una issue segun el requerimiento solicitado.
+![Evidencia de Git](img/creacion_issue.png)
+
+Posterior a ello se realizo los cambios en el README y se utilizo un commit dentro del repositorio local que fue trasladado al repositorio remoto de github para el posterior pull request
+
+Luego dentro del apartado de pull request verificamos que sea nuestro repositorio y hacemos un pull request desde develop hacia main
+![Evidencia de Git](img/pull1.png)
+
+![Evidencia de Git](img/pull2.png)
+
+Aqui se cierra el Issue mediante el merge del pull request
+
+![Evidencia de Git](img/finalizacionIssue.png)
+
+- El número y enlace del issue creado.
+
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
+
+- El número y enlace al pull request.
+Numero del pull Request #2
+https://github.com/Mar-Dim/EVALUACION_1P/pull/2
+
+![Evidencia de Git](img/finalizacionIssue.png)
 ---
 
 ## Pregunta 5 (2 puntos)
