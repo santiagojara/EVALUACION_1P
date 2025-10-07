@@ -142,6 +142,7 @@ $ git flow init
 $ git flow hotfix start ingresar-encabezado
 $ git add .
 $ git commit -m "Completar encabezado con datos personales"
+$ git flow hotfix finish ingresar-encabezado
 
 *Descripcion del proceso seguido:
 Inicialización de Git Flow: Configura el repositorio con la estructura de ramas por defecto (main y develop)
