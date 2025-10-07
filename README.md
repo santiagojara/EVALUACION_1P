@@ -302,6 +302,12 @@ El conflicto surge cuando al hacer merge de una rama a otra, esta tiene dos mism
 
 ### El enlace al pull request creado hacia el repositorio original.
 
+https://github.com/santiagojara/EVALUACION_1P/pull/108#issue-3493136409
+### Capturas
+
+![pregunta6](imagenes/pregunta6.png)
+![pregunta6](imagenes/pregunta6.1.png)
+![pregunta6](imagenes/pregunta6.2.png)
 
 
 
