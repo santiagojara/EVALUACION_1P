@@ -3,9 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Karen Molina
+**Fecha:** 07/10/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -23,18 +22,36 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
-- `git pull`
+- `git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
+
+- `fork`: Función de GitHub que crea una copia personal de un repositorio en tu propia cuenta de GitHub, permitiendo trabajar independientemente del repositorio original.
+
+- `git pull`:Comando de Git que descarga los cambios más recientes desde un repositorio remoto y los fusiona automáticamente con la rama actual local.
 
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
+
   - ¿Cómo se realizó el fork?
+      1.Accedí al repositorio original en GitHub desde el link proporcionado por el ingeniero
+      2.Hice clic en el botón "Fork" en la esquina superior derecha
+      3.Seleccioné mi cuenta personal como destino del fork
+      4.GitHub creó una copia completa del repositorio en mi cuenta
+
   - ¿Cómo se realizó el clone del fork?
+      Con el comando visto en clase git clone y el link de mi repositorio fork:
+      git clone https://github.com/VK0691/EVALUACION_1PMOLINA.git
+    
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    Con el comando git remote -v confirmé que la URL apuntaba a mi repositorio personal 
+      $ git remote -v
+      origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (fetch)
+      origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (push)
+
+
+    
 
 **📝 Respuesta:**
 
