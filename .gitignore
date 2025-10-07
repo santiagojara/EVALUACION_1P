@@ -1,0 +1,8 @@
+#Todos los archivos con extensión .log.
+*.log
+#Una carpeta llamada temp/.
+temp/
+#Todos los archivos .md y .txt de la carpeta doc/. 
+#(Probar agregando un archivo prueba.md y un archivo prueba.txt dentro de la carpeta y fuera de la carpeta.)
+doc/*.md
+doc/*.txt
