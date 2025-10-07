@@ -80,8 +80,25 @@ y ahi nos muestra que estamos trabaja en el repositorio de nosotros y no en el d
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` es un archivo de configuración de Git que especifica qué archivos o carpetas deben ser ignorados por el sistema de control de versiones. Esto significa que Git no rastreará, ni incluirá en commits, ni subirá al repositorio remoto los archivos o carpetas que coincidan con los patrones definidos en `.gitignore`.
 
+Es útil para:
+- Evitar subir archivos temporales o de log
+- Excluir carpetas de dependencias (node_modules, venv, etc.)
+- Ignorar archivos de configuración local
+- Mantener el repositorio limpio y enfocado en el código fuente
+
+**Reglas configuradas:**
+1. `*.log` - Ignora todos los archivos con extensión .log en cualquier ubicación
+2. `temp/` - Ignora completamente la carpeta temp y todo su contenido
+3. `doc/*.md` y `doc/*.txt` - Ignora archivos .md y .txt solo dentro de la carpeta doc/
+
+Al ejecutar `git status` después de crear los archivos de prueba, se observa:
+
+-Los archivos `test.log` NO aparecen (ignorados por `*.log`)
+-la carpeta `temp/` NO aparece (ignorada por `temp/`)
+-Los archivos `doc/prueba.md` y `doc/prueba.txt` NO aparecen (ignorados por `doc/*.md` y `doc/*.txt`)
+-Los archivos `prueba.md` y `prueba.txt` en la raíz SÍ aparecen como untracked files, porque solo se ignoran dentro de la carpeta doc/, no en la raíz del proyecto
 ---
 
 ## Pregunta 3 (2 puntos)
