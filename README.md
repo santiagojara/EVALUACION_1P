@@ -154,7 +154,7 @@ Un issue en GitHub es herramienta de GitHub para reportar tareas, errores o mejo
 Un pull request (PR) es una  solicitud para fusionar cambios de una rama a otra, generalmente tras una revision y aprobacion de los cambios antes de integrarlos al proyecto.
 
 El issue sirve para plantear y gestionar problemas o tareas; el pull request se utiliza para proponer y revisar soluciones a esos problemas. En un entorno colaborativo, los issues ayudan a organizar el trabajo y los pull requests aseguran que las soluciones sean revisadas y aprobadas antes de ser incorporadas al código principal.
-
+ 
 ![creacion issue](./img//issue.png)
 ---
 
