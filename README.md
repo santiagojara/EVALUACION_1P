@@ -89,6 +89,7 @@ temp/
 *.md
 doc/*.txt
 
+![Evidencia de Git](img/gitIgnore.png)
 
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
