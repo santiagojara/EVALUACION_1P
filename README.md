@@ -133,7 +133,7 @@ doc/*.txt
 - Comandos utilizados para la creacion del hotflix
 git flow init
 git checkout main
-git flow hotflix start ingresar-encabezado
+git flow hotfix start ingresar-encabezado
 
 
 ---
