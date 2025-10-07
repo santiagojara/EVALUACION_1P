@@ -76,7 +76,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**Función del archivo `.gitignore`:**
+
+El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no deben ser rastreados ni incluidos en el control de versiones. Esto es útil para evitar subir archivos temporales, de configuración local, o archivos generados automáticamente que no son relevantes para el repositorio.
+
+**Evidencia de exclusión:**
+
+- Se creó un archivo `.gitignore` con las siguientes reglas:
+  - Ignorar todos los archivos `.log`.
+  - Ignorar la carpeta `temp/`.
+  - Ignorar todos los archivos `.md` y `.txt` dentro de la carpeta `doc/`.
+
+  ![Evidencia primer commit .gitignore](img/primercommit,pregunta2.png)
+
+- Se agregaron archivos de prueba:
+  - `doc/prueba.md` y `doc/prueba.txt` (estos archivos no son rastreados por Git).
+  - `prueba.md` y `prueba.txt` fuera de la carpeta `doc/` (estos sí son rastreados).
+  - Archivos `.log` y la carpeta `temp/` tampoco son rastreados.
+
+  ![Agregar archivos no rastreados](img/Agregararchivosnorastreados7.png)
+
+- Evidencia del comando `git status` mostrando que los archivos y carpetas indicados no aparecen como cambios a ser rastreados:
+
+  ![Evidencia de git status](img/gitstatyusp2.png)
 
 ---
 
