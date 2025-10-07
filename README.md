@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato  
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Pillapa Tubon Wilson joseh 
+**Fecha:** 7-10-2025  
 
 ---
 
@@ -38,7 +38,27 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: Es un comando de Git que crea una copia completa de un repositorio remoto en tu máquina local. Descarga todo el historial de commits, ramas y archivos del repositorio. Se usa con git clone 
+
+fork: Es una funcionalidad de GitHub que crea una copia completa de un repositorio en tu cuenta personal de GitHub. Es independiente del repositorio original y te permite hacer cambios sin afectar el proyecto original. Es útil para contribuir a proyectos de código abierto.
+
+git pull: Es un comando de Git que descarga los cambios del repositorio remoto y los fusiona automáticamente con tu rama local actual. Es una combinación de git fetch + git merge.
+
+- ¿Cómo se realizó el fork?
+Entra al repositorio original en GitHub https://github.com/santiagojara/EVALUACION_1P y hacemos click en la parte quqee dice fork
+
+- ¿Cómo se realizó el clone del fork?
+Copié la URL HTTPS de mi fork https://github.com/W1LSONN/EVALUACION_1P.git.
+y luego en el git bash ingrese el comando git clone https://github.com/W1LSONN/EVALUACION_1P.git
+Esto creó una copia local del fork bajo la carpeta 
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+ejecutamos el siguiente comando:
+$ git remote -v
+origin  https://github.com/W1LSONN/EVALUACION_1P.git (fetch)
+origin  https://github.com/W1LSONN/EVALUACION_1P.git (push)
+y ahi nos muestra que estamos trabaja en el repositorio de nosotros y no en el del ingeniero.
+
 
 ---
 
@@ -60,8 +80,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` es un archivo de configuración de Git que especifica qué archivos o carpetas deben ser ignorados por el sistema de control de versiones. Esto significa que Git no rastreará, ni incluirá en commits, ni subirá al repositorio remoto los archivos o carpetas que coincidan con los patrones definidos en `.gitignore`.
 
+Es útil para:
+- Evitar subir archivos temporales o de log
+- Excluir carpetas de dependencias (node_modules, venv, etc.)
+- Ignorar archivos de configuración local
+- Mantener el repositorio limpio y enfocado en el código fuente
+
+**Reglas configuradas:**
+1. `*.log` - Ignora todos los archivos con extensión .log en cualquier ubicación
+2. `temp/` - Ignora completamente la carpeta temp y todo su contenido
+3. `doc/*.md` y `doc/*.txt` - Ignora archivos .md y .txt solo dentro de la carpeta doc/
+
+Al ejecutar `git status` después de crear los archivos de prueba, se observa:
+
+-Los archivos `test.log` NO aparecen (ignorados por `*.log`)
+-la carpeta `temp/` NO aparece (ignorada por `temp/`)
+-Los archivos `doc/prueba.md` y `doc/prueba.txt` NO aparecen (ignorados por `doc/*.md` y `doc/*.txt`)
+-Los archivos `prueba.md` y `prueba.txt` en la raíz SÍ aparecen como untracked files, porque solo se ignoran dentro de la carpeta doc/, no en la raíz del proyecto
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -90,7 +127,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Paso 1 - Inicialización: La inicialización de Git Flow establece la estructura de ramas necesaria para seguir este flujo de trabajo, definiendo main como rama de producción y develop como rama de desarrollo.
+Paso 2 - Creación del hotfix: Al crear un hotfix, se genera una rama temporal desde main para realizar correcciones urgentes o cambios menores que deben aplicarse directamente a producción.
+Paso 3 - Modificación y commit: Se completa el encabezado del documento con los datos personales del estudiante y se registra el cambio mediante un commit.
+Paso 4 - Finalización: Al finalizar el hotfix, Git Flow automáticamente:
+
+Integra los cambios en main (producción)
+Crea un tag para marcar esta versión
+Integra los cambios en develop para mantener sincronización
+Elimina la rama temporal del hotfix
 
 ---
 
@@ -122,8 +167,67 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Parte Teórica:**
 
+**¿Qué es un Issue en GitHub?**
+
+Un issue es una herramienta de GitHub que permite rastrear tareas, errores (bugs), mejoras o cualquier tipo de trabajo pendiente en un proyecto. Funciona como un sistema de tickets donde se pueden:
+- Reportar problemas o errores
+- Proponer nuevas funcionalidades
+- Hacer preguntas sobre el proyecto
+- Documentar tareas pendientes
+- Asignar responsables
+- Etiquetar por categorías
+- Comentar y discutir soluciones
+
+**¿Qué es un Pull Request y cuál es su finalidad?**
+
+Un Pull Request (PR) es una solicitud para fusionar cambios de una rama a otra. Su finalidad principal es:
+- Proponer cambios al código del proyecto
+- Permitir la revisión de código antes de integrarlo
+- Facilitar la discusión sobre los cambios propuestos
+- Mantener un historial de qué cambios se hicieron y por qué
+- Ejecutar pruebas automáticas antes del merge
+- Garantizar calidad del código mediante revisión por pares
+
+**Diferencia y relación entre Issues y Pull Requests:**
+
+**Diferencias:**
+- Un **Issue** identifica un problema o tarea (el "qué")
+- Un **Pull Request** propone una solución mediante código (el "cómo")
+- Los Issues no contienen código, los PR sí
+- Los Issues pueden existir sin PR, pero los PR suelen resolver Issues
+
+**Relación en trabajo colaborativo:**
+En un flujo de trabajo típico:
+1. Se crea un **Issue** describiendo un problema o tarea
+2. Un desarrollador trabaja en una rama para resolver ese Issue
+3. Se crea un **Pull Request** con los cambios, referenciando el Issue
+4. El equipo revisa el PR
+5. Una vez aprobado, se hace merge y el Issue se cierra automáticamente
+
+Esta relación permite trazabilidad completa: desde la identificación del problema hasta su solución.
+
+
+**Parte Práctica:**
+
+**Procedimiento realizado:**
+
+Creación del Issue en GitHub:
+
+Navegué al repositorio en GitHub
+Fui a la pestaña "Issues"
+Hice clic en "New issue"
+Título: "Respuesta a la Pregunta 4"
+Descripción: "Documentar la Pregunta 4 sobre Issues y Pull Requests en el archivo README.md"
+Hice clic en "Submit new issue"
+Se generó el Issue #1
+
+
+Modificación del README.md:
+
+Edité el archivo README.md agregando la respuesta a la Pregunta 4
+Guardé los cambios
 ---
 
 ## Pregunta 5 (2 puntos)
