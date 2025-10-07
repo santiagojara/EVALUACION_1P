@@ -82,9 +82,9 @@ Esto creó una copia local del repositorio en un directorio.
 
   `git commit -m "Respuesta a Pregunta 1: Fork, clone y explicación"`
 
-  `git tag "Pregunta 1"`
+  `git tag -a v1.0.0 -m "Pregunta 1" 8f8a7ae`
 
-  `git push origin main`
+  `git push origin main --tags`
 
 ![comandos](img/5.png)
 
@@ -109,6 +109,14 @@ Esto creó una copia local del repositorio en un directorio.
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+**Crear el .gitignore:**
+* Creé un archivo llamado .gitignore con el siguiente contenido
+`*.log ;
+temp/ ;
+doc/*.md ;
+doc/*.txt`
+* Se hizo el commit del .gitignore
 
 ---
 
