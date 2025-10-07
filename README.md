@@ -76,7 +76,9 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+el archivo .gitignore evita que Git rastree ciertos archivos ocarpetas. Esto significa que archivos coincidentes con log, temp, md y txt no serán añadidos ni comiteados por error.
+
+![alt text](image-1.png)
 
 ---
 
