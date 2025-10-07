@@ -177,9 +177,15 @@ Evidencia pregunta 3:
 ### Resumen del Procedimiento Realizado
 
 1.  **Creación del Issue:** Se creó un issue en GitHub para registrar la tarea de responder la Pregunta 4.
+
+*   [Enlace al issue](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/issues/1)
+
 2.  **Cambio de Rama:** En el repositorio local, me posicioné en la rama `develop` usando `git checkout develop`.
 3.  **Edición y Commit:** Se editó el archivo `README.md` para añadir las respuestas teóricas. Luego, se realizó un commit con estos cambios y se subió a la rama `develop` del repositorio remoto con `git push origin develop`.
 4.  **Creación del Pull Request:** Desde la interfaz de GitHub, se creó un pull request para fusionar los cambios de la rama `develop` en la rama `main`.
+
+*   [Enlace al pull](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/pull/2)
+
 5.  **Vinculación del Issue:** En la descripción del pull request, se añadió la palabra clave `Closes #N` (donde N es el número del issue) para vincularlo y automatizar su cierre.
 6.  **Merge:** Finalmente, se aprobó y fusionó el pull request, integrando los cambios en la rama `main` y cerrando automáticamente el issue correspondiente.
 
@@ -234,6 +240,8 @@ Evidencia pregunta 3:
     *   La rama `ramaA`, ya con el conflicto resuelto y el contenido combinado, se fusionó exitosamente en la rama `develop`.
     *   Se creó un pull request desde `develop` hacia `main` para proponer la integración final de estos cambios.
 
+    *   [Enlace al pull](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/pull/3)
+
     ![Evidencia2 pregunta5](imagenes/evidencia2-pregunta5.jpg)
 
 5.  **Limpieza de Ramas:** Una vez completado el trabajo, las ramas `ramaA` y `ramaB` se eliminaron tanto del repositorio local (`git branch -d [nombre]`) como del remoto (`git push origin --delete [nombre]`).
@@ -270,4 +278,26 @@ Evidencia pregunta 3:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+### Proceso Realizado Paso a Paso
+
+1.  **Limpieza del Repositorio:** Se eliminó el archivo `archivoA.txt`, creado en la pregunta anterior, utilizando el comando `git rm` para quitarlo del control de versiones, seguido de un commit para registrar el cambio.
+2.  **Fusión Local:** Se actualizó la rama `main` local fusionando todos los cambios acumulados en la rama `develop` mediante el comando `git merge develop`.
+3.  **Actualización del Fork:** Se subieron los cambios de las ramas `main` y `develop` locales al repositorio remoto (el fork) para asegurar que estuviera completamente sincronizado.
+4.  **Creación del Pull Request Final:** Desde la interfaz de GitHub, se creó un pull request. La base (destino) fue la rama `main` del **repositorio original**, y el origen de los cambios fue la rama `develop` de **mi fork**. Esto se hizo para proponer la integración de todo mi trabajo en el proyecto principal.
+5.  **Etiquetado y Envío Final:** Se realizó un último commit con esta documentación, se etiquetó con "Pregunta-6" y "Version Final", y finalmente se subieron todos los commits y tags al repositorio remoto con `git push origin develop` y `git push origin --tags`.
+
+### Explicación del Versionamiento Semántico
+
+El Versionamiento Semántico (conocido como SemVer) es un conjunto de reglas y requisitos que dictan cómo se asignan y se incrementan los números de versión de un software. Su objetivo principal es transmitir un significado claro sobre los cambios que se han introducido en cada nueva versión.
+
+Consiste en un formato de tres componentes: **`MAJOR.MINOR.PATCH`**.
+
+*   **MAJOR (Mayor):** Se incrementa cuando se introducen cambios que **no son compatibles** con versiones anteriores (conocidos como *breaking changes*). Si un usuario actualiza a una nueva versión MAJOR, es posible que tenga que modificar su propio código para que siga funcionando. Por ejemplo, pasar de `1.7.2` a `2.0.0`.
+
+*   **MINOR (Menor):** Se incrementa cuando se añaden **nuevas funcionalidades** que **son compatibles** con la versión anterior. El software gana nuevas capacidades, pero el código existente de los usuarios no debería romperse. Por ejemplo, pasar de `1.7.2` a `1.8.0`.
+
+*   **PATCH (Parche):** Se incrementa cuando se realizan **correcciones de errores** que **son compatibles** con versiones anteriores. Son cambios internos que solucionan un comportamiento incorrecto sin añadir nuevas funcionalidades. Por ejemplo, pasar de `1.7.2` a `1.7.3`.
+
+### Enlace al Pull Request Creado Hacia el Repositorio Original
+
+*   [Enlace al Pull Request Final](https://github.com/santiagojara/EVALUACION_1P/pull/106)
