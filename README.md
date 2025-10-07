@@ -103,6 +103,8 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
   - ![alt text](image-7.png)
   - ![alt text](image-8.png)
   - git flow hotfix finish
+  -  git log --oneline --graph --all --decorate
+  - ![alt text](image-9.png)
 - Una descripción del **proceso seguido**, indicando el propósito de cada paso. 
   - Prmero se debe hacer commit a cualquier cambio que se encuentr en staggin y se debe usar git flow init para usar el flujo de git flow dentro del proyecto, depsues de eso se debe realizar git flow start para que gitflow cree y nos transporte automaticamente a la rama hotfix, una ve en la rama hotfix se debe ralizar lo cambio y usar git flow hotfix finish para cerrar la rama y se debe asignar los mensaes d elos comits de merge y los tags para llevar los cambios a develop y main y cerrar finalmente la rama.
 - Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.\
