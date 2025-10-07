@@ -163,6 +163,7 @@ Control de calidad: Separa claramente el desarrollo activo (develop) de las vers
 
 Gestion de releases: Estructura definida para preparar releases y hotfixes -->
 
+      ![Img hotfix](imgs/flowhotfix.png)
 
 ---
 
