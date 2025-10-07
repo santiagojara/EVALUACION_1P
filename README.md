@@ -396,6 +396,98 @@ Nota: No puedo crear issues o PRs directamente en GitHub desde aquí sin autenti
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
+### Respuesta a la Pregunta 5 — Resolver conflictos entre ramas y Pull Request
+
+Procedimiento realizado (paso a paso)
+
+1) Partir de la rama `develop`:
+
+  git checkout develop
+  git pull origin develop
+
+2) Crear las ramas `ramaA` y `ramaB` a partir de `develop`:
+
+  git checkout -b ramaA
+  # En ramaA crear archivoA.txt con "Contenido A"
+  Set-Content -Path archivoA.txt -Value "Contenido A" -Encoding UTF8
+  git add archivoA.txt
+  git commit -m "Agregar archivoA.txt con Contenido A en ramaA"
+
+  git checkout develop
+  git checkout -b ramaB
+  # En ramaB crear archivoA.txt con "Contenido B"
+  Set-Content -Path archivoA.txt -Value "Contenido B" -Encoding UTF8
+  git add archivoA.txt
+  git commit -m "Agregar archivoA.txt con Contenido B en ramaB"
+
+3) Intentar fusionar `ramaB` sobre `ramaA` (provoca conflicto):
+
+  git checkout ramaA
+  git merge ramaB
+
+  Resultado: Git detectó un conflicto en `archivoA.txt` porque ambos commits añadían el mismo archivo con contenido distinto.
+
+4) Resolver el conflicto combinando ambos contenidos (en `ramaA`):
+
+  # editar archivoA.txt y combinar contenidos, por ejemplo:
+  Contenido A
+  Contenido B
+
+  git add archivoA.txt
+  git commit -m "Resolver conflicto: combinar Contenido A y Contenido B"
+
+  Luego subir la ramaA al remoto:
+  git push -u origin ramaA
+
+5) Fusionar `ramaA` hacia `develop` (ya contiene la resolución):
+
+  git checkout develop
+  git merge --no-ff ramaA -m "Merge ramaA -> develop (resuelto conflicto)"
+  git push origin develop
+
+6) Eliminar ramas locales y remotas una vez integradas:
+
+  git branch -d ramaA
+  git branch -d ramaB
+  git push origin --delete ramaA
+  git push origin --delete ramaB
+
+En mi ejecución real se creó también una rama remota `ramaA` y se intentó eliminar `ramaB` del remoto, pero `ramaB` no existía en remoto (ya no fue creada remotamente). El resultado final en el repositorio fue:
+
+- `archivoA.txt` añadido a `develop` con el contenido combinado ("Contenido A" seguido de "Contenido B").
+- `ramaA` y `ramaB` eliminadas localmente; `ramaA` eliminada también del remoto.
+
+Explicación de por qué ocurrió el conflicto
+
+- Un conflicto ocurre cuando Git no puede reconciliar automáticamente los cambios entre dos ramas. En este caso, ambas ramas añadieron el mismo archivo (`archivoA.txt`) pero con contenidos distintos. Al no haber una forma automática de decidir qué versión mantener, Git marcó el archivo como en conflicto y dejó las marcas de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`) en el archivo.
+
+Links y PRs
+
+- PR creado para `ramaA` (opcional): https://github.com/Esteban-Vlz/EVALUACION_1P/pull/new/ramaA
+- Para crear el PR final de `develop` → `main` usa: https://github.com/Esteban-Vlz/EVALUACION_1P/pull/new/develop
+
+Resumen de comandos ejecutados (registro):
+
+- git checkout develop
+- git checkout -b ramaA
+- Set-Content archivoA.txt "Contenido A"; git add archivoA.txt; git commit -m "Agregar archivoA.txt con Contenido A en ramaA"
+- git checkout develop
+- git checkout -b ramaB
+- Set-Content archivoA.txt "Contenido B"; git add archivoA.txt; git commit -m "Agregar archivoA.txt con Contenido B en ramaB"
+- git checkout ramaA
+- git merge ramaB            # conflicto
+- (editar archivoA.txt -> combinar contenidos)
+- git add archivoA.txt
+- git commit -m "Resolver conflicto: combinar Contenido A y Contenido B"
+- git push -u origin ramaA
+- git checkout develop
+- git merge --no-ff ramaA -m "Merge ramaA -> develop (resuelto conflicto)"
+- git push origin develop
+- git branch -d ramaA; git branch -d ramaB
+- git push origin --delete ramaA; git push origin --delete ramaB
+
+
+
 ---
 
 ## Pregunta 6 (2 puntos)
