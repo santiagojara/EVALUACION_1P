@@ -39,6 +39,19 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  git clone: Es un comando que permite copiar un repositorio remoto a la máquina local.
+  fork: Es una copia remota de un repositorio remoto. Normalmente se usa para contribuir a proyectos ajenos sin dañar el original
+  git pull: Permite traes y descargar los cambios más recientes del repositorio remoto en la rama local actual.
+  ![captura del fork](./img/Captura%20de%20pantalla%202025-10-07%20152201.png)
+
+  El proceso pararealizar el fork fue dentro del link proporcionado por el ingeniero hice click en el boton de la parte superior derecha y genere un fork a mi cuenta personal.
+
+  Para realizar el clone del fork dentro del la terminal de git bash ejecute el comando dentro de la carpeta a usar: "git clone https://github.com/javierpea/EVALUACION_1P_JP.git"
+
+  Para verificar que se esta trabajando sobre el fork y no sobre el repositorio original dentro de la carpeta del clone ejecute el comando git remote -v para verificar que la url apunta a mi repositorio
+  
+  ![captura de los urls a donde apunta el clone](./img/revisionRemote.png)
+
 
 ---
 
@@ -61,7 +74,10 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore como tal permite especificar o evitar que archivos o directorios no rastrear (ignorar los cambios realizados en estos archivos), ni incluirlos en los commits, evitando así que información innecesaria, archivos temporales, de configuración local se suban al repositorio.
 
+En este caso se observa que los archivos .md y .txt dentro de la carpeta temp aparecen en color blanco es decir no se estan tomando en cuenta, y los archivos fuera de la carpeta temp aparecen de color verde lo que significa que estan siendo rastreados y tomados en cuenta.
+![verificacion de gitignore](./img/verificacionGitignore.png)
 ---
 
 ## Pregunta 3 (2 puntos)
