@@ -218,6 +218,7 @@ https://github.com/Mar-Dim/EVALUACION_1P/issues/1
 Numero del pull Request #2
 https://github.com/Mar-Dim/EVALUACION_1P/pull/2
 
+![Evidencia de Git](img/finalizacionIssue.png)
 ---
 
 ## Pregunta 5 (2 puntos)
