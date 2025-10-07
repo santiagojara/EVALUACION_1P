@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Tecnica de Ambato]  
+## Facultad de [FISEI]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Henry Lagua  
+**Fecha:** 7/10/25  
 
 ---
 
@@ -101,7 +101,7 @@ El archivo .gitignore le indica a Git qué archivos o carpetas no deben ir al re
 Verificacion
 ![alt text](image-4.png)
 
-
+![alt text](image-5.png)
 
 ---
 
@@ -134,6 +134,31 @@ Verificacion
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
+git flow init
+
+git flow hotfix start ingresar-encabezado
+# editar README.md y agregar datos personales
+
+git add README.md
+git commit -m "Agregar encabezado con datos personales"
+
+git flow hotfix finish ingresar-encabezado
+
+
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+se inicio el git flow
+
+![alt text](image-6.png)
+
+de ahi se genero la rama hotfix con el nombre ingresa encabezado, y se agrego el emcabesado
+
+
+
+
+
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
 
 ## Pregunta 4 (2 puntos)
 
