@@ -44,7 +44,7 @@
 
 ### Parte práctica
 
-"Las evidencias se enccuentran numeradas en \img."
+"Las evidencias se encuentran numeradas en \img."
 
 **Fork**
 1. En GitHub: botón **Fork** del repositorio original → mi cuenta → crear fork. Incluso poder abiri 
@@ -71,9 +71,16 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+"Las evidencias se encuentran numeradas en \img."
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+### Creacion de git ignore
+1. Se añadio al área de trabajo con el comando: git add .gitignore
+2. Se hizo el commit: git commit -m "P2: añadir reglas .gitignore"
+3. Se creo los archivos de prueba. (Evidencia en imagenes)
+4. Se verifico que gitignore este funcionando. (Evidencia en imagenes)
 
+### Funcion de gitignore
+evita que Git rastree archivos innecesarios (logs, temporales, artefactos). Probé con git status y git check-ignore -v para confirmar que *.log, temp/ y doc/*.md|.txt quedan fuera del control de versiones.
 ---
 
 ## Pregunta 3 (2 puntos)
