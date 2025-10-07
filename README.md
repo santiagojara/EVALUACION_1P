@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Bryan Quitto (Pregunta 3)
+**Fecha:** 07/10/2025 (Pregunta 3)
 
 ---
 
@@ -38,7 +38,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+git clone: clona un repositorio (copia local desde una URL).
+
+fork: copia del repo en tu cuenta de GitHub (repositorio independiente).
+
+git: pull → trae y aplica cambios desde un remoto (fetch + merge).
+
+- ¿Cómo se realizó el fork?
+
+  El fork se realizó una vez abierto el link del repositorio, y de ahi dando clic en el boton fork, luego se puso el nombre del repositorio y una descripción.
+
+  ![Fork del repositorio](imagenes/fork-pregunta1.jpg)
+
+- ¿Cómo se realizó el clone del fork?
+
+  Para realizar el clone del fork, se abrio una terminal en el escritorio, y se puso git clone https://github.com/santiagojara/EVALUACION_1P.git, siendo este el link del repositorio a clonar.
+
+  ![Clonadozdel repositorio](imagenes/clonar-pregunta1.jpg)
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  
+  Se verifico en el momento en el que se acaba de crear el fork, debajo de nombre del repositorio creado dice claramente: forked from santiagojara/EVALUACION_1P y si es que se va de nuevo al boton del fork dice claramente que no se puede hacer un fork de un repositorio del que somos propietarios.
+
+  ![Verificación del fork](imagenes/verificacion-fork-pregunta1.jpg)
 
 ---
 
@@ -60,7 +82,18 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` se utiliza para indicar a Git qué archivos o carpetas deben ser ignorados al momento de hacer seguimiento de cambios. 
+
+En este caso, se configuró para que ignore:
+
+- Todos los archivos con extensión `.log`.  
+- La carpeta `temp/` completa.  
+- Los archivos `.md` y `.txt` ubicados dentro de la carpeta `doc/`.
+
+De esta forma, al ejecutar `git status`, se puede observar que los archivos y carpetas especificados **no aparecen como rastreados**, lo que confirma que la configuración funciona correctamente.
+
+![Evidencia gitignore](imagenes/gitignore-pregunta2.jpg)
+![Evidencia gitstatus](imagenes/gitstatus-pregunta2.jpg)
 
 ---
 
@@ -90,7 +123,9 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Evidencia pregunta 3:
+
+![Evidencia pregunta3](imagenes/evidencia-preugunta3.jpg)
 
 ---
 
@@ -122,7 +157,39 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+*   **¿Qué es un issue en GitHub?**
+    Un *issue* (o incidencia) en GitHub es una herramienta para el seguimiento de tareas, mejoras, errores o preguntas sobre el proyecto. Funciona como un foro de discusión para un tema específico, permitiendo a los colaboradores discutir problemas, proponer nuevas funcionalidades y planificar el trabajo. Cada issue tiene un título, una descripción, y puede ser asignado a personas, etiquetado y organizado en proyectos.
+
+*   **¿Qué es un pull request y cuál es su finalidad?**
+    Un *pull request* (PR) o solicitud de extracción es la forma en que un desarrollador propone cambios a un repositorio. Su finalidad es notificar al equipo que has completado una tarea o solucionado un problema en una rama separada y que deseas que tus cambios sean revisados e integrados (*merge*) en una rama principal, como `develop` o `main`. Un PR muestra las diferencias exactas entre tu rama y la rama de destino, permitiendo la revisión de código, la discusión y la realización de ajustes antes de la fusión final.
+
+*   **Diferencia y relación entre ambos**
+    La principal diferencia es su propósito: un **issue** *describe* un trabajo que se debe hacer, mientras que un **pull request** *propone* los cambios de código que resuelven ese trabajo.
+
+    Se relacionan directamente en un flujo de trabajo colaborativo:
+    1.  Se abre un **issue** para reportar un error o solicitar una nueva funcionalidad.
+    2.  Un desarrollador toma el issue, crea una nueva rama y trabaja en la solución.
+    3.  Una vez terminado, crea un **pull request** con los cambios.
+    4.  El pull request se vincula al issue original. De esta manera, al fusionar el PR, el issue asociado se puede cerrar automáticamente, dejando un registro claro de qué problema se solucionó y con qué cambios.
+
+![Evidencia pregunta3](imagenes/evidencia-preugunta4.jpg)
+
+### Resumen del Procedimiento Realizado
+
+1.  **Creación del Issue:** Se creó un issue en GitHub para registrar la tarea de responder la Pregunta 4.
+
+*   [Enlace al issue](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/issues/1)
+
+2.  **Cambio de Rama:** En el repositorio local, me posicioné en la rama `develop` usando `git checkout develop`.
+3.  **Edición y Commit:** Se editó el archivo `README.md` para añadir las respuestas teóricas. Luego, se realizó un commit con estos cambios y se subió a la rama `develop` del repositorio remoto con `git push origin develop`.
+4.  **Creación del Pull Request:** Desde la interfaz de GitHub, se creó un pull request para fusionar los cambios de la rama `develop` en la rama `main`.
+
+*   [Enlace al pull](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/pull/2)
+
+5.  **Vinculación del Issue:** En la descripción del pull request, se añadió la palabra clave `Closes #N` (donde N es el número del issue) para vincularlo y automatizar su cierre.
+6.  **Merge:** Finalmente, se aprobó y fusionó el pull request, integrando los cambios en la rama `main` y cerrando automáticamente el issue correspondiente.
+
+![Evidencia pregunta4](imagenes/evidencia2-preugunta4.jpg)
 
 ---
 
@@ -155,7 +222,36 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+1.  **Creación de Ramas:** A partir de la rama `develop`, se crearon dos nuevas ramas locales: `ramaA` y `ramaB` utilizando el comando `git checkout -b [nombre-rama]`.
+
+2.  **Generación del Conflicto:**
+    *   En `ramaA`, se creó un archivo `archivoA.txt` con el texto "Contenido A" y se realizó un commit.
+    *   En `ramaB`, se creó un archivo con el **mismo nombre** (`archivoA.txt`) pero con el texto "Contenido B" y se hizo otro commit.
+    *   Se intentó fusionar `ramaB` en `ramaA` con `git merge ramaB`, lo que generó un conflicto de tipo `add/add`, ya que Git no pudo decidir qué versión del archivo conservar.
+
+    ![Evidencia1 pregunta5](imagenes/evidencia-pregunta5.jpg)
+
+3.  **Resolución del Conflicto:**
+    *   Se abrió el archivo `archivoA.txt`, que contenía los marcadores de conflicto de Git (`<<<<<<< HEAD`, `=======`, `>>>>>>>`).
+    *   Se editaron manualmente para combinar ambos contenidos, dejando el archivo con el texto "Contenido A" seguido de "Contenido B".
+    *   Se guardó el archivo y se marcó como resuelto usando `git add archivoA.txt`, para finalmente completar la fusión con `git commit`.
+
+4.  **Merge hacia Develop y Pull Request:**
+    *   La rama `ramaA`, ya con el conflicto resuelto y el contenido combinado, se fusionó exitosamente en la rama `develop`.
+    *   Se creó un pull request desde `develop` hacia `main` para proponer la integración final de estos cambios.
+
+    *   [Enlace al pull](https://github.com/Bryan-Quitto/EVALUACION_1P_MYCS/pull/3)
+
+    ![Evidencia2 pregunta5](imagenes/evidencia2-pregunta5.jpg)
+
+5.  **Limpieza de Ramas:** Una vez completado el trabajo, las ramas `ramaA` y `ramaB` se eliminaron tanto del repositorio local (`git branch -d [nombre]`) como del remoto (`git push origin --delete [nombre]`).
+
+### Explicación del Conflicto
+
+*   **¿Qué es un conflicto en Git?** Un conflicto surge cuando Git no puede fusionar automáticamente los cambios de dos ramas. Esto ocurre comúnmente cuando dos personas (o dos ramas) modifican las mismas líneas en el mismo archivo, o cuando una rama modifica un archivo que la otra ha eliminado. Git no puede tomar una decisión sobre qué cambio es el "correcto", por lo que detiene el proceso y le pide al usuario que resuelva las diferencias manualmente.
+
+*   **¿Por qué ocurrió en este caso?** El conflicto ocurrió porque ambas ramas, `ramaA` y `ramaB`, crearon un archivo con el mismo nombre (`archivoA.txt`) en la misma ubicación. Cuando intentamos fusionarlas, Git se encontró con dos versiones diferentes de este nuevo archivo y no sabía cuál de las dos debía incorporar a la versión final, lo que resultó en un conflicto de `add/add`.
+
 
 ---
 
@@ -182,4 +278,26 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+### Proceso Realizado Paso a Paso
+
+1.  **Limpieza del Repositorio:** Se eliminó el archivo `archivoA.txt`, creado en la pregunta anterior, utilizando el comando `git rm` para quitarlo del control de versiones, seguido de un commit para registrar el cambio.
+2.  **Fusión Local:** Se actualizó la rama `main` local fusionando todos los cambios acumulados en la rama `develop` mediante el comando `git merge develop`.
+3.  **Actualización del Fork:** Se subieron los cambios de las ramas `main` y `develop` locales al repositorio remoto (el fork) para asegurar que estuviera completamente sincronizado.
+4.  **Creación del Pull Request Final:** Desde la interfaz de GitHub, se creó un pull request. La base (destino) fue la rama `main` del **repositorio original**, y el origen de los cambios fue la rama `develop` de **mi fork**. Esto se hizo para proponer la integración de todo mi trabajo en el proyecto principal.
+5.  **Etiquetado y Envío Final:** Se realizó un último commit con esta documentación, se etiquetó con "Pregunta-6" y "Version Final", y finalmente se subieron todos los commits y tags al repositorio remoto con `git push origin develop` y `git push origin --tags`.
+
+### Explicación del Versionamiento Semántico
+
+El Versionamiento Semántico (conocido como SemVer) es un conjunto de reglas y requisitos que dictan cómo se asignan y se incrementan los números de versión de un software. Su objetivo principal es transmitir un significado claro sobre los cambios que se han introducido en cada nueva versión.
+
+Consiste en un formato de tres componentes: **`MAJOR.MINOR.PATCH`**.
+
+*   **MAJOR (Mayor):** Se incrementa cuando se introducen cambios que **no son compatibles** con versiones anteriores (conocidos como *breaking changes*). Si un usuario actualiza a una nueva versión MAJOR, es posible que tenga que modificar su propio código para que siga funcionando. Por ejemplo, pasar de `1.7.2` a `2.0.0`.
+
+*   **MINOR (Menor):** Se incrementa cuando se añaden **nuevas funcionalidades** que **son compatibles** con la versión anterior. El software gana nuevas capacidades, pero el código existente de los usuarios no debería romperse. Por ejemplo, pasar de `1.7.2` a `1.8.0`.
+
+*   **PATCH (Parche):** Se incrementa cuando se realizan **correcciones de errores** que **son compatibles** con versiones anteriores. Son cambios internos que solucionan un comportamiento incorrecto sin añadir nuevas funcionalidades. Por ejemplo, pasar de `1.7.2` a `1.7.3`.
+
+### Enlace al Pull Request Creado Hacia el Repositorio Original
+
+*   [Enlace al Pull Request Final](https://github.com/santiagojara/EVALUACION_1P/pull/106)
