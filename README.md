@@ -83,7 +83,9 @@ Verificamos con git status  que los archivos dentro de doc no se muestren,ni los
 
 Hacemos el commit y le asignamos tag de pregunta 2
 ![alt text](imagenes/SegundoCommitPregunta2.png)
-
+Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal para nuestros archivos de prueba
+![Commit imagenes segunda pregunta pregunta 2](imagenes/commitImagenes.png.png)
+![Archivos temporales](imagenes/archivosTemporales.png)
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
