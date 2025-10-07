@@ -183,7 +183,7 @@ Evidencia pregunta 3:
 5.  **Vinculación del Issue:** En la descripción del pull request, se añadió la palabra clave `Closes #N` (donde N es el número del issue) para vincularlo y automatizar su cierre.
 6.  **Merge:** Finalmente, se aprobó y fusionó el pull request, integrando los cambios en la rama `main` y cerrando automáticamente el issue correspondiente.
 
-![Evidencia pregunta3](imagenes/evidencia2-preugunta4.jpg)
+![Evidencia pregunta4](imagenes/evidencia2-preugunta4.jpg)
 
 ---
 
@@ -216,7 +216,34 @@ Evidencia pregunta 3:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+1.  **Creación de Ramas:** A partir de la rama `develop`, se crearon dos nuevas ramas locales: `ramaA` y `ramaB` utilizando el comando `git checkout -b [nombre-rama]`.
+
+2.  **Generación del Conflicto:**
+    *   En `ramaA`, se creó un archivo `archivoA.txt` con el texto "Contenido A" y se realizó un commit.
+    *   En `ramaB`, se creó un archivo con el **mismo nombre** (`archivoA.txt`) pero con el texto "Contenido B" y se hizo otro commit.
+    *   Se intentó fusionar `ramaB` en `ramaA` con `git merge ramaB`, lo que generó un conflicto de tipo `add/add`, ya que Git no pudo decidir qué versión del archivo conservar.
+
+    ![Evidencia1 pregunta5](imagenes/evidencia-pregunta5.jpg)
+
+3.  **Resolución del Conflicto:**
+    *   Se abrió el archivo `archivoA.txt`, que contenía los marcadores de conflicto de Git (`<<<<<<< HEAD`, `=======`, `>>>>>>>`).
+    *   Se editaron manualmente para combinar ambos contenidos, dejando el archivo con el texto "Contenido A" seguido de "Contenido B".
+    *   Se guardó el archivo y se marcó como resuelto usando `git add archivoA.txt`, para finalmente completar la fusión con `git commit`.
+
+4.  **Merge hacia Develop y Pull Request:**
+    *   La rama `ramaA`, ya con el conflicto resuelto y el contenido combinado, se fusionó exitosamente en la rama `develop`.
+    *   Se creó un pull request desde `develop` hacia `main` para proponer la integración final de estos cambios.
+
+    ![Evidencia2 pregunta5](imagenes/evidencia2-pregunta5.jpg)
+
+5.  **Limpieza de Ramas:** Una vez completado el trabajo, las ramas `ramaA` y `ramaB` se eliminaron tanto del repositorio local (`git branch -d [nombre]`) como del remoto (`git push origin --delete [nombre]`).
+
+### Explicación del Conflicto
+
+*   **¿Qué es un conflicto en Git?** Un conflicto surge cuando Git no puede fusionar automáticamente los cambios de dos ramas. Esto ocurre comúnmente cuando dos personas (o dos ramas) modifican las mismas líneas en el mismo archivo, o cuando una rama modifica un archivo que la otra ha eliminado. Git no puede tomar una decisión sobre qué cambio es el "correcto", por lo que detiene el proceso y le pide al usuario que resuelva las diferencias manualmente.
+
+*   **¿Por qué ocurrió en este caso?** El conflicto ocurrió porque ambas ramas, `ramaA` y `ramaB`, crearon un archivo con el mismo nombre (`archivoA.txt`) en la misma ubicación. Cuando intentamos fusionarlas, Git se encontró con dos versiones diferentes de este nuevo archivo y no sabía cuál de las dos debía incorporar a la versión final, lo que resultó en un conflicto de `add/add`.
+
 
 ---
 
