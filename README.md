@@ -38,7 +38,55 @@
 
 **📝 Respuesta:**
 
+**Diferencia entre los siguientes conceptos/comandos:**
+* git `clone`: Comando de Git que copia un repositorio remoto a tu máquina local.  
+* `fork`: Acción en GitHub que crea una copia personal de un repositorio en tu cuenta.  
+* git `pull`: Comando de Git que descarga los cambios del repositorio remoto y los fusiona con tu rama local.
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+
+**Fork del repositorio:**
+
+* Accedí al repositorio original en GitHub (`https://github.com/santiagojara/EVALUACION_1P`).
+* Hice clic en el botón "Fork" en la esquina superior derecha de la página.
+* Seleccioné mi cuenta de GitHub para crear una copia del repositorio en `https://github.com/SebasIsd/EVALUACION_1P_2526`.
+![Haciendo el fork](img/1.png)
+![Se creo el fork](img/2.png)
+
+**Clone del fork:**
+
+* En mi máquina local, ejecuté el siguiente comando para clonar el repositorio:  
+
+     git clone https://github.com/SebasIsd/EVALUACION_1P_2526
+
+Esto creó una copia local del repositorio en un directorio.
+![Se clono](img/3.png)
+
+**Verificación de que se trabajó en el fork:**
+
+* Verifiqué la URL del repositorio remoto con el comando:  
+
+     `git remote -v`
+
+     La salida mostró que `origin` apuntaba a mi repositorio, lo que confirmó que estaba trabajando en mi fork y no en el repositorio original.
+
+![Se clono](img/4.png)
+
+
+**Commits:**
+
+- Actualicé este archivo `README.md` con la respuesta y realicé un commit:  
+
+
+  `git add .`
+
+  `git commit -m "Respuesta a Pregunta 1: Fork, clone y explicación"`
+
+  `git tag "Pregunta 1"`
+
+  `git push origin main`
+
+![comandos](img/5.png)
 
 ---
 
