@@ -121,6 +121,19 @@ Esto confirma que .gitignore esta funcionando correctamente.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+Propósito de cada paso
+
+git flow init: configura la estructura de ramas 
+git flow hotfix start: crea una rama temporal para arreglar
+Edit y commit: registrar el cambio en la rama hotfix.
+git flow hotfix finish: integra el hotfix en main y develop, y crea un tag (si tu flujo lo define así).
+Push: subir los cambios y tags al remoto.
+
+ Ventajas de Git Flow
+
+Claridad en el flujo de trabajo: separa desarrollo (develop) de producción (main).
+Facilita releases y hotfixes: ramas con convenciones reducen errores humanos.
+
 
 ---
 
