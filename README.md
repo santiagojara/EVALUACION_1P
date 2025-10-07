@@ -140,7 +140,20 @@ el archivo .gitignore evita que Git rastree ciertos archivos ocarpetas. Esto sig
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Parte Teórica:
+- Issue en GitHub: un registro de un problema, tarea, sugerencia o solicitud de mejora dentro del repositorio. Permite discusión, asignación y etiquetado.
+
+- Pull Request (PR): propuesta de cambios desde una rama (o fork) hacia otra rama (por ejemplo, develop -> main o fork:develop -> original:main). Sirve para revisar, comentar, ejecutar CI y finalmente fusionar los cambios.
+
+- Diferencia y relación: un issue describe qué hay que hacer o qué problema existe; un PR propone cómo se resuelve (código/archivos). Los PR pueden cerrar issues automáticamente si en la descripción ponen Fixes #<issue_number>.
+
+Practica: 
+Primero en github en la seccion de issues se creo uno nuevo con los doatos reueridos en git se trabajo en develop donde se hizo los cambios se se añaden, se guardan y se suben los cambios en develop y de ahi se uno con main 
+
+- issues #1 https://github.com/ArteMisa82/EVALUACION_1/issues/1 
+
+-
+
 
 ---
 
