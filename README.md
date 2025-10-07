@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [UNIVERSIDAD TECNICA DE AMBATO]  
+## Facultad de [FACULTAD DE INGENIERIA EN SISTEMAS, ELECTRONICA E INDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante: Sebastian Freire** ___________________________  
+**Fecha:10/07/2025** ___________________  
 
 ---
 
@@ -23,9 +23,12 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
+- `git clone`
+
+- `fork` 
+
 - `git pull`
+
 
 ### Parte práctica:
 
@@ -38,7 +41,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+<!-- Escribe aquí tu respuesta a la Pregunta 1
+- `git clone`
+<!--- Este comando nos permite copiar un repositorio completo desde un servidor remoto (como GitHub) hacia nuestra máquina local. Incluyendo todos los archivos, historial de versiones y estructura del proyecto. -->  
+
+<!---- `fork` 
+ Permite crear una copia del repositorio original en tu propia cuenta, conservando el vínculo con el original. Es útil para colaborar en proyectos sin modificar directamente el repositorio fuente -->  
+
+<!---- `git pull`
+ Este comando se utiliza para actualizar el repositorio local con los últimos cambios del repositorio remoto. Combina git fetch y git merge. -->
 
 ---
 
