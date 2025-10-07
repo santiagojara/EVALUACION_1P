@@ -112,7 +112,10 @@ Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal
 
 **📝 Respuesta:** 
 ---
+Se realizo desde la inicializacionde git flow 
+![alt text](image-1.png)![alt text](imagenes/hotfix.png)
 
+![alt text](imagenes/tag3.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
@@ -140,10 +143,11 @@ Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+ 
+Issue: Es un ticket o incidencia en GitHub que sirve para reportar errores o sugerencias
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
----
+Pull Request (PR): Es una solicitud para fusionar cambios de una rama hacia otra.
+El issue es para planificación y seguimiento de tareas, mientras que el pull request es para revisión y fusión de código
 
 ## Pregunta 5 (2 puntos)
 
