@@ -38,9 +38,57 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+**Diferencia entre los siguientes conceptos/comandos en Git y GitHub**
 
----
+**git clone**
+Es un comando que permite copiar un repositorio remoto a tu nuestra computadora local, clona todo el historial, ramas y archivos del proyecto, permitiendo trabajar de manera independiente en tu entorno local.
+
+**fork**
+Es una copia completa de un repositorio remoto que se crea directamente en tu cuenta de GitHub. Su propósito es permitirte modificar el código sin afectar el repositorio original, ideal para colaborar en proyectos de otros usuarios.
+
+**git pull**
+Se utiliza para actualizar tu repositorio local con los últimos cambios realizados en el repositorio remoto. Internamente combina los comandos git fetch (descargar cambios) y git merge (fusionar cambios).
+### Parte práctica:
+
+**¿Cómo se realizó el fork?**
+
+Ingresé al repositorio original del docente con esta url: https://github.com/santiagojara/EVALUACION_1P en GitHub y presioné el botón Fork ubicado en la esquina superior derecha. Luego seleccioné mi cuenta personal para crear una copia del repositorio dentro de mi perfil. GitHub generó automáticamente una versión idéntica del repositorio original, pero ahora en mi usuario.
+
+![FORK](img/Pregunta1/Fork.png)
+
+
+**¿Cómo se realizó el clone del fork?**
+Copié la URL de mi fork:
+
+https://github.com/AnthonyPSW/EVALUACION_1P.git
+
+
+Luego, abrí la terminal en mi computadora y ejecuté los siguientes comandos:
+
+git clone https://github.com/AnthonyPSW/EVALUACION_1P.git
+cd EVALUACION_1P
+
+![FORK](img/Pregunta1/Clone.png)
+
+
+Con esto descargué todo el contenido del repositorio en mi equipo local, incluyendo el historial de commits y las ramas.
+
+**¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?**
+Ejecuté el comando:
+
+**git remote -v**
+
+
+Esto mostró la siguiente información:
+
+origin	https://github.com/AnthonyPSW/EVALUACION_1P.git (fetch)
+origin	https://github.com/AnthonyPSW/EVALUACION_1P.git (push)
+
+Al ver que la direccion corresponde a mi cuenta de GitHub, confirme que estaba trabajando sobre mi fork personal y no sobre el repositorio original.
+
+![FORK](img/Pregunta1/Remote.png)
+
+
 
 ## Pregunta 2 (1 punto)
 
