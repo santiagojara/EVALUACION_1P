@@ -112,8 +112,21 @@ Gitignore es un archivo que se lo coloca en el directorio raíz, se ponen patron
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
 
+- Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
+  ![Evidencia](img/Iniciar%20hotfix.jpg)
+
+- En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
+  ![Evidencia](img/datos%20personales%20del%20estudiante.jpg)
+
+- Realizar al menos un commit durante el desarrollo.
+  ![Evidencia](img/commit%20durante%20el%20desarrollo.jpg)
+
+- Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
+  ![Evidencia](img/Finalizar%20hotfix.jpg)
+
+![Tag Pregunta 3](img/P3.jpg)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -144,7 +157,11 @@ Gitignore es un archivo que se lo coloca en el directorio raíz, se ponen patron
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub: Es una herramienta que nos ayuda a realziar un control o seguimiento de las tareas, errores o sugerencias dentro del repositorio
+
+- Explicar qué es un **pull request** y cuál es su finalidad: Es una solicitud para fusionar los cambios realizados en una rama a otra. Y su finalidad es asegurarse que funsione yque el codigo sea revisado para que sea implementado
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo: El issue es solo un seguimiento o una tarea en el repositorio y el pull request es el mecanismo para integrar los cambios realizados e el codigo
 
 ---
 
