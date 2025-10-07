@@ -162,6 +162,11 @@ Gitignore es un archivo que se lo coloca en el directorio raíz, se ponen patron
 - Explicar qué es un **pull request** y cuál es su finalidad: Es una solicitud para fusionar los cambios realizados en una rama a otra. Y su finalidad es asegurarse que funsione yque el codigo sea revisado para que sea implementado
 
 - Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo: El issue es solo un seguimiento o una tarea en el repositorio y el pull request es el mecanismo para integrar los cambios realizados e el codigo
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> develop
 
 ---
 
