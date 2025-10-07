@@ -186,7 +186,15 @@ Primero en github en la seccion de issues se creo uno nuevo con los doatos reuer
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+ - Las ramas se crearon a partir de develop y se realizaron los conflictos en visual se hizo merge develop con la ramaA 
+  y se eliminaron con los siguientes comandos: 
+  
+git branch -d ramaA
+git branch -d ramaB
+git push origin --delete ramaA
+git push origin --delete ramaB
+
+![alt text](image-2.png)
 
 ---
 
