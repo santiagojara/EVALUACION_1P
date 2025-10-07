@@ -48,15 +48,24 @@
     - En la página "Create a new fork", se confirmó el propietario del nuevo repositorio (en este caso, May360-ai) y se mantuvo el nombre del repositorio (EVALUACION_1P).
     - Finalmente, se hizo clic en el botón "Create fork".
 
+    <p align="center"><img src="img/fork.png" alt="fork"></p>
+
 
   - ¿Cómo se realizó el clone del fork?
 
     - En la página del repositorio "forkeado" (May360-ai/EVALUACION_1P), se hizo clic en el botón verde <> Code.
     - Se copió la URL HTTPS proporcionada: https://github.com/May360-ai/EVALUACION_1P.git.
     - En la terminal de línea de comandos (Git Bash), se ejecutó el comando git clone seguido de la URL copiada
+    <p align="center"><img src="img/url.png" alt="url"></p>
+    <p align="center"><img src="img/clon.png" alt="clon"></p>
+    <p align="center"><img src="img/remote.png" alt="remote"></p>
+
 
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
   - Para verificar que el repositorio local estaba conectado al "fork" y no al repositorio original, se utilizó el siguiente comando en la terminal, dentro del directorio del proyecto clonado: git remote -v
+
+      <p align="center"><img src="img/remote -v.png" alt="remote -v"></p>
+      <p align="center"><img src="img/gitlog1.png" alt="git log1"></p>
 
 ---
 
