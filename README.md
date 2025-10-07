@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Santiago Sebastian Mora Beltran 
+**Fecha:** 10/07/2025
 
 ---
 
@@ -38,9 +38,20 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+ -Las diferencias son que git clone sirve para clonar o copiar un repositorio remoto a mi repositorio local, mientras que fork es realizar una copia de un repositorio remoto en mi cuenta de GitHub, por ultimo git pull es un comando para traer la informacion de un repositorio remoto a mi repositorio local.
+ -**¿Cómo se realizó el fork?** El fork se realizo en GitHub ubicandonos en el repositorio remoto del docente =, aplastando fork dandole un nombre y solo trayendo la rama main.
+ ![Fork realizado](img/image.png)
+ -**¿Cómo se realizó el clone del fork?** se cogio el url del clone y se utilizo en git el comando git clone "URL".
+ ![clone realizado](img/Screenshot%202025-10-07%20152441.png)
 
----
+ -**¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?** se verifico con ayuda del comando git remote -v.
+
+ ![verificacion](img/Screenshot%202025-10-07%20152531.png)
+
+ -commit realizado
+
+ ![commit realizado](img/Screenshot%202025-10-07%20152801.png)
+ ![tag y push](img/Screenshot%202025-10-07%20153114.png)
 
 ## Pregunta 2 (1 punto)
 
@@ -60,9 +71,31 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+-Creacion del archivo .gitignore
 
----
+![.gitignore](img/Screenshot%202025-10-07%20153257.png)
+
+-configuracion del archivo .gitignore
+
+![configuracion](img/Screenshot%202025-10-07%20153559.png)
+
+-realizacion del primer commit
+
+![1 commit](img/Screenshot%202025-10-07%20153731.png)
+
+-creacion de los archivo y carpeta
+
+![creacion](img/Screenshot%202025-10-07%20153940.png)
+
+-evidencias antes del segundo commit
+
+![evidencia](img/Screenshot%202025-10-07%20154142.png)
+
+-segundo commit 
+
+![2 commit](img/Screenshot%202025-10-07%20154331.png)
+
+![commits](img/Screenshot%202025-10-07%20154852.png)
 
 ## Pregunta 3 (2 puntos)
 
@@ -90,9 +123,37 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+-Inicializacion de git flow
 
----
+![git flow](img/Screenshot%202025-10-07%20155152.png)
+
+-creacion de la rama hotfix/ingresar-encabezado
+
+![rama](img/Screenshot%202025-10-07%20155324.png)
+
+-commit despues de llenar el encabezado
+
+![commit](img/Screenshot%202025-10-07%20155546.png)
+
+-finalizacion de la rama hotfix
+
+![finalizacion](img/Screenshot%202025-10-07%20155948.png)
+
+-los comando que se utilizaron fueron:
+-git flow init
+-git flow hotfix start ingresar-encabezado
+-git add .
+-git commit -m 
+-git flow hotfix finish ingresar-encabezado
+
+-Primero se inicializo git flow para posteriormente crear todas las ramas, se crea la nueva rama de hotfix, se anade y se realiza el commit, por ultimo se finaliza la rama hotfix donde se realiza automaticamente el merge.
+
+-Es util aplicar git flow ya que permite ver los cambios y ademas permite al equipo de trabajo trabajar en paralelo sin conflictos gracias a la creacion de diferentes ramas.
+
+-commits
+![comits](img/Screenshot%202025-10-07%20160642.png)
+
+
 
 ## Pregunta 4 (2 puntos)
 
@@ -122,9 +183,33 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+-Un issue es una herramienta que nos permite seguir el proyecto y reportar errores
+-Un pull request es una solicitud para fucionar cambios
+-El issue identifica problemas mientras que el pull request fusiona cambios, en un entorno de trabajo los issues permiten organizar los el trabajo mientras que el pull request permite revisar los cambios.
 
----
+-creacion de la issue
+
+![issue](img/Screenshot%202025-10-07%20161754.png)
+
+-commit y push a devvelop remoto
+
+![develop](img/Screenshot%202025-10-07%20161958.png)
+
+-creacion y vinculacion del pull request
+
+![creacion](img/Screenshot%202025-10-07%20162147.png)
+
+-aceptacion del merge
+
+![merge](img/Screenshot%202025-10-07%20162229.png)
+
+-se creo primero un issue en github para despues realizar los cambios que se requerian por ultimo se solicito un pull request hacian main de develop para responder al issue y ademas se acepto el merge
+-**Issue** #1 https://github.com/Santio13-code/EVALUACION_1P/issues/1#issue-3493074715
+-**Pull Request** #2 https://github.com/Santio13-code/EVALUACION_1P/pull/2#issue-3493083920
+
+-comits
+
+![comits](img/Screenshot%202025-10-07%20163018.png)
 
 ## Pregunta 5 (2 puntos)
 
@@ -155,9 +240,46 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+-creacion de las ramas
 
----
+![ramas](img/Screenshot%202025-10-07%20163239.png)
+
+-archivo ramaA
+
+![archivo](img/Screenshot%202025-10-07%20163430.png)
+
+-archivo ramaB
+
+![archivo](img/Screenshot%202025-10-07%20163608.png)
+
+- generacion del conflicto
+
+![conflicto](img/Screenshot%202025-10-07%20163726.png)
+
+-resolucion del conflicto
+![resolucion](img/Screenshot%202025-10-07%20163848.png)
+
+-merge hacia develop de ramaA
+
+![merge](img/Screenshot%202025-10-07%20163947.png)
+
+-creacion del pull request
+![pullrequest](img/Screenshot%202025-10-07%20164230.png)
+
+-eliminacion de las ramas
+![eliminacion](img/Screenshot%202025-10-07%20164405.png)
+
+-Las ramas se crearon a partir de develop con el comando git branch, el conflicto se genero porque se cambio la misma linea en un mismo archivo en las dos ramas, y se resolvio manteniendo uno de los cambios. Nos ubicamos en la rama develop y utilizamos el comando git merge ramaA. Las ramas se eliminaron con el comando git branch -d.
+
+-**Pull request** #3 https://github.com/Santio13-code/EVALUACION_1P/pull/3#issue-3493127269
+
+-un conflicto es cuando dos ramas modifican lo mismo y realizan un merge y la solucion es mantener uno de los cambios.
+
+-commits
+
+![comits](img/Screenshot%202025-10-07%20164854.png)
+
+
 
 ## Pregunta 6 (2 puntos)
 
