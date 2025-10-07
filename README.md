@@ -93,9 +93,20 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 
 ### En este README, se debe incluir:
 
-- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
-- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
-- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.\
+  - git flow init
+  - git flow hotfix start ingresar-encabezado
+  - git add .
+  -  git commit -m "cambio del nommbre: Josue Guevara"
+  - git add .
+  - $ git commit -m "Cambio de la fecha 07/10/2025"
+  - ![alt text](image-7.png)
+  - ![alt text](image-8.png)
+  - git flow hotfix finish
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso. 
+  - Prmero se debe hacer commit a cualquier cambio que se encuentr en staggin y se debe usar git flow init para usar el flujo de git flow dentro del proyecto, depsues de eso se debe realizar git flow start para que gitflow cree y nos transporte automaticamente a la rama hotfix, una ve en la rama hotfix se debe ralizar lo cambio y usar git flow hotfix finish para cerrar la rama y se debe asignar los mensaes d elos comits de merge y los tags para llevar los cambios a develop y main y cerrar finalmente la rama.
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.\
+  - Aplicar Git Flow ofrece una estructura clara y ordenada para gestionar el desarrollo de software, especialmente en equipos colaborativos o proyectos de larga duración. Su división por ramas específicas permite trabajar en nuevas funciones, correcciones y versiones de forma paralela sin afectar la estabilidad del código principal. Esto mejora la organización, la trazabilidad y la comunicación entre los desarrolladores, garantizando un flujo de trabajo más eficiente y controlado a lo largo del tiempo.
 
 **Importante:**
 
