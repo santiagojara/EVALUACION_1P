@@ -23,9 +23,9 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
-- `git pull`
+- **`git clone`**: crea una copia local de un repositorio remoto, descargando todos los archivos y el historial de commits a mi computador.
+- **Fork**: crea una copia del repositorio en mi cuenta personal de GitHub. Permite hacer cambios y luego enviar Pull Requests sin modificar el original.
+- **`git pull`**: actualiza mi repositorio local con los cambios más recientes del remoto, combinando `fetch` y `merge`.
 
 ### Parte práctica:
 
@@ -33,8 +33,16 @@
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork?
+    - Inicié sesión en mi cuenta de GitHub.
+   - Fui al repositorio del docente:  
+     👉 [https://github.com/santiagojara/EVALUACION_1P](https://github.com/santiagojara/EVALUACION_1P)
+   - Hice clic en **Fork → Create fork** y GitHub creó mi copia:  
+     `https://github.com/Itsuna18/EVALUACION_1P`.
   - ¿Cómo se realizó el clone del fork?
+   git clone https://github.com/Itsuna18/EVALUACION_1P.git
+   cd EVALUACION_1P
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Se verifico con git remote -v 
 
 **📝 Respuesta:**
 
