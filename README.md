@@ -94,7 +94,7 @@ Se verifico que el repositorio local apuntaba al fork personal y no al original 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+<>
 
 ### Reglas usadas en `.gitignore`
 
@@ -235,8 +235,30 @@ Escala en equipos grandes/proyectos largos: facilita revisiones, releases predec
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+<>
+### Parte teórica
 
+**¿Qué es un issue?**  
+Un *issue* es un ticket en GitHub para reportar tareas, bugs o ideas. Permite conversación, etiquetar (labels), asignar responsables y vincular commits o PRs.
+
+**¿Qué es un pull request (PR)?**  
+Un PR es una solicitud para integrar cambios de una rama a otra (p. ej., `develop` → `main`). Habilita revisión de código, checks/CI, comentarios y, al aprobarse, se hace el *merge*.
+
+**Diferencia y relación**  
+El *issue* describe el problema/objetivo; el PR aporta la solución. Al fusionar el PR, el issue se puede cerrar automáticamente si se referencia con `Closes #<número>`.
+
+---
+
+### Parte práctica (resumen del procedimiento)
+
+1. Trabajé en la rama `develop`.  
+2. Creé el *issue* **“Respuesta a la Pregunta 4”** (objetivo: documentar esta pregunta).  
+3. Redacté esta respuesta en `README.md`, hice commit y lo subí a `develop`.  
+4. Abrí un PR de `develop` hacia `main` y en la descripción añadí: `Closes #<número-del-issue>`.  
+5. Aprobé el PR y realicé el *merge* hacia `main`. El *issue* se cerró automáticamente.
+
+**Issue:** Nº **<#ISSUE>** — **<enlace-al-issue>**  
+**Pull Request:** Nº **<#PR>** — **<enlace-al-PR>**
 ---
 
 ## Pregunta 5 (2 puntos)
