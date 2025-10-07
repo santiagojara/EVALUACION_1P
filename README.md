@@ -38,7 +38,23 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+-git clone:En este comando bnsicamente lo que hace es que se utiliza para clonar un repositorio existente, creando una copia en tu equipo local
+
+-fork: Se utiliza para crear una copia de un repositorio de otro usuario.
+
+-git pull: Se usa para descargar los cambios más recientes de un repositorio remoto y fusionarlos con tu rama local.
+
+ - ¿Cómo se realizó el fork?
+    En GitHub hacemos click en el boton Fork, en el cual se hara una copia del repositorio
+
+
+ - ¿Cómo se realizó el clone del fork?
+    En elterminal vamos a ejecutar git clone https://github.com/Mauri10G/EVALUACION_1P.git
+
+ - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    Ejecuta git remote -v para ver los remotos asociado
+
+    ![Evidencia de fork y clone](img/Clonar%20el%20repositorio%20%20y%20verificar%20.jpg)
 
 ---
 
