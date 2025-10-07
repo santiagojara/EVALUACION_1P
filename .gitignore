@@ -1,0 +1,10 @@
+#archivos de log
+*.log
+
+#carpeta temporal completa
+temp/
+
+#solo archivos .md y .txt dentro de la carpeta doc/
+doc/*.md
+doc/*.txt
+
