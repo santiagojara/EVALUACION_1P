@@ -43,8 +43,15 @@
  ![Fork realizado](img/image.png)
  -**¿Cómo se realizó el clone del fork?** se cogio el url del clone y se utilizo en git el comando git clone "URL".
  ![clone realizado](img/Screenshot%202025-10-07%20152441.png)
+
  -**¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?** se verifico con ayuda del comando git remote -v.
+
  ![verificacion](img/Screenshot%202025-10-07%20152531.png)
+
+ -commit realizado
+
+ ![commit realizado](img/Screenshot%202025-10-07%20152801.png)
+ ![tag y push](img/Screenshot%202025-10-07%20153114.png)
 
 ## Pregunta 2 (1 punto)
 
@@ -64,9 +71,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+-Creacion del archivo .gitignore
 
----
+![.gitignore](img/Screenshot%202025-10-07%20153257.png)
+
+-configuracion del archivo .gitignore
+
+![configuracion](img/Screenshot%202025-10-07%20153559.png)
+
+-realizacion del primer commit
+
+![1 commit](img/Screenshot%202025-10-07%20153731.png)
+
+-creacion de los archivo y carpeta
+
+![creacion](img/Screenshot%202025-10-07%20153940.png)
+
+-evidencias antes del segundo commit
+
+![evidencia](img/Screenshot%202025-10-07%20154142.png)
+
+-segundo commit 
+
+![2 commit](img/Screenshot%202025-10-07%20154331.png)
 
 ## Pregunta 3 (2 puntos)
 
