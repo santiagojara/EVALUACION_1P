@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Tecnica de Ambato]  
+## Facultad de [FISEI]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Henry Lagua  
+**Fecha:** 7/10/25  
 
 ---
 
@@ -18,6 +18,7 @@
 - Cada pregunta debe estar **etiquetada con un tag**, únicamente en el commit final correspondiente, con el formato: `"Pregunta 1"`, `"Pregunta 2"`, etc.
 
 ---
+
 
 ## Pregunta 1 (1 punto)
 
@@ -40,6 +41,34 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:
+
+El git clone, copia un repositorio remoto a nuestra computadora, 
+el fork es una copia independiente de otro repositorio en mi cuenta  para podermodificarlo sin afectar al original, y el git pull es traer todos los cambios que estan en el repositorio remoto a nuestra computadora.
+
+
+Parte práctica:
+- ¿Cómo se realizó el fork?
+Ingres al repositorio con el link de la prueba, y atraves el aintervas genere el fork
+![alt text](img/image.png)
+
+  - ¿Cómo se realizó el clone del fork?
+
+de ahi me fui al fork que genere y le di en code y me copie el https para clonarlo
+![alt text]img/(image.png)
+y utilise el comando 
+git clone https://github.com/Hlagua/EVALUACION_1P.git
+pa copiar el repositorio
+![alt text](image-1.png)
+
+
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+primero ingrese al repositorio y de ahi utilize le comando git remote -v
+
+![alt text](image-2.png)
+
+
 ---
 
 ## Pregunta 2 (1 punto)
@@ -61,6 +90,18 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![alt text](image-3.png)
+
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+El archivo .gitignore le indica a Git qué archivos o carpetas no deben ir al repositorio remoto.
+
+Verificacion
+![alt text](image-4.png)
+
+![alt text](image-5.png)
 
 ---
 
@@ -93,6 +134,24 @@
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
+git flow init
+git flow hotfix start ingresar-encabezado
+git add .
+git commit -m "Agregar encabezado con datos personales"
+git flow hotfix finish ingresar-encabezado
+
+
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+se inicio el git flow el cual configura la estructura de ramas (main, develop, feature, release, hotfix).
+de ahi se genero la rama hotfix con el nombre ingresa encabezado,la cual es una rama temporal para corregir errores pequenos ,y se agrego el emcabesado, y se realizo el comit, y se finalizo la rama hotfix con git flow hotfix fisich lo cual fusiona los cambios en main y develop y elimina la rama del hotfix.
+
+
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
+Permite mantener un flujo de trabajo ordenado, separando el desarrollo principal, las pruebas y los lanzamientos.
+En equipos grandes, evita conflictos y facilita el control de versiones en proyectos de larga duración.
+
 
 ## Pregunta 4 (2 puntos)
 
@@ -125,6 +184,25 @@
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
+Parte teórica:
+
+un Issue es un reporte o tarea que describe un problema o mejora del proyecto.
+
+un pull Request es una solicitud para fusionar cambios de una rama a otra.
+
+Un issue indica qué hay que hacer, y un pull request implementa la solución. Cuando el pull request se aprueba, el issue puede cerrarse automáticamente.
+
+Parte práctica:
+- Un resumen del procedimiento realizado.
+primero se habilito issue en git hub ya que no estaba habilitado, de ahi se genero el isus respuesta preunta 4
+
+- El número y enlace del issue creado.
+1
+https://github.com/Hlagua/EVALUACION_1P/issues/1
+
+- El número y enlace al pull request.
+
+
 
 ## Pregunta 5 (2 puntos)
 
