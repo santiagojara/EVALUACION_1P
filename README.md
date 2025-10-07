@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
+**Nombre del Estudiante:** Alex Reyes  
 **Fecha:** ___________________  
 
 ---
@@ -116,7 +116,13 @@ iniciar git flow
 
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+comienso de la rama 
+![alt text](image-55.png)
+datos del estudiante 
+![alt text](image-6.png)
+comandos
+finalizar hotfix
+![alt text](image-7.png)
 ---
 
 ## Pregunta 4 (2 puntos)
