@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Amabto
+## Facultad de FISEI
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Mauricio Guevara
+**Fecha:** 07/10/2025
 
 ---
 
@@ -76,8 +76,14 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![Evidencia de pimer commit .gitignore](img/Primer%20commit%20gitignore%20.jpg)
 
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+Gitignore es un archivo que se lo coloca en el directorio raíz, se ponen patrones que describen los archivos y su funcion es ignorar estos archivos.
+![Evidencia del uso de .gitignore](img/Uso%20del%20gitignore.jpg)
+
+![Evidencia del segundo commit](img/Segundo%20commit%20gitignore.jpg)
 ---
 
 ## Pregunta 3 (2 puntos)
