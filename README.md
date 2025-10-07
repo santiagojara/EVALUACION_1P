@@ -146,7 +146,16 @@ Finalmente comprebamos que se haya ejecutado:
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-Inicializamos Git Flow con git flow init:
+Inicializamos Git Flow con git flow init y se crean la ramas por defecto:
+
+![alt text](image-14.png)
+
+Creamos la rama hotfix con el nombre de ingresar-encabezado:
+git flow hotfix start ingresar-encabezado
+
+![alt text](image-15.png)
+
+
 
 
 
