@@ -156,7 +156,16 @@ commits y tag
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Que es un issue?
+es la tarea o tareas que designa el dueño del repositorio
+que es un pull request?
+solicitud de fusion de ramas
+diferencia:
+issue tarea que se designa
+pullrequest : solicitud de fusion de ramas para añadir la fusion
 
+Practica 
+![alt text](image-10.png)
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
