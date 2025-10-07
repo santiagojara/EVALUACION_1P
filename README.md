@@ -162,8 +162,14 @@ El issue identifica qué hacer, el pull request muestra cómo hacerlo. En equipo
 - El número y enlace del issue creado.
 El número del issue es #1 y el enlace es el siguiente: https://github.com/JumboJhon04/EVALUACION/issues/1#issue-3493003116
 - El número y enlace al pull request.
+El número del pull request es #2 y el enlace es el siguiente: https://github.com/JumboJhon04/EVALUACION/pull/2#issue-3493031061
 
----
+### Capturas
+
+![pregunta4](imagenes/pregunta4.png)
+![pregunta4.1](imagenes/pregunta4.1.png)
+![pregunta4.2](imagenes/pregunta4.2.png)
+![pregunta4.3](imagenes/pregunta4.3.png)
 
 ## Pregunta 5 (2 puntos)
 
