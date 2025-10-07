@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
+**Nombre del Estudiante:** ___________________________
 **Fecha:** ___________________  
 
 ---
@@ -38,7 +38,19 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+### Diferencia:
+
+  - `git clone`: Comando de Git que crea una copia local completa de un repositorio remoto, incluyendo todo el historial, ramas y configuraciones. Se usa para obtener una copia local de un repositorio por primera vez.
+  - `fork`: Acción específica de GitHub que crea una copia personal de un repositorio en tu propia cuenta, permitiéndote experimentar y hacer cambios sin afectar el proyecto original.  
+  - `git pull`:Comando que actualiza tu repositorio local con los cambios más recientes del remoto. 
+  ### Proceso Seguido
+  
+  - ¿Cómo se realizó el fork?
+    Accedí al repositorio original en GitHubn e hice clic en el botón "Fork" en la esquina superior derecha
+  - ¿Cómo se realizó el clone del fork?
+    Ingrese a git bash, se busco la dirección en donde se clonara el repositorio y se uso el comando git clone https://github.com/Fary-T/EVALUACION_1P.git, haciendo asi que el repositorio se clone.
+  -¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original? 
+    GitHub creó una copia del repositorio en mi cuenta personal, y en git bash se uso el comando git remote -v para comprobar que la copia apuntaba a mi cuenta
 
 ---
 
@@ -60,7 +72,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore le indica a Git qué archivos o carpetas debe ignorar
 
 ---
 
@@ -122,7 +134,14 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub.
+  Un registro de tarea, error o mejora en GitHub. Sirve para coordinar qué se debe hacer.
+
+- Explicar qué es un **pull request** y cuál es su finalidad.
+  Solicitud para poder fusionar cambios de una rama a otra (por ejemplo, develop → main). Permite revisión antes de integrar los cambios.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  El issue describe el qué hacer y el pull request muestra el cómo se hizo. Se pueden vincular: cuando el PR se aprueba, el issue puede cerrarse automáticamente.
 
 ---
 
@@ -155,10 +174,42 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+Procedimiento completo:
+  Se partió desde develop:
 
----
+    git checkout develop
+    git checkout -b ramaA
+    git checkout develop
+    git checkout -b ramaB
 
+Generación del conflicto
+  -En ramaA se creó archivoA.txt con el contenido:
+    En ramaA se creó archivoA.txt con el contenido:
+  -En ramaB se creó archivoA.txt con el contenido:
+    Contenido B
+  -Al intentar fusionar ramaB sobre ramaA:
+    git checkout ramaA
+    git merge ramaB
+
+Resolución del conflicto
+  -Se editó archivoA.txt y se combinó el contenido:
+      Contenido A
+      Contenido B
+  -Luego se marcó como resuelto y se hizo commit:
+    git add archivoA.txt
+    git commit -m "Resolver conflicto combinando contenidos de ramaA y ramaB"
+
+Merge hacia develop
+  Se integraron los cambios de ramaA a develop:
+    git checkout develop
+    git merge ramaA
+
+Eliminación de ramas
+  Se eliminaron las ramas locales:
+    git branch -d ramaA
+    git branch -d ramaB
+No fue necesario eliminar ramas remotas porque nunca fueron subidas.
+  
 ## Pregunta 6 (2 puntos)
 
 **Realizar limpieza, explicar versionamiento semántico y enviar cambios al repositorio original**
