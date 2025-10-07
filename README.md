@@ -39,7 +39,21 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+## Respuestas
+### git clone
+Es un comando que sirve para clonar un repositorio existen a nuestra area de trabajo
+### fork
+Es una herramienta que sirve para copiar un repositorio existente a nuestra cuenta en github
+### git pull
+Es un comando de Git utilizado para actualizar la versión local de un repositorio desde otro remoto. 
 
+### ¿Cómo se realizó el fork?
+Primero entramos al repositorio del Ing, en la parte superior derecha está un botón que dice fork, al aplastarlo y crearlo, se nos duplicará por asi decirlo en nuestra cuenta, la cual tendrá un link diferente al del repostorio del cual se hizo fork.
+### ¿Cómo se realizó el clone del fork?
+Copiamos el link del repositorio nuestro, y al iniciar bash se usa el comando git clone "link del repositorio"
+### ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Con el comando git remote -v podemos constatar eso, en la siguiente imagen se visualiza tanto esto, como todo el proceso seguido.
+![pregunta1](imagenes/pregunta1.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -59,9 +73,14 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+### Evidencia
+Como evidencia la siguiente imagen.
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+![pregunta2](imagenes/pregunta2.png)
 
+![pregunta2.1](imagenes/pregunta2.1.png)
+
+En esta imagen se puede observar que el archivo readme si se muestra y agrega cuando se usa git add . y la carpeta y el archivo log se ignoran
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -89,9 +108,30 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+## Comandos exactos usados
+- git flow init
+- git flow hotfix start "ingresar-encabezado"
+- git add .
+- git commit -m "Se agregó los datos del encabezado"
+- git flow hotfix finish "ingresar-encabezado"
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Proceso segido
 
+1. Primero inicializamos git flow con el comando git flow init
+2. Creamos la rama temporal hotfix para la realizacion de los cambios con el comando git flow hotfix start "ingresar-encabezado"
+3. Editamos el encabezado y hacemos un git add . y un git commit
+4. Terminamos la rama temporal con el comando git flow hotfix finish "ingresar-encabezado"
+5. Listo
+
+## Ventajas de aplicar el git flow
+
+Sirve para tener un proyecto mas entendible, con menos contratiempos y que se puede configurar y manejar de una manera mas facil y entendible.
+
+## Capturas
+
+![pregunta3](imagenes/pregunta3.png)
+
+![pregunta3.1](imagenes/pregunta3.1.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -122,9 +162,35 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teorica
 
----
+- Explicar qué es un **issue** en GitHub.
+Es un reporte o tarea en GitHub para discutir errores, mejoras o preguntas sobre el proyecto.
+- Explicar qué es un **pull request** y cuál es su finalidad.
+Es una propuesta de cambio en el código para que otros lo revisen y lo integren al proyecto.
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+El issue identifica qué hacer, el pull request muestra cómo hacerlo. En equipo, primero se crea un issue y luego se envía un pull request para solucionar ese issue y que el equipo lo revise antes de integrarlo.
+
+### Parte práctica
+
+- Un resumen del procedimiento realizado.
+1. Primero desde github creamos el issue
+2. Nos movimos a la rama develop
+3. Editamos lo necesario e hicimos git add .
+4. Hicimos el git commit -m "Pregunta4(#1)"
+5. hicimos el pull request desde git y en descripcion se agregó Closes #1
+6. Hicimos merge
+- El número y enlace del issue creado.
+El número del issue es #1 y el enlace es el siguiente: https://github.com/JumboJhon04/EVALUACION/issues/1#issue-3493003116
+- El número y enlace al pull request.
+El número del pull request es #2 y el enlace es el siguiente: https://github.com/JumboJhon04/EVALUACION/pull/2#issue-3493031061
+
+### Capturas
+
+![pregunta4](imagenes/pregunta4.png)
+![pregunta4.1](imagenes/pregunta4.1.png)
+![pregunta4.2](imagenes/pregunta4.2.png)
+![pregunta4.3](imagenes/pregunta4.3.png)
 
 ## Pregunta 5 (2 puntos)
 
@@ -155,6 +221,41 @@
 
 **📝 Respuesta:**
 
+### Cómo se crearon las ramas.
+
+Usamos el comando git branch "nombre de la rama"
+
+### Cómo se generó y resolvió el conflicto.
+
+Hicimos una combinacion de ambas desde el editor de texto quedando asi
+"Contenido A
+
+Contenido B
+"
+
+### Cómo se realizó el merge hacia `develop`.
+
+Pues hicimos el commit en la ramaA ya arreglado el problema y despues nos cambiamos a la rama develop e hicimos el comando git merge ramaA
+### Cómo se eliminaron las ramas al finalizar.
+En el github entramos en brach y pusimos eliminar rama.
+con git branch -d "nombre de la rama"
+### El enlace al pull request.
+
+https://github.com/JumboJhon04/EVALUACION/pull/4#issue-3493079558
+### Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
+
+El conflicto surge cuando al hacer merge de una rama a otra, esta tiene dos mismos archivos pero con diferente contenido en los mismos. 
+
+## Capturas
+
+![pregunta5](imagenes/pregunta5.png)
+![pregunta5.1](imagenes/pregunta5.1.png)
+![pregunta5.2](imagenes/pregunta5.2.png)
+![pregunta5.3](imagenes/pregunta5..3.png)
+![pregunta5.4](imagenes/pregunta5.4.png)
+![pregunta5.5](imagenes/pregunta5.5.png)
+
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
 ---
@@ -181,5 +282,33 @@
 - Si hace falta agregar alguna evidencia adicional, agregue un tag adicional que sea `Version Final`.
 
 **📝 Respuesta:**
+
+### Una explicación del proceso realizado paso a paso.
+1. Primero realizamos un commit en caso de haber un cambio faltante
+2. Nos cambiamos a la rama main
+3. Usamos el comando git merge develop
+4. hacemos el git push origin main --tags
+5. Hacemos el pull request desde develop al main del repo original.
+
+### Una explicación del **versionamiento semántico**, indicando:
+  - En qué consiste.
+  Consiste en asignar un número de versión en el formato MAJOR.MINOR.PATCH (por ejemplo, 2.3.1). Este número se incrementa de acuerdo con el tipo de cambios introducidos en el software.
+  - Sus tres componentes (MAJOR, MINOR, PATCH).
+  MAJOR: Cambios incompatibles con versiones anteriores. Se incrementa cuando haces cambios que rompen la compatibilidad con versiones previas. Ejemplo: 2.0.0 a 3.0.0.
+
+  MINOR: Nuevas funcionalidades compatibles con versiones anteriores. Se incrementa cuando añades nuevas características de manera que no rompen el código anterior. Ejemplo: 1.2.0 a 1.3.0.
+
+  PATCH: Correcciones de errores. Se incrementa cuando haces arreglos menores que no afectan la funcionalidad, solo corrigen fallos. Ejemplo: 1.0.1 a 1.0.2.
+
+### El enlace al pull request creado hacia el repositorio original.
+
+https://github.com/santiagojara/EVALUACION_1P/pull/108#issue-3493136409
+### Capturas
+
+![pregunta6](imagenes/pregunta6.png)
+![pregunta6](imagenes/pregunta6.1.png)
+![pregunta6](imagenes/pregunta6.2.png)
+
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
