@@ -83,8 +83,10 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 
 ### Requisitos:
 
-- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.\
+![alt text](image-6.png)
 - Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
+
 - En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
 - Realizar al menos un commit durante el desarrollo.
 - Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
