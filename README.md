@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Santiago Sebastian Mora Beltran 
+**Fecha:** 10/07/2025
 
 ---
 
@@ -125,7 +125,17 @@
 
 -Inicializacion de git flow
 
-![git flow](img/)
+![git flow](img/Screenshot%202025-10-07%20155152.png)
+
+-creacion de la rama hotfix/ingresar-encabezado
+
+![rama](img/Screenshot%202025-10-07%20155324.png)
+
+-commit despues de llenar el encabezado
+
+![commit](img/)
+
+
 
 ## Pregunta 4 (2 puntos)
 
