@@ -284,12 +284,21 @@ El conflicto surge cuando al hacer merge de una rama a otra, esta tiene dos mism
 **📝 Respuesta:**
 
 ### Una explicación del proceso realizado paso a paso.
-
+1. Primero realizamos un commit en caso de haber un cambio faltante
+2. Nos cambiamos a la rama main
+3. Usamos el comando git merge develop
+4. hacemos el git push origin main --tags
+5. Hacemos el pull request desde develop al main del repo original.
 
 ### Una explicación del **versionamiento semántico**, indicando:
   - En qué consiste.
-  - En qué consiste.
+  Consiste en asignar un número de versión en el formato MAJOR.MINOR.PATCH (por ejemplo, 2.3.1). Este número se incrementa de acuerdo con el tipo de cambios introducidos en el software.
   - Sus tres componentes (MAJOR, MINOR, PATCH).
+  MAJOR: Cambios incompatibles con versiones anteriores. Se incrementa cuando haces cambios que rompen la compatibilidad con versiones previas. Ejemplo: 2.0.0 a 3.0.0.
+
+  MINOR: Nuevas funcionalidades compatibles con versiones anteriores. Se incrementa cuando añades nuevas características de manera que no rompen el código anterior. Ejemplo: 1.2.0 a 1.3.0.
+
+  PATCH: Correcciones de errores. Se incrementa cuando haces arreglos menores que no afectan la funcionalidad, solo corrigen fallos. Ejemplo: 1.0.1 a 1.0.2.
 
 ### El enlace al pull request creado hacia el repositorio original.
 
