@@ -52,6 +52,9 @@ Para verificar que se estaba trabajando en ese me movi a la carpeta principal de
 
 ![Clonar Fork](/img/clonar%20fork.png)
 
+Commit de la primera pregunta
+
+![Commit p1](/img/Pregunta%201.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -73,6 +76,14 @@ Para verificar que se estaba trabajando en ese me movi a la carpeta principal de
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore se utiliza para saber qué archivos o carpetas debe ignorar al momento de rastrear cambios en un repositorio.
+
+Se crea el archivo .gitignore
+![Crear gitignore](/img/git%20ignore.png)
+
+Se prueba el archivo .gitignore con los archivos prueba.txt prueba.md
+![Probar gitignore](/img/prueba%20de%20gitignore.png)
+
 
 ---
 
