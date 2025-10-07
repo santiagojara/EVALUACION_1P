@@ -1,9 +1,9 @@
-# Universidad Tecnica de Ambato  
+# Universidad Tecnica de Ambato   
 ## Facultad de Ingenieria en sistemas, electronica e industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Erick Guerron 
+**Nombre del Estudiante:** Erick Guerrón 
 **Fecha:** 07/10/2025  
 
 ---
@@ -91,8 +91,8 @@ Como se puede observar en la arrea de preparacion solo constan los archivos de p
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.
----
+El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.qq
+---q
 
 ## Pregunta 3 (2 puntos)
 
