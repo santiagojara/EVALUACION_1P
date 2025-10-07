@@ -133,41 +133,59 @@ El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no d
 ```bash
 # Inicializar Git Flow en el repositorio
 git flow init -d
+```
+![Evidencia git flow init](img/gitflowinit.png)
 
+```bash
 # Crear y empezar un hotfix llamado ingresar-encabezado
 git flow hotfix start ingresar-encabezado
+```
+![Inicio hotfix](img/edicionencabezado.png)
 
+```bash
 # (Editar el README.md para completar los datos personales en el encabezado)
 
 # Agregar y commitear los cambios realizados
 git add README.md
 git commit -m "Completar encabezado con datos personales"
+```
+![Commit cambios encabezado](img/agregarycomitearcambios.png)
 
+```bash
 # Finalizar el hotfix (esto fusiona los cambios en main y develop, y crea un tag)
 git flow hotfix finish ingresar-encabezado
+```
+![Finalizar hotfix](img/finhotfix.png)
 
+```bash
 # Subir los cambios y los tags al repositorio remoto
 git push origin main
 git push origin develop
 git push origin --tags
 ```
+![Subir cambios al remoto](img/subircambiosalremoto.png)
 
 ### Descripción del proceso seguido
 
 1. **Inicialización de Git Flow:**  
-   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.
+   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.  
+   ![Evidencia git flow init](img/gitflowinit.png)
 
 2. **Creación del hotfix:**  
-   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`. Esto permite corregir o agregar cambios urgentes directamente sobre la rama principal.
+   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`.  
+   ![Inicio hotfix](img/edicionencabezado.png)
 
 3. **Desarrollo en la rama hotfix:**  
-   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.
+   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.  
+   ![Commit cambios encabezado](img/agregarycomitearcambios.png)
 
 4. **Finalización del hotfix:**  
-   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.
+   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.  
+   ![Finalizar hotfix](img/finhotfix.png)
 
 5. **Subida de cambios:**  
-   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.
+   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.  
+   ![Subir cambios al remoto](img/subircambiosalremoto.png)
 
 ### Ventajas de aplicar Git Flow
 
