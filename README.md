@@ -151,6 +151,27 @@ Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archi
 
 **📝 Respuesta:**
 
+### Parte teórica:
+
+- **Explicar qué es un issue en GitHub:**  
+  Un issue en GitHub es una herramienta de seguimiento que permite a los colaboradores del proyecto reportar bugs, sugerir mejoras, discutir ideas o documentar tareas pendientes. Funciona como un foro integrado en el repositorio, donde se pueden asignar responsables, etiquetas y milestones para organizar el trabajo.
+
+- **Explicar qué es un pull request y cuál es su finalidad:**  
+  Un pull request (PR) es una solicitud formal para fusionar cambios de una rama (generalmente una rama de feature o desarrollo) a otra rama principal (como `main` o `develop`). Su finalidad es facilitar la revisión de código por parte de otros colaboradores, permitiendo discusiones, pruebas y aprobaciones antes de integrar los cambios, asegurando calidad y evitando conflictos.
+
+- **Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo:**  
+  La diferencia principal es que un issue se centra en la discusión y planificación de ideas o problemas sin involucrar código directamente, mientras que un pull request implica cambios concretos de código que se proponen para revisión y fusión. En un entorno colaborativo, se relacionan estrechamente: un issue puede iniciar una discusión sobre una mejora, y luego un PR resuelve ese issue al implementar la solución, permitiendo cerrar automáticamente el issue al fusionar el PR. Esto crea un flujo de trabajo estructurado donde issues guían el desarrollo y PRs lo ejecutan con control de calidad.
+
+### Parte práctica:
+
+- Un resumen del procedimiento realizado.
+1. Se habilitaron las Issues en el repositorio
+2. Nos cambiamos a la rama develop para responder las preguntas planteadas
+- El número y enlace del issue creado: `https://github.com/NoMerlyn/EVALUACION_1P/issues/1#issue-3493075147` siendo la issue #1
+- El número y enlace al pull request.
+
+**📝 Respuesta:**
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
