@@ -183,9 +183,16 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+-Un issue es una herramienta que nos permite seguir el proyecto y reportar errores
+-Un pull request es una solicitud para fucionar cambios
+-El issue identifica problemas mientras que el pull request fusiona cambios, en un entorno de trabajo los issues permiten organizar los el trabajo mientras que el pull request permite revisar los cambios.
 
----
+-creacion de la issue
+
+![issue](img/Screenshot%202025-10-07%20161754.png)
+
+
+
 
 ## Pregunta 5 (2 puntos)
 
