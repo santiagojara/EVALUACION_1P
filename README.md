@@ -149,6 +149,14 @@ Como se puede ver los archivos dentro de la carpeta .doc y la carpeta doc no est
 
 **📝 Respuesta:**
 
+  Evidencia del Git Flow Init 
+  ![FORK](img/Pregunta3/Init.png)
+
+  Evidencia de la creacion del Hotfix
+  ![FORK](img/Pregunta3/Hotfix.png)
+
+
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
