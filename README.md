@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Josue Guevara  
+**Fecha:** 07/10/2025 
 
 ---
 
@@ -24,17 +24,28 @@
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
 - `git clone`  
+Git clone es un comando de github que permite traer todos los cambios y archivos de un repositorio remoto a un repositorio local 
 - `fork`  
+fork Permite llevar los cambios de u remositorio remotoa  otro repositorio remoto
 - `git pull`
+Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al repositorio local, esto a diferencia de git clone actualiza los archvios y no sobreescribe lo que ya existe en el repositorio local
 
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
-  - ¿Cómo se realizó el fork?
-  - ¿Cómo se realizó el clone del fork?
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - ¿Cómo se realizó el fork? \
+  El fork se realizó al dar click en github en la opcion de fork y crar un repositorio remoto en el remositorio remoto del estudiante
+  ![alt text](image.png)\
+  ![alt text](image-2.png)
+  - ¿Cómo se realizó el clone del fork?\
+  El clone del fork se realizó al clonar el repositorio remoto del estudiante mediante el comando `git clone https://github.com/ElJDragon/EVALUACION_1P.git`
+  \
+  ![alt text](image-1.png)
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?\
+  Mediante el comando `git remote -v` se peude observar la rama remota y al ser la rama del estudiante se peude comprobar que se esta trabajando en el fork porque la ruta remota es del estudiante y no del docente \
+  ![alt text](image-3.png)
 
 **📝 Respuesta:**
 
@@ -52,9 +63,11 @@
 
 ### Requisitos:
 
-1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
-2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.\
 
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.\
+![alt text](image-4.png)
+![alt text](image-5.png)
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
@@ -70,17 +83,32 @@
 
 ### Requisitos:
 
-- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.\
+![alt text](image-6.png)
 - Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
+
 - En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
 - Realizar al menos un commit durante el desarrollo.
 - Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
 
 ### En este README, se debe incluir:
 
-- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
-- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
-- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.\
+  - git flow init
+  - git flow hotfix start ingresar-encabezado
+  - git add .
+  -  git commit -m "cambio del nommbre: Josue Guevara"
+  - git add .
+  - $ git commit -m "Cambio de la fecha 07/10/2025"
+  - ![alt text](image-7.png)
+  - ![alt text](image-8.png)
+  - git flow hotfix finish
+  -  git log --oneline --graph --all --decorate
+  - ![alt text](image-9.png)
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso. 
+  - Prmero se debe hacer commit a cualquier cambio que se encuentr en staggin y se debe usar git flow init para usar el flujo de git flow dentro del proyecto, depsues de eso se debe realizar git flow start para que gitflow cree y nos transporte automaticamente a la rama hotfix, una ve en la rama hotfix se debe ralizar lo cambio y usar git flow hotfix finish para cerrar la rama y se debe asignar los mensaes d elos comits de merge y los tags para llevar los cambios a develop y main y cerrar finalmente la rama.
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.\
+  - Aplicar Git Flow ofrece una estructura clara y ordenada para gestionar el desarrollo de software, especialmente en equipos colaborativos o proyectos de larga duración. Su división por ramas específicas permite trabajar en nuevas funciones, correcciones y versiones de forma paralela sin afectar la estabilidad del código principal. Esto mejora la organización, la trazabilidad y la comunicación entre los desarrolladores, garantizando un flujo de trabajo más eficiente y controlado a lo largo del tiempo.
 
 **Importante:**
 
@@ -100,9 +128,16 @@
 
 ### Parte teórica:
 
-- Explicar qué es un **issue** en GitHub.
-- Explicar qué es un **pull request** y cuál es su finalidad.
+- Explicar qué es un **issue** en GitHub. \
+
+Un issue (incidencia o tema) es una herramienta que permite registrar, discutir y dar seguimiento a tareas, errores, mejoras o preguntas dentro de un repositorio. Los issues sirven para organizar el trabajo, asignar responsables, establecer prioridades y mantener una comunicación clara entre los miembros del equipo. Son esenciales para la planificación y gestión del proyecto.
+- Explicar qué es un **pull request** y cuál es su finalidad. \
+
+Un pull request (PR) es una solicitud que un desarrollador realiza para integrar los cambios hechos en una rama (generalmente de un fork o una feature branch) hacia otra rama principal del proyecto, como develop o main. Su finalidad es revisar, discutir y aprobar los cambios antes de que se unan al código principal, asegurando la calidad y coherencia del proyecto.
 - Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  - Un issue plantea un problema o una tarea que necesita resolverse (por ejemplo: “corregir error en el login”).
+
+  - Un pull request representa la propuesta de solución a ese problema (por ejemplo: “se corrigió el error en el login y se actualizó la validación”).
 
 ### Parte práctica:
 
@@ -117,8 +152,18 @@
 ### En este README, se debe incluir:
 
 - Un resumen del procedimiento realizado.
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
 - El número y enlace del issue creado.
+https://github.com/ElJDragon/EVALUACION_1P/issues/1
+#1
 - El número y enlace al pull request.
+https://github.com/ElJDragon/EVALUACION_1P/pull/2 \
+#2
+
+
 
 **📝 Respuesta:**
 
@@ -142,6 +187,38 @@
 - Realizar el merge de `ramaA` hacia `develop`.
 - Crear un **pull request** desde `develop` hacia `main`.
 - Una vez completado lo anterior, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
+# 1️⃣ Crear y cambiar a RamaA
+git checkout -b RamaA
+
+# 2️⃣ Crear archivo o hacer cambios en RamaA
+echo "Contenido A" > archivoA.txt
+git add archivoA.txt
+git commit -m "Texto a contenido A"
+
+# 3️⃣ Crear y cambiar a RamaB
+git checkout -b RamaB
+
+# 4️⃣ Hacer cambios en RamaB
+echo "Contenido B" > archivoA.txt
+git add archivoA.txt
+git commit -m "Texto a contenido B"
+
+# 5️⃣ Volver a RamaA para hacer el merge
+git checkout RamaA
+
+# 6️⃣ Intentar merge de RamaB en RamaA (aparecerá conflicto)
+git merge RamaB
+
+# 7️⃣ Resolver el conflicto en archivoA.txt
+# (editar manualmente el archivo para dejar el contenido deseado y eliminar <<<<<<< ======= >>>>>>>)
+
+# 8️⃣ Marcar archivo como resuelto
+git add archivoA.txt
+
+# 9️⃣ Finalizar el merge
+git commit -m "Merge RamaB en RamaA, conflicto resuelto"
+
+
 
 ### En este README, se debe incluir:
 
