@@ -24,15 +24,19 @@
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
 - `git clone`  
+Git clone es un comando de github que permite traer todos los cambios y archivos de un repositorio remoto a un repositorio local 
 - `fork`  
+fork Permite llevar los cambios de u remositorio remotoa  otro repositorio remoto
 - `git pull`
+Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al repositorio local, esto a diferencia de git clone actualiza los archvios y no sobreescribe lo que ya existe en el repositorio local
 
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
-  - ¿Cómo se realizó el fork?
+  - ¿Cómo se realizó el fork? \
+  El fork se realizó 
   - ¿Cómo se realizó el clone del fork?
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
