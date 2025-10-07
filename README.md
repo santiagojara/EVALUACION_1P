@@ -63,7 +63,8 @@ Git pull es el comando que se utiliza cuando se desea traer los datos del reposi
  
 - Como se puede ver dentro de la imagen del fork creado se verifica que se esta trabajando en un repositorio propio que es una bifurcacion del repositorio original, al hacer un clon del repositorio resultante se sigue trabajando en el repositorio de la bifurcacion y no en el original.
 
-
+## Commits Pregunta 1 
+![Evidencia de Git](img/commits1.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -80,6 +81,13 @@ Git pull es el comando que se utiliza cuando se desea traer los datos del reposi
 
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
+
+**Importante:**  
+- Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
+
+**📝 Respuesta:**
+
+<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 El archivo .gitignore se utiliza para indicarle a git que extensiones, carpetas o archivos no deben ser rastrados dentro del repositorio, de modo que asi sabe git que archivos no debe tomar en cuenta.
 
 El git ignore correspondiente a esta practica tiene la siguiente estructura, que permite controlar todos los archivos solicitados.
@@ -91,12 +99,9 @@ doc/*.txt
 
 ![Evidencia de Git](img/gitIgnore.png)
 
-**Importante:**  
-- Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
-**📝 Respuesta:**
-
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+## Commits Pregunta 2 
+![Evidencia de Git](img/commits2.png)
 
 ---
 
