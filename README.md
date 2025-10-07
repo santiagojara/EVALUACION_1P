@@ -358,7 +358,7 @@ Resumen de ejemplo del procedimiento realizado (rellena con tus números/URLs):
 Estado real (issue creado):
 
 - Issue creado: #1 — https://github.com/Esteban-Vlz/EVALUACION_1P/issues/1#issue-3493065358
-- Pull Request: pendiente — https://github.com/Esteban-Vlz/EVALUACION_1P/pull/new/develop
+- Pull Request: #2 — https://github.com/Esteban-Vlz/EVALUACION_1P/pull/2#issue-3493082040
 
 Nota: No puedo crear issues o PRs directamente en GitHub desde aquí sin autenticación y permiso en tu cuenta, por lo que los pasos arriba son la guía exacta que debes seguir. Cuando tengas el número del issue y del PR, pégalos en la plantilla anterior dentro de este README.
 
