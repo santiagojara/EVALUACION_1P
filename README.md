@@ -119,32 +119,6 @@ Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archi
 
 **📝 Respuesta:**
 
-### Comandos exactos utilizados con descripción del proceso seguido:
-
-- `git flow init`  
-  Inicializa Git Flow en el repositorio, configurando las ramas por defecto `main` (para producción) y `develop` (para desarrollo), estableciendo la estructura base del flujo de trabajo.
-
-- `git flow hotfix start "ingresar_encabezado"`  
-  Crea una nueva rama de tipo `hotfix` llamada `ingresar_encabezado` a partir de `main`, permitiendo trabajar en correcciones urgentes sin afectar otras ramas.
-
-- `git status`  
-  Verifica el estado actual del repositorio, mostrando archivos modificados (README.md) y no rastreados (img/gitflow.png), confirmando que los cambios están listos para commit.
-
-- `git add .`  
-  Agrega todos los archivos modificados y nuevos al área de staging, preparándolos para el commit.
-
-- `git commit -m "Pregunta 3 - Encabezado"`  
-  Realiza un commit con los cambios en la rama hotfix, guardando la versión actualizada del encabezado en la historia del repositorio.
-
-- `git flow hotfix finish "ingresar_encabezado"`  
-  Finaliza el hotfix, fusionando automáticamente los cambios a las ramas `main` y `develop`, creando un tag de versión y eliminando la rama hotfix para mantener el repositorio limpio.
-
-### Reflexión sobre las ventajas de aplicar Git Flow:
-
-Git Flow proporciona una estructura organizada para el desarrollo de software, separando ramas para diferentes propósitos (desarrollo, releases, hotfixes, features). En contextos colaborativos o proyectos de larga duración, sus ventajas incluyen una mejor gestión de versiones, reducción de conflictos en merges, estabilidad en la rama de producción (`main`), y facilitación del trabajo paralelo en equipos grandes. Permite releases predecibles y correcciones rápidas sin interrumpir el flujo de desarrollo, promoviendo buenas prácticas y una historia de commits clara.
-![gitflow](img/gitflow.png)
-
-
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
@@ -177,7 +151,29 @@ Git Flow proporciona una estructura organizada para el desarrollo de software, s
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teórica:
+
+- **Explicar qué es un issue en GitHub:**  
+  Un issue en GitHub es una herramienta de seguimiento que permite a los colaboradores del proyecto reportar bugs, sugerir mejoras, discutir ideas o documentar tareas pendientes. Funciona como un foro integrado en el repositorio, donde se pueden asignar responsables, etiquetas y milestones para organizar el trabajo.
+
+- **Explicar qué es un pull request y cuál es su finalidad:**  
+  Un pull request (PR) es una solicitud formal para fusionar cambios de una rama (generalmente una rama de feature o desarrollo) a otra rama principal (como `main` o `develop`). Su finalidad es facilitar la revisión de código por parte de otros colaboradores, permitiendo discusiones, pruebas y aprobaciones antes de integrar los cambios, asegurando calidad y evitando conflictos.
+
+- **Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo:**  
+  La diferencia principal es que un issue se centra en la discusión y planificación de ideas o problemas sin involucrar código directamente, mientras que un pull request implica cambios concretos de código que se proponen para revisión y fusión. En un entorno colaborativo, se relacionan estrechamente: un issue puede iniciar una discusión sobre una mejora, y luego un PR resuelve ese issue al implementar la solución, permitiendo cerrar automáticamente el issue al fusionar el PR. Esto crea un flujo de trabajo estructurado donde issues guían el desarrollo y PRs lo ejecutan con control de calidad.
+
+### Parte práctica:
+
+- Un resumen del procedimiento realizado.
+1. Se habilitaron las Issues en el repositorio
+2. Nos cambiamos a la rama develop para responder las preguntas planteadas (Solamente teoria)
+3. Pusheamos la rama develop a github
+4. Al issue que creamos con anterioridad le asignamos esa rama
+5. Creamos un pull request en nuestro repositorio en en cual indicamos que se cerraria la issue #1
+6. Combinamos y aceptamos
+- El número y enlace del issue creado: `https://github.com/NoMerlyn/EVALUACION_1P/issues/1#issue-3493075147` siendo la issue #1
+- El número y enlace al pull request: `https://github.com/NoMerlyn/EVALUACION_1P/pull/2#issue-3493103638` siendo el pull request #2git fetch origin pull/ID/head:
+![pullrequest](img/pullrequest.png)
 
 ---
 
