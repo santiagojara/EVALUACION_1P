@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Jonathan Jiron
+**Fecha:** 07/10/2025
 
 ---
 
@@ -38,9 +38,30 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- `git clone` 
+Git clone clona un repositorio remoto desde github a tu máquina local
+- `fork` 
+Un fork es hacer copia personal de un repositorio remoto en tu cuenta de GitHub. 
+- `git pull`
+Lo que hace es recuperar los últimos cambios de un repositorio remoto a tu repositorio local
 
----
+### Parte práctica:
+
+- Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
+- Luego, realizar un **clone** del fork en el equipo local.
+- En este README, describir el proceso seguido:
+  - ¿Cómo se realizó el fork?
+  Se va al repositorio que nos proporciono el docente en este caso y se dio clic en el boton de fork y le dimos un nombre al repositorio en el cual se hara una copia persoinal dentro de unuestro repositorio
+  [fork](./IMG/FORK.png)
+  [fork](./IMG/FORK1.png)
+  - ¿Cómo se realizó el clone del fork?
+  En el repositorio tomamos el la ruta de la copia que estan en nuestro repositorio remoto y en nuestro git local y le ponemos con el git clone y la URL del mismo
+  [Clone](./IMG/CLONE.png)
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Se verifico con el comando git remote -v el cual nos devuel a sobre que repositorio estamos tabajando.
+  [Remote](./IMG/remote.png)
+ 
+
 
 ## Pregunta 2 (1 punto)
 
@@ -59,10 +80,11 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+[Gitignore](./IMG/git%20ignore.png)
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Se crea el archivo gitignore en el vaul se pone las extenciondes de los archivoa quue se desea ignorar y se hace git add .gitignore el cual solo tomo en ecuan en laa zona de preoaracion ese archivo
+[Commit del gitignore](./IMG/commit%20de%20gitignore.png)
 
----
 
 ## Pregunta 3 (2 puntos)
 
