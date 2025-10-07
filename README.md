@@ -40,6 +40,27 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+## PREGUNTA 1 RESPUESTA
+- git clone : Es un comando que copia el repositorio remoto a la maquina local, historia completa y ramas, y crea una carpeta con el repo y configura el remoto origin.
+- fork : Es una accion en la que crea una copia independiente del repositorio en la cuenta remota, a diferencia de git clone no es un comando si no que es una accion, se usa cuando se quiere agregar o contribuir algo cuando no se controla el proyecto, se trabaja en el fork y luego se hace un pull request al repositorio original 
+- git pull : Es un comando de git que actualiza la rama local con lo que hay en el repositorio remoto, y se usa para sincronizar tu copia local con los cambios que hay en el remoto pero si tienes cambios locales que conflijan, puede generar conflictos que se debe resolver.
+
+### PARTE PRACTICA RESPUESTA
+Fork creado en repositorio GitHub
+![Captura de pantalla](img/Screenshot 2025-10-07 152212.png)
+
+clone fork evidencia
+![Captura de pantalla](img/Screenshot 2025-10-07 153534.png)
+
+  - ¿Cómo se realizó el fork?
+    - Respuesta: Hice clic en "Fork" en GitHub y el repo se copió a mi cuenta.
+  - ¿Cómo se realizó el clone del fork?
+    - Respuesta: Copié la URL del fork y ejecuté `git clone https://github.com/aaronreinoso/EVALUACION_1P_Reinoso.git` en mi PC.
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    - Respuesta: Ejecuté `git remote -v` y confirmé que `origin` apuntaba a mi usuario.
+    
+![Comprobación remotos](img/Screenshot 2025-10-07 154312.png)
+
 ---
 
 ## Pregunta 2 (1 punto)
@@ -62,6 +83,17 @@
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+Configuracion del archivo .gitignore
+
+![Evidencia .gitignore](img/Screenshot 2025-10-07 154806.png)
+
+Primer commit con solo .gitignore
+![Evidencia .gitignore](img/Screenshot 2025-10-07 155527.png)
+
+- El archivo `.gitignore` le dice a Git qué archivos no debe seguir como logs y carpetas temporales.
+- Usé `git status` y los archivos dentro de `doc/` no aparecen, por eso están ignorados.
+
+![Evidencia .gitignore](img/Screenshot 2025-01-01 225424.png)
 ---
 
 ## Pregunta 3 (2 puntos)
