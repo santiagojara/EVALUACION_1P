@@ -111,6 +111,13 @@ Al ver que la direccion corresponde a mi cuenta de GitHub, confirme que estaba t
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+La funcion del `.gitignore` es que excluye los archivos de ese tipo en los que hemos configurado por ejemplo los archivos que son .txt
+
+![FORK](img/Pregunta2/Prueba1.png)
+
+Como se puede ver los archivos dentro de la carpeta .doc y la carpeta doc no estan siendo rastreadas pero el archivo que tengo fuera de esa carpeta si lo esta siendo 
+
+![FORK](img/Pregunta2/Prueba2.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
