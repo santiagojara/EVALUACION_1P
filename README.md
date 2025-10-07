@@ -77,7 +77,18 @@ Git pull es el comando que se utiliza cuando se desea traer los datos del reposi
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+El archivo .gitignore se utiliza para indicarle a git que extensiones, carpetas o archivos no deben ser rastrados dentro del repositorio, de modo que asi sabe git que archivos no debe tomar en cuenta.
+
+El git ignore correspondiente a esta practica tiene la siguiente estructura, que permite controlar todos los archivos solicitados.
+
+*.log
+temp/
+*.md
+doc/*.txt
+
 
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
