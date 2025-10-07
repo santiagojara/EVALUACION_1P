@@ -3,9 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Paredes Garzón Robert Andrés.  
+**Fecha:** 07/10/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -38,9 +37,22 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+### Diferencias
+- **`git clone`**: copia un repositorio **remoto a local** (historia + archivos + refs).
+- **Fork**: copia del repo **a nuestra cuenta de GitHub**. Te vuelves dueño del fork.
+- **`git pull`**: trae cambios y **los integra** en tu rama actual. Es `fetch + merge` (o `fetch + rebase` si se configura).
 
----
+### Parte práctica
+
+"Las evidencias se encuentran numeradas en \img."
+
+**Fork**
+1. En GitHub: botón **Fork** del repositorio original → mi cuenta → crear fork. Incluso poder abiri 
+
+2. **Clone del fork** usando: git clone https://github.com/andyyyia/EVALUACION_1P
+
+3. Para poder verificar que se trabaja sobre el Fork usamos el comando: git remote -v
+
 
 ## Pregunta 2 (1 punto)
 
@@ -59,9 +71,16 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+"Las evidencias se encuentran numeradas en \img."
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+### Creacion de git ignore
+1. Se añadio al área de trabajo con el comando: git add .gitignore
+2. Se hizo el commit: git commit -m "P2: añadir reglas .gitignore"
+3. Se creo los archivos de prueba. (Evidencia en imagenes)
+4. Se verifico que gitignore este funcionando. (Evidencia en imagenes)
 
+### Funcion de gitignore
+evita que Git rastree archivos innecesarios (logs, temporales, artefactos). Probé con git status y git check-ignore -v para confirmar que *.log, temp/ y doc/*.md|.txt quedan fuera del control de versiones.
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -90,7 +109,16 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+"Las evidencias se encuentran numeradas en \img."
+
+### Creacion con flow
+1. Con el comando: git flow init -d -> Con este comando crea las ramas por defecto main y develop.
+2. git flow hotfix start ingresar-encabezado -> Este comando crea hotfix/ingresar-encabezado desde main. En mi caso lo creo manualmente, suponiendo que develop existe usando: hotfix/ingresar-encabezado -> con el comando: git checkout -b hotfix/ingresar-encabezado.
+
+
+Ventajas de Git Flow: roles claros por rama, releases estables, hotfixes rápidos sin romper develop, historial limpio y predecible para equipos y proyectos longevos.
+
+
 
 ---
 
@@ -125,6 +153,17 @@
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
+Procedimiento: issue #1 creado; commit en develop; PR develop → main creado, vinculado y fusionado.
+
+Issue: ticket para reportar tareas/bugs/ideas. Sirve para discutir y planificar.
+
+Pull Request (PR): solicitud para fusionar cambios de una rama a otra tras revisión. Permite code review, checks y conversación.
+
+Diferencia/relación: el issue describe qué y por qué; el PR muestra cómo se implementó. Un PR puede cerrar un issue con palabras clave.
+
+Issue: #1 – https://github.com/andyyyia/EVALUACION_1P/issues
+PR: #<2> – https://github.com/andyyyia/EVALUACION_1P/pull/2
+
 
 ## Pregunta 5 (2 puntos)
 
