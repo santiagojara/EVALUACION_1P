@@ -4,6 +4,7 @@
 
 **Asignatura:** Manejo y Configuración de Software  
 **Nombre del Estudiante:** Washington Villalba  
+**Correo electrónico:** estebanlopez0777@gmail.com  
 **Fecha:** 07 / 10 / 2025 
 
 ---
@@ -45,21 +46,23 @@
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
-  - `git clone` : Es un comando de Git que se ejecuta en la terminal local. Su función es descargar una copia exacta de un repositorio remoto (ya sea el original o un fork) a tu máquina. Este proceso crea un directorio con todos los archivos, el historial de commits y las ramas del proyecto, y configura automáticamente una conexión remota llamada origin que apunta al repositorio desde el cual se clonó.
+git clone: Este comando crea una copia o clon de un repositorio existente en un nuevo directorio. Este comando se utiliza para obtener una copia de trabajo local de un repositorio remoto, incluyendo todo el historial de commits y las ramas.
 
- - `fork`  : Es una acción que se realiza en la plataforma de GitHub (no es un comando de Git). Consiste en crear una copia personal y completa de un repositorio ajeno en tu propia cuenta de GitHub. Este "fork" se convierte en un repositorio independiente sobre el cual tienes derechos de escritura, permitiéndote experimentar y proponer cambios sin afectar el proyecto original. Es el primer paso para contribuir a un proyecto de código abierto.
+fork: Es una acción que se realiza en plataformas como GitHub. Consiste en crear una copia personal de un repositorio ajeno en tu propia cuenta. Esta copia, o "bifurcación", es un repositorio completamente independiente que te permite experimentar y realizar cambios libremente sin afectar al proyecto original. Es el método estándar para contribuir a proyectos de código abierto.
 
-- `git pull` Es un comando de Git que se utiliza para actualizar tu repositorio local con los cambios existentes en el repositorio remoto. Es una combinación de dos comandos: git fetch (que descarga los cambios desde el remoto pero no los integra) y git merge (que fusiona dichos cambios en tu rama local).
+git pull: Es un comando de Git que se utiliza para actualizar el repositorio local con los cambios del repositorio remoto. Esencialmente, es una combinación de dos comandos: git fetch, que descarga los cambios del remoto, y git merge, que fusiona dichos cambios en tu rama de trabajo actual.
 
 
   - ¿Cómo se realizó el fork?
-    Se realizó mediante el siguiente link https://github.com/santiagojara/EVALUACION_1P en el cual se presionó el botón "Fork" y se seleccionó la cuenta personal del estudiante.
 
+    Se realizó mediante el siguiente link https://github.com/santiagojara/EVALUACION_1P en el cual se presionó el botón "Fork" y se seleccionó la cuenta personal del estudiante.
+    ![imagen](Imagenes/01.png)
   - ¿Cómo se realizó el clone del fork?
 
     En la página de su repositorio (su fork) se copió la URL de clonación y se ejecutó en la terminal local, por ejemplo:
 
-    git clone https://github.com/<TU_USUARIO>/EVALUACION_1P.git
+    git clone https://github.com/Esteban-Vlz/EVALUACION_1P.git
+    ![imagen](Imagenes/03.png)
 
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
@@ -77,8 +80,8 @@
 
        - En la salida de "git remote -v" debe verse algo como:
 
-         origin  https://github.com/<TU_USUARIO>/EVALUACION_1P.git (fetch)
-         origin  https://github.com/<TU_USUARIO>/EVALUACION_1P.git (push)
+         origin  https://github.com/Esteban-Vlz/EVALUACION_1P.git (fetch)
+         origin  https://github.com/Esteban-Vlz/EVALUACION_1P.git (push)
 
        Si en lugar de su usuario aparece "https://github.com/santiagojara/EVALUACION_1P.git" entonces clonó el repositorio original y no su fork.
 
@@ -88,8 +91,9 @@
        git remote -v
 
        Tras esto verá ambos remotos: "origin" (su fork) y "upstream" (repositorio original). Esto facilita traer cambios del original sin confundir los remotos.
+           ![imagen](Imagenes/04.png)
 
-    Resumen: la verificación principal es inspeccionar la URL del remoto "origin" con "git remote -v" y comprobar la etiqueta "forked from" en la interfaz web de GitHub. Si origin apunta a su cuenta, está trabajando sobre el fork.
+
 
 
 ## Pregunta 2 (1 punto)
@@ -103,6 +107,7 @@
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
 **Importante:**  
@@ -111,6 +116,41 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+### Respuesta a la Pregunta 2
+
+- ¿Qué hace el archivo `.gitignore`?
+
+  El archivo `.gitignore` contiene patrones que indican a Git qué archivos o carpetas no deben ser rastreados ni añadidos al repositorio. Esto es útil para no incluir archivos temporales, binarios, logs o ficheros de configuración locales.
+
+- Reglas añadidas en `.gitignore` para esta práctica:
+
+  - `*.log` → Ignora cualquier archivo con extensión `.log` en todo el repositorio.
+  - `temp/` → Ignora la carpeta `temp/` y todo su contenido.
+  - `doc/*.md` y `doc/*.txt` → Ignoran los archivos `.md` y `.txt` que estén dentro de la carpeta `doc/`.
+
+- Evidencia (estado de Git mostrando archivos ignorados y no rastreados):
+
+  La salida de `git status --porcelain --ignored` en mi entorno mostró (líneas con `!!` son archivos ignorados):
+
+  !! doc/
+  !! temp/
+  !! test.log
+  ?? prueba.md
+  ?? prueba.txt
+
+  Interpretación:
+
+  - `!!` indica que el elemento está siendo ignorado por `.gitignore`.
+  - `??` indica archivos no rastreados que no están cubiertos por `.gitignore`.
+
+  En este caso, `doc/` y `temp/` y `test.log` aparecen como ignorados, mientras que `prueba.md` y `prueba.txt` (archivos fuera de `doc/`) están sin rastrear y no son ignorados.
+
+imagenes para demostrar las pruebas Screen
+    ![imagen](Imagenes/05.png)
+    ![imagen](Imagenes/06.png)
+
+---
 
 ---
 
@@ -233,3 +273,5 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+
+# Cambio menor para segundo commit
