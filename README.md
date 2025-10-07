@@ -49,6 +49,8 @@ Se seleciciono la obcion fork en la esquina superior derecha que decia fork
 ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 se verifico que este como dueño mi usuario
 ![alt text](/img/image.png)
+commits y tag
+![alt text](image.png)
 
 
 
