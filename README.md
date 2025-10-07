@@ -23,6 +23,20 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
+git clone
+fork
+git pull
+
+### Parte práctica:
+
+- Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
+- Luego, realizar un **clone** del fork en el equipo local.
+- En este README, describir el proceso seguido:
+  ¿Cómo se realizó el fork?
+¿Cómo se realizó el clone del fork?
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+**📝 Respuesta:**
+**Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 - **`git clone`**: crea una copia local de un repositorio remoto, descargando todos los archivos y el historial de commits a mi computador.
 - **Fork**: crea una copia del repositorio en mi cuenta personal de GitHub. Permite hacer cambios y luego enviar Pull Requests sin modificar el original.
 - **`git pull`**: actualiza mi repositorio local con los cambios más recientes del remoto, combinando `fetch` y `merge`.
@@ -44,12 +58,6 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
   Se verifico con git remote -v 
 
-**📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
-
----
-
 ## Pregunta 2 (1 punto)
 
 **Configurar un archivo `.gitignore` para que ignore:**
@@ -67,15 +75,37 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+REGLAS QUE APLICAMOS:
+*.log        → Ignora todos los archivos con extensión .log  
+temp/        → Ignora toda la carpeta temp/  
+doc/*.md     → Ignora los archivos .md dentro de doc/  
+doc/*.txt    → Ignora los archivos .txt dentro de doc/
+COMO FUNCIONA?
+Después de crear los archivos:
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+prueba.log
 
----
+temp/archivo.log
+
+doc/prueba.md
+
+doc/prueba.txt
+
+prueba.md
+
+prueba.txt
+
+y ejecutar git status, solo aparece el archivo .gitignore como rastreado, confirmando que las reglas funcionan correctamente.
+![alt text](IMG/image.png)
 
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
 
+*.log        → Ignora todos los archivos con extensión .log  
+temp/        → Ignora toda la carpeta temp/  
+doc/*.md     → Ignora los archivos .md dentro de doc/  
+doc/*.txt    → Ignora los archivos .txt dentro de doc/
 ### Requisitos:
 
 - Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
