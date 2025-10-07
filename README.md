@@ -174,10 +174,42 @@ El archivo .gitignore le indica a Git qué archivos o carpetas debe ignorar
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+Procedimiento completo:
+  Se partió desde develop:
 
----
+    git checkout develop
+    git checkout -b ramaA
+    git checkout develop
+    git checkout -b ramaB
 
+Generación del conflicto
+  -En ramaA se creó archivoA.txt con el contenido:
+    En ramaA se creó archivoA.txt con el contenido:
+  -En ramaB se creó archivoA.txt con el contenido:
+    Contenido B
+  -Al intentar fusionar ramaB sobre ramaA:
+    git checkout ramaA
+    git merge ramaB
+
+Resolución del conflicto
+  -Se editó archivoA.txt y se combinó el contenido:
+      Contenido A
+      Contenido B
+  -Luego se marcó como resuelto y se hizo commit:
+    git add archivoA.txt
+    git commit -m "Resolver conflicto combinando contenidos de ramaA y ramaB"
+
+Merge hacia develop
+  Se integraron los cambios de ramaA a develop:
+    git checkout develop
+    git merge ramaA
+
+Eliminación de ramas
+  Se eliminaron las ramas locales:
+    git branch -d ramaA
+    git branch -d ramaB
+No fue necesario eliminar ramas remotas porque nunca fueron subidas.
+  
 ## Pregunta 6 (2 puntos)
 
 **Realizar limpieza, explicar versionamiento semántico y enviar cambios al repositorio original**
