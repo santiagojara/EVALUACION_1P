@@ -147,6 +147,8 @@ se inicio el git flow el cual configura la estructura de ramas (main, develop, f
 de ahi se genero la rama hotfix con el nombre ingresa encabezado,la cual es una rama temporal para corregir errores pequenos ,y se agrego el emcabesado, y se realizo el comit, y se finalizo la rama hotfix con git flow hotfix fisich lo cual fusiona los cambios en main y develop y elimina la rama del hotfix.
 
 
+
+
 - Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
 
 Permite mantener un flujo de trabajo ordenado, separando el desarrollo principal, las pruebas y los lanzamientos.
@@ -194,13 +196,28 @@ Un issue indica qué hay que hacer, y un pull request implementa la solución. C
 
 Parte práctica:
 - Un resumen del procedimiento realizado.
-primero se habilito issue en git hub ya que no estaba habilitado, de ahi se genero el isus respuesta preunta 4
+primero se habilito issue en git hub ya que no estaba habilitado, de ahi se genero el isus respuesta preunta 4 con #1, y dea hi se relizo el pull request verificando que sea  al fork de una mismo, y para terminar el issu se puso resolve #1, y no hubi problemas de merge
+
+
+
+
+![alt text](image-7.png)
+
+pull reuqest
+![alt text](image-8.png)
+
+
+resolvio 
+![alt text](image-9.png)
+
 
 - El número y enlace del issue creado.
 1
 https://github.com/Hlagua/EVALUACION_1P/issues/1
 
 - El número y enlace al pull request.
+#2
+https://github.com/Hlagua/EVALUACION_1P/pull/2
 
 
 
