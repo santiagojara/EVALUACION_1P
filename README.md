@@ -67,9 +67,9 @@
   - ¿Cómo se realizó el clone del fork?
       Con el comando visto en clase git clone y el link de mi repositorio fork:
       git clone https://github.com/VK0691/EVALUACION_1PMOLINA.git
-      ![Img fork](imgs/Screenshot 2025-10-07 151130.png)
-      ![Img clone](imgs/Screenshot 2025-10-07 151735.png)
-    
+
+![Img fork](imgs/Screenshot%202025-10-07%20151130.png)     
+![Img clone](imgs/Screenshot%202025-10-07%20151735.png)    
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
     Con el comando git remote -v confirmé que la URL apuntaba a mi repositorio personal 
       $ git remote -v
