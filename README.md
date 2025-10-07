@@ -1,10 +1,11 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato 
+## Facultad de Ingeniera en sistemas, electronica e industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Jhon Francis Jumbo Cárdenas  
+**Fecha:** 7/10/2025
+
 
 ---
 
@@ -110,8 +111,8 @@ En esta imagen se puede observar que el archivo readme si se muestra y agrega cu
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Comandos exactos usados
 
----
 
 ## Pregunta 4 (2 puntos)
 
