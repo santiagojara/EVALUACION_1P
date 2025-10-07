@@ -1,0 +1,8 @@
+# Ignorar todos los archivos con extensión .log
+*.log
+
+# Ignorar una carpeta llamada 'temp'
+temp/
+
+# Ignorar todos los archivos .txt de la carpeta 'assets'
+assets/*.txt
