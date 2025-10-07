@@ -79,7 +79,10 @@ Se creacion los archivos de prueba para la prueba del git ignore.
 
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
-El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.
+![Actividad Gitignore](img/gitignore-activado.png)
+Como se puede observar en la arrea de preparacion solo constan los archivos de prueba que no estan dentro de la carpeta doc, por lo que se concluye que el .gitignore esta en funcionamiento.
+
+
 
 
 **Importante:**  
@@ -88,7 +91,7 @@ El .gitignore es la parte mas importante dentro de cualquier repositorio ya que 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.
 ---
 
 ## Pregunta 3 (2 puntos)
