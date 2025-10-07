@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Carlos Fabian Bejarano Masabanda  
+**Nombre del Estudiante:** Carlos Bejarano   
 **Fecha:** 07/10/2025
 
 ---
