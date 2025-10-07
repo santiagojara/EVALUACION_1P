@@ -182,11 +182,6 @@ imagenes para demostrar las pruebas Screen
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
-
-Objetivo: usar Git Flow (o su equivalente) para crear una corrección rápida (hotfix) llamada `ingresar-encabezado`, completar los datos personales en el encabezado del `README.md`, realizar varios commits y cerrar el hotfix siguiendo el flujo.
-
-Comandos exactos ejecutados (PowerShell — adaptados si no tienes `git-flow` instalado):
-
 - Crear la rama hotfix y trabajar en ella:
 
   git checkout -b hotfix/ingresar-encabezado
@@ -300,7 +295,7 @@ Parte teórica
 
 - ¿Qué es un issue en GitHub?
 
-  Un issue es una entrada en el sistema de seguimiento de GitHub que se usa para reportar errores, proponer mejoras, pedir tareas, o documentar conversaciones relacionadas con el proyecto. Los issues permiten discutir, etiquetar, asignar y priorizar trabajo.
+  Un issue en GitHUb es una entrada en el sistema de seguimiento de GitHub que se usa para reportar errores, proponer mejoras, pedir tareas, o documentar conversaciones relacionadas con el proyecto. Los issues permiten discutir, etiquetar, asignar y priorizar trabajo.
 
 - ¿Qué es un pull request (PR) y cuál es su finalidad?
 
