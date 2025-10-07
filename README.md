@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Maria Belen Zapata 
+**Fecha:** 7 de Octubre de 2025 
 
 ---
 
@@ -38,8 +38,33 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+- Explicacion de git clone
+
+Git clone es un comando que permite clonar un repositorio remoto para un git local, este comando despues de ejecutarse crea una carpeta que dentro contiene lo que se encontraba en el repositorio remoto.
+- Explicacion de fork
+
+El fork en github permite traer un repositorio de otro usuario a los repositorios propios, es como realizar una copia del repositorio pero este mantiene coneccion con el original de modo que los cambios en la rama main seran controlados por la persona que creo el repositorio, si se desea hacer un cambio en main se debe hacer un pull request del contenido del fork hacia la main del repositorio original.
+- Explicacion de git pull
+
+Git pull es el comando que se utiliza cuando se desea traer los datos del repositorio remoto, al usarse este comando el contenido del repositorio local con lo que es traido del repositorio remoto.
+
+### Parte práctica:
+- Para realizar el fork debemos acceder al repositorio que se quiere utilizar, dentro de este tendremos la opcion de crear un nuevo fork.
+
+![Evidencia de Git](img/boton_fork.png)
+- Al dar click sobre este tendremos la interfaz que se visualiza en la imagen. En este apartado se puede cambiar el nombre si se desea hacerlo.
+- Despues de aceptar la creacion del fork, el repositorio resultante se visualizara de la siguiente forma, donde se notifica que es un fork del repositorio original.
+
+![Evidencia de Git](img/fork_creado.png)
+
+- Para clonar el repositorio remoto que resulto del fork, se utiliza el comando git clone con el url del fork realizado como se puede ver en la captura
+![Evidencia de Git](img/clone.png)
+ 
+- Como se puede ver dentro de la imagen del fork creado se verifica que se esta trabajando en un repositorio propio que es una bifurcacion del repositorio original, al hacer un clon del repositorio resultante se sigue trabajando en el repositorio de la bifurcacion y no en el original.
+
+## Commits Pregunta 1 
+![Evidencia de Git](img/commits1.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -53,7 +78,9 @@
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
 
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
@@ -61,6 +88,20 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore se utiliza para indicarle a git que extensiones, carpetas o archivos no deben ser rastrados dentro del repositorio, de modo que asi sabe git que archivos no debe tomar en cuenta.
+
+El git ignore correspondiente a esta practica tiene la siguiente estructura, que permite controlar todos los archivos solicitados.
+
+*.log
+temp/
+*.md
+doc/*.txt
+
+![Evidencia de Git](img/gitIgnore.png)
+
+
+## Commits Pregunta 2 
+![Evidencia de Git](img/commits2.png)
 
 ---
 
@@ -89,8 +130,26 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+- Comandos utilizados para la creacion del hotflix
+git flow init
+git checkout main
+git flow hotfix start ingresar-encabezado -> al ingresar este comando tenemos lo siguiente
+![Evidencia de Git](img/hotfix.png)
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Realizamos la modificacion solicitada
+![Evidencia de Git](img/Pregunta3.png)
+
+al finalizar la rama aplicamos 
+git flow hotfix finish ingresar-encabezado
+-> el uso de esto hara merge en main y en develop actualizando todas las ramas como se demuestra en la imagen
+![Evidencia de Git](img/finalHotfix.png)
+
+Gitflow facilita el trabajo colaborativo ya que permite de forma sencilla iniciar ramas para cada desarrollador, de modo que no se sobre escriba codigo asi como facilita el proceso de fusion ya que todas las nuevas funcionalidades hacen desde el apartado de develop asegurando el codigo de produccion que esta en main y del mismo modo cuando se finaliza una funcionalidad al terminar la rama mediante git flow esta se auto fusiona a su rama de origen de modo que el codigo se actualiza y se reducen los posibles conflictos, dentro de proyectos grandes puede facilitar la organizacion y en proyectos con actualizacion constante permite mantener segura la version final mientras se realizan actualizaciones.
+
+
+## Commits Pregunta 3
+![Evidencia de Git](img/commits3.png)
+
 
 ---
 
@@ -118,12 +177,48 @@
 
 - Un resumen del procedimiento realizado.
 - El número y enlace del issue creado.
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+- Explicacion de los Issues
+Un issue en GitHub permite notificar a los desarrolladores de un proyecto sobre las fallas o problemas existentes dentro de su código. En grupos grandes de trabajo, es una forma efectiva de comunicar los cambios o correcciones que deben realizar otros miembros del equipo.
+
+Un pull request es una solicitud formal para agregar el contenido de una rama a otra. Este proceso incluye una revisión de código y, posteriormente, si todo está correcto, se realiza un merge hacia la rama solicitada.
+
+La diferencia principal entre ambos radica en que un issue sirve para reportar un problema o bug dentro del código, mientras que un pull request puede tanto resolver un problema como añadir una nueva funcionalidad, ya que implica un proceso de fusión entre ramas. Como su nombre lo indica, el issue está directamente ligado a un problema dentro del proyecto.
+
+
+- Un resumen del procedimiento realizado.
+
+Inicialmente no se contaba con la funcionalidad de Issues por lo cual se activo esta opcion dentro del apartado de settings del repositorio, luego de eso en el boton issues se creo una issue segun el requerimiento solicitado.
+![Evidencia de Git](img/creacion_issue.png)
+
+Posterior a ello se realizo los cambios en el README y se utilizo un commit dentro del repositorio local que fue trasladado al repositorio remoto de github para el posterior pull request
+
+Luego dentro del apartado de pull request verificamos que sea nuestro repositorio y hacemos un pull request desde develop hacia main
+![Evidencia de Git](img/pull1.png)
+
+![Evidencia de Git](img/pull2.png)
+
+Aqui se cierra el Issue mediante el merge del pull request
+
+![Evidencia de Git](img/finalizacionIssue.png)
+
+- El número y enlace del issue creado.
+
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
+
+- El número y enlace al pull request.
+Numero del pull Request #2
+https://github.com/Mar-Dim/EVALUACION_1P/pull/2
+
+![Evidencia de Git](img/commits4.png)
 ---
 
 ## Pregunta 5 (2 puntos)
@@ -154,9 +249,18 @@
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
 
 **📝 Respuesta:**
+Como se muestra en la imagen se crearon las ramas correspondientes mediante el uso de git checkout -b
+![Evidencia de Git](img/ramas1.png)
+Posterior a ello se creo el archivo solicitado dentro de las dos ramas y esto se guardo mediante el uso del comando git add y commit 
+![Evidencia de Git](img/ramas2.png)
+da error en el merge se corrige el error y se realiza el pull
+![Evidencia de Git](img/ramas3.png)
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+el tag del pull request #3
+https://github.com/Mar-Dim/EVALUACION_1P/pull/3
 
+## Commits de la pregunta
+![Evidencia de Git](img/final5.png)
 ---
 
 ## Pregunta 6 (2 puntos)
