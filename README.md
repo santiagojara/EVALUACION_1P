@@ -107,7 +107,17 @@ En este caso se observa que los archivos .md y .txt dentro de la carpeta temp ap
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Primero se ejecuta git flow init el cual inicializa el repositorio con la estructura de ramas main y develop
 
+Segundo mediante git flow hotfix start ingresar-encabezado se crea una rama temporal con el nombre ingresar-encabezado.
+
+Por ultimo con git flow hotfix finish se realiza automaticamente la fusion de los cambios en main y develop, eliminacion de la rama temporal y crea un tag de versión
+
+Git Flow organiza el trabajo en ramas específicas según el tipo de tarea (feature, release, hotfix), facilitando la colaboración, control de versiones y mantenimiento de código limpio. Es especialmente útil en equipos grandes y proyectos de larga duración.
+
+![inicializacion con git flow](./img/gitFlowInit.png)
+
+![finalizacion de la hotfix](./img/finRamaHotfix.png)
 ---
 
 ## Pregunta 4 (2 puntos)
