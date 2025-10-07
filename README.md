@@ -108,8 +108,8 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**CAPTURA DE LA EJECUCION DE LA PREGUNTA**
+![Captura Pregunta 3](img/Pregunta3.png)
 
 ---
 
