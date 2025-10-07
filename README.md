@@ -42,7 +42,7 @@
 
 - `git clone`: Es un comando de Git que crea una copia local completa de un repositorio remoto.
 - `fork`: Permite crear una copia personal de un repositorio ajeno en tu cuenta de GitHub para contribuir sin afectar el original.
-- `git pull`: Es un comando de Git que descarga los cambios de un repositorio remoto y los fusiona en tu rama local actual.
+- `git pull`: Es un comando de Git que descarga los cambios de un repositorio remoto y los fusiona en tu rama local actual.git
 
 **Parte Practica**
 - ¿Cómo se realizó el fork? : Se utilizo la funcion de fork de GitHub, simplemente se elije un nombre (en mi caso decidi conservar el mismo), escribismos una descripcion si queremos y le damos a "Crear Fork"
@@ -73,6 +73,21 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+
+El archivo `.gitignore` es un archivo de texto que le indica a Git qué archivos, carpetas o patrones de archivos debe ignorar y no incluir en el control de versiones. Esto evita que archivos innecesarios o sensibles (como logs, archivos temporales o configuraciones locales) sean rastreados por Git, manteniendo el repositorio limpio y eficiente.
+
+### Reglas configuradas en .gitignore:
+- `*.log`: Ignora todos los archivos con extensión `.log`.
+- `temp/`: Ignora la carpeta `temp/` y todo su contenido.
+- `doc/*.md` y `doc/*.txt`: Ignora todos los archivos `.md` y `.txt` dentro de la carpeta `doc/`.
+
+### Evidencia de funcionamiento:
+Se crearon archivos de prueba para verificar las reglas:
+- `doc/prueba.md` y `doc/prueba.txt`: Estos archivos están dentro de `doc/`, por lo que son ignorados por Git (no aparecen en `git status` como archivos a agregar).
+- `prueba.md` y `prueba.txt`: Estos archivos están fuera de `doc/`, por lo que no son ignorados y aparecen como "untracked" en `git status`, listos para ser agregados si se desea.
+
+Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archivos especificados en las reglas.
+![gitignore](img/gitignore.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
