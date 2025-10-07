@@ -414,4 +414,73 @@ git push --tags
 
 **📝 Respuesta:**
 
+ 1. Proceso realizado paso a paso
+
+1. **Trabajo en la rama `develop` del fork**
+   Se hizo checkout a la rama `develop` en el repositorio local:
+
+   ```bash
+   git checkout develop
+   ```
+
+2. **Realizar cambios y commit**
+   Se hicieron los cambios necesarios y se realizó un commit:
+
+   ```bash
+   git commit -m "Cambios aplicados en develop"
+   ```
+
+3. **Merge de `develop` a `main` en el repositorio local**
+   Se cambió a la rama `main` y se hizo el merge de `develop`:
+
+   ```bash
+   git checkout main
+   git merge develop
+   ```
+
+4. **Enviar los cambios de `main` local a `develop` del fork remoto**
+   Se enviaron los cambios a la rama `develop` del repositorio remoto, incluyendo todos los tags (6 en total):
+
+   ```bash
+   git push origin main:develop --tags
+   ```
+
+5. **Creación del Pull Request hacia el repositorio original**
+
+   * Se creó un PR desde la rama `develop` del fork hacia la rama `main` del repositorio original.
+   * Título del PR: `"NOMBRE APELLIDOS"`
+   * Descripción del PR: Se colocó el link del repositorio del fork en GitHub.
+
+---
+
+2. Versionamiento semántico (SemVer)
+
+El **versionamiento semántico** es un estándar para asignar números de versión a los releases de software de forma que reflejen la naturaleza de los cambios realizados.
+
+Componentes
+
+1. **MAJOR (Mayor)**
+   Incrementa cuando se realizan cambios incompatibles con versiones anteriores (breaking changes).
+   Ejemplo: `v2.0.0` → cambio que rompe compatibilidad con `v1.x.x`.
+
+2. **MINOR (Menor)**
+   Incrementa cuando se añaden nuevas funcionalidades de manera compatible con versiones anteriores.
+   Ejemplo: `v1.2.0` → se agregan nuevas funciones sin romper lo existente.
+
+3. **PATCH (Parche)**
+   Incrementa cuando se realizan correcciones de errores sin agregar nuevas funcionalidades ni romper compatibilidad.
+   Ejemplo: `v1.2.1` → se corrigen bugs menores.
+
+
+3. Tag adicional
+
+Se agregó un tag adicional para evidenciar la versión final:
+
+```bash
+git tag -a "Version Final" -m "Entrega final del proyecto con todos los cambios"
+git push origin "Version Final"
+```
+
+---
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
