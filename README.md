@@ -55,6 +55,12 @@ Preguntas :
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
   ![alt text](image-2.png)
   como se evidencia en la imagen se ingreso el comando git remote -v para verificar en que parte se esta trabajando
+  Realización del commit 
+  ![alt text](image-3.png)
+  Verificación 
+  ![alt text](image-4.png)
+  Adignación del tag 
+  ![alt text](image-5.png)
 ---
 
 ## Pregunta 2 (1 punto)
