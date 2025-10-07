@@ -39,6 +39,18 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+¿Cómo se realizó el fork?
+Se seleciciono la obcion fork en la esquina superior derecha que decia fork
+![Texto alternativo](img/1.jpg)
+ ¿Cómo se realizó el clone del fork?
+ Se seleciono la opncion Code en el aparartado de HTTPS se copio y se pego en git bash dando enter y clonando
+ ![Texto alternativo](img/2.jpeg)
+ ![Texto alternativo](img/3.jpg)
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+se verifico que este como dueño mi usuario
+![alt text](/img/image.png)
+
+
 
 ---
 
