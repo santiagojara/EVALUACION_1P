@@ -75,9 +75,12 @@ Con el comando git remote -v podemos constatar eso, en la siguiente imagen se vi
 **📝 Respuesta:**
 ### Evidencia
 Como evidencia la siguiente imagen.
+
 ![pregunta2](imagenes/pregunta2.png)
+
 ![pregunta2.1](imagenes/pregunta2.1.png)
-En esta se pued observar que el archivo readme si se muestra y agrega cuando se usa git add . y la carpeta y el archivo log se ignoran
+
+En esta imagen se puede observar que el archivo readme si se muestra y agrega cuando se usa git add . y la carpeta y el archivo log se ignoran
 ---
 
 ## Pregunta 3 (2 puntos)
