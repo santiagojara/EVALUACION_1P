@@ -136,7 +136,33 @@ En la captura adjunta se ve como solo se reflejan los archivos de prueba que no 
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+<!-- Descripción del proceso:
+*Comandos exactos usados: 
+$ git flow init
+$ git flow hotfix start ingresar-encabezado
+$ git add .
+$ git commit -m "Completar encabezado con datos personales"
+
+*Descripcion del proceso seguido:
+Inicialización de Git Flow: Configura el repositorio con la estructura de ramas por defecto (main y develop)
+
+Inicio del feature: Crea una rama feature/ingresar-encabezado a partir de develop
+
+Desarrollo: Realizar los cambios necesarios en la rama feature
+
+Finalización: Fusiona la rama feature en develop y la elimina automáticamente
+
+Reflexión sobre ventajas de Git Flow:
+Git Flow proporciona una estructura organizada para el desarrollo de software, especialmente beneficiosa en:
+
+Proyectos colaborativos: Permite que múltiples desarrolladores trabajen en features independientes sin interferir
+
+Larga duración: Facilita el mantenimiento de versiones estables mientras se desarrollan nuevas funcionalidades
+
+Control de calidad: Separa claramente el desarrollo activo (develop) de las versiones estables (main)
+
+Gestion de releases: Estructura definida para preparar releases y hotfixes -->
+
 
 ---
 
