@@ -172,7 +172,7 @@ Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archi
 5. Creamos un pull request en nuestro repositorio en en cual indicamos que se cerraria la issue #1
 6. Combinamos y aceptamos
 - El número y enlace del issue creado: `https://github.com/NoMerlyn/EVALUACION_1P/issues/1#issue-3493075147` siendo la issue #1
-- El número y enlace al pull request: `https://github.com/NoMerlyn/EVALUACION_1P/pull/2#issue-3493103638` siendo el pull request #2git fetch origin pull/ID/head:
+- El número y enlace al pull request: `https://github.com/NoMerlyn/EVALUACION_1P/pull/2#issue-3493103638` siendo el pull request #2
 ![pullrequest](img/pullrequest.png)
 
 ---
