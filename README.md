@@ -38,7 +38,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- `git clone:Este comando crea una copia local de un repositorio remoto existente.[1][2][3] No solo descarga los archivos, sino también el historial completo de versiones del proyecto. Es el primer paso para empezar a trabajar en un proyecto que ya existe en una plataforma como GitHub.`  
+- `fork: Un "fork" (bifurcación) es una copia personal de un repositorio de otro usuario que se aloja en tu propia cuenta de GitHub.[4][5][6] Esto te permite experimentar y realizar cambios libremente sin afectar al proyecto original.[5][7]`  
+- `git pull: Este comando se utiliza para obtener y descargar contenido desde un repositorio remoto e inmediatamente actualizar el repositorio local para que coincida con ese contenido.[8] En esencia, es una combinación de los comandos git fetch (que obtiene los cambios) y git merge (que los integra).`
+
+  - ¿Cómo se realizó el fork?
+    - Se navegó a la página del repositorio original(santiagojara/EVALUACION_1P).
+    - Se hizo clic en el botón "Fork" ubicado en la esquina superior derecha de la página.
+    - En la página "Create a new fork", se confirmó el propietario del nuevo repositorio (en este caso, May360-ai) y se mantuvo el nombre del repositorio (EVALUACION_1P).
+    - Finalmente, se hizo clic en el botón "Create fork".
+
+
+  - ¿Cómo se realizó el clone del fork?
+
+    - En la página del repositorio "forkeado" (May360-ai/EVALUACION_1P), se hizo clic en el botón verde <> Code.
+    - Se copió la URL HTTPS proporcionada: https://github.com/May360-ai/EVALUACION_1P.git.
+    - En la terminal de línea de comandos (Git Bash), se ejecutó el comando git clone seguido de la URL copiada
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - Para verificar que el repositorio local estaba conectado al "fork" y no al repositorio original, se utilizó el siguiente comando en la terminal, dentro del directorio del proyecto clonado: git remote -v
 
 ---
 
