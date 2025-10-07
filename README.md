@@ -39,7 +39,22 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- git clone es un comando que se usa para copiar un repositorio completo desde GitHub al equipo local, el cual incluye todo el historial de versiones.
+- fork es la acción que se realiza en GitHub para crear una copia de un repositorio en tu cuenta personal. 
+- git pull es un comando que se usa para actualizar el repositorio local con los cambios más recientes del repositorio remoto.
 
+El fork se realizo por medio del ingreso al repositorio original, se selecciono fork y se creo la copia personal. En mi cuenta personal habri el repositorio hecho fork y copie la URL del repositorio. 
+
+![Fork](/img/fork.png)
+
+En la terminal git bash, se se coloco el comando git clone seguido del url.
+Para verificar que se estaba trabajando en ese me movi a la carpeta principal del repocitorio con cd y ejecute el comando git remote -v lo cual mostro al origen
+
+![Clonar Fork](/img/clonar%20fork.png)
+
+Commit de la primera pregunta
+
+![Commit p1](/img/Pregunta%201.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -61,6 +76,14 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore se utiliza para saber qué archivos o carpetas debe ignorar al momento de rastrear cambios en un repositorio.
+
+Se crea el archivo .gitignore
+![Crear gitignore](/img/git%20ignore.png)
+
+Se prueba el archivo .gitignore con los archivos prueba.txt prueba.md
+![Probar gitignore](/img/prueba%20de%20gitignore.png)
+
 
 ---
 
@@ -123,6 +146,22 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+
+- Un issue en GitHub es como una nota que se usa para reportar errores, pedir nuevas funciones o dejar tareas pendientes. Ayuda a organizar el trabajo y permite que todos en el equipo sepan qué se necesita hacer.
+- Un pull request es una solicitud para revisar y unir cambios hechos en una rama del proyecto. Sirve para que otros vean el código, lo revisen y lo aprueben antes de que se agregue al proyecto principal.
+- La diferencia es que el issue dice qué hay que hacer, y el pull request muestra cómo se hizo. En equipo, primero se crea un issue para plantear el problema, luego alguien hace los cambios y abre un pull request que, al aprobarse, puede cerrar el issue automáticamente.
+
+Resumen del procedimiento realizado
+- Me aseguré de estar en la rama develop, creada previamente con Git Flow.
+- En GitHub, creé un issue titulado "Respuesta a la Pregunta 4" con la descripción: “Documentar la respuesta a la Pregunta 4 en el archivo README.md”.
+- Edité el archivo README.md para incluir la explicación sobre qué es un issue, qué es un pull request, sus diferencias y cómo se relacionan.
+- Realicé un commit con los cambios
+
+Issue: #1 https://github.com/MateoAuz/EVALUACION_1P/issues/1
+
+![Issue](/img/issue.png)
+
+Pull request: 
 
 ---
 
