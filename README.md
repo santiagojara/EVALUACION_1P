@@ -82,7 +82,17 @@ git: pull → trae y aplica cambios desde un remoto (fetch + merge).
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo `.gitignore` se utiliza para indicar a Git qué archivos o carpetas deben ser ignorados al momento de hacer seguimiento de cambios. 
+
+En este caso, se configuró para que ignore:
+
+- Todos los archivos con extensión `.log`.  
+- La carpeta `temp/` completa.  
+- Los archivos `.md` y `.txt` ubicados dentro de la carpeta `doc/`.
+
+De esta forma, al ejecutar `git status`, se puede observar que los archivos y carpetas especificados **no aparecen como rastreados**, lo que confirma que la configuración funciona correctamente.
+
+![Evidencia gitignore](imagenes/gitignore-pregunta2.jpg)
 
 ---
 
