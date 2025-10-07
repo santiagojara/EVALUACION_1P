@@ -291,6 +291,64 @@ git push --tags
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+**Trabajo con Issues y Pull Requests**
+
+**Parte teórica**
+
+1. **¿Qué es un issue en GitHub?**
+   Un **issue** es una herramienta de GitHub que permite registrar tareas, errores, solicitudes de mejora o preguntas relacionadas con un proyecto. Funciona como un ticket de seguimiento donde los colaboradores pueden discutir, asignar responsables, agregar etiquetas y documentar el progreso de cada tema.
+
+2. **¿Qué es un pull request y cuál es su finalidad?**
+   Un **pull request (PR)** es una solicitud para fusionar cambios de una rama hacia otra (por ejemplo, de `develop` a `main`). Su finalidad es revisar, discutir y validar los cambios antes de integrarlos al proyecto principal, asegurando calidad y control de versiones en entornos colaborativos.
+
+3. **Diferencia entre issue y pull request y su relación en colaboración**
+
+   * **Diferencia:**
+
+     * El **issue** es un registro o tarea por realizar.
+     * El **pull request** es la propuesta de cambio concreta que resuelve un issue o agrega funcionalidad al proyecto.
+   * **Relación:**
+
+     * Normalmente, un pull request se vincula a un issue, de modo que al fusionarse los cambios, el issue se cierra automáticamente. Esto permite un seguimiento claro de qué tareas están completadas y quién las ha trabajado, facilitando la colaboración en equipo.
+
+---
+
+**Parte práctica**
+
+**Pasos realizados:**
+
+1. Trabajé en la rama `develop` que ya existía desde la configuración de Git Flow:
+
+   ```bash
+   git checkout develop
+   ```
+
+2. Creé un **issue** titulado `"Respuesta a la Pregunta 4"` en GitHub, indicando que su objetivo es documentar esta pregunta.
+
+   * **Número del issue:** #4
+   * **Enlace:** [Issue #4](https://github.com/AnthonyPSW/EVALUACION_1P/issues/1)
+
+ ![FORK](img/Pregunta4/Issue.png)
+
+
+3. Edité el archivo `README.md` para incluir la explicación teórica sobre issues y pull requests.
+
+4. Realicé un **commit** con los cambios:
+
+   ```bash
+   git add .
+   git commit -m "Respuesta a la Pregunta 4: explicación de Issues y Pull Requests"
+   git push origin develop
+   ```
+
+5. Creé un **pull request** desde `develop` hacia `main` en GitHub y lo vinculé con el issue #4 usando la referencia:
+
+   > "Closes #4"
+   > Esto asegura que al fusionarse el pull request, el issue se cierre automáticamente.
+
+6. El pull request fue **aprobado** y fusionado a `main`, cerrando el issue automáticamente.
+
+
 ---
 
 ## Pregunta 5 (2 puntos)
