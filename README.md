@@ -142,39 +142,7 @@ Capturas de que se realizo la actividad:
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-Comandos utilizados
-git flow init -d
-git flow feature start ingresar-datos
-git add README.md
-git commit -m "Se agregaron datos personales en el encabezado"
-git flow feature finish ingresar-datos
-Descripción del proceso
 
-Se inicializó Git Flow con la configuración por defecto mediante el comando git flow init -d, creando las ramas principales:
-
-main para producción
-
-develop para desarrollo.
-
-Se creó una nueva rama de característica llamada feature/ingresar-datos a partir de develop con el comando git flow feature start ingresar-datos.
-
-Dentro de esta rama se realizaron los cambios correspondientes al archivo README.md, agregando los datos personales.
-
-Los cambios se guardaron con los comandos:
-git add README.md
-git commit -m "Se agregaron datos personales en el encabezado"
-Finalmente, la característica fue finalizada con git flow feature finish ingresar-datos, lo que:
-
-Fusionó la rama feature/ingresar-datos con develop.
-
-Eliminó la rama de feature localmente.
-
-Dejó el repositorio en la rama develop.
-Reflexión sobre las ventajas de Git Flow
-
-El uso de Git Flow facilita la organización del trabajo en equipos de desarrollo, ya que define una estructura clara de ramas.
-Permite separar el código en diferentes etapas: desarrollo, pruebas y producción. Además, ayuda a mantener un flujo de trabajo ordenado y evita conflictos entre versiones.
-Con Git Flow es más fácil colaborar, revisar cambios y preparar lanzamientos sin afectar la estabilidad del proyecto principal.
 
 Pregunta3.
 Capturas de que se realizo la actividad:
