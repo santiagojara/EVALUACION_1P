@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad UNIVERSIDAD TECNICA DE AMBATO  
+## Facultad de FACULTAD DE INGENIERÍA EN SISTEMAS ELECTRÓNICA E INDUSTRIAL 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Boris Yussef Vinces Cueva
+**Fecha:** 07/10/2025
 
 ---
 
@@ -40,6 +40,30 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
+Git clone nos permite clonar o traer el contenido de un repositorio remoto a nuestro repositorio local mientras que fork nos permite generar un clon de un repositorio externo a nuestra cuenta personal de github y así poder usar clone y traerlo al local finalmente el git pull nos permite traer los datos del repositorio remoto en caso de que este se haya actualizado y es importante para poder mandar nuestros cambios.
+
+Proceso seguido:
+- ¿Cómo se realizó el fork?
+  
+  Se selecciona el boton fork en el respositorio del ingeniero
+  ![alt text](Img/image.png)
+
+  Se crea el fork en nuestra cuenta de github:
+  ![alt text](Img/image-1.png)
+
+  Se genera el repositorio en nuestra cuenta (Se muestra que es un fork)
+  ![alt text](Img/image-2.png)
+
+- ¿Cómo se realizó el clone del fork?
+  Se selecciono el url del repositorio que llevaba el fork en mi cuenta con esto simplemente en git bash se ejecuta git clone https://github.com/Boris2403/EVALUACION_1P.git
+![alt text](Img/image-3.png)
+
+![alt text](Img/image-4.png)
+
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+  Primero, al crear un fork se muestra que no se trabaja sobre el repositprio original, consecuente a esto, Porque la url que copiamos es de nuestro fork en la cuenta personal. Además porque en el url sale nuestro user.
+![alt text](Img/image-5.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -61,6 +85,37 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+Primero creamos el .gitignore usando touch en git bash:
+![alt text](Img/image-6.png)
+
+Luego abrimos con nano el .gitignore
+![alt text](Img/image-7.png)
+
+Ahora ponemos las primeras restricciones:
+![alt text](Img/image-8.png)
+
+Finalmente hacemos el primer commit;
+![alt text](Img/image-9.png)
+
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+Primero, el archivo .gitignore es una medida de seguridad que nos permite ocultar archivos con información delicada o también controlar lo que se envía al repositorio también se usa para excluir archivos y directorios del control de versiones. Asegura que Git no rastree archivos innecesarios como logs o archivos temporales.
+
+Creamos las carpetas con las indicaciones y los archivos de prueba
+![alt text](image-10.png)
+
+Ejecutamos un git status para ver si se está rastreando los archivos
+![alt text](image-11.png)
+
+Podemos ver que los archivos en la carpeta de doc no se muestran y la carpeta temp no aparece, sin embargo los archivos md y .txt fuera de la carpeta doc si aparecen.
+
+Hacemos el Tag:
+![alt text](image-12.png)
+
+Finalmente comprebamos que se haya ejecutado:
+![alt text](image-13.png)
 
 ---
 
@@ -91,6 +146,31 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Inicializamos Git Flow con git flow init:
+Pregunta 3 -->
+Inicializamos Git Flow con git flow init y se crean la ramas por defecto:
+
+![alt text](image-14.png)
+
+Creamos la rama hotfix con el nombre de ingresar-encabezado:
+git flow hotfix start ingresar-encabezado
+
+![alt text](image-15.png)
+
+Agregamos los dataos del encabezado:
+![alt text](image-16.png)
+
+Creamos el commit de los cambios:
+
+git commit -m"Cambios encabezado"
+![alt text](image-17.png)
+
+Finalizamos el Hotfix de git flow con git flow hotfix finish ingresar-encabezado
+
+
+Las ventajas del modelo de git flow se basan en la facilidad de evitar errores colaborativos y tener un mejor registro de los cambios, gracias a este seuimiento de cambios se pueden dedsarrollar uevas características para el software.
+
+
 
 ---
 
