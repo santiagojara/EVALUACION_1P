@@ -38,7 +38,26 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+- Explicacion de git clone
+Git clone es un comando que permite clonar un repositorio remoto para un git local, este comando despues de ejecutarse crea una carpeta que dentro contiene lo que se encontraba en el repositorio remoto.
+- Explicacion de fork
+El fork en github permite traer un repositorio de otro usuario a los repositorios propios, es como realizar una copia del repositorio pero este mantiene coneccion con el original de modo que los cambios en la rama main seran controlados por la persona que creo el repositorio, si se desea hacer un cambio en main se debe hacer un pull request del contenido del fork hacia la main del repositorio original.
+- Explicacion de git pull
+Git pull es el comando que se utiliza cuando se desea traer los datos del repositorio remoto, al usarse este comando el contenido del repositorio local con lo que es traido del repositorio remoto.
+
+### Parte práctica:
+- Para realizar el fork debemos acceder al repositorio que se quiere utilizar, dentro de este tendremos la opcion de crear un nuevo fork.
+![Evidencia de Git](img/boton_fork.png)
+- Al dar click sobre este tendremos la interfaz que se visualiza en la imagen. En este apartado se puede cambiar el nombre si se desea hacerlo.
+- Despues de aceptar la creacion del fork, el repositorio resultante se visualizara de la siguiente forma, donde se notifica que es un fork del repositorio original.
+![Evidencia de Git](img/fork_creado.png)
+
+- Para clonar el repositorio remoto que resulto del fork, se utiliza el comando git clone con el url del fork realizado como se puede ver en la captura
+![Evidencia de Git](img/clone.png)
+ 
+- Como se puede ver dentro de la imagen del fork creado se verifica que se esta trabajando en un repositorio propio que es una bifurcacion del repositorio original, al hacer un clon del repositorio resultante se sigue trabajando en el repositorio de la bifurcacion y no en el original.
+
 
 ---
 
