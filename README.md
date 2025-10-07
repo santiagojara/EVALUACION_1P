@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Elizabeth De la Cruz
+**Fecha:** 07/10/2025
 
 ---
 
@@ -36,9 +36,18 @@
   - ¿Cómo se realizó el clone del fork?
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
-**📝 Respuesta:**
+### 📝 Respuesta:
+- **git clone**: Crea una copia local de un repositorio remoto en mi máquina
+- **fork**: Crea una copia de un repositorio en la cuenta de GitHub, es útil para proponer cambios sin afectar el original
+- **git pull**: Actualiza una copia local trayendo los últimos cambios del repositorio remoto
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+**Proceso práctico**:
+- **¿Cómo se realizó el fork?** 
+En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copia en mi cuenta (`https://github.com/Elizabeth1925/EVALUACION_1P`).
+- **¿Cómo se realizó el clone del fork?**: En la terminal, usé `git clone https://github.com/Elizabeth1925/EVALUACION_1P.git` para clonar mi fork localmente.
+- **¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?**: Ejecuté `git remote -v` y confirmé que el remoto "origin" apunta a mi fork (`https://github.com/Elizabeth1925/EVALUACION_1P.git`), no al original. 
+**CAPTURA**
+![Captura Pregunta 1](img/Pregunta1.png)
 
 ---
 
@@ -58,11 +67,21 @@
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
-**📝 Respuesta:**
+### 📝 Respuesta:
+**Configurar un archivo `.gitignore` para que ignore:**
+- Todos los archivos con extensión `.log`.
+- Una carpeta llamada `temp/`.
+- Todos los archivos `.md` y `.txt`de la carpeta `doc/`. 
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**La evidencia de esto se muestra en la siguiente captura**
+![Captura Pregunta 2](img/Pregunta2.png.png)
 
----
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git y debe llevar el **tag `"Pregunta 2"`**.
+
+**La evidencia de los los literales se muestran a continuacion**
+![Captura Pregunta 2.1](img/Pregunta2.1.png)
+
 
 ## Pregunta 3 (2 puntos)
 
@@ -89,8 +108,8 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**CAPTURA DE LA EJECUCION DE LA PREGUNTA**
+![Captura Pregunta 3](img/Pregunta3.png)
 
 ---
 
@@ -120,9 +139,20 @@
 - El número y enlace del issue creado.
 - El número y enlace al pull request.
 
-**📝 Respuesta:**
+### 📝 Respuesta:
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Parte teórica**:  
+- **Issue**: Es un ticket en GitHub utilizado para reportar bugs, solicitar nuevas funcionalidades o asignar tareas. Permite discusión, asignación de responsables y seguimiento del progreso.  
+- **Pull Request (PR)**: Es una solicitud para integrar cambios de una rama a otra, permitiendo revisión de código, comentarios y aprobación antes de fusionar.  
+- **Diferencia y relación**: Un issue identifica un problema o tarea, mientras que un PR propone y facilita la solución. En un entorno colaborativo, un PR puede estar vinculado a un issue (usando "closes #numero") para cerrarlo automáticamente al mergearse, mejorando la trazabilidad.
+
+**Procedimiento práctico**:  
+![Captura Pregunta 4](img/Pregunta4.png)
+**Enlaces**:  
+- Issue creado: https://github.com/Elizabeth1925/EVALUACION_1P/issues/1
+- Pull Request: [#<número_del_pr>](https://github.com/TU_USUARIO/TU_REPO/pull/<número_del_pr>)
+
+
 
 ---
 
