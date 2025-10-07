@@ -19,6 +19,7 @@
 
 ---
 
+
 ## Pregunta 1 (1 punto)
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
@@ -39,6 +40,34 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:
+
+El git clone, copia un repositorio remoto a nuestra computadora, 
+el fork es una copia independiente de otro repositorio en mi cuenta  para podermodificarlo sin afectar al original, y el git pull es traer todos los cambios que estan en el repositorio remoto a nuestra computadora.
+
+
+Parte práctica:
+- ¿Cómo se realizó el fork?
+Ingres al repositorio con el link de la prueba, y atraves el aintervas genere el fork
+![alt text](img/image.png)
+
+  - ¿Cómo se realizó el clone del fork?
+
+de ahi me fui al fork que genere y le di en code y me copie el https para clonarlo
+![alt text]img/(image.png)
+y utilise el comando 
+git clone https://github.com/Hlagua/EVALUACION_1P.git
+pa copiar el repositorio
+![alt text](image-1.png)
+
+
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+primero ingrese al repositorio y de ahi utilize le comando git remote -v
+
+![alt text](image-2.png)
+
 
 ---
 
