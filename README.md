@@ -148,11 +148,10 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 
 **Procedimiento práctico**:  
 ![Captura Pregunta 4](img/Pregunta4.png)
+
 **Enlaces**:  
 - Issue creado: https://github.com/Elizabeth1925/EVALUACION_1P/issues/1
-- Pull Request: [#<número_del_pr>](https://github.com/TU_USUARIO/TU_REPO/pull/<número_del_pr>)
-
-
+- Pull Request: https://github.com/santiagojara/EVALUACION_1P/pull/113
 
 ---
 
