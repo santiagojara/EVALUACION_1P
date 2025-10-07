@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Jimmy Añilema  
+**Fecha:** 7/10/2025
 
 ---
 
@@ -38,7 +38,23 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+**Diferencias:**
+
+- **`git clone`:** Comando de Git que descarga una copia completa de un repositorio remoto (incluyendo historial y ramas) a tu equipo local.
+- **`fork`:** Acción en GitHub que crea una copia del repositorio en tu propia cuenta, permitiendo trabajar de forma independiente del original.
+- **`git pull`:** Comando de Git que actualiza tu repositorio local trayendo y fusionando los últimos cambios del repositorio remoto.
+
+**Proceso seguido:**
+
+- **Fork:** Ingresé al repositorio original en GitHub y presioné el botón "Fork" para crear una copia en mi cuenta personal.  
+  ![Evidencia de fork](img/fork.png)
+
+- **Clone:** En mi cuenta, copié la URL del fork y ejecuté en la terminal:  
+  `git clone https://github.com/miusuario/nombre-del-repositorio.git`  
+  ![Evidencia de git clone](img/gitclone.png)
+  
+- **Verificación:** Usé el comando `git remote -v` y comprobé que la URL remota corresponde a mi fork (mi usuario), no al repositorio original.  
+  ![Evidencia de git remote -v](img/gitremote-v.png)
 
 ---
 
@@ -60,7 +76,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+**Función del archivo `.gitignore`:**
+
+El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no deben ser rastreados ni incluidos en el control de versiones. Esto es útil para evitar subir archivos temporales, de configuración local, o archivos generados automáticamente que no son relevantes para el repositorio.
+
+**Evidencia de exclusión:**
+
+- Se creó un archivo `.gitignore` con las siguientes reglas:
+  - Ignorar todos los archivos `.log`.
+  - Ignorar la carpeta `temp/`.
+  - Ignorar todos los archivos `.md` y `.txt` dentro de la carpeta `doc/`.
+
+  ![Evidencia primer commit .gitignore](img/primercommit,pregunta2.png)
+
+- Se agregaron archivos de prueba:
+  - `doc/prueba.md` y `doc/prueba.txt` (estos archivos no son rastreados por Git).
+  - `prueba.md` y `prueba.txt` fuera de la carpeta `doc/` (estos sí son rastreados).
+  - Archivos `.log` y la carpeta `temp/` tampoco son rastreados.
+
+  ![Agregar archivos no rastreados](img/Agregararchivosnorastreados7.png)
+
+- Evidencia del comando `git status` mostrando que los archivos y carpetas indicados no aparecen como cambios a ser rastreados:
+
+  ![Evidencia de git status](img/gitstatyusp2.png)
 
 ---
 
@@ -90,7 +128,53 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos exactos utilizados
+
+```bash
+# Inicializar Git Flow en el repositorio
+git flow init -d
+
+# Crear y empezar un hotfix llamado ingresar-encabezado
+git flow hotfix start ingresar-encabezado
+
+# (Editar el README.md para completar los datos personales en el encabezado)
+
+# Agregar y commitear los cambios realizados
+git add README.md
+git commit -m "Completar encabezado con datos personales"
+
+# Finalizar el hotfix (esto fusiona los cambios en main y develop, y crea un tag)
+git flow hotfix finish ingresar-encabezado
+
+# Subir los cambios y los tags al repositorio remoto
+git push origin main
+git push origin develop
+git push origin --tags
+```
+
+### Descripción del proceso seguido
+
+1. **Inicialización de Git Flow:**  
+   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.
+
+2. **Creación del hotfix:**  
+   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`. Esto permite corregir o agregar cambios urgentes directamente sobre la rama principal.
+
+3. **Desarrollo en la rama hotfix:**  
+   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.
+
+4. **Finalización del hotfix:**  
+   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.
+
+5. **Subida de cambios:**  
+   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.
+
+### Ventajas de aplicar Git Flow
+
+- **Organización:** Permite separar claramente el desarrollo de nuevas funcionalidades, correcciones urgentes y lanzamientos.
+- **Colaboración:** Facilita el trabajo en equipo, ya que cada tipo de tarea tiene su propio flujo y ramas específicas.
+- **Control de versiones:** Ayuda a mantener un historial limpio y estructurado, ideal para proyectos de larga duración y equipos grandes.
+- **Reducción de errores:** Minimiza los conflictos y errores al tener procesos definidos para cada tipo de cambio.
 
 ---
 
@@ -122,7 +206,33 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teórica
+
+- **¿Qué es un issue en GitHub?**  
+  Un **issue** es una herramienta de GitHub que permite reportar tareas, errores, mejoras o preguntas relacionadas con un proyecto. Los issues ayudan a organizar y dar seguimiento al trabajo pendiente o a problemas detectados en el repositorio.
+
+- **¿Qué es un pull request y cuál es su finalidad?**  
+  Un **pull request** (PR) es una solicitud para fusionar cambios realizados en una rama (por ejemplo, `develop`) hacia otra rama (por ejemplo, `main`). Su finalidad es revisar, discutir y aprobar los cambios antes de integrarlos al código principal del proyecto.
+
+- **Diferencia y relación entre ambos:**  
+  Un **issue** sirve para identificar y discutir tareas o problemas, mientras que un **pull request** se utiliza para proponer la integración de cambios al repositorio. En un entorno colaborativo, los issues pueden dar origen a ramas de trabajo y, una vez resueltos, los cambios se integran mediante un pull request. Además, los pull requests pueden estar vinculados a issues para cerrar automáticamente el issue cuando el PR es fusionado.
+
+### Resumen del procedimiento realizado
+
+1. Se creó un **issue** titulado `"Respuesta a la Pregunta 4"` para documentar la respuesta a esta pregunta.
+2. Se editó el archivo `README.md` en la rama `develop` para responder la pregunta 4.
+3. Se realizó un commit con los cambios y se subió a la rama `develop` del repositorio remoto.
+4. Se creó un **pull request** desde la rama `develop` hacia la rama `main` en GitHub.
+5. El pull request fue vinculado al issue creado, de modo que al aprobar y fusionar el PR, el issue se cerró automáticamente.
+6. Finalmente, se aprobó y fusionó el pull request.
+
+### Enlaces
+
+- **Issue creado:**  
+  Issue #X: [Enlace al issue](URL_DEL_ISSUE)
+
+- **Pull request creado:**  
+  PR #Y: [Enlace al pull request](URL_DEL_PR)
 
 ---
 
