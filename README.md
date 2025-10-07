@@ -64,7 +64,7 @@ La salida de este comando mostró las URLs de origin, las cuales apuntaban a mi 
 
 Capturas de que se realizo la actividad:
 ![Pantalla de evaluación 1](capturas/cap1.png)
-
+![captura del tag](capturas/cap2.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -85,7 +85,33 @@ Capturas de que se realizo la actividad:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+Esta tarea consiste en indicarle a Git qué archivos y directorios debe ignorar.
+
+1. Función del Archivo .gitignore
+
+El archivo .gitignore es un archivo de texto que le dice a Git qué archivos o carpetas debe ignorar en un proyecto. Es útil para evitar que archivos temporales, archivos de configuración local, dependencias o artefactos de compilación sean subidos al repositorio.
+
+2. Pasos y Evidencia
+
+
+Primer Commit: Creé un archivo llamado .gitignore en la raíz del repositorio con el siguiente contenido para cumplir con los requisitos: 
+
+
+# Ignorar todos los archivos con extensión .log
+*.log
+
+# Ignorar la carpeta 'temp'
+temp/
+
+# Ignorar archivos .txt dentro de la carpeta 'assets'
+assets/*.txt
+Luego, realicé un commit que incluía únicamente este archivo.
+
+
+Segundo Commit: Para probar las reglas, creé un archivo database.log, una carpeta temp y un archivo assets/notes.txt.  Al ejecutar git status, ninguno de estos fue rastreado por Git, demostrando que las reglas del .gitignore funcionaban correctamente. La evidencia de esto (la salida del git status) fue añadida a este README.md antes de realizar el segundo commit y etiquetarlo como Pregunta2.
+Capturas de que se realizo la actividad:
+![captura de se agrego contenido al .gitignore](capturas/cap3.png)
+![captura de los pasos que se realizo en esta actividad](capturas/cap4.png)
 
 ---
 
