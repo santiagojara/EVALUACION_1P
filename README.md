@@ -27,6 +27,8 @@
 - `fork`  
 - `git pull`
 
+La diferencia clave es que git clone clona todo el repositorio y lo trae a la parte local, fork clona el repositorio remoto en el repositorio remoto personal de la cuenta de github con la opcion de dar sugerencias al creador del proeycto clonado y el git pull solo trae del repositorio los archivos que han sufrido algun cambio ademas de las ramas remotas creadas.
+
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
