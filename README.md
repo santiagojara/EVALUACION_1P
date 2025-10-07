@@ -48,6 +48,7 @@
 
 - Todos los archivos con extensión `.log`.
 - Una carpeta llamada `temp/`.
+- Todos los archivos `.md` y `.txt`de la carpeta `doc/`. (Probar agregando un archivo `prueba.md` y un archivo `prueba.txt` dentro de la carpeta y fuera de la carpeta.)
 
 ### Requisitos:
 
@@ -70,14 +71,14 @@
 ### Requisitos:
 
 - Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
-- Crear una rama de tipo `feature` con el nombre `ingresar-encabezado`.
+- Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
 - En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
 - Realizar al menos un commit durante el desarrollo.
-- Finalizar la feature siguiendo el flujo de trabajo establecido por Git Flow.
+- Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
 
 ### En este README, se debe incluir:
 
-- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre de la feature.
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
 - Una descripción del **proceso seguido**, indicando el propósito de cada paso.
 - Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
 
@@ -109,16 +110,15 @@
 - Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
 - Realizar los cambios necesarios en este archivo `README.md` para responder esta pregunta.
 - Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
-- Crear un **pull request** desde `develop` hacia `develop` en GitHub.
+- Crear un **pull request** desde `develop` hacia `main` en GitHub.
 - **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
-- El repositorio debe estar **configurado para requerir una revisión previa al merge**, la cual **debe ser aprobada por el docente**.
+- **Aprobar** el pull request para que se haga el merge respectivo hacia `main`.
 
 ### En este README, se debe incluir:
 
 - Un resumen del procedimiento realizado.
-- El número del issue creado.
-- El enlace al pull request.
-- Una explicación de cómo se comprobó que el repositorio requería revisión antes de aceptar el pull request (por ejemplo, a través del mensaje mostrado por GitHub).
+- El número y enlace del issue creado.
+- El número y enlace al pull request.
 
 **📝 Respuesta:**
 
@@ -128,21 +128,20 @@
 
 ## Pregunta 5 (2 puntos)
 
-**Resolver conflictos entre ramas y realizar un Pull Request controlado**
+**Resolver conflictos entre ramas y realizar un Pull Request**
 
 ### Requisitos:
 
-- Crear dos ramas llamadas `ramaA` y `ramaB`, ambas a partir de la rama `main`.
+- Crear dos ramas llamadas `ramaA` y `ramaB`, ambas a partir de la rama `develop`.
 - En `ramaA`, crear un archivo llamado `archivoA.txt` con el contenido:  
   `Contenido A`
 - En `ramaB`, crear un archivo con el mismo nombre (`archivoA.txt`), pero con el contenido:  
   `Contenido B`
 - Intentar fusionar `ramaB` sobre `ramaA`, lo cual debe generar un conflicto.
-- Resolver el conflicto combinando ambos contenidos (por ejemplo: `Contenido combinado A+B`).
+- Resolver el conflicto combinando ambos contenidos.
 - Realizar el merge de `ramaA` hacia `develop`.
-- Crear un **pull request** desde `ramaA` hacia `develop`.
-- El pull request debe estar **configurado para requerir revisión y ser aprobado por el docente**.
-- Una vez completado el merge, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
+- Crear un **pull request** desde `develop` hacia `main`.
+- Una vez completado lo anterior, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
 
 ### En este README, se debe incluir:
 
@@ -150,8 +149,6 @@
   - Cómo se crearon las ramas.
   - Cómo se generó y resolvió el conflicto.
   - Cómo se realizó el merge hacia `develop`.
-  - Cómo se creó y vinculó el pull request.
-  - Cómo se verificó que la revisión fue requerida y aprobada.
   - Cómo se eliminaron las ramas al finalizar.
 - El enlace al pull request.
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
@@ -171,8 +168,8 @@
 - Trabajar en la rama `develop` del fork del repositorio.
 - Eliminar los archivos `archivoA.txt` y `archivoB.txt` creados en preguntas anteriores.
 - Realizar un merge desde `develop` hacia `main` en el repositorio local.
-- Enviar los cambios de la rama `main` local a la rama `develop` del repositorio remoto (fork).
-- Finalmente, crear un **pull request** desde la rama `develop` del fork hacia la rama `main` del repositorio original (del cual se realizó el fork en la Pregunta 1), en la descripción colocar el link de su repositorio de GitHub.
+- Enviar los cambios de la rama `main` local a la rama `develop` del repositorio remoto (fork). Recuerde incluir todos los tags creados (6 tags).
+- Finalmente, crear un **pull request** desde la rama `develop` del fork hacia la rama `main` del repositorio original (del cual se realizó el fork en la Pregunta 1). El titulo del pull request debe ser "NOMBRE APELLIDOS", en la descripción colocar el link de su repositorio de GitHub.
 
 ### En este README, se debe incluir:
 
@@ -180,9 +177,8 @@
 - Una explicación del **versionamiento semántico**, indicando:
   - En qué consiste.
   - Sus tres componentes (MAJOR, MINOR, PATCH).
-  - Ejemplos de aplicación en un proyecto real.
 - El enlace al pull request creado hacia el repositorio original.
-- Una reflexión sobre la importancia del versionamiento semántico y del uso de forks y pull requests en equipos de trabajo.
+- Si hace falta agregar alguna evidencia adicional, agregue un tag adicional que sea `Version Final`.
 
 **📝 Respuesta:**
 
