@@ -221,6 +221,11 @@ Aprobé y fusioné el pull request
 Issue creado: #1 - Enlace al issue
 
 Pull Request: #1 - Enlace al PR
+![Img fork](imgs/pullreq.png)     
+![Img fork](imgs/merged.png)    
+![Img fork](imgs/closed.png)     
+
+
 ---
 
 ## Pregunta 5 (2 puntos)
@@ -253,6 +258,7 @@ Pull Request: #1 - Enlace al PR
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+![Img fork](imgs/5.png)     
 
 ---
 
