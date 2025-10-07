@@ -111,6 +111,12 @@ Ejecutamos un git status para ver si se está rastreando los archivos
 
 Podemos ver que los archivos en la carpeta de doc no se muestran y la carpeta temp no aparece, sin embargo los archivos md y .txt fuera de la carpeta doc si aparecen.
 
+Hacemos el Tag:
+![alt text](image-12.png)
+
+Finalmente comprebamos que se haya ejecutado:
+![alt text](image-13.png)
+
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -140,6 +146,10 @@ Podemos ver que los archivos en la carpeta de doc no se muestran y la carpeta te
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Inicializamos Git Flow con git flow init:
+
+
+
 
 ---
 
