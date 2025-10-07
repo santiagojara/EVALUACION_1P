@@ -108,9 +108,30 @@ En esta imagen se puede observar que el archivo readme si se muestra y agrega cu
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+## Comandos exactos usados
+- git flow init
+- git flow hotfix start "ingresar-encabezado"
+- git add .
+- git commit -m "Se agregó los datos del encabezado"
+- git flow hotfix finish "ingresar-encabezado"
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+## Proceso segido
 
+1. Primero inicializamos git flow con el comando git flow init
+2. Creamos la rama temporal hotfix para la realizacion de los cambios con el comando git flow hotfix start "ingresar-encabezado"
+3. Editamos el encabezado y hacemos un git add . y un git commit
+4. Terminamos la rama temporal con el comando git flow hotfix finish "ingresar-encabezado"
+5. Listo
+
+## Ventajas de aplicar el git flow
+
+Sirve para tener un proyecto mas entendible, con menos contratiempos y que se puede configurar y manejar de una manera mas facil y entendible.
+
+## Capturas
+
+![pregunta3](imagenes/pregunta3.png)
+
+![pregunta3.1](imagenes/pregunta3.1.png)
 ---
 
 ## Pregunta 4 (2 puntos)
