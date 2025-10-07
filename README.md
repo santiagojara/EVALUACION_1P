@@ -191,6 +191,21 @@
 
 ![issue](img/Screenshot%202025-10-07%20161754.png)
 
+-commit y push a devvelop remoto
+
+![develop](img/Screenshot%202025-10-07%20161958.png)
+
+-creacion y vinculacion del pull request
+
+![creacion](img/Screenshot%202025-10-07%20162147.png)
+
+-aceptacion del merge
+
+![merge](img/Screenshot%202025-10-07%20162229.png)
+
+-se creo primero un issue en github para despues realizar los cambios que se requerian por ultimo se solicito un pull request hacian main de develop para responder al issue y ademas se acepto el merge
+-**Issue** #1 https://github.com/Santio13-code/EVALUACION_1P/issues/1#issue-3493074715
+-**Pull Request** #2 https://github.com/Santio13-code/EVALUACION_1P/pull/2#issue-3493083920
 
 
 
