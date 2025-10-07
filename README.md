@@ -45,7 +45,7 @@
 
 **📝 Respuesta:**
 
-<!-- - `git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
+`git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
 
 - `fork`: Función de GitHub que crea una copia personal de un repositorio en tu propia cuenta de GitHub, permitiendo trabajar independientemente del repositorio original.
 
@@ -75,7 +75,7 @@
       $ git remote -v
       origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (fetch)
       origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (push)
--->
+
 
 ---
 
@@ -97,15 +97,14 @@
 
 **📝 Respuesta:**
 
-<!-- 
 *Primer Commit Evidencia:-->
       ![Img ignore](imgs/gitignore.png)
 
-<!--
+
 El archivo .gitignore especifica archivos y directorios que Git debe ignorar y no rastrear. En este caso, se ignoran todos los archivos con extensión .log.
 Una carpeta llamada temp/.
 Y todos los archivos .md y .txt de la carpeta doc/. 
-En la captura adjunta se ve como solo se reflejan los archivos de prueba que no fueron ignorados, mientras que /temp /doc y sus archivos no se ven reflejados -->
+En la captura adjunta se ve como solo se reflejan los archivos de prueba que no fueron ignorados, mientras que /temp /doc y sus archivos no se ven reflejados
       ![Evidencia ignore](imgs/eviignore.png)
 
 ---
@@ -136,7 +135,7 @@ En la captura adjunta se ve como solo se reflejan los archivos de prueba que no 
 
 **📝 Respuesta:**
 
-<!-- Descripción del proceso:
+Descripción del proceso:
 *Comandos exactos usados: 
 $ git flow init
 $ git flow hotfix start ingresar-encabezado
@@ -161,7 +160,7 @@ Larga duración: Facilita el mantenimiento de versiones estables mientras se des
 
 Control de calidad: Separa claramente el desarrollo activo (develop) de las versiones estables (main)
 
-Gestion de releases: Estructura definida para preparar releases y hotfixes -->
+Gestion de releases: Estructura definida para preparar releases y hotfixes
 
 
 ---
