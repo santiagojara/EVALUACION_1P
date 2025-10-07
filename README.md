@@ -106,68 +106,64 @@ El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no d
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
 
-### Requisitos:
-
-- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
-- Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
-- En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
-- Realizar al menos un commit durante el desarrollo.
-- Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
-
-### En este README, se debe incluir:
-
-- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
-- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
-- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
-
-**Importante:**
-
-- Deben realizarse varios commits durante esta pregunta.
-- **Solo el commit final** debe llevar el **tag `"Pregunta 3"`**.
-- El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
-
-**📝 Respuesta:**
-
 ### Comandos exactos utilizados
 
 ```bash
 # Inicializar Git Flow en el repositorio
 git flow init -d
+```
+![Evidencia git flow init](img/gitflowinit.png)
 
+```bash
 # Crear y empezar un hotfix llamado ingresar-encabezado
 git flow hotfix start ingresar-encabezado
+```
+![Inicio hotfix](img/edicionencabezado.png)
 
+```bash
 # (Editar el README.md para completar los datos personales en el encabezado)
 
 # Agregar y commitear los cambios realizados
 git add README.md
 git commit -m "Completar encabezado con datos personales"
+```
+![Commit cambios encabezado](img/agregarycomitearcambios.png)
 
+```bash
 # Finalizar el hotfix (esto fusiona los cambios en main y develop, y crea un tag)
 git flow hotfix finish ingresar-encabezado
+```
+![Finalizar hotfix](img/finhotfix.png)
 
+```bash
 # Subir los cambios y los tags al repositorio remoto
 git push origin main
 git push origin develop
 git push origin --tags
 ```
+![Subir cambios al remoto](img/subircambiosalremoto.png)
 
 ### Descripción del proceso seguido
 
 1. **Inicialización de Git Flow:**  
-   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.
+   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.  
+   ![Evidencia git flow init](img/gitflowinit.png)
 
 2. **Creación del hotfix:**  
-   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`. Esto permite corregir o agregar cambios urgentes directamente sobre la rama principal.
+   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`.  
+   ![Inicio hotfix](img/edicionencabezado.png)
 
 3. **Desarrollo en la rama hotfix:**  
-   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.
+   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.  
+   ![Commit cambios encabezado](img/agregarycomitearcambios.png)
 
 4. **Finalización del hotfix:**  
-   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.
+   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.  
+   ![Finalizar hotfix](img/finhotfix.png)
 
 5. **Subida de cambios:**  
-   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.
+   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.  
+   ![Subir cambios al remoto](img/subircambiosalremoto.png)
 
 ### Ventajas de aplicar Git Flow
 
@@ -184,30 +180,6 @@ git push origin --tags
 
 ### Parte teórica:
 
-- Explicar qué es un **issue** en GitHub.
-- Explicar qué es un **pull request** y cuál es su finalidad.
-- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
-
-### Parte práctica:
-
-- Trabajar en la rama `develop`, ya existente desde la configuración de Git Flow.
-- Crear un **issue** titulado `"Respuesta a la Pregunta 4"`, en el que se indique que su objetivo es documentar esta pregunta.
-- Realizar los cambios necesarios en este archivo `README.md` para responder esta pregunta.
-- Realizar un **commit** con los cambios y subirlo a la rama `develop` del repositorio remoto.
-- Crear un **pull request** desde `develop` hacia `main` en GitHub.
-- **Vincular el pull request con el issue creado**, de manera que al ser aprobado y fusionado, el issue se cierre automáticamente.
-- **Aprobar** el pull request para que se haga el merge respectivo hacia `main`.
-
-### En este README, se debe incluir:
-
-- Un resumen del procedimiento realizado.
-- El número y enlace del issue creado.
-- El número y enlace al pull request.
-
-**📝 Respuesta:**
-
-### Parte teórica
-
 - **¿Qué es un issue en GitHub?**  
   Un **issue** es una herramienta de GitHub que permite reportar tareas, errores, mejoras o preguntas relacionadas con un proyecto. Los issues ayudan a organizar y dar seguimiento al trabajo pendiente o a problemas detectados en el repositorio.
 
@@ -219,20 +191,26 @@ git push origin --tags
 
 ### Resumen del procedimiento realizado
 
-1. Se creó un **issue** titulado `"Respuesta a la Pregunta 4"` para documentar la respuesta a esta pregunta.
+1. Se creó un **issue** titulado `"Respuesta a la Pregunta 4"` para documentar la respuesta a esta pregunta.  
+   ![Evidencia creación issue](img/creacionIssue.png)
+
 2. Se editó el archivo `README.md` en la rama `develop` para responder la pregunta 4.
-3. Se realizó un commit con los cambios y se subió a la rama `develop` del repositorio remoto.
-4. Se creó un **pull request** desde la rama `develop` hacia la rama `main` en GitHub.
-5. El pull request fue vinculado al issue creado, de modo que al aprobar y fusionar el PR, el issue se cerró automáticamente.
-6. Finalmente, se aprobó y fusionó el pull request.
 
-### Enlaces
+3. Se realizó un commit con los cambios y se subió a la rama `develop` del repositorio remoto.  
+   ![Commit cambios develop](img/cambioDevelop.png)
+   ![Push a develop](img/gitpushorigindevelop.png)
 
-- **Issue creado:**  
-  Issue #X: [Enlace al issue](URL_DEL_ISSUE)
+4. Se creó un **pull request** desde la rama `develop` hacia la rama `main` en GitHub.  
+   ![Evidencia crear pull request](img/crearPullRequest.png)
 
-- **Pull request creado:**  
-  PR #Y: [Enlace al pull request](URL_DEL_PR)
+5. El pull request fue vinculado al issue creado, de modo que al aprobar y fusionar el PR, el issue se cerró automáticamente.  
+   ![Evidencia pull request vinculado](img/Captura\ de\ pantalla\ 2025-10-07\ 164106.png)
+   ![Evidencia merge pull request](img/mergePullRequest.png)
+  
+
+6. Finalmente, se aprobó y fusionó el pull request.  
+   ![Evidencia final pull request](img/CFinalPullRequest.png)
+
 
 ---
 
@@ -265,7 +243,41 @@ git push origin --tags
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+### Procedimiento realizado
+
+1. **Creación de ramas:**
+   - Se crearon dos ramas llamadas `ramaA` y `ramaB` a partir de la rama `develop`.
+
+2. **Creación y edición de archivos:**
+   - En la rama `ramaA`, se creó el archivo `archivoA.txt` con el contenido:  
+     `Contenido A`
+   - En la rama `ramaB`, se creó el archivo `archivoA.txt` con el contenido:  
+     `Contenido B`
+
+3. **Generación y resolución del conflicto:**
+   - Al intentar fusionar `ramaB` sobre `ramaA`, Git detectó un conflicto en el archivo `archivoA.txt` porque ambos tenían cambios diferentes en la misma línea.
+   - El conflicto se resolvió combinando ambos contenidos en el archivo, quedando así:
+     ```
+     Contenido A
+     Contenido B
+     ```
+
+4. **Merge hacia develop:**
+   - Se realizó el merge de la rama `ramaA` (ya sin conflictos) hacia la rama `develop`.
+
+5. **Pull request:**
+   - Se creó un pull request desde la rama `develop` hacia la rama `main`.
+
+6. **Eliminación de ramas:**
+   - Finalmente, se eliminaron las ramas `ramaA` y `ramaB` tanto local como remotamente.
+
+### Explicación de conflicto en Git
+
+Un **conflicto en Git** ocurre cuando dos ramas modifican la misma parte de un archivo de forma diferente y Git no puede decidir automáticamente cuál cambio conservar. En este caso, el conflicto ocurrió porque tanto `ramaA` como `ramaB` crearon un archivo con el mismo nombre pero con contenidos distintos en la misma línea.
+
+### Enlace al pull request
+
+
 
 ---
 
