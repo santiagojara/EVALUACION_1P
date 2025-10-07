@@ -130,8 +130,11 @@ doc/*.txt
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+- Comandos utilizados para la creacion del hotflix
+git flow init
+git checkout main
+git flow hotflix start ingresar-encabezado
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
 
