@@ -43,6 +43,17 @@
 - fork : es una acción para crear una copia independiente de un repositorio en nuestra cuenta de GitHub y nos permite trabajar de forma aislada sobre el proyecto original.
 
 - git pull: es un comando que fusiona los cambios del repositorio remoto a la rama local actual.
+
+------Practica ------
+ - ¿Cómo se realizó el fork?
+    El fork se realizo dando click en la opcion de GitHub donde se abrio la ventana para guarda en el repositorio.
+
+- ¿Cómo se realizó el clone del fork?
+    Ya en el nuevo repositorio con el fork se copia el link del repositorio y se copia en el git con el comendo git clone.
+
+ - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    Se verifico con el comando git remote -v y ver ue esta en nuestro repositorio. 
+  
 ![alt text](image.png)
 
 ---
