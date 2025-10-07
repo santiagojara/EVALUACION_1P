@@ -1,4 +1,4 @@
 *.log
 temp/
-doc/*.md
-doc/*.txt
+*.md
+*.txt
