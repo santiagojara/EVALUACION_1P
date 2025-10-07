@@ -38,7 +38,55 @@
 
 **📝 Respuesta:**
 
+**Diferencia entre los siguientes conceptos/comandos:**
+* git `clone`: Comando de Git que copia un repositorio remoto a tu máquina local.  
+* `fork`: Acción en GitHub que crea una copia personal de un repositorio en tu cuenta.  
+* git `pull`: Comando de Git que descarga los cambios del repositorio remoto y los fusiona con tu rama local.
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+
+
+**Fork del repositorio:**
+
+* Accedí al repositorio original en GitHub (`https://github.com/santiagojara/EVALUACION_1P`).
+* Hice clic en el botón "Fork" en la esquina superior derecha de la página.
+* Seleccioné mi cuenta de GitHub para crear una copia del repositorio en `https://github.com/SebasIsd/EVALUACION_1P_2526`.
+![Haciendo el fork](img/1.png)
+![Se creo el fork](img/2.png)
+
+**Clone del fork:**
+
+* En mi máquina local, ejecuté el siguiente comando para clonar el repositorio:  
+
+     git clone https://github.com/SebasIsd/EVALUACION_1P_2526
+
+Esto creó una copia local del repositorio en un directorio.
+![Se clono](img/3.png)
+
+**Verificación de que se trabajó en el fork:**
+
+* Verifiqué la URL del repositorio remoto con el comando:  
+
+     `git remote -v`
+
+     La salida mostró que `origin` apuntaba a mi repositorio, lo que confirmó que estaba trabajando en mi fork y no en el repositorio original.
+
+![Se clono](img/4.png)
+
+
+**Commits:**
+
+- Actualicé este archivo `README.md` con la respuesta y realicé un commit:  
+
+
+  `git add .`
+
+  `git commit -m "Respuesta a Pregunta 1: Fork, clone y explicación"`
+
+  `git tag -a v1.0.0 -m "Pregunta 1" 8f8a7ae`
+
+  `git push origin main --tags`
+
+![comandos](img/5.png)
 
 ---
 
@@ -62,6 +110,28 @@
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+**Crear el .gitignore:**
+* Creé un archivo llamado .gitignore con el siguiente contenido
+`*.log ;
+temp/ ;
+doc/*.md ;
+doc/*.txt`
+* Se hizo el commit del .gitignore
+`git add .gitignore`
+`git commit -m "Pregunta 2: Creación de .gitignore"`
+
+* Creé una carpeta `temp/` y los archivos `doc/prueba.md`, `doc/prueba.txt`, `prueba.md`, `prueba.txt` y `test.log`
+* Ejecuté git status para verificar que `temp/`, `doc/prueba.md`, `doc/prueba.txt` y `test.log` fueron ignorados.
+
+![comandos](img/6.png)
+
+* Comandos a usar
+  - git add README.md prueba.md prueba.txt
+  - git commit -m "Pregunta 2: Evidencia de .gitignore funcionando"
+  - git tag -a v2.0.0 -m "Pregunta 2" [commit]
+  - git push origin main --tags
+
+![comandos](img/7.png)
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -91,6 +161,11 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+* Inicializar Git Flow:
+`git flow init`
+* Creamos hotfix:
+`git flow hotfix start ingresar-encabezado`
+
 
 ---
 
@@ -101,8 +176,13 @@
 ### Parte teórica:
 
 - Explicar qué es un **issue** en GitHub.
+  - Un `issue` en GitHub es un rastreador de tareas o problemas.
+
 - Explicar qué es un **pull request** y cuál es su finalidad.
+  - Un `pull request` propone cambios para ser fusionados, permitiendo revisión.
+
 - Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  - Los issues identifican problemas/metas, mientras los PRs son propuestas de solución. Se relacionan cuando un PR cierra un issue.
 
 ### Parte práctica:
 
@@ -121,9 +201,14 @@
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+* Cambiamos de rama a develop
+* Actualicé este README con la respuesta
+* Hice un commit con los cambios
+  * git add README.md
+  * git commit -m "Pregunta 4: Respuesta y documentación"
+  * git push origin develop
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
-
+![comandos](img/9.png)
 ---
 
 ## Pregunta 5 (2 puntos)
@@ -155,8 +240,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+* Creamos las ramas
+![comandos](img/11.png)
 
+* Creamos los archivos en la rama A
+![comandos](img/12.png)
+
+* Y hacemos los commits
+  * git add .
+  * git commit -m "Pregunta 5: Crear archivoA.txt en ramaA"
 ---
 
 ## Pregunta 6 (2 puntos)
