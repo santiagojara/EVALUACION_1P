@@ -36,9 +36,16 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
   - ¿Cómo se realizó el fork? \
-  El fork se realizó 
-  - ¿Cómo se realizó el clone del fork?
-  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  El fork se realizó al dar click en github en la opcion de fork y crar un repositorio remoto en el remositorio remoto del estudiante
+  ![alt text](image.png)\
+  ![alt text](image-2.png)
+  - ¿Cómo se realizó el clone del fork?\
+  El clone del fork se realizó al clonar el repositorio remoto del estudiante mediante el comando `git clone https://github.com/ElJDragon/EVALUACION_1P.git`
+  \
+  ![alt text](image-1.png)
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?\
+  Mediante el comando `git remote -v` se peude observar la rama remota y al ser la rama del estudiante se peude comprobar que se esta trabajando en el fork porque la ruta remota es del estudiante y no del docente \
+  ![alt text](image-3.png)
 
 **📝 Respuesta:**
 
