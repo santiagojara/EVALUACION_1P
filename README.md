@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [UNIVERSIDAD TECNICA DE AMBATO]  
+## Facultad de [FACULTAD DE INGENIERIA EN SISTEMAS, ELECTRONICA E INDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante: Sebastian Freire** ___________________________  
+**Fecha:10/07/2025** ___________________  
 
 ---
 
@@ -23,9 +23,12 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
+- `git clone`
+
+- `fork` 
+
 - `git pull`
+
 
 ### Parte práctica:
 
@@ -38,8 +41,27 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+<!-- Escribe aquí tu respuesta a la Pregunta 1
+- `git clone`
+<!--- Este comando nos permite copiar un repositorio completo desde un servidor remoto (como GitHub) hacia nuestra máquina local. Incluyendo todos los archivos, historial de versiones y estructura del proyecto. -->  
 
+<!---- `fork` 
+ Permite crear una copia del repositorio original en tu propia cuenta, conservando el vínculo con el original. Es útil para colaborar en proyectos sin modificar directamente el repositorio fuente -->  
+
+<!---- `git pull`
+ Este comando se utiliza para actualizar el repositorio local con los últimos cambios del repositorio remoto. Combina git fetch y git merge. -->
+
+<!-- PARTE PRACTICA 
+¿Cómo se realizó el fork?
+Ingresé al repositorio original en GitHub, hice clic en el botón "Fork" ubicado en la parte superior derecha, y seleccioné mi cuenta personal. GitHub creó automáticamente una copia del repositorio en mi perfil, desde donde estoy trabajando sobre una versión independiente.
+
+¿Cómo se realizó el clone del fork?
+Desde mi perfil de GitHub, accedí al repositorio forkeado. Hice clic en el botón verde "Code", seleccioné la opción HTTPS, copié la URL y ejecuté el siguiente comando en la terminal:
+git clone https://github.com/TTORNETI/EVALUACION_1P.git
+
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Ejecuté el comando git remote -v en la terminal. Esto mostró que el repositorio remoto apuntaba a mi cuenta personal (TTORNETL) y no al repositorio original, confirmando que estaba trabajando sobre el fork.
+-->
 ---
 
 ## Pregunta 2 (1 punto)
@@ -60,7 +82,25 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 
+<!--
+El archivo `.gitignore` se utiliza para indicarle a Git qué archivos o carpetas deben ser ignorados, es decir, no rastreados ni incluidos en el control de versiones.
+
+En este caso, se configuró con las siguientes reglas:
+
+- `*.log`: Ignora todos los archivos con extensión `.log` en cualquier parte del repositorio.
+- `temp/`: Ignora completamente la carpeta `temp` y su contenido.
+- `doc/*.md` y `doc/*.txt`: Ignora archivos `.md` y `.txt` que estén dentro de la carpeta `doc`.
+
+Para verificar su funcionamiento, se crearon los siguientes archivos de prueba:
+
+1. `error.log` → no aparece en `git status`.
+2. `temp/archivo.txt` → no aparece en `git status`.
+3. `doc/prueba.md` y `doc/prueba.txt` → no aparecen en `git status`.
+4. `prueba.md` y `prueba.txt` (ubicados en la raíz del proyecto) → sí aparecen en `git status`, lo que confirma que `.gitignore` está funcionando correctamente.
+
+Este comportamiento demuestra que Git está respetando las reglas definidas en el archivo `.gitignore`, ignorando únicamente lo que se especificó y permitiendo el rastreo de los archivos que deben mantenerse bajo control de versiones.
+-->-->
 
 ---
 
@@ -89,8 +129,17 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+git checkout develop
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
+<!-- # Evaluación - Pregunta 3
+
+**Nombre:** Sebastian Freire   
+**Carrera:** Ingeniería en Sistemas  
+**Materia:** MANEJO Y CONFIGURACION DEL SOFTWARE - A
+**Docente:** [Ing.Santiago Jara]  
+**Periodo:** 2025 - 2026 
+-->
 
 ---
 
