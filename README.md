@@ -70,7 +70,6 @@ Evidencias:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
 
