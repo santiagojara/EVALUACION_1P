@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato 
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Xabier David Perez Perez
+**Fecha:** 07/10/2025
 
 ---
 
@@ -110,9 +110,7 @@ Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal
 - **Solo el commit final** debe llevar el **tag `"Pregunta 3"`**.
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
-**📝 Respuesta:**
- 
-
+**📝 Respuesta:** 
 ---
 
 ## Pregunta 4 (2 puntos)
