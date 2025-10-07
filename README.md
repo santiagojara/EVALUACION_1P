@@ -1,11 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Técnica de Ambato  
+## Facultad de Ingenieria en Sistemas Electronica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Alison Cobos
+**Fecha:** 07/10/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
