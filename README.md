@@ -132,7 +132,7 @@ El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no d
 
 ```bash
 # Inicializar Git Flow en el repositorio
-git flow init
+git flow init -d
 
 # Crear y empezar un hotfix llamado ingresar-encabezado
 git flow hotfix start ingresar-encabezado
