@@ -127,7 +127,15 @@ Al ejecutar `git status` después de crear los archivos de prueba, se observa:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Paso 1 - Inicialización: La inicialización de Git Flow establece la estructura de ramas necesaria para seguir este flujo de trabajo, definiendo main como rama de producción y develop como rama de desarrollo.
+Paso 2 - Creación del hotfix: Al crear un hotfix, se genera una rama temporal desde main para realizar correcciones urgentes o cambios menores que deben aplicarse directamente a producción.
+Paso 3 - Modificación y commit: Se completa el encabezado del documento con los datos personales del estudiante y se registra el cambio mediante un commit.
+Paso 4 - Finalización: Al finalizar el hotfix, Git Flow automáticamente:
+
+Integra los cambios en main (producción)
+Crea un tag para marcar esta versión
+Integra los cambios en develop para mantener sincronización
+Elimina la rama temporal del hotfix
 
 ---
 
