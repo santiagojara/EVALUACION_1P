@@ -184,6 +184,25 @@ En equipos grandes, evita conflictos y facilita el control de versiones en proye
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
+Parte teórica:
+
+un Issue es un reporte o tarea que describe un problema o mejora del proyecto.
+
+un pull Request es una solicitud para fusionar cambios de una rama a otra.
+
+Un issue indica qué hay que hacer, y un pull request implementa la solución. Cuando el pull request se aprueba, el issue puede cerrarse automáticamente.
+
+Parte práctica:
+- Un resumen del procedimiento realizado.
+primero se habilito issue en git hub ya que no estaba habilitado, de ahi se genero el isus respuesta preunta 4
+
+- El número y enlace del issue creado.
+1
+https://github.com/Hlagua/EVALUACION_1P/issues/1
+
+- El número y enlace al pull request.
+
+
 
 ## Pregunta 5 (2 puntos)
 
