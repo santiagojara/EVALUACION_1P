@@ -117,6 +117,13 @@ temp/ ;
 doc/*.md ;
 doc/*.txt`
 * Se hizo el commit del .gitignore
+`git add .gitignore`
+`git commit -m "Pregunta 2: Creación de .gitignore"`
+
+* Creé una carpeta `temp/` y los archivos `doc/prueba.md`, `doc/prueba.txt`, `prueba.md`, `prueba.txt` y `test.log`
+* Ejecuté git status para verificar que `temp/`, `doc/prueba.md`, `doc/prueba.txt` y `test.log` fueron ignorados.
+
+![comandos](img/6.png)
 
 ---
 
