@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad UNIVERSIDAD TECNICA DE AMBATO  
+## Facultad de FACULTAD DE INGENIERÍA EN SISTEMAS ELECTRÓNICA E INDUSTRIAL 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Boris Yussef Vinces Cueva
+**Fecha:** 07/10/2025
 
 ---
 
@@ -146,10 +146,27 @@ Finalmente comprebamos que se haya ejecutado:
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-Inicializamos Git Flow con git flow init:
+Inicializamos Git Flow con git flow init y se crean la ramas por defecto:
+
+![alt text](image-14.png)
+
+Creamos la rama hotfix con el nombre de ingresar-encabezado:
+git flow hotfix start ingresar-encabezado
+
+![alt text](image-15.png)
+
+Agregamos los dataos del encabezado:
+![alt text](image-16.png)
+
+Creamos el commit de los cambios:
+
+git commit -m"Cambios encabezado"
+![alt text](image-17.png)
+
+Finalizamos el Hotfix de git flow con git flow hotfix finish ingresar-encabezado
 
 
-
+Las ventajas del modelo de git flow se basan en la facilidad de evitar errores colaborativos y tener un mejor registro de los cambios, gracias a este seuimiento de cambios se pueden dedsarrollar uevas características para el software.
 
 ---
 
