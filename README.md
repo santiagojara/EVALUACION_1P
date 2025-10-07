@@ -117,11 +117,10 @@ Se verifico que el repositorio local apuntaba al fork personal y no al original 
 
 2. Comandos ejecutados:
 
-```bash
-# Ver todo lo ignorado de forma resumida
+Ver todo lo ignorado de forma resumida:
 git status --ignored -s
 
-# Ver por qué un archivo está ignorado (muestra la regla que coincide)
+Ver por qué un archivo está ignorado (muestra la regla que coincide):
 git check-ignore -v doc/prueba.md doc/prueba.txt app.log
 
 ---
@@ -152,8 +151,56 @@ git check-ignore -v doc/prueba.md doc/prueba.txt app.log
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos exactos utilizados (Git Flow)
 
+# Inicializar Git Flow con ramas por defecto (main / develop)
+git flow init -d
+
+# Crear hotfix para la tarea solicitada
+git flow hotfix start ingresar-encabezado
+
+# (Editar README: completar encabezado con mis datos)
+git add README.md
+git commit -m "Q3: Añade datos personales al encabezado (avance 1)"
+
+# (Opcional: más commits si hubo cambios adicionales)
+# git commit -m "Q3: Ajusta formato del encabezado"
+
+# Finalizar el hotfix (merges a main y develop + tag de versión de Git Flow)
+git flow hotfix finish -m "Q3: Cierra hotfix ingresar-encabezado" ingresar-encabezado
+
+# Publicar ramas y tags
+git push origin main
+git push origin develop
+git push origin --tags
+
+# Tag requerido por el examen (solo en el commit final)
+git checkout develop
+git tag -a "Pregunta 3" -m "Pregunta 3"
+git push origin --tags
+
+---
+Proceso seguido (propósito de cada paso)
+
+git flow init -d: configura la estrategia Git Flow con main (producción) y develop (integración).
+
+git flow hotfix start ingresar-encabezado: crea una rama hotfix desde main para aplicar un cambio urgente (completar el encabezado del README).
+
+Commits en el hotfix: guardan el progreso de la edición del encabezado con mis datos personales.
+
+git flow hotfix finish ...: cierra el hotfix; fusiona automáticamente a main y replica a develop, además crea un tag de versión propio de Git Flow.
+
+Push de ramas/tags: publica main, develop y los tags en el remoto.
+
+Tag “Pregunta 3”: etiqueta del examen aplicada solo al commit final (se coloca en develop tras finalizar el hotfix).
+---
+Reflexión: ventajas de aplicar Git Flow
+
+Orden y roles claros de ramas: feature, release, hotfix, develop, main. Reduce errores al separar trabajo en progreso de producción.
+
+Soporte para parches urgentes: un hotfix permite corregir rápido en main sin bloquear el desarrollo en develop.
+
+Escala en equipos grandes/proyectos largos: facilita revisiones, releases predecibles y auditoría del historial (tags por versión y ramas temáticas).
 ---
 
 ## Pregunta 4 (2 puntos)
