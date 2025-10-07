@@ -82,6 +82,7 @@
 
 - Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
 - Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+`Para iniciar se coloca git flow init con la cual se crean las ramas develop por defecto desde el main , despues colocamos git flow hotfix start ingresar-encabezado el cual nos crea la rama y nos posiciona  en esa ella , despues realizamos los cambios necesarios agregamos el commit respectivo y cerramos la rama con el comando git flow hotfix finish ingresar-encabezado la misma que fusionna en la rama develop y main y se elimina automaticamente`
 - Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
 
 **Importante:**
@@ -92,8 +93,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
+`Ventajas de usar Git Flow es que nos ayuda a que cada persona trabaje independientemente en su rama especifica para que asi al final no se tenga conflictos por usar una sola rama`
 ---
 
 ## Pregunta 4 (2 puntos)
