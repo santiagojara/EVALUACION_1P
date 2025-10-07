@@ -123,7 +123,7 @@ Nos dirigimos a Setting ya que como no tenemos habilitado la opcion de creación
 - El número y enlace del issue creado.
 https://github.com/maribelsailema/EVALUACION_1P/issues/1
 - El número y enlace al pull request.
-
+El pull request esta enlazado con el issue
 **📝 Respuesta:**
 
 **Issue:**  
