@@ -136,28 +136,21 @@ Verificacion
 ---
 - Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
 git flow init
-
 git flow hotfix start ingresar-encabezado
-# editar README.md y agregar datos personales
-
-git add README.md
+git add .
 git commit -m "Agregar encabezado con datos personales"
-
 git flow hotfix finish ingresar-encabezado
 
 
 - Una descripción del **proceso seguido**, indicando el propósito de cada paso.
-se inicio el git flow
-
-![alt text](image-6.png)
-
-de ahi se genero la rama hotfix con el nombre ingresa encabezado, y se agrego el emcabesado
-
-
-
+se inicio el git flow el cual configura la estructura de ramas (main, develop, feature, release, hotfix).
+de ahi se genero la rama hotfix con el nombre ingresa encabezado,la cual es una rama temporal para corregir errores pequenos ,y se agrego el emcabesado, y se realizo el comit, y se finalizo la rama hotfix con git flow hotfix fisich lo cual fusiona los cambios en main y develop y elimina la rama del hotfix.
 
 
 - Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
+Permite mantener un flujo de trabajo ordenado, separando el desarrollo principal, las pruebas y los lanzamientos.
+En equipos grandes, evita conflictos y facilita el control de versiones en proyectos de larga duración.
 
 
 ## Pregunta 4 (2 puntos)
