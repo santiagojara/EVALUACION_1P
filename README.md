@@ -398,11 +398,14 @@ hint: Waiting for your editor to close the file...  -->
   - Un issue es un ticket o tarea en GitHub donde se describe un problema, una idea o una solicitud (bug, mejora, pregunta). Permite discutir el tema, añadir etiquetas, asignar responsables y seguir el progreso.
 
 - ¿Qué es un pull request y cuál es su finalidad?
+  
   - Un pull request (PR) es una propuesta de cambios desde una rama a otra (por ejemplo, desde tu fork o rama feature hacia main). Su finalidad es revisar, comentar y aprobar los cambios antes de fusionarlos; sirve para hacer code review, ejecutar tests automáticos y documentar la integración.
 
--Diferencia y cómo se relacionan en trabajo colaborativo
-  -Diferencia: el issue es la discusión/registro del problema o tarea; el pull request es la propuesta concreta de código para resolverla.
-  -Relación: normalmente se crea un issue para documentar la necesidad y luego el PR referencia ese issue (por número) al enviar la solución; al fusionar el PR se puede cerrar automáticamente el issue. Esto organiza el trabajo y mantiene trazabilidad.
+- Diferencia y cómo se relacionan en trabajo colaborativo
+
+  - Diferencia: el issue es la discusión/registro del problema o tarea; el pull request es la propuesta concreta de código para resolverla.
+
+  - Relación: normalmente se crea un issue para documentar la necesidad y luego el PR referencia ese issue (por número) al enviar la solución; al fusionar el PR se puede cerrar automáticamente el issue. Esto organiza el trabajo y mantiene trazabilidad.
 
 ---
 
