@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Amabto
+## Facultad de FISEI
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Mauricio Guevara
+**Fecha:** 07/10/2025
 
 ---
 
@@ -76,8 +76,14 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![Evidencia de pimer commit .gitignore](img/Primer%20commit%20gitignore%20.jpg)
 
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+Gitignore es un archivo que se lo coloca en el directorio raíz, se ponen patrones que describen los archivos y su funcion es ignorar estos archivos.
+![Evidencia del uso de .gitignore](img/Uso%20del%20gitignore.jpg)
+
+![Evidencia del segundo commit](img/Segundo%20commit%20gitignore.jpg)
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -106,8 +112,21 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+- Inicializar el repositorio con Git Flow, utilizando las ramas por defecto: `main` y `develop`.
 
+- Crear una rama de tipo `hotfix` con el nombre `ingresar-encabezado`.
+  ![Evidencia](img/Iniciar%20hotfix.jpg)
+
+- En dicha rama, **completar con los datos personales del estudiante** el encabezado que ya se encuentra al inicio de este archivo `README.md`.
+  ![Evidencia](img/datos%20personales%20del%20estudiante.jpg)
+
+- Realizar al menos un commit durante el desarrollo.
+  ![Evidencia](img/commit%20durante%20el%20desarrollo.jpg)
+
+- Finalizar el hotfix siguiendo el flujo de trabajo establecido por Git Flow.
+  ![Evidencia](img/Finalizar%20hotfix.jpg)
+
+![Tag Pregunta 3](img/P3.jpg)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -138,7 +157,13 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub: Es una herramienta que nos ayuda a realziar un control o seguimiento de las tareas, errores o sugerencias dentro del repositorio
+
+- Explicar qué es un **pull request** y cuál es su finalidad: Es una solicitud para fusionar los cambios realizados en una rama a otra. Y su finalidad es asegurarse que funsione yque el codigo sea revisado para que sea implementado
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo: El issue es solo un seguimiento o una tarea en el repositorio y el pull request es el mecanismo para integrar los cambios realizados e el codigo
+
+
 
 ---
 
