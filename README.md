@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Reinoso Salazar Aarón Adrián 
+**Fecha:** 07/10/2025
 
 ---
 
@@ -123,6 +123,11 @@ Primer commit con solo .gitignore
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
+evidencia de git flow con hotfix
+![Evidencia ](img/Screenshot 2025-10-07 161940.png)
+
+comandos utilizados y salida utilizada: 
 
 ---
 
