@@ -145,6 +145,8 @@ Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Se creo la issue con el identificador https://github.com/XabierP2006/EVALUACION_1P/issues/1#issue-3493119464
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
