@@ -39,8 +39,19 @@ La diferencia clave es que git clone clona todo el repositorio y lo trae a la pa
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
-
+  
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  ![Creacion del Fork](img/creacion-fork.png)
+  
+  Se realizo correctamente el fork al ir a github selccionar el repositorio al cual se le desea hacer un fork (ojo tiene que ser un repositorio publico), se da al boton de fork y se da en create new fork, se le da un titulo y una descripcion (opcional) y se da en el boton de crear.
+
+  ![Link Clone ](img/creacion-fork.png)
+
+  Para la clonacion del proyecto primero se debe ir al repositorio creado por el fork y copiar el link del repositorio y utilizando el comando git clone <url> se logra clonar el repositorio.
+
+  ![Clone Repositorio](img/clone-repositorio.png)
+
+  Como ultimo punto para verificar uqe no se este trabajando en el repositorio original solo se debe de asegurar que se haya copiado el link del reposotirio creado por el fork en su espacio privado de esa manera neustros cambios se veran reflejados solo en neustro fork, almenos que hagamos un pull request al crear del repositorio original y nos acepte nuestros cambios.
 
 ---
 
