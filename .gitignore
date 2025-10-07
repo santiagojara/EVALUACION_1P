@@ -1,0 +1,13 @@
+
+
+# Ignorar logs\ 
+n*.log
+
+
+# Carpeta temporal
+temp/
+
+
+# Ignorar archivos md y txt solamente dentro de doc/
+doc/*.md
+doc/*.txt
