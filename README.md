@@ -355,6 +355,11 @@ Resumen de ejemplo del procedimiento realizado (rellena con tus números/URLs):
 - Subí la rama y creé el Pull Request desde `develop` hacia `main` y añadí en la descripción: "Closes #123".
 - Aprobé y mergeé el PR; el issue #123 se cerró automáticamente.
 
+Estado real (issue creado):
+
+- Issue creado: #1 — https://github.com/Esteban-Vlz/EVALUACION_1P/issues/1#issue-3493065358
+- Pull Request: pendiente — https://github.com/Esteban-Vlz/EVALUACION_1P/pull/new/develop
+
 Nota: No puedo crear issues o PRs directamente en GitHub desde aquí sin autenticación y permiso en tu cuenta, por lo que los pasos arriba son la guía exacta que debes seguir. Cuando tengas el número del issue y del PR, pégalos en la plantilla anterior dentro de este README.
 
 
