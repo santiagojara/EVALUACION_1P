@@ -167,6 +167,28 @@ Facilita releases y hotfixes: ramas con convenciones reducen errores humanos.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+Issue: 
+Es una entrada en el tracker de GitHub  usada para discutir y registrar trabajo pendiente. Puede contener etiquetas, asignados, milestones y comentarios.
+
+Pull Request: 
+Es una solicitud para fusionar cambios de una rama (o fork) hacia otra rama . El permite revisión de código, comentarios en líneas específicas, integración continua y la fusión cuando está aprobado.
+
+Diferencia y relación: 
+Los issues documentan qué hay que hacer o discutir;  contienen cómo se implementó la solución. Un PR puede enlazarse a uno o varios issues (por ejemplo añadiendo "Closes #N" en la descripción) para indicar que al fusionar se cierra el issue.
+
+
+Los issues se vinculan con PRs usando palabras clave como "Closes #1" o  "Fixes #2" en la descripción del PR. Al fusionar el pull request, el issue se cierra  automáticamente, manteniendo la trazabilidad del trabajo
+
+
+1. Me posicioné en la rama develop
+2. Creé el issue #1 titulado "Respuesta  Pregunta 4"
+3. Realicé los cambios en README.md documentando la pregunta
+4. Hice commit y push a la rama develop
+5. Creé un pull request desde develop hacia main en GitHub
+6. Vinculé el PR con el issue usando "Closes #1"
+7. Aprobé y fusioné el pull request
+8. El issue se cerró automáticamente al completarse el merge
+
 ---
 
 ## Pregunta 5 (2 puntos)
