@@ -136,6 +136,9 @@ git checkout main
 git flow hotfix start ingresar-encabezado -> al ingresar este comando tenemos lo siguiente
 ![Evidencia de Git](img/hotfix.png)
 
+Realizamos la modificacion solicitada
+![Evidencia de Git](img/Pregunta3.png)
+
 al finalizar la rama aplicamos 
 git flow hotfix finish ingresar-encabezado
 -> el uso de esto hara merge en main y en develop actualizando todas las ramas como se demuestra en la imagen
@@ -144,6 +147,8 @@ git flow hotfix finish ingresar-encabezado
 Gitflow facilita el trabajo colaborativo ya que permite de forma sencilla iniciar ramas para cada desarrollador, de modo que no se sobre escriba codigo asi como facilita el proceso de fusion ya que todas las nuevas funcionalidades hacen desde el apartado de develop asegurando el codigo de produccion que esta en main y del mismo modo cuando se finaliza una funcionalidad al terminar la rama mediante git flow esta se auto fusiona a su rama de origen de modo que el codigo se actualiza y se reducen los posibles conflictos, dentro de proyectos grandes puede facilitar la organizacion y en proyectos con actualizacion constante permite mantener segura la version final mientras se realizan actualizaciones.
 
 
+## Commits Pregunta 3
+![Evidencia de Git](img/commits3.png)
 
 
 ---
