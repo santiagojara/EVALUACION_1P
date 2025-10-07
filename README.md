@@ -124,6 +124,11 @@ Primer commit con solo .gitignore
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+evidencia de git flow con hotfix
+![Evidencia ](img/Screenshot 2025-10-07 161940.png)
+
+comandos utilizados y salida utilizada: 
+
 ---
 
 ## Pregunta 4 (2 puntos)
