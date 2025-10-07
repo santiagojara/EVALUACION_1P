@@ -283,4 +283,17 @@ El conflicto surge cuando al hacer merge de una rama a otra, esta tiene dos mism
 
 **📝 Respuesta:**
 
+### Una explicación del proceso realizado paso a paso.
+
+
+### Una explicación del **versionamiento semántico**, indicando:
+  - En qué consiste.
+  - En qué consiste.
+  - Sus tres componentes (MAJOR, MINOR, PATCH).
+
+### El enlace al pull request creado hacia el repositorio original.
+
+
+
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
