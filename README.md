@@ -124,7 +124,34 @@ Para esto se usó el comando `git status`, el cual solo muestra el directorio cr
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+*Comandos Utilizado*
+`git flow init`
+`git flow hotfix start ingresar-encabezado`
+`git add .`
+`git commit -m "Completado de encabezado con datos personales"`
+`git flow hotfix finish ingresar-encabezado`
+
+*Descripción del proceso* 
+**Inicialización:** Configura la estructura de ramas para Git Flow
+
+**Hotfix start:** Crea rama hotfix desde main para corrección urgente
+
+**Desarrollo:** Realizar cambios necesarios en la rama hotfix
+
+**Hotfix finish:** Fusiona automáticamente en main y develop, crea tag de versión
+
+*Reflexión* 
+Git Flow proporciona una estructura estandarizada que facilita:
+
+Trabajo en equipo: Roles y responsabilidades claras
+
+Control de versiones: Liberaciones organizadas y etiquetadas
+
+Estabilidad: main siempre contiene código estable
+
+Desarrollo paralelo: Múltiples features pueden desarrollarse simultáneamente
+
+Mantenimiento: Hotfixes para correcciones urgentes sin interrumpir desarrollo
 
 ---
 
