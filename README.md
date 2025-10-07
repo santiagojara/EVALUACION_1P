@@ -1,4 +1,4 @@
-# Universidad Tecnica de Ambato 
+# Universidad Técnica de Ambato 
 ## Facultad de Ingenieria en Sistemas, Electronica e Industrial
 ### Carrera de Ingeniería en Software  
 
