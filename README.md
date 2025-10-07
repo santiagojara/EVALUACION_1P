@@ -240,6 +240,30 @@
 
 **📝 Respuesta:**
 
+-creacion de las ramas
+
+![ramas](img/Screenshot%202025-10-07%20163239.png)
+
+-archivo ramaA
+
+![archivo](img/Screenshot%202025-10-07%20163430.png)
+
+-archivo ramaB
+
+![archivo](img/Screenshot%202025-10-07%20163608.png)
+
+- generacion del conflicto
+
+![conflicto](img/Screenshot%202025-10-07%20163726.png)
+
+-resolucion del conflicto
+![resolucion](img/Screenshot%202025-10-07%20163848.png)
+
+-merge hacia develop de ramaA
+
+![merge](img/Screenshot%202025-10-07%20163947.png)
+
+
 
 
 ## Pregunta 6 (2 puntos)
