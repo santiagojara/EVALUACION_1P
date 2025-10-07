@@ -346,8 +346,15 @@ git push --tags
    > "Closes #4"
    > Esto asegura que al fusionarse el pull request, el issue se cierre automáticamente.
 
+ ![FORK](img/Pregunta4/Pull.png)
+
+
 6. El pull request fue **aprobado** y fusionado a `main`, cerrando el issue automáticamente.
 
+ ![FORK](img/Pregunta4/Closes.png)
+
+ Commits
+  ![FORK](img/Pregunta4/Commit.png)
 
 ---
 
