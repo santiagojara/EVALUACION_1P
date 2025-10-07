@@ -3,9 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Paredes Garzón Robert Andrés  
+**Fecha:** 07-10-2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -38,9 +37,22 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+### Diferencias
+- **`git clone`**: copia un repositorio **remoto a local** (historia + archivos + refs).
+- **Fork**: copia del repo **a nuestra cuenta de GitHub**. Te vuelves dueño del fork.
+- **`git pull`**: trae cambios y **los integra** en tu rama actual. Es `fetch + merge` (o `fetch + rebase` si se configura).
 
----
+### Parte práctica
+
+"Las evidencias se enccuentran numeradas en \img."
+
+**Fork**
+1. En GitHub: botón **Fork** del repositorio original → mi cuenta → crear fork. Incluso poder abiri 
+
+2. **Clone del fork** usando: git clone https://github.com/andyyyia/EVALUACION_1P
+
+3. Para poder verificar que se trabaja sobre el Fork usamos el comando: git remote -v
+
 
 ## Pregunta 2 (1 punto)
 
