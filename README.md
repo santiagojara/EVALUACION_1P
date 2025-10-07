@@ -70,11 +70,20 @@ en mi propia cuenta de github y git pull trae los cambios del remoto y los pone 
 
 **📝 Respuesta:**
 1. ![Creacion del .gitignore](imagenes/gitignore.png)
+Creamos el archivo gitignore el que indicara a git que archivos no deben ser rastreados
  ![Reglas de exclusion del git ignore](imagenes/gitignoreS.png.png)
 
-![PRIMER COMMIT ](gitignoreCommit.png)
+![PRIMER COMMIT ](imagenes/gitignoreCommit.png)
 ---
+
 2. 
+![Creacion de archivos](imagenes/archivosCreados.png)
+Verificamos con git status  que los archivos dentro de doc no se muestren,ni los de temp, ni log,pero los archivos de prueba si se mostrarar, los cuales seran prueba.md y prueba.txt
+![alt text](imagenes/gitstatus.png)
+
+Hacemos el commit y le asignamos tag de pregunta 2
+![alt text](imagenes/SegundoCommitPregunta2.png)
+
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
@@ -100,8 +109,7 @@ en mi propia cuenta de github y git pull trae los cambios del remoto y los pone 
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+ 
 
 ---
 
