@@ -174,6 +174,17 @@ Evidencia pregunta 3:
 
 ![Evidencia pregunta3](imagenes/evidencia-preugunta4.jpg)
 
+### Resumen del Procedimiento Realizado
+
+1.  **Creación del Issue:** Se creó un issue en GitHub para registrar la tarea de responder la Pregunta 4.
+2.  **Cambio de Rama:** En el repositorio local, me posicioné en la rama `develop` usando `git checkout develop`.
+3.  **Edición y Commit:** Se editó el archivo `README.md` para añadir las respuestas teóricas. Luego, se realizó un commit con estos cambios y se subió a la rama `develop` del repositorio remoto con `git push origin develop`.
+4.  **Creación del Pull Request:** Desde la interfaz de GitHub, se creó un pull request para fusionar los cambios de la rama `develop` en la rama `main`.
+5.  **Vinculación del Issue:** En la descripción del pull request, se añadió la palabra clave `Closes #N` (donde N es el número del issue) para vincularlo y automatizar su cierre.
+6.  **Merge:** Finalmente, se aprobó y fusionó el pull request, integrando los cambios en la rama `main` y cerrando automáticamente el issue correspondiente.
+
+![Evidencia pregunta3](imagenes/evidencia2-preugunta4.jpg)
+
 ---
 
 ## Pregunta 5 (2 puntos)
