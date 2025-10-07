@@ -169,6 +169,7 @@ Practica
 ![alt text](image-11.png)
 ![alt text](image-12.png)
 ![alt text](image-13.png)
+![alt text](image-4.png)
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
@@ -201,6 +202,8 @@ Practica
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
 
 **📝 Respuesta:**
+creacion de las ramas
+![alt text](image-5.png)
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
