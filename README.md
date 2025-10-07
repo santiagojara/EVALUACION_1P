@@ -125,6 +125,13 @@ doc/*.txt`
 
 ![comandos](img/6.png)
 
+* Comandos a usar
+  - git add README.md prueba.md prueba.txt
+  - git commit -m "Pregunta 2: Evidencia de .gitignore funcionando"
+  - git tag -a v2.0.0 -m "Pregunta 2" [commit]
+  - git push origin main --tags
+
+![comandos](img/7.png)
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -154,6 +161,11 @@ doc/*.txt`
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+* Inicializar Git Flow:
+`git flow init`
+* Creamos hotfix:
+`git flow hotfix start ingresar-encabezado`
+
 
 ---
 
