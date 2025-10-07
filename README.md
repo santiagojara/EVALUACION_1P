@@ -7,6 +7,7 @@
 **Fecha:** ___________________  
 
 ---
+.
 
 # Evaluación Práctica de Git y GitHub
 
