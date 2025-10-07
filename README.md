@@ -128,7 +128,53 @@ El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no d
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos exactos utilizados
+
+```bash
+# Inicializar Git Flow en el repositorio
+git flow init
+
+# Crear y empezar un hotfix llamado ingresar-encabezado
+git flow hotfix start ingresar-encabezado
+
+# (Editar el README.md para completar los datos personales en el encabezado)
+
+# Agregar y commitear los cambios realizados
+git add README.md
+git commit -m "Completar encabezado con datos personales"
+
+# Finalizar el hotfix (esto fusiona los cambios en main y develop, y crea un tag)
+git flow hotfix finish ingresar-encabezado
+
+# Subir los cambios y los tags al repositorio remoto
+git push origin main
+git push origin develop
+git push origin --tags
+```
+
+### Descripción del proceso seguido
+
+1. **Inicialización de Git Flow:**  
+   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.
+
+2. **Creación del hotfix:**  
+   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`. Esto permite corregir o agregar cambios urgentes directamente sobre la rama principal.
+
+3. **Desarrollo en la rama hotfix:**  
+   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.
+
+4. **Finalización del hotfix:**  
+   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.
+
+5. **Subida de cambios:**  
+   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.
+
+### Ventajas de aplicar Git Flow
+
+- **Organización:** Permite separar claramente el desarrollo de nuevas funcionalidades, correcciones urgentes y lanzamientos.
+- **Colaboración:** Facilita el trabajo en equipo, ya que cada tipo de tarea tiene su propio flujo y ramas específicas.
+- **Control de versiones:** Ayuda a mantener un historial limpio y estructurado, ideal para proyectos de larga duración y equipos grandes.
+- **Reducción de errores:** Minimiza los conflictos y errores al tener procesos definidos para cada tipo de cambio.
 
 ---
 
