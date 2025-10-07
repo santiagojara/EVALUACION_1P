@@ -38,7 +38,32 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+¿Cómo se realizó el fork? 
+
+Navegué al repositorio original en GitHub.
+
+Hice clic en el botón "Fork" ubicado en la esquina superior derecha.
+
+Seleccioné mi cuenta de GitHub como el destino para la bifurcación, creando así una copia del repositorio bajo mi propio usuario.
+
+
+¿Cómo se realizó el clone del fork? 
+
+Una vez en la página de mi repositorio bifurcado (fork), hice clic en el botón verde "<> Code".
+
+Copié la URL proporcionada (HTTPS o SSH).
+
+En mi terminal local, ejecuté el comando git clone [https://github.com/BryanGtmk/EVALUACION_1P.git], lo que descargó el repositorio a mi máquina. 
+
+
+¿Cómo se verificó que se estaba trabajando sobre el fork? 
+
+Dentro del directorio del proyecto clonado, ejecuté el comando git remote -v.
+
+La salida de este comando mostró las URLs de origin, las cuales apuntaban a mi repositorio en GitHub (github.com/MiUsuario/nombre-repositorio) y no al repositorio original. Esto confirmó que mi copia local estaba conectada a mi fork.
+
+Capturas de que se realizo la actividad:
+![Pantalla de evaluación 1](capturas/cap1.png)
 
 ---
 
