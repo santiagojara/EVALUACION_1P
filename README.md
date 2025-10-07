@@ -121,6 +121,28 @@ El .gitignore es la parte mas importante dentro de cualquier repositorio ya que 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Paso 1: Inicializacion de GitFlow**
+
+Se utilizaron comandos como git flow init para la inicializacion del mismo haciendo una configuracion base para su correcto funcionamiento.
+
+![Uso GitFlow](img/init-gitflow.png)
+
+**Paso 2: Creacion de la rama de hotfix**
+
+Seguido de ello se realiza la creacion de la rama hotfix/ingresar-encabezado realizado desde la rama develop.
+
+![Git hotfix](img/creacion-hotfix-ingresar-encabezado.png)
+
+**Paso 3: commid del cambio y finalizacion de hotfix**
+
+Despues se hizo el cambio correspondiente y se hizo el commid del README.md, ademas de finalizar el flujo de trabajo de Git Flow para que se realise el merge correspondiente en deveop y main y la creaciond e la tag que corresponde al commit.
+
+![Hotfix Finish](img/fin-hotfix.png)
+
+
+**Reflexion del uso de GitFlow**
+
+Git flow ayuda a agilizar el proceso de registro de cambios al simplificar los pasos que se seguiria normal mente en git como serian los merge a las ramas respectivas la creacion de la tag en cada uno de los commits requeridos y la posterior eliminacion de la rama al cumplir su funcion de resolucion o implementacion de alguna funcion, por ello es una de las principales herramientas que todo programador debe dominar para la agilizacion del trabajo.
 
 ---
 
