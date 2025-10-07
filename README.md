@@ -42,7 +42,7 @@ en mi propia cuenta de github y git pull trae los cambios del remoto y los pone 
 
  - ¿Cómo se realizó el fork?
  Para el fork lo que hice fue irme al repositorio del santiago jara de github, presionar en la esquina superior derecha donde dice fork, y ahi complete el nombre que le voy a poner, junto con mi cuenta de github.
- ![Fork]({imagenes/fork}.png)
+ ![Fork](imagenes/fork.png)
 
    - ¿Cómo se realizó el clone del fork?
    Use el comando git clone https://github.com/XabierP2006/EVALUACION_1P.git, lo que hizo que se descargue en mi computadora, pero estando en el directorio donde estaba mi carpeta
@@ -69,11 +69,12 @@ en mi propia cuenta de github y git pull trae los cambios del remoto y los pone 
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+1. ![Creacion del .gitignore](imagenes/gitignore.png)
+ ![Reglas de exclusion del git ignore](imagenes/gitignoreS.png.png)
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+![PRIMER COMMIT ](gitignoreCommit.png)
 ---
-
+2. 
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
