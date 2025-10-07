@@ -74,11 +74,9 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 La evidencia de esto se muestra en la siguiente captura ![Captura Pregunta 2](img/Pregunta2.png.png)
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
-2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
-la evidencia de los los literales se muestran a continuacion ![Captura Pregunta 2.1](image.png)
-**Importante:**  
-- Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
----
+2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git y debe llevar el **tag `"Pregunta 2"`**.
+la evidencia de los los literales se muestran a continuacion ![Captura Pregunta 2.1](img/Pregunta2.1.png)
+
 
 ## Pregunta 3 (2 puntos)
 
