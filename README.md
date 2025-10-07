@@ -71,7 +71,7 @@ Evidencias:
 **📝 Respuesta:**
 El archivo que hemos creado el cual es  .gitignore nos ayuda a evitar que Git ingrese archivos que no gracias a las reglas que pusimos.
 Los archivos .log, la carpeta temp/ y los archivos .md y .txt dentro de doc/ fueron ignorados correctamente.
-Se verificó con git status --ignored.
+Se verificó con git status --ignored esto se pudo ver que si funciono.
 
 <img src="./ImagenesEvidencia//Todos los archivos con extensión log.png" alt="Logo" width="150">
 <img src="./ImagenesEvidencia//anadir gitignore.png" alt="Logo" width="150">
