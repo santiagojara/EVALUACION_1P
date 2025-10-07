@@ -153,10 +153,16 @@ Un pull request (PR) es una solicitud que un desarrollador realiza para integrar
 
 - Un resumen del procedimiento realizado.
 ![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
 - El número y enlace del issue creado.
 https://github.com/ElJDragon/EVALUACION_1P/issues/1
 #1
 - El número y enlace al pull request.
+https://github.com/ElJDragon/EVALUACION_1P/pull/2 \
+#2
+
 
 
 **📝 Respuesta:**
