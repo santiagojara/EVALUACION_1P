@@ -73,6 +73,12 @@ commits y tag
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+.gitignore 
+![alt text](image-1.png)
+el git ignore ignora los archivos con extencion .log
+el directorio temp/
+y archivos .md y .txt dentro de la carpeta doc
+![alt text](image-2.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
