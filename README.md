@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Patricio Tisalema
+**Fecha:** 7/10/2025
 
 ---
 
@@ -38,6 +38,20 @@
 
 **📝 Respuesta:**
 
+**Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
+
+- `git clone`: Es un comando de Git que crea una copia local completa de un repositorio remoto.
+- `fork`: Permite crear una copia personal de un repositorio ajeno en tu cuenta de GitHub para contribuir sin afectar el original.
+- `git pull`: Es un comando de Git que descarga los cambios de un repositorio remoto y los fusiona en tu rama local actual.git
+
+**Parte Practica**
+- ¿Cómo se realizó el fork? : Se utilizo la funcion de fork de GitHub, simplemente se elije un nombre (en mi caso decidi conservar el mismo), escribismos una descripcion si queremos y le damos a "Crear Fork"
+![fork](img/fork.png)
+- ¿Cómo se realizó el clone del fork? : Se utilizo git clone y el link del repositorio que acabamos de forkear (asi se le dice??)
+![clone](img/clone.png)
+- ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original? :Simplemente me fije en el usuario el cual aparece en el link al momento de clonar el repositorio, por automatico los cambios que hagasmos se iran al fork en este caso
+
+
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
@@ -59,6 +73,21 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+
+El archivo `.gitignore` es un archivo de texto que le indica a Git qué archivos, carpetas o patrones de archivos debe ignorar y no incluir en el control de versiones. Esto evita que archivos innecesarios o sensibles (como logs, archivos temporales o configuraciones locales) sean rastreados por Git, manteniendo el repositorio limpio y eficiente.
+
+### Reglas configuradas en .gitignore:
+- `*.log`: Ignora todos los archivos con extensión `.log`.
+- `temp/`: Ignora la carpeta `temp/` y todo su contenido.
+- `doc/*.md` y `doc/*.txt`: Ignora todos los archivos `.md` y `.txt` dentro de la carpeta `doc/`.
+
+### Evidencia de funcionamiento:
+Se crearon archivos de prueba para verificar las reglas:
+- `doc/prueba.md` y `doc/prueba.txt`: Estos archivos están dentro de `doc/`, por lo que son ignorados por Git (no aparecen en `git status` como archivos a agregar).
+- `prueba.md` y `prueba.txt`: Estos archivos están fuera de `doc/`, por lo que no son ignorados y aparecen como "untracked" en `git status`, listos para ser agregados si se desea.
+
+Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archivos especificados en las reglas.
+![gitignore](img/gitignore.png)
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
@@ -122,7 +151,29 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teórica:
+
+- **Explicar qué es un issue en GitHub:**  
+  Un issue en GitHub es una herramienta de seguimiento que permite a los colaboradores del proyecto reportar bugs, sugerir mejoras, discutir ideas o documentar tareas pendientes. Funciona como un foro integrado en el repositorio, donde se pueden asignar responsables, etiquetas y milestones para organizar el trabajo.
+
+- **Explicar qué es un pull request y cuál es su finalidad:**  
+  Un pull request (PR) es una solicitud formal para fusionar cambios de una rama (generalmente una rama de feature o desarrollo) a otra rama principal (como `main` o `develop`). Su finalidad es facilitar la revisión de código por parte de otros colaboradores, permitiendo discusiones, pruebas y aprobaciones antes de integrar los cambios, asegurando calidad y evitando conflictos.
+
+- **Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo:**  
+  La diferencia principal es que un issue se centra en la discusión y planificación de ideas o problemas sin involucrar código directamente, mientras que un pull request implica cambios concretos de código que se proponen para revisión y fusión. En un entorno colaborativo, se relacionan estrechamente: un issue puede iniciar una discusión sobre una mejora, y luego un PR resuelve ese issue al implementar la solución, permitiendo cerrar automáticamente el issue al fusionar el PR. Esto crea un flujo de trabajo estructurado donde issues guían el desarrollo y PRs lo ejecutan con control de calidad.
+
+### Parte práctica:
+
+- Un resumen del procedimiento realizado.
+1. Se habilitaron las Issues en el repositorio
+2. Nos cambiamos a la rama develop para responder las preguntas planteadas (Solamente teoria)
+3. Pusheamos la rama develop a github
+4. Al issue que creamos con anterioridad le asignamos esa rama
+5. Creamos un pull request en nuestro repositorio en en cual indicamos que se cerraria la issue #1
+6. Combinamos y aceptamos
+- El número y enlace del issue creado: `https://github.com/NoMerlyn/EVALUACION_1P/issues/1#issue-3493075147` siendo la issue #1
+- El número y enlace al pull request: `https://github.com/NoMerlyn/EVALUACION_1P/pull/2#issue-3493103638` siendo el pull request #2
+![pullrequest](img/pullrequest.png)
 
 ---
 
