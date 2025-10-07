@@ -111,7 +111,10 @@ Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
- 
+ Inicializar el repositorio de git flow 
+ git flow init
+ Damos enter a todo
+ ![inicializacion de git flow](imagenes/gitFlowInit.png)
 
 ---
 
