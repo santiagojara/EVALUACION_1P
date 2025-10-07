@@ -125,6 +125,8 @@ finalizar hotfix
 ![alt text](image-7.png)
 commits y tag
 ![alt text](image-8.png)
+![alt text](image-9.png)
+
 ---
 
 ## Pregunta 4 (2 puntos)
