@@ -38,10 +38,41 @@
 
 **📝 Respuesta:**
 
+- Parte teórica:
+
 La diferencia entre los tres comandos en Git se basa en.:
-- git clone: copia un repositorio remoto (historial completo) a tu equipo y configura el remoto origin.
-- Fork: copia en tu cuenta de GitHub el repositorio de otra persona (crea tu propio remoto). Sirve para proponer cambios sin permisos directos sobre el repo original.
-- git pull: trae commits del remoto y los integra en tu rama actual (equivalente a fetch + merge o fetch + rebase según config).
+
+  - git clone: copia un repositorio remoto (historial completo) a tu equipo y configura el remoto origin.
+  - Fork: copia en tu cuenta de GitHub el repositorio de otra persona (crea tu propio remoto). Sirve para proponer cambios sin permisos directos sobre el repo original.
+  - git pull: trae commits del remoto y los integra en tu rama actual (equivalente a fetch + merge o fetch + rebase según config).
+
+- Parte práctica:  
+
+- Parte práctica:
+
+### ¿Cómo se realizó el fork?
+
+El fork se realizó directamente desde la página del repositorio original en GitHub.  
+En la parte superior derecha de la página, se hizo clic en el botón Fork y se seleccionó mi cuenta personal.  
+Esto creó una copia exacta del repositorio en mi perfil de GitHub, donde puedo trabajar de forma independiente sin afectar el proyecto original.
+
+
+---
+
+### ¿Cómo se realizó el clone del fork?
+
+Una vez creado el fork, se copió la URL del nuevo repositorio (ubicado en mi cuenta) usando el botón Code → HTTPS.  
+Luego, desde Git Bash, se ejecutó el siguiente comando para clonar el fork en mi equipo local:
+
+![alt text](<Captura de pantalla 2025-10-07 151835.png>)
+
+---
+
+### ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+Se verifico que el repositorio local apuntaba al fork personal y no al original con ayuda del comando git remote -v:
+
+![alt text](<Captura de pantalla 2025-10-07 152500.png>)
 
 ---
 
