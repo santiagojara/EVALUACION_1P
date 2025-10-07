@@ -208,6 +208,26 @@ En un flujo de trabajo típico:
 
 Esta relación permite trazabilidad completa: desde la identificación del problema hasta su solución.
 
+
+**Parte Práctica:**
+
+**Procedimiento realizado:**
+
+Creación del Issue en GitHub:
+
+Navegué al repositorio en GitHub
+Fui a la pestaña "Issues"
+Hice clic en "New issue"
+Título: "Respuesta a la Pregunta 4"
+Descripción: "Documentar la Pregunta 4 sobre Issues y Pull Requests en el archivo README.md"
+Hice clic en "Submit new issue"
+Se generó el Issue #1
+
+
+Modificación del README.md:
+
+Edité el archivo README.md agregando la respuesta a la Pregunta 4
+Guardé los cambios
 ---
 
 ## Pregunta 5 (2 puntos)
