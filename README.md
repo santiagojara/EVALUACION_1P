@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad TECNICA DE AMBATOS  
+## Facultad de ingeniería en sistemas electrónica e industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** KERLY CHICAIZA  
+**Fecha:**  07/10/2025 
 
 ---
 
@@ -40,7 +40,25 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
----
+LAS EVIDENCIAS SE ENCUETRA DIVIDIDAS POR CARPETAS -> PREGUNTA1.IMG
+
+- `git clone`   crea una copia local completa de un repositorio remoto
+- `fork` crea una copia completa de un repositorio en tu  cuenta de GitHub
+- `git pull` trae los cambios que han sido realizados 
+
+1. ¿Cómo se realizó el fork?
+   - Ingresé a mi repositorio
+   - Hice clic en  "Fork" 
+   - GitHub creó una copia 
+
+2. ¿Cómo se realizó el clone del fork?
+   - En mi fork, hice clic en el botón "Code"
+   - Copié la URL HTTPS :  git clone https://github.com/santiagojara/EVALUACION_1P.git
+   - cd EVALUACION_1P
+
+3. ¿Cómo se verificó que se trabajaba sobre el fork?
+   - Ejecuté: git remote -v
+   - Verifiqué que la URL de "origin" apuntaba al usuario de GitHub
 
 ## Pregunta 2 (1 punto)
 
@@ -61,6 +79,17 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+
+DENTRO DE LA CARPETA PREGUNTA2 -> SE PUEDE VISUALIZAR LAS IMAGENES DE PRUEBA DE COMO SE REALIZO Y LOS COMANDOS
+
+El archivo .gitignore es un archivo que  indica a Git que carpetas debe ignorar 
+
+Evidencia de archivos ignorados:
+Al ejecutar 'git status', se observa que:
+- Los archivos .log no aparecen como archivos sin rastrear, La carpeta temp/ y su contenido no aparecen
+
+Esto confirma que .gitignore esta funcionando correctamente.
+
 
 ---
 
@@ -91,6 +120,20 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
+Propósito de cada paso
+
+git flow init: configura la estructura de ramas 
+git flow hotfix start: crea una rama temporal para arreglar
+Edit y commit: registrar el cambio en la rama hotfix.
+git flow hotfix finish: integra el hotfix en main y develop, y crea un tag (si tu flujo lo define así).
+Push: subir los cambios y tags al remoto.
+
+ Ventajas de Git Flow
+
+Claridad en el flujo de trabajo: separa desarrollo (develop) de producción (main).
+Facilita releases y hotfixes: ramas con convenciones reducen errores humanos.
+
 
 ---
 
@@ -123,6 +166,33 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+
+Issue: 
+Es una entrada en el tracker de GitHub  usada para discutir y registrar trabajo pendiente. Puede contener etiquetas, asignados, milestones y comentarios.
+
+Pull Request: 
+Es una solicitud para fusionar cambios de una rama (o fork) hacia otra rama . El permite revisión de código, comentarios en líneas específicas, integración continua y la fusión cuando está aprobado.
+
+Diferencia y relación: 
+Los issues documentan qué hay que hacer o discutir;  contienen cómo se implementó la solución. Un PR puede enlazarse a uno o varios issues (por ejemplo añadiendo "Closes #N" en la descripción) para indicar que al fusionar se cierra el issue.
+
+
+Los issues se vinculan con PRs usando palabras clave como "Closes #1" o  "Fixes #2" en la descripción del PR. Al fusionar el pull request, el issue se cierra  automáticamente, manteniendo la trazabilidad del trabajo
+
+
+1. Me posicioné en la rama develop
+2. Creé el issue #1 titulado "Respuesta  Pregunta 4"
+3. Realicé los cambios en README.md documentando la pregunta
+4. Hice commit y push a la rama develop
+5. Creé un pull request desde develop hacia main en GitHub
+6. Vinculé el PR con el issue usando "Closes #1"
+7. Aprobé y fusioné el pull request
+8. El issue se cerró automáticamente al completarse el merge
+
+
+issues #1 y pull request #2 
+
+
 
 ---
 
