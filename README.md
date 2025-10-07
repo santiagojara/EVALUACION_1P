@@ -119,12 +119,23 @@
 ### En este README, se debe incluir:
 
 - Un resumen del procedimiento realizado.
+Nos dirigimos a Setting ya que como no tenemos habilitado la opcion de creación de issue y lo habilitamos , creamos un nuevo issue le colocamos el titulo y la descripción 
 - El número y enlace del issue creado.
+https://github.com/maribelsailema/EVALUACION_1P/issues/1
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Issue:**  
+Un issue en GitHub es una herramienta que permite registrar tareas, errores o solicitudes de mejora dentro de un repositorio. Facilita la comunicación y el seguimiento del trabajo pendiente.
+
+**Pull Request:**  
+Es una solicitud para integrar cambios de una rama a otra (por ejemplo, de `develop` a `main`). Permite revisar el código antes de fusionarlo, asegurando calidad y colaboración.
+
+**Diferencia y relación:**  
+- Un *issue* representa un problema o tarea pendiente.  
+- Un *pull request* representa una propuesta de solución.  
+En un entorno colaborativo, normalmente se crea un *issue* para discutir un cambio, y luego un *pull request* que implementa esa solución.
 
 ---
 
