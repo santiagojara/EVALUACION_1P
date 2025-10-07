@@ -189,6 +189,11 @@ Los issues se vinculan con PRs usando palabras clave como "Closes #1" o  "Fixes 
 7. Aprobé y fusioné el pull request
 8. El issue se cerró automáticamente al completarse el merge
 
+
+issues #1 y pull request #2 
+
+
+
 ---
 
 ## Pregunta 5 (2 puntos)
