@@ -205,6 +205,10 @@ Luego dentro del apartado de pull request verificamos que sea nuestro repositori
 
 ![Evidencia de Git](img/pull2.png)
 
+Aqui se cierra el Issue mediante el merge del pull request
+
+![Evidencia de Git](img/finalizacionIssue.png)
+
 - El número y enlace del issue creado.
 
 El numero del Issue #1
