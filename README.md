@@ -40,7 +40,25 @@
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
----
+LAS EVIDENCIAS SE ENCUETRA DIVIDIDAS POR CARPETAS -> PREGUNTA1.IMG
+
+- `git clone`   crea una copia local completa de un repositorio remoto
+- `fork` crea una copia completa de un repositorio en tu  cuenta de GitHub
+- `git pull` trae los cambios que han sido realizados 
+
+1. ¿Cómo se realizó el fork?
+   - Ingresé a mi repositorio
+   - Hice clic en  "Fork" 
+   - GitHub creó una copia 
+
+2. ¿Cómo se realizó el clone del fork?
+   - En mi fork, hice clic en el botón "Code"
+   - Copié la URL HTTPS :  git clone https://github.com/santiagojara/EVALUACION_1P.git
+   - cd EVALUACION_1P
+
+3. ¿Cómo se verificó que se trabajaba sobre el fork?
+   - Ejecuté: git remote -v
+   - Verifiqué que la URL de "origin" apuntaba al usuario de GitHub
 
 ## Pregunta 2 (1 punto)
 
