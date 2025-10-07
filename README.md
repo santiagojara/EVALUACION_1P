@@ -73,8 +73,8 @@ Con el comando git remote -v podemos constatar eso, en la siguiente imagen se vi
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+### Evidencia
+Como evidencia la siguiente imagen.
 
 ---
 
