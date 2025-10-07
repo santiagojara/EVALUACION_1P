@@ -134,7 +134,14 @@ El archivo .gitignore le indica a Git qué archivos o carpetas debe ignorar
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+- Explicar qué es un **issue** en GitHub.
+  Un registro de tarea, error o mejora en GitHub. Sirve para coordinar qué se debe hacer.
+
+- Explicar qué es un **pull request** y cuál es su finalidad.
+  Solicitud para fusionar cambios de una rama a otra (por ejemplo, develop → main). Permite revisión antes de integrar los cambios.
+
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  El issue describe el qué hacer y el pull request muestra el cómo se hizo. Se pueden vincular: cuando el PR se aprueba, el issue puede cerrarse automáticamente.
 
 ---
 
