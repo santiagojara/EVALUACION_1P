@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Evelyn Cardenas  
+**Fecha:** 07/10/2025  
 
 ---
 
@@ -38,7 +38,41 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- Parte teórica:
+
+La diferencia entre los tres comandos en Git se basa en.:
+
+  - git clone: copia un repositorio remoto (historial completo) a tu equipo y configura el remoto origin.
+  - Fork: copia en tu cuenta de GitHub el repositorio de otra persona (crea tu propio remoto). Sirve para proponer cambios sin permisos directos sobre el repo original.
+  - git pull: trae commits del remoto y los integra en tu rama actual (equivalente a fetch + merge o fetch + rebase según config).
+
+- Parte práctica:  
+
+- Parte práctica:
+
+### ¿Cómo se realizó el fork?
+
+El fork se realizó directamente desde la página del repositorio original en GitHub.  
+En la parte superior derecha de la página, se hizo clic en el botón Fork y se seleccionó mi cuenta personal.  
+Esto creó una copia exacta del repositorio en mi perfil de GitHub, donde puedo trabajar de forma independiente sin afectar el proyecto original.
+
+
+---
+
+### ¿Cómo se realizó el clone del fork?
+
+Una vez creado el fork, se copió la URL del nuevo repositorio (ubicado en mi cuenta) usando el botón Code → HTTPS.  
+Luego, desde Git Bash, se ejecutó el siguiente comando para clonar el fork en mi equipo local:
+
+![alt text](<Captura de pantalla 2025-10-07 151835.png>)
+
+---
+
+### ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+Se verifico que el repositorio local apuntaba al fork personal y no al original con ayuda del comando git remote -v:
+
+![alt text](<Captura de pantalla 2025-10-07 152500.png>)
 
 ---
 
@@ -60,7 +94,34 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+<>
+
+### Reglas usadas en `.gitignore`
+
+- `*.log` → ignora todos los archivos de bitácora.
+- `temp/` → ignora la carpeta `temp` completa.
+- `doc/*.md` y `doc/*.txt` → ignora solo los `.md` y `.txt que estén dentro de `doc/`.
+  > Nota: Los archivos `.md` y `.txt` **fuera** de `doc/` no se ignoran.
+
+![alt text](image.png)
+
+### Evidencia de funcionamiento
+
+1. Archivos de prueba:
+   - **Dentro de `doc/`**: `doc/prueba.md`, `doc/prueba.txt` → **ignorados**.
+   - **Fuera de `doc/`**: `prueba.md`, `prueba.txt` → **NO ignorados** (Git los muestra como *untracked*).
+   - `app.log` (en la raíz) → **ignorado**.
+   - Carpeta `temp/` → **ignorada**.
+
+   ![alt text](image-1.png)
+
+2. Comandos ejecutados:
+
+Ver todo lo ignorado de forma resumida:
+git status --ignored -s
+
+Ver por qué un archivo está ignorado (muestra la regla que coincide):
+git check-ignore -v doc/prueba.md doc/prueba.txt app.log
 
 ---
 
@@ -90,8 +151,60 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos exactos utilizados (Git Flow)
 
+# Inicializar Git Flow con ramas por defecto (main / develop)
+git flow init -d
+
+# Crear hotfix para la tarea solicitada
+git flow hotfix start ingresar-encabezado
+
+# (Editar README: completar encabezado con mis datos)
+git add README.md
+git commit -m "Q3: Añade datos personales al encabezado (avance 1)"
+
+# (Opcional: más commits si hubo cambios adicionales)
+# git commit -m "Q3: Ajusta formato del encabezado"
+
+# Finalizar el hotfix (merges a main y develop + tag de versión de Git Flow)
+git flow hotfix finish -m "Q3: Cierra hotfix ingresar-encabezado" ingresar-encabezado
+
+# Publicar ramas y tags
+git push origin main
+git push origin develop
+git push origin --tags
+
+# Tag requerido por el examen (solo en el commit final)
+git checkout develop
+git tag -a "Pregunta 3" -m "Pregunta 3"
+git push origin --tags
+
+---
+Proceso seguido (propósito de cada paso)
+
+git flow init -d: configura la estrategia Git Flow con main (producción) y develop (integración).
+
+![alt text](image-2.png)
+
+git flow hotfix start ingresar-encabezado: crea una rama hotfix desde main para aplicar un cambio urgente (completar el encabezado del README).
+
+![alt text](image-3.png)
+
+Commits en el hotfix: guardan el progreso de la edición del encabezado con mis datos personales.
+
+git flow hotfix finish ...: cierra el hotfix; fusiona automáticamente a main y replica a develop, además crea un tag de versión propio de Git Flow.
+
+Push de ramas/tags: publica main, develop y los tags en el remoto.
+
+Tag “Pregunta 3”: etiqueta del examen aplicada solo al commit final (se coloca en develop tras finalizar el hotfix).
+---
+Reflexión: ventajas de aplicar Git Flow
+
+Orden y roles claros de ramas: feature, release, hotfix, develop, main. Reduce errores al separar trabajo en progreso de producción.
+
+Soporte para parches urgentes: un hotfix permite corregir rápido en main sin bloquear el desarrollo en develop.
+
+Escala en equipos grandes/proyectos largos: facilita revisiones, releases predecibles y auditoría del historial (tags por versión y ramas temáticas).
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -122,8 +235,30 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+<>
+### Parte teórica
 
+**¿Qué es un issue?**  
+Un *issue* es un ticket en GitHub para reportar tareas, bugs o ideas. Permite conversación, etiquetar (labels), asignar responsables y vincular commits o PRs.
+
+**¿Qué es un pull request (PR)?**  
+Un PR es una solicitud para integrar cambios de una rama a otra (p. ej., `develop` → `main`). Habilita revisión de código, checks/CI, comentarios y, al aprobarse, se hace el *merge*.
+
+**Diferencia y relación**  
+El *issue* describe el problema/objetivo; el PR aporta la solución. Al fusionar el PR, el issue se puede cerrar automáticamente si se referencia con `Closes #<número>`.
+
+---
+
+### Parte práctica (resumen del procedimiento)
+
+1. Trabajé en la rama `develop`.  
+2. Creé el *issue* **“Respuesta a la Pregunta 4”** (objetivo: documentar esta pregunta).  
+3. Redacté esta respuesta en `README.md`, hice commit y lo subí a `develop`.  
+4. Abrí un PR de `develop` hacia `main` y en la descripción añadí: `Closes #<número-del-issue>`.  
+5. Aprobé el PR y realicé el *merge* hacia `main`. El *issue* se cerró automáticamente.
+
+**Issue:** Nº **<#ISSUE>** — **<enlace-al-issue>**  
+**Pull Request:** Nº **<#PR>** — **<enlace-al-PR>**
 ---
 
 ## Pregunta 5 (2 puntos)
