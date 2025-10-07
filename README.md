@@ -126,11 +126,14 @@ doc/*.txt    → Ignora los archivos .txt dentro de doc/
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-
----
-
+Se inicio el repo Git Flow:
+![alt text](IMG/image2.png)
+Inicio de la rama hotfix:
+![alt text](IMG/image3.png)
+Finalización del hotfix depues de realizar todo lo anterior sin errores:
+![alt text](IMG/image4.png)
+Ventajas de Git Flow:
+Nos permite realizar todo con mas facilidad, sin utilizar tantos comandos para insertar y mas, ayudandonas a redactar mejor el documento. Podemos decir que convierte el desorden del desarrollo en una estrategia metódica, minimizando riesgos y maximizando la trazabilidad del proyecto.
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
@@ -158,11 +161,30 @@ doc/*.txt    → Ignora los archivos .txt dentro de doc/
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+**Parte teórica**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**¿Qué es un issue?**
+Es un ticket en GitHub para reportar bugs, proponer mejoras o documentar tareas. Permite discusión, asignación, etiquetas y seguimiento del estado.
+**¿Qué es un pull request (PR) y su finalidad?**
+Es una solicitud de integración de cambios desde una rama (o fork) hacia otra (p. ej., develop → main). Sirve para revisión de código, validación y merge controlado.
 
----
+**Diferencia y relación en trabajo colaborativo**
+El issue define el qué y por qué (problema/tarea). El PR entrega el cómo (código/cambios). Un PR puede cerrar automáticamente un issue si en su descripción se incluye Closes #<número> y se fusiona.
+**Parte práctica**
 
+1. Trabajé en la rama develop.
+
+2. Creé un issue en GitHub titulado “Respuesta a la Pregunta 4” indicando que documenta esta pregunta.
+
+3. Edité este README para responder teoría y práctica.
+
+4. Hice commit de los cambios y subí a develop en mi fork.
+
+5. Abrí un PR develop → main en GitHub.
+
+6. En la descripción del PR puse Closes #<N> para cerrar automáticamente el issue al hacer merge.
+
+7. Aprobé y fusioné el PR hacia main.
 ## Pregunta 5 (2 puntos)
 
 **Resolver conflictos entre ramas y realizar un Pull Request**
