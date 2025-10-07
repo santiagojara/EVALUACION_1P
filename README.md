@@ -1,11 +1,10 @@
-# Universidad Tecnica de Ambato 
-## Facultad de Ingeniera en sistemas, electronica e industrial
+# Universidad [Nombre de la Universidad]  
+## Facultad de [Nombre de la Facultad]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Jhon Francis Jumbo Cárdenas  
-**Fecha:** 7/10/2025
-
+**Nombre del Estudiante:** ___________________________  
+**Fecha:** ___________________  
 
 ---
 
@@ -111,29 +110,9 @@ En esta imagen se puede observar que el archivo readme si se muestra y agrega cu
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-## Comandos exactos usados
-- git flow init
-- git flow hotfix start "ingresar-encabezado"
-- git add .
-- git commit -m "Se agregó los datos del encabezado"
-- git flow hotfix finish "ingresar-encabezado"
 
-## Proceso segido
+---
 
-1. Primero inicializamos git flow con el comando git flow init
-2. Creamos la rama temporal hotfix para la realizacion de los cambios con el comando git flow hotfix start "ingresar-encabezado"
-3. Editamos el encabezado y hacemos un git add . y un git commit
-4. Terminamos la rama temporal con el comando git flow hotfix finish "ingresar-encabezado"
-5. Listo
-
-## Ventajas de aplicar el git flow
-
-Sirve para tener un proyecto mas entendible, con menos contratiempos y que se puede configurar y manejar de una manera mas facil y entendible.
-
-## Capturas
-
-![pregunta3](imagenes/pregunta3.png)
-![pregunta3.1](imagenes/pregunta3.1.png)
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
@@ -162,7 +141,27 @@ Sirve para tener un proyecto mas entendible, con menos contratiempos y que se pu
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teorica
+
+- Explicar qué es un **issue** en GitHub.
+Es un reporte o tarea en GitHub para discutir errores, mejoras o preguntas sobre el proyecto.
+- Explicar qué es un **pull request** y cuál es su finalidad.
+Es una propuesta de cambio en el código para que otros lo revisen y lo integren al proyecto.
+- Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+El issue identifica qué hacer, el pull request muestra cómo hacerlo. En equipo, primero se crea un issue y luego se envía un pull request para solucionar ese issue y que el equipo lo revise antes de integrarlo.
+
+### Parte práctica
+
+- Un resumen del procedimiento realizado.
+1. Primero desde github creamos el issue
+2. Nos movimos a la rama develop
+3. Editamos lo necesario e hicimos git add .
+4. Hicimos el git commit -m "Pregunta4(#1)"
+5. hicimos el pull request desde git y en descripcion se agregó Closes #1
+6. Hicimos merge
+- El número y enlace del issue creado.
+El número del issue es #1 y el enlace es el siguiente: https://github.com/JumboJhon04/EVALUACION/issues/1#issue-3493003116
+- El número y enlace al pull request.
 
 ---
 
