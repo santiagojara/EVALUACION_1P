@@ -177,12 +177,35 @@ Gitflow facilita el trabajo colaborativo ya que permite de forma sencilla inicia
 
 - Un resumen del procedimiento realizado.
 - El número y enlace del issue creado.
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+- Explicacion de los Issues
+Un issue en GitHub permite notificar a los desarrolladores de un proyecto sobre las fallas o problemas existentes dentro de su código. En grupos grandes de trabajo, es una forma efectiva de comunicar los cambios o correcciones que deben realizar otros miembros del equipo.
+
+Un pull request es una solicitud formal para agregar el contenido de una rama a otra. Este proceso incluye una revisión de código y, posteriormente, si todo está correcto, se realiza un merge hacia la rama solicitada.
+
+La diferencia principal entre ambos radica en que un issue sirve para reportar un problema o bug dentro del código, mientras que un pull request puede tanto resolver un problema como añadir una nueva funcionalidad, ya que implica un proceso de fusión entre ramas. Como su nombre lo indica, el issue está directamente ligado a un problema dentro del proyecto.
+
+
+- Un resumen del procedimiento realizado.
+
+Inicialmente no se contaba con la funcionalidad de Issues por lo cual se activo esta opcion dentro del apartado de settings del repositorio, luego de eso en el boton issues se creo una issue segun el requerimiento solicitado.
+![Evidencia de Git](img/creacion_issue.png)
+
+Posterior a ello se realizo los cambios en el README y se utilizo un commit dentro del repositorio local que fue trasladado al repositorio remoto de github para el posterior pull request
+
+- El número y enlace del issue creado.
+
+El numero del Issue #1
+https://github.com/Mar-Dim/EVALUACION_1P/issues/1
+
+- El número y enlace al pull request.
 ---
 
 ## Pregunta 5 (2 puntos)
