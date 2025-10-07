@@ -61,7 +61,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+`El .git ignore sirve para especificar que archivos deben ser ignorados por git al momento de hacer commits. Se creo previamente los archivos . log y temp y se verifico con el git status.`
 
 ---
 
