@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Maia Carolina Rojas Hechavarria 
+**Fecha:** 07/10/25
 
 ---
 
@@ -38,7 +38,34 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- `git clone:Este comando crea una copia local de un repositorio remoto existente.[1][2][3] No solo descarga los archivos, sino también el historial completo de versiones del proyecto. Es el primer paso para empezar a trabajar en un proyecto que ya existe en una plataforma como GitHub.`  
+- `fork: Un "fork" (bifurcación) es una copia personal de un repositorio de otro usuario que se aloja en tu propia cuenta de GitHub. Esto te permite experimentar y realizar cambios libremente sin afectar al proyecto original.[5][7]`  
+- `git pull: Este comando se utiliza para obtener y descargar contenido desde un repositorio remoto e inmediatamente actualizar el repositorio local para que coincida con ese contenido.[8] En esencia, es una combinación de los comandos git fetch (que obtiene los cambios) y git merge (que los integra).`
+
+  - ¿Cómo se realizó el fork?
+    - Se navegó a la página del repositorio original(santiagojara/EVALUACION_1P).
+    - Se hizo clic en el botón "Fork" ubicado en la esquina superior derecha de la página.
+    - En la página "Create a new fork", se confirmó el propietario del nuevo repositorio (en este caso, May360-ai) y se mantuvo el nombre del repositorio (EVALUACION_1P).
+    - Finalmente, se hizo clic en el botón "Create fork".
+
+    <p align="center"><img src="img/fork.png" alt="fork"></p>
+
+
+  - ¿Cómo se realizó el clone del fork?
+
+    - En la página del repositorio "forkeado" (May360-ai/EVALUACION_1P), se hizo clic en el botón verde <> Code.
+    - Se copió la URL HTTPS proporcionada: https://github.com/May360-ai/EVALUACION_1P.git.
+    - En la terminal de línea de comandos (Git Bash), se ejecutó el comando git clone seguido de la URL copiada
+    <p align="center"><img src="img/url.png" alt="url"></p>
+    <p align="center"><img src="img/clon.png" alt="clon"></p>
+    <p align="center"><img src="img/remote.png" alt="remote"></p>
+
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  - Para verificar que el repositorio local estaba conectado al "fork" y no al repositorio original, se utilizó el siguiente comando en la terminal, dentro del directorio del proyecto clonado: git remote -v
+
+      <p align="center"><img src="img/remote -v.png" alt="remote -v"></p>
+      <p align="center"><img src="img/gitlog1.png" alt="git log1"></p>
 
 ---
 
@@ -60,7 +87,12 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+- El archivo .gitignore le dice a Git qué archivos o directorios de tu proyecto no debe rastrear y, por lo tanto, no incluirá en el control de versiones.
+
+      <p align="center"><img src="img/gitignore.png"></p>
+<p align="center"><img src="img/archivosignorecommit.png"></p>
+<p align="center"><img src="img/gitlog2.png"></p>
+
 
 ---
 
@@ -89,11 +121,40 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+- Los **comandos exactos** utilizados desde la inicialización de Git Flow hasta el cierre del hotfix.
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+  - git checkout -b develop
+  - git flow init
+  - git flow hotfix start ingresar-encabezado
+  - git add .
+  - git commit -m "Pregunta 3"
+  - git flow hotfix finish ingresar-encabezado
 
+- Una descripción del **proceso seguido**, indicando el propósito de cada paso.
+
+  - Activación del Flujo: Se utilizó git flow init para establecer el modelo de trabajo en el repositorio, definiendo la rama main como la versión de producción y develop como el tronco para el desarrollo continuo.
+
+  - Inicio de la Corrección Urgente: Se ejecutó git flow hotfix start ingresar-encabezado para crear una rama de corrección urgente. Git Flow se aseguró de que esta rama se creara directamente desde main, garantizando que el hotfix solo contenga la corrección del problema en producción.
+
+  - Desarrollo Iterativo: Se realizaron al menos dos git commit durante la edición del README.md. Esto simula el proceso de desarrollo real, donde los cambios se guardan en pequeños pasos lógicos.
+img/commitHotfix.png
+  - Cierre del Hotfix: El comando git flow hotfix finish centralizó el cierre de la corrección. La rama fue fusionada automáticamente tanto a main (para aplicar la corrección a producción) como a develop (para asegurar que las nuevas características se construyan sobre el código corregido).
+
+  - Etiquetado Final: La etiqueta "Pregunta 3" se aplicó al commit de fusión en main, marcando el punto exacto donde se completó la tarea.
+
+
+- Una reflexión sobre las **ventajas de aplicar Git Flow**, especialmente en contextos colaborativos o proyectos de larga duración.
+
+  - Git Flow es un modelo de ramificación que impone una estructura de trabajo estricta y predefinida. Sus principales ventajas, especialmente en contextos colaborativos y proyectos de larga duración, son:
+
+    - Claridad del Historial (Separación de Propósito): Las ramas están claramente separadas por su función (feature para desarrollo, release para preparación de lanzamiento, hotfix para corrección de producción). Esto hace que el historial de Git sea mucho más legible, permitiendo a los miembros del equipo identificar rápidamente si un commit fue una nueva funcionalidad o una corrección de bug.
+
+    - Soporte de Múltiples Versiones: Al mantener las ramas main (producción estable) y develop (desarrollo activo) separadas, Git Flow permite a los equipos trabajar en nuevas características complejas sin bloquear la corrección de errores críticos en la versión en producción.
+
+    - Proceso Automatizado: El uso de comandos como git flow hotfix finish o git flow feature finish automatiza el tedioso trabajo de fusiones (merges), etiquetado (tagging) y limpieza de ramas. Esto reduce la probabilidad de errores humanos y acelera el flujo de trabajo del desarrollador.
 ---
-
+<p align="center"><img src="img/commitHotfix.png"></p>
+<p align="center"><img src="img/image.png"></p>
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
