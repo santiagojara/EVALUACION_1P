@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad TECNICA DE AMBATOS  
+## Facultad de ingeniería en sistemas electrónica e industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** KERLY CHICAIZA  
+**Fecha:**  07/10/2025 
 
 ---
 
