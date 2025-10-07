@@ -182,6 +182,86 @@ imagenes para demostrar las pruebas Screen
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+
+Objetivo: usar Git Flow (o su equivalente) para crear una corrección rápida (hotfix) llamada `ingresar-encabezado`, completar los datos personales en el encabezado del `README.md`, realizar varios commits y cerrar el hotfix siguiendo el flujo.
+
+Comandos exactos ejecutados (PowerShell — adaptados si no tienes `git-flow` instalado):
+
+- Crear la rama hotfix y trabajar en ella:
+
+  git checkout -b hotfix/ingresar-encabezado
+
+- Hacer el primer commit con el cambio (si hay cambios staged):
+
+  git add README.md
+  git commit -m "Hotfix: ingresar encabezado - datos personales (1)"
+
+- Hacer un segundo commit con un cambio menor de formato:
+
+  # editar README.md (por ejemplo añadir una línea)
+  Add-Content README.md "`n# Cambio menor para segundo commit"   # PowerShell
+  git add README.md
+  git commit -m "Hotfix: ingresar encabezado - formato (2)"
+
+- Finalizar el hotfix (si no se dispone de `git-flow`, usar merge manual):
+
+  # crear develop si no existe
+  git branch develop
+
+  # fusionar hotfix en main
+  git checkout main
+  git merge --no-ff hotfix/ingresar-encabezado -m "Merge hotfix/ingresar-encabezado -> main"
+
+  # fusionar hotfix en develop
+  git checkout develop
+  git merge --no-ff hotfix/ingresar-encabezado -m "Merge hotfix/ingresar-encabezado -> develop"
+
+- Crear un tag anotado para el commit final (solo el commit final lleva el tag "Pregunta 3"):
+
+  git checkout main
+  git tag -a Pregunta_3 -m "Tag Pregunta 3"
+
+Descripción del proceso y propósito de cada paso:
+
+- git checkout -b hotfix/ingresar-encabezado
+  - Crea una rama de tipo hotfix separada de la rama principal para corregir o completar rápidamente algo en producción (aquí el encabezado del README).
+
+- Realizar commits incrementales
+  - Se hicieron al menos dos commits en la rama hotfix: uno con la inserción de los datos personales y otro con un ajuste de formato. Tener varios commits permite documentar el trabajo y revertir/ajustar cambios si es necesario.
+
+- git merge --no-ff hotfix/ingresar-encabezado -> main
+  - Fusiona el hotfix a `main`. Se usa --no-ff para mantener el historial del hotfix como un punto de referencia (no hacer fast-forward) y dejar el merge explícito.
+
+- git merge --no-ff hotfix/ingresar-encabezado -> develop
+  - También se fusiona a `develop` para que la rama de desarrollo incorpore la corrección y no se pierda en futuros desarrollos.
+
+- git tag -a Pregunta_3
+  - Marca el commit final con el tag solicitado por la práctica (solo el commit final de la pregunta debe llevar el tag "Pregunta 3").
+
+Reflexión: ventajas de aplicar Git Flow
+
+- Organización clara de ramas: Git Flow define ramas con propósito (feature, develop, release, hotfix, main), lo que ayuda a mantener el trabajo aislado y fácil de integrar.
+- Control de releases y hotfixes: permite aplicar correcciones urgentes en `main` sin interrumpir el trabajo en `develop` o en features en curso.
+- Histórico limpio y rastreable: con merges --no-ff o tags, el historial muestra claramente cuándo se integraron hotfixes y qué cambios contenían.
+- Facilita la colaboración: en equipos, los roles y flujos son explícitos; se reducen errores al integrar múltiples líneas de trabajo.
+
+Notas prácticas y recomendaciones
+
+- Si tienes la utilidad `git-flow` instalada, puedes usar los comandos:
+
+  git flow init -d
+  git flow hotfix start ingresar-encabezado
+  # hacer commits
+  git flow hotfix finish ingresar-encabezado
+
+- Después de completar y testear localmente, recuerda empujar los cambios y tags al remoto:
+
+  git push origin main
+  git push origin develop
+  git push origin --tags
+
+---
+
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -213,6 +293,75 @@ imagenes para demostrar las pruebas Screen
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+
+### Respuesta a la Pregunta 4 — Issues y Pull Requests
+
+Parte teórica
+
+- ¿Qué es un issue en GitHub?
+
+  Un issue es una entrada en el sistema de seguimiento de GitHub que se usa para reportar errores, proponer mejoras, pedir tareas, o documentar conversaciones relacionadas con el proyecto. Los issues permiten discutir, etiquetar, asignar y priorizar trabajo.
+
+- ¿Qué es un pull request (PR) y cuál es su finalidad?
+
+  Un pull request es una solicitud para fusionar cambios (commits) de una rama en otra (por ejemplo, `develop` → `main`). Sirve para revisar código, discutir cambios, ejecutar pruebas automatizadas (CI) y registrar la decisión de integración antes de aplicar los cambios al repositorio objetivo.
+
+- Diferencia y relación entre ambos
+
+  - Un issue describe *qué* hay que hacer o por qué hay un problema (tarea/bug/idea).
+  - Un pull request propone *cómo* solucionarlo (cambios en el código). Un PR puede estar vinculado a uno o más issues; al fusionar un PR que cierra un issue (por ejemplo con la frase "Closes #123" en la descripción), el issue se cierra automáticamente.
+
+Parte práctica (pasos sugeridos y comandos)
+
+1) Asegurarse de trabajar en la rama `develop` local:
+
+  git checkout develop
+  git pull origin develop
+
+2) Crear el issue en GitHub (interfaz web):
+
+  - Ir a la página del repositorio en GitHub → Issues → New issue.
+  - Título: "Respuesta a la Pregunta 4"
+  - Contenido: indicar que el objetivo es documentar la respuesta en el README.
+
+  (Copiar el número y enlace del issue para pegarlos más abajo.)
+
+3) Hacer los cambios en `README.md` en la rama `develop`:
+
+  # (ya debes estar en develop)
+  git checkout develop
+  # editar README.md y guardar
+  git add README.md
+  git commit -m "Respuesta Pregunta 4: issues y pull requests"
+
+4) Subir la rama `develop` con los cambios al remoto:
+
+  git push origin develop
+
+5) Crear el Pull Request en GitHub (desde `develop` → `main`):
+
+  - En GitHub ir a "Pull requests" → "New pull request".
+  - Seleccionar base: `main`, compare: `develop`.
+  - En la descripción del PR, referenciar el issue con "Closes #<issue_number>" o "Fixes #<issue_number>" para que al fusionar se cierre automáticamente.
+
+6) Revisar, aprobar y fusionar el PR en GitHub.
+
+7) Confirmar que el issue fue cerrado automáticamente y que los cambios aparecen en `main`.
+
+Plantilla para pegar (cuando tengas los enlaces):
+
+- Issue creado: #<NÚMERO> — <ENLACE_AL_ISSUE>
+- Pull Request: #<NÚMERO_PR> — <ENLACE_AL_PR>
+
+Resumen de ejemplo del procedimiento realizado (rellena con tus números/URLs):
+
+- Creé el issue "Respuesta a la Pregunta 4" en GitHub: #123 — https://github.com/<usuario>/EVALUACION_1P/issues/123
+- Trabajé en la rama `develop`, modifiqué `README.md` y realicé el commit: "Respuesta Pregunta 4: issues y pull requests".
+- Subí la rama y creé el Pull Request desde `develop` hacia `main` y añadí en la descripción: "Closes #123".
+- Aprobé y mergeé el PR; el issue #123 se cerró automáticamente.
+
+Nota: No puedo crear issues o PRs directamente en GitHub desde aquí sin autenticación y permiso en tu cuenta, por lo que los pasos arriba son la guía exacta que debes seguir. Cuando tengas el número del issue y del PR, pégalos en la plantilla anterior dentro de este README.
+
 
 ---
 
