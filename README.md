@@ -147,12 +147,11 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 - **Diferencia y relación**: Un issue identifica un problema o tarea, mientras que un PR propone y facilita la solución. En un entorno colaborativo, un PR puede estar vinculado a un issue (usando "closes #numero") para cerrarlo automáticamente al mergearse, mejorando la trazabilidad.
 
 **Procedimiento práctico**:  
-
+![Captura Pregunta 4](img/Pregunta4.png)
 **Enlaces**:  
-- Issue: https://github.com/Elizabeth1925/EVALUACION_1P_TEMP/issues/X  
-- Pull Request: https://github.com/Elizabeth1925/EVALUACION_1P/pull/Y  
+- Issue creado: https://github.com/Elizabeth1925/EVALUACION_1P/issues/1
+- Pull Request: [#<número_del_pr>](https://github.com/TU_USUARIO/TU_REPO/pull/<número_del_pr>)
 
-![Captura Pregunta 4: Issue y Pull Request](img/pregunta4.png)
 
 
 ---
