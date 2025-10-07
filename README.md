@@ -291,3 +291,4 @@ Capturas de que se realizo la actividad:
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+no se respondio
