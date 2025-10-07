@@ -72,7 +72,7 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+El archivo .gitignore le indica a Git qué archivos o carpetas debe ignorar
 
 ---
 
