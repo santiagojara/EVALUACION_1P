@@ -23,7 +23,7 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
+- `git clone` 
 - `fork`  
 - `git pull`
 
@@ -37,9 +37,19 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+git clone crea una copia local del repositorio remoto,  fork hace una copia del repositorio
+en mi propia cuenta de github y git pull trae los cambios del remoto y los pone en mi rama actual pero de la local.
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+ - ¿Cómo se realizó el fork?
+ Para el fork lo que hice fue irme al repositorio del santiago jara de github, presionar en la esquina superior derecha donde dice fork, y ahi complete el nombre que le voy a poner, junto con mi cuenta de github.
+ ![Fork]({imagenes/fork}.png)
 
+   - ¿Cómo se realizó el clone del fork?
+   Use el comando git clone https://github.com/XabierP2006/EVALUACION_1P.git, lo que hizo que se descargue en mi computadora, pero estando en el directorio donde estaba mi carpeta
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Ejecute el comando git remote -v lo que imprimio que apuntaba a mi cuenta de github
+
+  ![Clonacion y verificacion](imagenes/image.png)
 ---
 
 ## Pregunta 2 (1 punto)
