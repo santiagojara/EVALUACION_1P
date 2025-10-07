@@ -275,6 +275,11 @@
 
 -un conflicto es cuando dos ramas modifican lo mismo y realizan un merge y la solucion es mantener uno de los cambios.
 
+-commits
+
+![comits](img/Screenshot%202025-10-07%20164854.png)
+
+
 
 ## Pregunta 6 (2 puntos)
 
