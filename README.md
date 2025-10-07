@@ -121,6 +121,7 @@ Esto confirma que .gitignore esta funcionando correctamente.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+
 ---
 
 ## Pregunta 4 (2 puntos)
