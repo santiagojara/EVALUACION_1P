@@ -38,6 +38,12 @@
 
 **📝 Respuesta:**
 
+**Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
+
+- `git clone`: Es un comando de Git que crea una copia local completa de un repositorio remoto.
+- `fork`: Permite crear una copia personal de un repositorio ajeno en tu cuenta de GitHub para contribuir sin afectar el original.
+- `git pull`: Es un comando de Git que descarga los cambios de un repositorio remoto y los fusiona en tu rama local actual.
+
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
