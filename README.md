@@ -96,6 +96,34 @@ Se verifico que el repositorio local apuntaba al fork personal y no al original 
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+### Reglas usadas en `.gitignore`
+
+- `*.log` → ignora todos los archivos de bitácora.
+- `temp/` → ignora la carpeta `temp` completa.
+- `doc/*.md` y `doc/*.txt` → ignora solo los `.md` y `.txt que estén dentro de `doc/`.
+  > Nota: Los archivos `.md` y `.txt` **fuera** de `doc/` no se ignoran.
+
+![alt text](image.png)
+
+### Evidencia de funcionamiento
+
+1. Archivos de prueba:
+   - **Dentro de `doc/`**: `doc/prueba.md`, `doc/prueba.txt` → **ignorados**.
+   - **Fuera de `doc/`**: `prueba.md`, `prueba.txt` → **NO ignorados** (Git los muestra como *untracked*).
+   - `app.log` (en la raíz) → **ignorado**.
+   - Carpeta `temp/` → **ignorada**.
+
+   ![alt text](image-1.png)
+
+2. Comandos ejecutados:
+
+```bash
+# Ver todo lo ignorado de forma resumida
+git status --ignored -s
+
+# Ver por qué un archivo está ignorado (muestra la regla que coincide)
+git check-ignore -v doc/prueba.md doc/prueba.txt app.log
+
 ---
 
 ## Pregunta 3 (2 puntos)
