@@ -142,6 +142,8 @@ Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archi
 ### Reflexión sobre las ventajas de aplicar Git Flow:
 
 Git Flow proporciona una estructura organizada para el desarrollo de software, separando ramas para diferentes propósitos (desarrollo, releases, hotfixes, features). En contextos colaborativos o proyectos de larga duración, sus ventajas incluyen una mejor gestión de versiones, reducción de conflictos en merges, estabilidad en la rama de producción (`main`), y facilitación del trabajo paralelo en equipos grandes. Permite releases predecibles y correcciones rápidas sin interrumpir el flujo de desarrollo, promoviendo buenas prácticas y una historia de commits clara.
+![gitflow](img/gitflow.png)
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
