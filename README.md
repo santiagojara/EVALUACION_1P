@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato   
+## Facultad de Ingenieria en sistemas, electronica e industrial  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Erick Guerrón 
+**Fecha:** 07/10/2025  
 
 ---
 
@@ -27,6 +27,8 @@
 - `fork`  
 - `git pull`
 
+La diferencia clave es que git clone clona todo el repositorio y lo trae a la parte local, fork clona el repositorio remoto en el repositorio remoto personal de la cuenta de github con la opcion de dar sugerencias al creador del proeycto clonado y el git pull solo trae del repositorio los archivos que han sufrido algun cambio ademas de las ramas remotas creadas.
+
 ### Parte práctica:
 
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
@@ -37,8 +39,19 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
-
+  
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+  ![Creacion del Fork](img/creacion-fork.png)
+  
+  Se realizo correctamente el fork al ir a github selccionar el repositorio al cual se le desea hacer un fork (ojo tiene que ser un repositorio publico), se da al boton de fork y se da en create new fork, se le da un titulo y una descripcion (opcional) y se da en el boton de crear.
+
+  ![Link Clone ](img/creacion-fork.png)
+
+  Para la clonacion del proyecto primero se debe ir al repositorio creado por el fork y copiar el link del repositorio y utilizando el comando git clone <url> se logra clonar el repositorio.
+
+  ![Clone Repositorio](img/clone-repositorio.png)
+
+  Como ultimo punto para verificar uqe no se este trabajando en el repositorio original solo se debe de asegurar que se haya copiado el link del reposotirio creado por el fork en su espacio privado de esa manera neustros cambios se veran reflejados solo en neustro fork, almenos que hagamos un pull request al crear del repositorio original y nos acepte nuestros cambios.
 
 ---
 
@@ -50,10 +63,27 @@
 - Una carpeta llamada `temp/`.
 - Todos los archivos `.md` y `.txt`de la carpeta `doc/`. (Probar agregando un archivo `prueba.md` y un archivo `prueba.txt` dentro de la carpeta y fuera de la carpeta.)
 
+![Creacion .gitignore](img/creacion-gitignore.png)
+Se creo el archivo .gitignore por medio del comando touch.
+![Archivos Ingnorados](img/archivos-ignorar.png)
+Por medio de nano se implementaron las restricciones propuestas por la pregunta 2.
+
+![Creacion Archivos](img/creacion-archivos-prueba.png)
+Se creacion los archivos de prueba para la prueba del git ignore.
+
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
+![Realizacion del commit](img/commit-gitignore.png)
+
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+
+![Actividad Gitignore](img/gitignore-activado.png)
+Como se puede observar en la arrea de preparacion solo constan los archivos de prueba que no estan dentro de la carpeta doc, por lo que se concluye que el .gitignore esta en funcionamiento.
+
+
+
 
 **Importante:**  
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
@@ -61,8 +91,8 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
----
+El .gitignore es la parte mas importante dentro de cualquier repositorio ya que nos ayuda a ignorar archivos que sean irrelevantes de llevar un seguimiendo siendo que son estaticos como el caso de el package.js o los .class de java.qq
+---q
 
 ## Pregunta 3 (2 puntos)
 
@@ -91,6 +121,28 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**Paso 1: Inicializacion de GitFlow**
+
+Se utilizaron comandos como git flow init para la inicializacion del mismo haciendo una configuracion base para su correcto funcionamiento.
+
+![Uso GitFlow](img/init-gitflow.png)
+
+**Paso 2: Creacion de la rama de hotfix**
+
+Seguido de ello se realiza la creacion de la rama hotfix/ingresar-encabezado realizado desde la rama develop.
+
+![Git hotfix](img/creacion-hotfix-ingresar-encabezado.png)
+
+**Paso 3: commid del cambio y finalizacion de hotfix**
+
+Despues se hizo el cambio correspondiente y se hizo el commid del README.md, ademas de finalizar el flujo de trabajo de Git Flow para que se realise el merge correspondiente en deveop y main y la creaciond e la tag que corresponde al commit.
+
+![Hotfix Finish](img/fin-hotfix.png)
+
+
+**Reflexion del uso de GitFlow**
+
+Git flow ayuda a agilizar el proceso de registro de cambios al simplificar los pasos que se seguiria normal mente en git como serian los merge a las ramas respectivas la creacion de la tag en cada uno de los commits requeridos y la posterior eliminacion de la rama al cumplir su funcion de resolucion o implementacion de alguna funcion, por ello es una de las principales herramientas que todo programador debe dominar para la agilizacion del trabajo.
 
 ---
 
