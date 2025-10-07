@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato
+## Facultad de Ingeniería en Sistemas, Electrónica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Elizabeth De la Cruz
+**Fecha:** 07/10/2025
 
 ---
 
@@ -108,8 +108,8 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+**CAPTURA DE LA EJECUCION DE LA PREGUNTA**
+![Captura Pregunta 3](img/Pregunta3.png)
 
 ---
 
