@@ -93,6 +93,7 @@ En este caso, se configuró para que ignore:
 De esta forma, al ejecutar `git status`, se puede observar que los archivos y carpetas especificados **no aparecen como rastreados**, lo que confirma que la configuración funciona correctamente.
 
 ![Evidencia gitignore](imagenes/gitignore-pregunta2.jpg)
+![Evidencia gitstatus](imagenes/gitstatus-pregunta2.jpg)
 
 ---
 
