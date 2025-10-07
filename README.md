@@ -118,7 +118,8 @@ comienso de la rama
 datos del estudiante 
 ![alt text](image-6.png)
 comandos
-
+finalizar hotfix
+![alt text](image-4.png)
 ---
 
 ## Pregunta 4 (2 puntos)
