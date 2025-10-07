@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad [Universidad Tecnica de Ambato]  
+## Facultad de [ INGENIERÍA EN SISTEMAS, ELECTRÓNICA E INDUSTRIAL]  
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Washington Villalba  
+**Fecha:** 07 / 10 / 2025 
 
 ---
 
@@ -32,8 +32,12 @@
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
+
   - ¿Cómo se realizó el fork?
+ 
   - ¿Cómo se realizó el clone del fork?
+   
+
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
@@ -41,6 +45,52 @@
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
 
 ---
+  - `git clone` : Es un comando de Git que se ejecuta en la terminal local. Su función es descargar una copia exacta de un repositorio remoto (ya sea el original o un fork) a tu máquina. Este proceso crea un directorio con todos los archivos, el historial de commits y las ramas del proyecto, y configura automáticamente una conexión remota llamada origin que apunta al repositorio desde el cual se clonó.
+
+ - `fork`  : Es una acción que se realiza en la plataforma de GitHub (no es un comando de Git). Consiste en crear una copia personal y completa de un repositorio ajeno en tu propia cuenta de GitHub. Este "fork" se convierte en un repositorio independiente sobre el cual tienes derechos de escritura, permitiéndote experimentar y proponer cambios sin afectar el proyecto original. Es el primer paso para contribuir a un proyecto de código abierto.
+
+- `git pull` Es un comando de Git que se utiliza para actualizar tu repositorio local con los cambios existentes en el repositorio remoto. Es una combinación de dos comandos: git fetch (que descarga los cambios desde el remoto pero no los integra) y git merge (que fusiona dichos cambios en tu rama local).
+
+
+  - ¿Cómo se realizó el fork?
+    Se realizó mediante el siguiente link https://github.com/santiagojara/EVALUACION_1P en el cual se presionó el botón "Fork" y se seleccionó la cuenta personal del estudiante.
+
+  - ¿Cómo se realizó el clone del fork?
+
+    En la página de su repositorio (su fork) se copió la URL de clonación y se ejecutó en la terminal local, por ejemplo:
+
+    git clone https://github.com/<TU_USUARIO>/EVALUACION_1P.git
+
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+
+    Se verificó de forma local y en GitHub usando las siguientes comprobaciones y comandos:
+
+    1) En GitHub (interfaz web):
+       - En la página de su repositorio fork aparece la etiqueta "forked from santiagojara/EVALUACION_1P" debajo del nombre del repositorio. Esa etiqueta confirma que es un fork del repositorio original.
+
+    2) En la máquina local (terminal):
+       - Comprobar la URL del remoto "origin" con cualquiera de estos comandos:
+
+         git remote -v
+         git remote show origin
+         git branch -vv
+
+       - En la salida de "git remote -v" debe verse algo como:
+
+         origin  https://github.com/<TU_USUARIO>/EVALUACION_1P.git (fetch)
+         origin  https://github.com/<TU_USUARIO>/EVALUACION_1P.git (push)
+
+       Si en lugar de su usuario aparece "https://github.com/santiagojara/EVALUACION_1P.git" entonces clonó el repositorio original y no su fork.
+
+    3) Comprobación adicional (recomendado): añadir un remoto llamado "upstream" apuntando al repositorio original para distinguir claramente los remotos:
+
+       git remote add upstream https://github.com/santiagojara/EVALUACION_1P.git
+       git remote -v
+
+       Tras esto verá ambos remotos: "origin" (su fork) y "upstream" (repositorio original). Esto facilita traer cambios del original sin confundir los remotos.
+
+    Resumen: la verificación principal es inspeccionar la URL del remoto "origin" con "git remote -v" y comprobar la etiqueta "forked from" en la interfaz web de GitHub. Si origin apunta a su cuenta, está trabajando sobre el fork.
+
 
 ## Pregunta 2 (1 punto)
 
