@@ -123,6 +123,8 @@ datos del estudiante
 comandos
 finalizar hotfix
 ![alt text](image-7.png)
+commits y tag
+![alt text](image-8.png)
 ---
 
 ## Pregunta 4 (2 puntos)
