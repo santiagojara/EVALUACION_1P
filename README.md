@@ -133,59 +133,41 @@ El archivo `.gitignore` sirve para indicarle a Git qué archivos o carpetas no d
 ```bash
 # Inicializar Git Flow en el repositorio
 git flow init -d
-```
-![Evidencia git flow init](img/gitflowinit.png)
 
-```bash
 # Crear y empezar un hotfix llamado ingresar-encabezado
 git flow hotfix start ingresar-encabezado
-```
-![Inicio hotfix](img/edicionencabezado.png)
 
-```bash
 # (Editar el README.md para completar los datos personales en el encabezado)
 
 # Agregar y commitear los cambios realizados
 git add README.md
 git commit -m "Completar encabezado con datos personales"
-```
-![Commit cambios encabezado](img/agregarycomitearcambios.png)
 
-```bash
 # Finalizar el hotfix (esto fusiona los cambios en main y develop, y crea un tag)
 git flow hotfix finish ingresar-encabezado
-```
-![Finalizar hotfix](img/finhotfix.png)
 
-```bash
 # Subir los cambios y los tags al repositorio remoto
 git push origin main
 git push origin develop
 git push origin --tags
 ```
-![Subir cambios al remoto](img/subircambiosalremoto.png)
 
 ### Descripción del proceso seguido
 
 1. **Inicialización de Git Flow:**  
-   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.  
-   ![Evidencia git flow init](img/gitflowinit.png)
+   Se ejecutó `git flow init` para configurar el flujo de trabajo con las ramas principales `main` y `develop`.
 
 2. **Creación del hotfix:**  
-   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`.  
-   ![Inicio hotfix](img/edicionencabezado.png)
+   Se creó una rama de tipo hotfix llamada `ingresar-encabezado` con `git flow hotfix start ingresar-encabezado`. Esto permite corregir o agregar cambios urgentes directamente sobre la rama principal.
 
 3. **Desarrollo en la rama hotfix:**  
-   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.  
-   ![Commit cambios encabezado](img/agregarycomitearcambios.png)
+   Se completó el encabezado del archivo `README.md` con los datos personales del estudiante y se realizó un commit.
 
 4. **Finalización del hotfix:**  
-   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.  
-   ![Finalizar hotfix](img/finhotfix.png)
+   Se ejecutó `git flow hotfix finish ingresar-encabezado`, lo que fusionó los cambios tanto en `main` como en `develop`, eliminó la rama hotfix y creó un tag correspondiente.
 
 5. **Subida de cambios:**  
-   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.  
-   ![Subir cambios al remoto](img/subircambiosalremoto.png)
+   Se subieron las ramas y los tags al repositorio remoto con los comandos `git push`.
 
 ### Ventajas de aplicar Git Flow
 
@@ -224,7 +206,33 @@ git push origin --tags
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+### Parte teórica
+
+- **¿Qué es un issue en GitHub?**  
+  Un **issue** es una herramienta de GitHub que permite reportar tareas, errores, mejoras o preguntas relacionadas con un proyecto. Los issues ayudan a organizar y dar seguimiento al trabajo pendiente o a problemas detectados en el repositorio.
+
+- **¿Qué es un pull request y cuál es su finalidad?**  
+  Un **pull request** (PR) es una solicitud para fusionar cambios realizados en una rama (por ejemplo, `develop`) hacia otra rama (por ejemplo, `main`). Su finalidad es revisar, discutir y aprobar los cambios antes de integrarlos al código principal del proyecto.
+
+- **Diferencia y relación entre ambos:**  
+  Un **issue** sirve para identificar y discutir tareas o problemas, mientras que un **pull request** se utiliza para proponer la integración de cambios al repositorio. En un entorno colaborativo, los issues pueden dar origen a ramas de trabajo y, una vez resueltos, los cambios se integran mediante un pull request. Además, los pull requests pueden estar vinculados a issues para cerrar automáticamente el issue cuando el PR es fusionado.
+
+### Resumen del procedimiento realizado
+
+1. Se creó un **issue** titulado `"Respuesta a la Pregunta 4"` para documentar la respuesta a esta pregunta.
+2. Se editó el archivo `README.md` en la rama `develop` para responder la pregunta 4.
+3. Se realizó un commit con los cambios y se subió a la rama `develop` del repositorio remoto.
+4. Se creó un **pull request** desde la rama `develop` hacia la rama `main` en GitHub.
+5. El pull request fue vinculado al issue creado, de modo que al aprobar y fusionar el PR, el issue se cerró automáticamente.
+6. Finalmente, se aprobó y fusionó el pull request.
+
+### Enlaces
+
+- **Issue creado:**  
+  Issue #X: [Enlace al issue](URL_DEL_ISSUE)
+
+- **Pull request creado:**  
+  PR #Y: [Enlace al pull request](URL_DEL_PR)
 
 ---
 
