@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Evelyn Cardenas  
+**Fecha:** 07/10/2025  
 
 ---
 
@@ -184,7 +184,11 @@ Proceso seguido (propósito de cada paso)
 
 git flow init -d: configura la estrategia Git Flow con main (producción) y develop (integración).
 
+![alt text](image-2.png)
+
 git flow hotfix start ingresar-encabezado: crea una rama hotfix desde main para aplicar un cambio urgente (completar el encabezado del README).
+
+![alt text](image-3.png)
 
 Commits en el hotfix: guardan el progreso de la edición del encabezado con mis datos personales.
 
