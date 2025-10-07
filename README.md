@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato 
+## Facultad de Ingenieria en Sistemas, Electronica e Industrial
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Xabier David Perez Perez
+**Fecha:** 07/10/2025
 
 ---
 
@@ -23,7 +23,7 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
+- `git clone` 
 - `fork`  
 - `git pull`
 
@@ -37,9 +37,19 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+git clone crea una copia local del repositorio remoto,  fork hace una copia del repositorio
+en mi propia cuenta de github y git pull trae los cambios del remoto y los pone en mi rama actual pero de la local.
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+ - ¿Cómo se realizó el fork?
+ Para el fork lo que hice fue irme al repositorio del santiago jara de github, presionar en la esquina superior derecha donde dice fork, y ahi complete el nombre que le voy a poner, junto con mi cuenta de github.
+ ![Fork](imagenes/fork.png)
 
+   - ¿Cómo se realizó el clone del fork?
+   Use el comando git clone https://github.com/XabierP2006/EVALUACION_1P.git, lo que hizo que se descargue en mi computadora, pero estando en el directorio donde estaba mi carpeta
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+  Ejecute el comando git remote -v lo que imprimio que apuntaba a mi cuenta de github
+
+  ![Clonacion y verificacion](imagenes/image.png)
 ---
 
 ## Pregunta 2 (1 punto)
@@ -59,11 +69,23 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+1. ![Creacion del .gitignore](imagenes/gitignore.png)
+Creamos el archivo gitignore el que indicara a git que archivos no deben ser rastreados
+ ![Reglas de exclusion del git ignore](imagenes/gitignoreS.png.png)
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+![PRIMER COMMIT ](imagenes/gitignoreCommit.png)
 ---
 
+2. 
+![Creacion de archivos](imagenes/archivosCreados.png)
+Verificamos con git status  que los archivos dentro de doc no se muestren,ni los de temp, ni log,pero los archivos de prueba si se mostrarar, los cuales seran prueba.md y prueba.txt
+![alt text](imagenes/gitstatus.png)
+
+Hacemos el commit y le asignamos tag de pregunta 2
+![alt text](imagenes/SegundoCommitPregunta2.png)
+Añadimos las imagenes  y hacemos un commit, ademas creamos una carpeta temporal para nuestros archivos de prueba
+![Commit imagenes segunda pregunta pregunta 2](imagenes/commitImagenes.png.png)
+![Archivos temporales](imagenes/archivosTemporales.png)
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
@@ -89,8 +111,10 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+ Inicializar el repositorio de git flow 
+ git flow init
+ Damos enter a todo
+ ![inicializacion de git flow](imagenes/gitFlowInit.png)
 
 ---
 
@@ -121,6 +145,8 @@
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Se creo la issue con el identificador https://github.com/XabierP2006/EVALUACION_1P/issues/1#issue-3493119464
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
