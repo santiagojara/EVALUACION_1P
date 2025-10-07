@@ -183,8 +183,32 @@ Mantenimiento: Hotfixes para correcciones urgentes sin interrumpir desarrollo
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+**Issue en GitHub:** Es un elemento de seguimiento para tareas, mejoras, bugs o discusiones. Sirve como punto central para conversaciones sobre trabajo específico.
 
+**Pull Request:** Propuesta para fusionar cambios de una rama a otra. Permite revisión de código, discusión e integración controlada.
+
+**Diferencia y relación:**
+
+Los issues identifican problemas o tareas
+
+Los pull requests contienen soluciones a esos issues
+
+Se relacionan cuando un PR referencia un issue, cerrando automáticamente el issue al fusionar
+
+**Procedimiento realizado:**
+1. Creación del Issue
+
+2. Desarrollo en develop
+
+3. Pull Request y vinculación
+
+**Enlaces:**
+
+Issue: #1 - https://github.com/josephch28/EVALUACION_1P/issues/1
+
+Pull Request: #2 - https://github.com/josephch28/EVALUACION_1P/pull/2
+
+![issue](img/issue.png)
 ---
 
 ## Pregunta 5 (2 puntos)
@@ -206,17 +230,40 @@ Mantenimiento: Hotfixes para correcciones urgentes sin interrumpir desarrollo
 
 ### En este README, se debe incluir:
 
-- El procedimiento completo:
-  - Cómo se crearon las ramas.
-  - Cómo se generó y resolvió el conflicto.
-  - Cómo se realizó el merge hacia `develop`.
-  - Cómo se eliminaron las ramas al finalizar.
-- El enlace al pull request.
-- Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
-
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+**Procedimiento Completo:**
+git checkout develop
+git checkout -b ramaA
+echo "Contenido A" > archivoA.txt
+git add . 
+git commit -m "archivoA en ramaA"
+
+git checkout develop
+git checkout -b ramaB
+echo "Contenido B" > archivoA.txt
+git add . 
+git commit -m "archivoA en ramaB"
+
+git checkout ramaA
+git merge ramaB
+
+*Solucionar el conflicto en VSCode* 
+
+git add .
+git commit -m "RSolución de conflicto"
+
+git checkout develop
+git merge ramaA
+
+git branch -d ramaA
+git branch -d ramaB
+git push origin --delete ramaA ramaB
+
+**Explicación del conflicto:**
+Un conflicto en Git ocurre cuando dos ramas modifican la misma línea de código de manera diferente y Git no puede determinar automáticamente cuál cambio conservar. En este caso, ambas ramas crearon archivoA.txt con contenido diferente en la misma ubicación, generando el conflicto que requirió intervención manual.
+
+Enlace al pull request: https://github.com/josephch28/EVALUACION_1P/pull/3
 
 ---
 
@@ -242,5 +289,45 @@ Mantenimiento: Hotfixes para correcciones urgentes sin interrumpir desarrollo
 - Si hace falta agregar alguna evidencia adicional, agregue un tag adicional que sea `Version Final`.
 
 **📝 Respuesta:**
+**Limpieza en develop:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+git checkout develop
+git rm archivoA.txt archivoB.txt
+git commit -m "Eliminar archivos temporales de preguntas anteriores"
+
+Merge a main local:
+
+git checkout main
+git merge develop
+Envío de cambios al fork:
+
+git push origin main main:develop --tags
+
+Pull request al repositorio original:
+
+Navegar al repositorio original en GitHub
+
+Crear Pull Request desde mi fork/develop → original/main
+
+Título: "JOSEPH CHACHALO REDROBAN"
+
+
+**Versionamiento Semántico:**
+¿En qué consiste?
+Es un esquema de numeración de versiones que comunica el impacto de los cambios mediante tres componentes: MAJOR.MINOR.PATCH
+
+Tres componentes:
+
+MAJOR: Cambios incompatibles con versiones anteriores
+
+MINOR: Nuevas funcionalidades compatibles
+
+PATCH: Correcciones de bugs compatibles
+
+Ejemplo: v2.1.3 significa:
+
+2: Versión mayor (cambios incompatibles)
+
+1: Versión menor (nuevas características)
+
+3: Parche (corrección de bugs)
