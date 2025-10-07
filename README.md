@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad UNIVERSIDAD TECNICA DE AMBATO  
+## Facultad de FACULTAD DE INGENIERÍA EN SISTEMAS ELECTRÓNICA E INDUSTRIAL 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Boris Yussef Vinces Cueva
+**Fecha:** 07/10/2025
 
 ---
 
@@ -146,11 +146,7 @@ Finalmente comprebamos que se haya ejecutado:
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
-Inicializamos Git Flow con git flow init y se crean las ramas por defecto:
-![alt text](image-14.png)
-
-Creamos la rama tipo hotfix llamada ingresar encabezado
-
+Inicializamos Git Flow con git flow init:
 
 
 
