@@ -251,9 +251,16 @@ https://github.com/Mar-Dim/EVALUACION_1P/pull/2
 **📝 Respuesta:**
 Como se muestra en la imagen se crearon las ramas correspondientes mediante el uso de git checkout -b
 ![Evidencia de Git](img/ramas1.png)
+Posterior a ello se creo el archivo solicitado dentro de las dos ramas y esto se guardo mediante el uso del comando git add y commit 
+![Evidencia de Git](img/ramas2.png)
+da error en el merge se corrige el error y se realiza el pull
+![Evidencia de Git](img/ramas3.png)
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+el tag del pull request #3
+https://github.com/Mar-Dim/EVALUACION_1P/pull/3
 
+## Commits de la pregunta
+![Evidencia de Git](img/final5.png)
 ---
 
 ## Pregunta 6 (2 puntos)
