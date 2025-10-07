@@ -133,7 +133,20 @@
 
 -commit despues de llenar el encabezado
 
-![commit](img/)
+![commit](img/Screenshot%202025-10-07%20155546.png)
+
+-finalizacion de la rama hotfix
+
+![finalizacion](img/Screenshot%202025-10-07%20155948.png)
+
+-los comando que se utilizaron fueron:
+-git flow init
+-git flow hotfix start ingresar-encabezado
+-git add .
+-git commit -m 
+-git flow hotfix finish ingresar-encabezado
+
+-Primero se inicializo git flow para posteriormente crear todas las ramas, se crea la nueva rama de hotfix, se anade y se realiza el commit, por ultimo se finaliza la rama hotfix donde se realiza automaticamente el merge.
 
 
 
