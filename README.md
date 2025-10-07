@@ -185,7 +185,7 @@ Con Git Flow es más fácil colaborar, revisar cambios y preparar lanzamientos s
 Pregunta3.
 Capturas de que se realizo la actividad:
 ![captura de pantalla ](capturas/cap6.png)
-
+,
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -216,7 +216,6 @@ Capturas de que se realizo la actividad:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
 
