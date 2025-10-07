@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Carlos Bejarano   
+**Fecha:** 07/10/2025
 
 ---
 
@@ -23,7 +23,7 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
+- `git clone`
 - `fork`  
 - `git pull`
 
@@ -37,8 +37,18 @@
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
 
 **📝 Respuesta:**
+Para Git clone: Se puede crear una copia del repositorio remoto pero a nuestra maquina que estemos usando.
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Para fork es un tipo de operacion que nos da Github la cual nos ayuda en poder crear una copia del repositorio que tenemos acceso pero esta vez seria por separado.
+
+Para Git pull nos ayuda en poder traer los cambios desde el repositorio remoto y a la vez nos ayuda a fucionar en la rama actual, la que estamos trabajando.
+
+Evidencias:
+
+<img src="./ImagenesEvidencia//clonar.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//mover cd.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//fork.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//git remote.png" alt="Logo" width="150">
 
 ---
 
@@ -59,9 +69,16 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+El archivo que hemos creado el cual es  .gitignore nos ayuda a evitar que Git ingrese archivos que no gracias a las reglas que pusimos.
+Los archivos .log, la carpeta temp/ y los archivos .md y .txt dentro de doc/ fueron ignorados correctamente.
+Se verificó con git status --ignored esto se pudo ver que si funciono.
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
-
+<img src="./ImagenesEvidencia//Todos los archivos con extensión log.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//anadir gitignore.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//Todos los archivos.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//Una carpeta llamada temp.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//Insertar archivos pruebas.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//Ignorado.png" alt="Logo" width="150">
 ---
 
 ## Pregunta 3 (2 puntos)
@@ -90,8 +107,16 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Se pudo crear main y develop: separar producción de desarrollo.
 
+se hizo git flow init para poder configura las convenciones de ramas.
+
+se uso git flow hotfix start para crear rama para corrección rápida / cambio urgente.
+
+<img src="./ImagenesEvidencia//p3.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//p3.1.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//p3.2.png" alt="Logo" width="150">
+<img src="./ImagenesEvidencia//p3.3.png" alt="Logo" width="150">
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -121,9 +146,17 @@
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Aquí tienes el texto que pediste, limpio y en formato continuo:
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+---
 
+Issue GitHub elemento para reportar bugs, proponer mejoras o documentar tareas. Es un ticket/registro con discusión, etiquetas y asignados.
+
+Pull Request petición para fusionar cambios de una rama (o fork) hacia otra rama (por ejemplo, develop → main). Permite revisión de código, comentarios y acciones CI antes de integrar los cambios.
+
+Diferencia y relación un issue describe la tarea; un PR contiene los cambios que resuelven esa tarea. Normalmente se crea un issue, se desarrolla una rama que soluciona el issue y luego se abre un PR que referencia el issue. Se puede usar `Closes #ISSUE_NUMBER` en la descripción del PR para que el issue se cierre automáticamente cuando el PR se mergee.
+
+<img src="./ImagenesEvidencia//p4.png" alt="Logo" width="150">
 ---
 
 ## Pregunta 5 (2 puntos)

@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+Contenido A
+=======
+Contenido B
+>>>>>>> ramaB
+Contenido A
+Contenido B
