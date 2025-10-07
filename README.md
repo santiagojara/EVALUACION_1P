@@ -187,6 +187,38 @@ https://github.com/ElJDragon/EVALUACION_1P/pull/2 \
 - Realizar el merge de `ramaA` hacia `develop`.
 - Crear un **pull request** desde `develop` hacia `main`.
 - Una vez completado lo anterior, eliminar las ramas `ramaA` y `ramaB` tanto local como remotamente.
+# 1️⃣ Crear y cambiar a RamaA
+git checkout -b RamaA
+
+# 2️⃣ Crear archivo o hacer cambios en RamaA
+echo "Contenido A" > archivoA.txt
+git add archivoA.txt
+git commit -m "Texto a contenido A"
+
+# 3️⃣ Crear y cambiar a RamaB
+git checkout -b RamaB
+
+# 4️⃣ Hacer cambios en RamaB
+echo "Contenido B" > archivoA.txt
+git add archivoA.txt
+git commit -m "Texto a contenido B"
+
+# 5️⃣ Volver a RamaA para hacer el merge
+git checkout RamaA
+
+# 6️⃣ Intentar merge de RamaB en RamaA (aparecerá conflicto)
+git merge RamaB
+
+# 7️⃣ Resolver el conflicto en archivoA.txt
+# (editar manualmente el archivo para dejar el contenido deseado y eliminar <<<<<<< ======= >>>>>>>)
+
+# 8️⃣ Marcar archivo como resuelto
+git add archivoA.txt
+
+# 9️⃣ Finalizar el merge
+git commit -m "Merge RamaB en RamaA, conflicto resuelto"
+
+
 
 ### En este README, se debe incluir:
 
