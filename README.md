@@ -119,6 +119,30 @@ Esto confirma que `.gitignore` funciona correctamente, excluyendo solo los archi
 
 **📝 Respuesta:**
 
+### Comandos exactos utilizados con descripción del proceso seguido:
+
+- `git flow init`  
+  Inicializa Git Flow en el repositorio, configurando las ramas por defecto `main` (para producción) y `develop` (para desarrollo), estableciendo la estructura base del flujo de trabajo.
+
+- `git flow hotfix start "ingresar_encabezado"`  
+  Crea una nueva rama de tipo `hotfix` llamada `ingresar_encabezado` a partir de `main`, permitiendo trabajar en correcciones urgentes sin afectar otras ramas.
+
+- `git status`  
+  Verifica el estado actual del repositorio, mostrando archivos modificados (README.md) y no rastreados (img/gitflow.png), confirmando que los cambios están listos para commit.
+
+- `git add .`  
+  Agrega todos los archivos modificados y nuevos al área de staging, preparándolos para el commit.
+
+- `git commit -m "Pregunta 3 - Encabezado"`  
+  Realiza un commit con los cambios en la rama hotfix, guardando la versión actualizada del encabezado en la historia del repositorio.
+
+- `git flow hotfix finish "ingresar_encabezado"`  
+  Finaliza el hotfix, fusionando automáticamente los cambios a las ramas `main` y `develop`, creando un tag de versión y eliminando la rama hotfix para mantener el repositorio limpio.
+
+### Reflexión sobre las ventajas de aplicar Git Flow:
+
+Git Flow proporciona una estructura organizada para el desarrollo de software, separando ramas para diferentes propósitos (desarrollo, releases, hotfixes, features). En contextos colaborativos o proyectos de larga duración, sus ventajas incluyen una mejor gestión de versiones, reducción de conflictos en merges, estabilidad en la rama de producción (`main`), y facilitación del trabajo paralelo en equipos grandes. Permite releases predecibles y correcciones rápidas sin interrumpir el flujo de desarrollo, promoviendo buenas prácticas y una historia de commits clara.
+
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
 ---
