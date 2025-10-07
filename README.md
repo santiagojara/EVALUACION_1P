@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Bryan Quitto
-**Fecha:** 07/10/2025
+**Nombre del Estudiante:** Bryan Quitto (Pregunta 3)
+**Fecha:** 07/10/2025 (Pregunta 3)
 
 ---
 
@@ -123,7 +123,9 @@ De esta forma, al ejecutar `git status`, se puede observar que los archivos y ca
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Evidencia pregunta 3:
+
+
 
 ---
 
