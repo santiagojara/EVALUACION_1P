@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
+**Nombre del Estudiante:** Josue Guevara  
 **Fecha:** ___________________  
 
 ---
