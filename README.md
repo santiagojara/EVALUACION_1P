@@ -249,6 +249,8 @@ https://github.com/Mar-Dim/EVALUACION_1P/pull/2
 - Una breve explicación de qué es un conflicto en Git y por qué ocurrió en este caso.
 
 **📝 Respuesta:**
+Como se muestra en la imagen se crearon las ramas correspondientes mediante el uso de git checkout -b
+![Evidencia de Git](img/ramas1.png)
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
