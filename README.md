@@ -125,7 +125,7 @@ De esta forma, al ejecutar `git status`, se puede observar que los archivos y ca
 
 Evidencia pregunta 3:
 
-
+![Evidencia pregunta3](imagenes/evidencia-preugunta3.jpg)
 
 ---
 
@@ -157,7 +157,22 @@ Evidencia pregunta 3:
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+*   **¿Qué es un issue en GitHub?**
+    Un *issue* (o incidencia) en GitHub es una herramienta para el seguimiento de tareas, mejoras, errores o preguntas sobre el proyecto. Funciona como un foro de discusión para un tema específico, permitiendo a los colaboradores discutir problemas, proponer nuevas funcionalidades y planificar el trabajo. Cada issue tiene un título, una descripción, y puede ser asignado a personas, etiquetado y organizado en proyectos.
+
+*   **¿Qué es un pull request y cuál es su finalidad?**
+    Un *pull request* (PR) o solicitud de extracción es la forma en que un desarrollador propone cambios a un repositorio. Su finalidad es notificar al equipo que has completado una tarea o solucionado un problema en una rama separada y que deseas que tus cambios sean revisados e integrados (*merge*) en una rama principal, como `develop` o `main`. Un PR muestra las diferencias exactas entre tu rama y la rama de destino, permitiendo la revisión de código, la discusión y la realización de ajustes antes de la fusión final.
+
+*   **Diferencia y relación entre ambos**
+    La principal diferencia es su propósito: un **issue** *describe* un trabajo que se debe hacer, mientras que un **pull request** *propone* los cambios de código que resuelven ese trabajo.
+
+    Se relacionan directamente en un flujo de trabajo colaborativo:
+    1.  Se abre un **issue** para reportar un error o solicitar una nueva funcionalidad.
+    2.  Un desarrollador toma el issue, crea una nueva rama y trabaja en la solución.
+    3.  Una vez terminado, crea un **pull request** con los cambios.
+    4.  El pull request se vincula al issue original. De esta manera, al fusionar el PR, el issue asociado se puede cerrar automáticamente, dejando un registro claro de qué problema se solucionó y con qué cambios.
+
+![Evidencia pregunta3](imagenes/evidencia-preugunta4.jpg)
 
 ---
 
