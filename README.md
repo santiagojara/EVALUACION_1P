@@ -46,6 +46,7 @@
 En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copia en mi cuenta (`https://github.com/Elizabeth1925/EVALUACION_1P`).
 - **¿Cómo se realizó el clone del fork?**: En la terminal, usé `git clone https://github.com/Elizabeth1925/EVALUACION_1P.git` para clonar mi fork localmente.
 - **¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?**: Ejecuté `git remote -v` y confirmé que el remoto "origin" apunta a mi fork (`https://github.com/Elizabeth1925/EVALUACION_1P.git`), no al original. 
+**CAPTURA**
 ![Captura Pregunta 1](img/Pregunta1.png)
 
 ---
@@ -71,11 +72,15 @@ En GitHub, accedí al repositorio original y cliqueé "Fork" para crear una copi
 - Todos los archivos con extensión `.log`.
 - Una carpeta llamada `temp/`.
 - Todos los archivos `.md` y `.txt`de la carpeta `doc/`. 
-La evidencia de esto se muestra en la siguiente captura ![Captura Pregunta 2](img/Pregunta2.png.png)
+
+**La evidencia de esto se muestra en la siguiente captura**
+![Captura Pregunta 2](img/Pregunta2.png.png)
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
 2. Realizar un **segundo commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git y debe llevar el **tag `"Pregunta 2"`**.
-la evidencia de los los literales se muestran a continuacion ![Captura Pregunta 2.1](img/Pregunta2.1.png)
+
+**La evidencia de los los literales se muestran a continuacion**
+![Captura Pregunta 2.1](img/Pregunta2.1.png)
 
 
 ## Pregunta 3 (2 puntos)
