@@ -240,8 +240,15 @@ doc/*.txt`
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+* Creamos las ramas
+![comandos](img/11.png)
 
+* Creamos los archivos en la rama A
+![comandos](img/12.png)
+
+* Y hacemos los commits
+  * git add .
+  * git commit -m "Pregunta 5: Crear archivoA.txt en ramaA"
 ---
 
 ## Pregunta 6 (2 puntos)
