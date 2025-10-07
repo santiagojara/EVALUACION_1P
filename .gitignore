@@ -1,0 +1,5 @@
+#PREGUNTA 2
+*.log
+temp/
+doc/*.md
+doc/*.txt
