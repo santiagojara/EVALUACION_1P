@@ -263,7 +263,17 @@
 
 ![merge](img/Screenshot%202025-10-07%20163947.png)
 
+-creacion del pull request
+![pullrequest](img/Screenshot%202025-10-07%20164230.png)
 
+-eliminacion de las ramas
+![eliminacion](img/Screenshot%202025-10-07%20164405.png)
+
+-Las ramas se crearon a partir de develop con el comando git branch, el conflicto se genero porque se cambio la misma linea en un mismo archivo en las dos ramas, y se resolvio manteniendo uno de los cambios. Nos ubicamos en la rama develop y utilizamos el comando git merge ramaA. Las ramas se eliminaron con el comando git branch -d.
+
+-**Pull request** #3 https://github.com/Santio13-code/EVALUACION_1P/pull/3#issue-3493127269
+
+-un conflicto es cuando dos ramas modifican lo mismo y realizan un merge y la solucion es mantener uno de los cambios.
 
 
 ## Pregunta 6 (2 puntos)
