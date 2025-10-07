@@ -80,6 +80,17 @@ LAS EVIDENCIAS SE ENCUETRA DIVIDIDAS POR CARPETAS -> PREGUNTA1.IMG
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+DENTRO DE LA CARPETA PREGUNTA2 -> SE PUEDE VISUALIZAR LAS IMAGENES DE PRUEBA DE COMO SE REALIZO Y LOS COMANDOS
+
+El archivo .gitignore es un archivo que  indica a Git que carpetas debe ignorar 
+
+Evidencia de archivos ignorados:
+Al ejecutar 'git status', se observa que:
+- Los archivos .log no aparecen como archivos sin rastrear, La carpeta temp/ y su contenido no aparecen
+
+Esto confirma que .gitignore esta funcionando correctamente.
+
+
 ---
 
 ## Pregunta 3 (2 puntos)
