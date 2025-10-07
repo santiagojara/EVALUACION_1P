@@ -3,7 +3,7 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
+**Nombre del Estudiante:** Alex Reyes  
 **Fecha:** ___________________  
 
 ---
@@ -39,6 +39,20 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+¿Cómo se realizó el fork?
+Se seleciciono la obcion fork en la esquina superior derecha que decia fork
+![Texto alternativo](img/1.jpg)
+ ¿Cómo se realizó el clone del fork?
+ Se seleciono la opncion Code en el aparartado de HTTPS se copio y se pego en git bash dando enter y clonando
+ ![Texto alternativo](img/2.jpeg)
+ ![Texto alternativo](img/3.jpg)
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+se verifico que este como dueño mi usuario
+![alt text](/img/image.png)
+commits y tag
+![alt text](image.png)
+
+
 
 ---
 
@@ -59,7 +73,15 @@
 - Solo el **segundo commit** debe llevar el **tag `"Pregunta 2"`**.
 
 **📝 Respuesta:**
+.gitignore 
+![alt text](image-1.png)
+el git ignore ignora los archivos con extencion .log
+el directorio temp/
+y archivos .md y .txt dentro de la carpeta doc
+![alt text](image-2.png)
 
+commits y tag
+![alt text](image-3.png)
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
@@ -89,8 +111,21 @@
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
+iniciar git flow 
+![alt text](image-4.png)
+
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+comienso de la rama 
+![alt text](image-55.png)
+datos del estudiante 
+![alt text](image-6.png)
+comandos
+finalizar hotfix
+![alt text](image-7.png)
+commits y tag
+![alt text](image-8.png)
+![alt text](image-9.png)
 
 ---
 
@@ -121,7 +156,16 @@
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Que es un issue?
+es la tarea o tareas que designa el dueño del repositorio
+que es un pull request?
+solicitud de fusion de ramas
+diferencia:
+issue tarea que se designa
+pullrequest : solicitud de fusion de ramas para añadir la fusion
 
+Practica 
+![alt text](image-10.png)
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
 ---
