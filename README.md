@@ -153,7 +153,8 @@ img/commitHotfix.png
 
     - Proceso Automatizado: El uso de comandos como git flow hotfix finish o git flow feature finish automatiza el tedioso trabajo de fusiones (merges), etiquetado (tagging) y limpieza de ramas. Esto reduce la probabilidad de errores humanos y acelera el flujo de trabajo del desarrollador.
 ---
-
+<p align="center"><img src="img/commitHotfix.png"></p>
+<p align="center"><img src="img/image.png"></p>
 ## Pregunta 4 (2 puntos)
 
 **Trabajo con Issues y Pull Requests**
