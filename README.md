@@ -3,8 +3,8 @@
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** Paredes Garzón Robert Andrés  
-**Fecha:** 07-10-2025
+**Nombre del Estudiante:** Paredes Garzón Robert Andrés.  
+**Fecha:** 07/10/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -109,7 +109,16 @@ evita que Git rastree archivos innecesarios (logs, temporales, artefactos). Prob
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+"Las evidencias se encuentran numeradas en \img."
+
+### Creacion con flow
+1. Con el comando: git flow init -d -> Con este comando crea las ramas por defecto main y develop.
+2. git flow hotfix start ingresar-encabezado -> Este comando crea hotfix/ingresar-encabezado desde main. En mi caso lo creo manualmente, suponiendo que develop existe usando: hotfix/ingresar-encabezado -> con el comando: git checkout -b hotfix/ingresar-encabezado.
+
+
+Ventajas de Git Flow: roles claros por rama, releases estables, hotfixes rápidos sin romper develop, historial limpio y predecible para equipos y proyectos longevos.
+
+
 
 ---
 
