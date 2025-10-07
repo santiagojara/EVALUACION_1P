@@ -128,9 +128,16 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 
 ### Parte teórica:
 
-- Explicar qué es un **issue** en GitHub.
-- Explicar qué es un **pull request** y cuál es su finalidad.
+- Explicar qué es un **issue** en GitHub. \
+
+Un issue (incidencia o tema) es una herramienta que permite registrar, discutir y dar seguimiento a tareas, errores, mejoras o preguntas dentro de un repositorio. Los issues sirven para organizar el trabajo, asignar responsables, establecer prioridades y mantener una comunicación clara entre los miembros del equipo. Son esenciales para la planificación y gestión del proyecto.
+- Explicar qué es un **pull request** y cuál es su finalidad. \
+
+Un pull request (PR) es una solicitud que un desarrollador realiza para integrar los cambios hechos en una rama (generalmente de un fork o una feature branch) hacia otra rama principal del proyecto, como develop o main. Su finalidad es revisar, discutir y aprobar los cambios antes de que se unan al código principal, asegurando la calidad y coherencia del proyecto.
 - Indicar la diferencia entre ambos y cómo se relacionan en un entorno de trabajo colaborativo.
+  - Un issue plantea un problema o una tarea que necesita resolverse (por ejemplo: “corregir error en el login”).
+
+  - Un pull request representa la propuesta de solución a ese problema (por ejemplo: “se corrigió el error en el login y se actualizó la validación”).
 
 ### Parte práctica:
 
@@ -145,8 +152,12 @@ Git pull permite traer los cambios, archivos y ramas de un repositorio remoto al
 ### En este README, se debe incluir:
 
 - Un resumen del procedimiento realizado.
+![alt text](image-12.png)
 - El número y enlace del issue creado.
+https://github.com/ElJDragon/EVALUACION_1P/issues/1
+#1
 - El número y enlace al pull request.
+
 
 **📝 Respuesta:**
 
