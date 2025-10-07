@@ -112,6 +112,8 @@ Segundo Commit: Para probar las reglas, creé un archivo database.log, una carpe
 Capturas de que se realizo la actividad:
 ![captura de se agrego contenido al .gitignore](capturas/cap3.png)
 ![captura de los pasos que se realizo en esta actividad](capturas/cap4.png)
+![captura del commit y el tag Pregunta2](capturas/cap5.png)
+
 
 ---
 
