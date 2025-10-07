@@ -80,6 +80,8 @@ el directorio temp/
 y archivos .md y .txt dentro de la carpeta doc
 ![alt text](image-2.png)
 
+commits y tag
+![alt text](image-3.png)
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
 ---
