@@ -205,9 +205,12 @@ Practica
 creacion de las ramas
 ![alt text](image-5.png)
 ![alt text](image-14.png)
+merge
 ![alt text](image-15.png)
-![alt text](image-16.png)
 
+resolucion de los conflictos
+![alt text](image-16.png)
+![alt text](image-17.png)
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
 
 ---
