@@ -38,7 +38,12 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+- git clone: con este comando se descarga una copia del repositorio remoto al equipo local, creando un nuevo directorio con el historial y configurando origin apuntando al remoto que se clono.
+
+- fork : es una acción para crear una copia independiente de un repositorio en nuestra cuenta de GitHub y nos permite trabajar de forma aislada sobre el proyecto original.
+
+- git pull: es un comando que fusiona los cambios del repositorio remoto a la rama local actual.
+![alt text](image.png)
 
 ---
 
