@@ -1,11 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
+# Universidad Tecnica de Ambato 
+## Facultad de Sistemas 
 ### Carrera de Ingeniería en Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
-
+**Nombre del Estudiante:** Karen Molina
+**Fecha:** 07/10/2025
 ---
 
 # Evaluación Práctica de Git y GitHub
@@ -23,8 +22,10 @@
 
 **Explicar la diferencia entre los siguientes conceptos/comandos en Git y GitHub:**
 
-- `git clone`  
-- `fork`  
+- `git clone`
+
+- `fork`
+
 - `git pull`
 
 ### Parte práctica:
@@ -32,13 +33,49 @@
 - Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
 - Luego, realizar un **clone** del fork en el equipo local.
 - En este README, describir el proceso seguido:
+
   - ¿Cómo se realizó el fork?
+
   - ¿Cómo se realizó el clone del fork?
+     
   - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    
+
+    
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+`git clone`:Comando de Git que crea una copia local de un repositorio remoto existente, incluyendo todo el historial de commits, ramas y archivos.  
+
+- `fork`: Función de GitHub que crea una copia personal de un repositorio en tu propia cuenta de GitHub, permitiendo trabajar independientemente del repositorio original.
+
+- `git pull`:Comando de Git que descarga los cambios más recientes desde un repositorio remoto y los fusiona automáticamente con la rama actual local.
+
+### Parte práctica:
+
+- Realizar un **fork** de este repositorio en la cuenta personal de GitHub del estudiante.
+- Luego, realizar un **clone** del fork en el equipo local.
+- En este README, describir el proceso seguido:
+
+  - ¿Cómo se realizó el fork?
+      1.Accedí al repositorio original en GitHub desde el link proporcionado por el ingeniero
+      2.Hice clic en el botón "Fork" en la esquina superior derecha
+      3.Seleccioné mi cuenta personal como destino del fork
+      4.GitHub creó una copia completa del repositorio en mi cuenta
+      
+
+  - ¿Cómo se realizó el clone del fork?
+      Con el comando visto en clase git clone y el link de mi repositorio fork:
+      git clone https://github.com/VK0691/EVALUACION_1PMOLINA.git
+
+![Img fork](imgs/Screenshot%202025-10-07%20151130.png)     
+![Img clone](imgs/Screenshot%202025-10-07%20151735.png)    
+  - ¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+    Con el comando git remote -v confirmé que la URL apuntaba a mi repositorio personal 
+      $ git remote -v
+      origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (fetch)
+      origin  https://github.com/VK0691/EVALUACION_1PMOLINA.git (push)
+
 
 ---
 
@@ -60,7 +97,15 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+*Primer Commit Evidencia:-->
+      ![Img ignore](imgs/gitignore.png)
+
+
+El archivo .gitignore especifica archivos y directorios que Git debe ignorar y no rastrear. En este caso, se ignoran todos los archivos con extensión .log.
+Una carpeta llamada temp/.
+Y todos los archivos .md y .txt de la carpeta doc/. 
+En la captura adjunta se ve como solo se reflejan los archivos de prueba que no fueron ignorados, mientras que /temp /doc y sus archivos no se ven reflejados
+      ![Evidencia ignore](imgs/eviignore.png)
 
 ---
 
@@ -90,7 +135,33 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+Descripción del proceso:
+*Comandos exactos usados: 
+$ git flow init
+$ git flow hotfix start ingresar-encabezado
+$ git add .
+$ git commit -m "Completar encabezado con datos personales"
+
+*Descripcion del proceso seguido:
+Inicialización de Git Flow: Configura el repositorio con la estructura de ramas por defecto (main y develop)
+
+Inicio del feature: Crea una rama feature/ingresar-encabezado a partir de develop
+
+Desarrollo: Realizar los cambios necesarios en la rama feature
+
+Finalización: Fusiona la rama feature en develop y la elimina automáticamente
+
+Reflexión sobre ventajas de Git Flow:
+Git Flow proporciona una estructura organizada para el desarrollo de software, especialmente beneficiosa en:
+
+Proyectos colaborativos: Permite que múltiples desarrolladores trabajen en features independientes sin interferir
+
+Larga duración: Facilita el mantenimiento de versiones estables mientras se desarrollan nuevas funcionalidades
+
+Control de calidad: Separa claramente el desarrollo activo (develop) de las versiones estables (main)
+
+Gestion de releases: Estructura definida para preparar releases y hotfixes
+
 
 ---
 
@@ -122,7 +193,38 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Issue en GitHub: Es un elemento de seguimiento que permite reportar bugs, solicitar nuevas funcionalidades o discutir mejoras en un proyecto.
+
+Pull Request: Es una solicitud para fusionar cambios de una rama a otra, permitiendo revisión de código, discusión y pruebas antes de la integración.
+
+Diferencia y relación:
+
+Los issues identifican problemas o mejoras
+
+Los pull requests proponen soluciones específicas
+
+Se relacionan cuando un pull request referencia un issue, conectando el problema con su solución
+
+Procedimiento realizado:
+Creé un issue titulado "Respuesta a la Pregunta 4"
+
+Trabajé en la rama develop para documentar esta respuesta
+
+Realicé commit y subí los cambios al repositorio remoto
+
+Creé un pull request desde develop hacia main
+
+Vincule el PR con el issue usando "#número-del-issue"
+
+Aprobé y fusioné el pull request
+
+Issue creado: #1 - Enlace al issue
+
+Pull Request: #1 - Enlace al PR
+![Img fork](imgs/pullreq.png)     
+![Img fork](imgs/merged.png)    
+![Img fork](imgs/closed.png)     
+
 
 ---
 
@@ -156,6 +258,7 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+![Img fork](imgs/5.png)     
 
 ---
 
